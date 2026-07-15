@@ -1,0 +1,18 @@
+# threshold_sweep.yaml
+#
+# Experiment A (primary, mandatory — see PROJECT_STATE.md priority order).
+# Sweep the similarity threshold across a fine-grained range and
+# measure hit rate, false-hit rate, true-hit precision, and
+# cost-savings at each point. This produces the paper's headline
+# result: the false-hit-rate vs. cost-savings tradeoff curve.
+#
+# TODO: fill in / adjust once src/experiment_runner.py can consume this.
+
+experiment_name: threshold_sweep
+embedding_model: all-MiniLM-L6-v2
+threshold_range:
+  start: 0.70
+  end: 0.99
+  step: 0.02
+dataset_path: data/processed/   # TODO: point to the final verified dataset
+llm_model: llama3.1:8b

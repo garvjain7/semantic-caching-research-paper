@@ -116,6 +116,11 @@ Pre-implementation. Topic finalized, literature reviewed, system design and expe
 **Why chosen:** Hard rule requires verified facts over assumed ones; correction made immediately upon verifying MeanCache's actual methodology via primary sources.
 **Date:** 2026-07-15
 
+**Decision:** Repository architecture revised from a week-numbered layout to a responsibility/artifact-type-based layout, before implementation began. Final structure: `src/` (all code, includes `dataset_generation/` and `experiment_runner.py`), `configs/` (experiment definitions named by what they test, not by priority letter), `data/` (raw/processed/filler_pool — no code), `results/` (all generated artifacts, regenerable, named by experiment), `analysis/` (metric/plotting code only, no data), `paper/`.
+**Alternatives considered:** Original layout with `data/generation+generated+verified/`, `experiments/configs+runs/`, `analysis/compute_metrics+plots/` (code and generated artifacts mixed in the same folders); experiment folders named `exp_A/exp_B/exp_C` (priority-encoded rather than descriptive); `cache/index.py` and `cache/cache_layer.py` as separate files.
+**Why chosen:** Code and generated artifacts have different lifecycles (hand-written/versioned vs. regenerable/deletable) and mixing them breaks the reproducibility property that "delete results, rerun from src+configs+data/raw, get the same thing back." Priority-letter naming conflates project-management info (belongs in this document) with semantic identity (belongs in the filesystem) and goes stale when priorities shift or experiments are added/rerun. `cache/index.py`+`cache_layer.py` split was unjustified separation for a solo prototype — merged into one `cache.py`. `src/embedding.py`, `llm_fallback.py`, `logger.py` were kept as separate files deliberately — each maps to an already-decided methodological boundary (embedding swap = experiment B, LLM fallback deliberately decoupled from correctness logic, logger is shared infra), not cosmetic separation.
+**Date:** 2026-07-15
+
 ---
 
 # Important Discussions

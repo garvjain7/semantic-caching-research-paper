@@ -1,0 +1,43 @@
+semantic-cache-research/
+├── README.md
+├── PROJECT_STATE.md
+├── TECHNICAL_OVERVIEW.md
+├── requirements.txt
+│
+├── src/                          # all code — the system under test
+│   ├── embedding.py               # swappable embedding model wrapper
+│   ├── cache.py                   # vector index + hit/miss decision logic (merged)
+│   ├── llm_fallback.py            # Ollama client — cost/latency measurement only
+│   ├── logger.py                  # shared per-request logging schema
+│   ├── dataset_generation/        # code that builds the controlled corpus
+│   │   ├── paraphrase_gen.py
+│   │   ├── hard_negative_gen.py
+│   │   └── unrelated_sampler.py
+│   └── experiment_runner.py       # single reusable entrypoint: config in → results out
+│
+├── configs/                       # experiment definitions, named by what they test
+│   ├── threshold_sweep.yaml
+│   ├── embedding_comparison.yaml
+│   └── cache_scale.yaml
+│
+├── data/                          # pure data — no code lives here
+│   ├── raw/                       # base QA dataset, untouched, license noted
+│   ├── processed/                 # generated + verified corpus, ready for experiments
+│   │   └── verification_report.md # sample size checked, error rate found
+│   └── filler_pool/               # background entries for the cache-scale experiment
+│
+├── results/                       # everything generated — deletable, regenerable, not hand-edited
+│   ├── threshold_sweep/
+│   ├── embedding_comparison/
+│   └── cache_scale/
+│
+├── analysis/                      # code only — turns results/ into figures/tables
+│   ├── compute_metrics.py
+│   ├── plots.py
+│   └── notebooks/
+│       └── exploratory_analysis.ipynb
+│
+└── paper/
+    ├── draft.md
+    ├── references.bib
+    └── figures/                   # final, chosen versions copied in from analysis output

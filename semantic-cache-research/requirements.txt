@@ -1,0 +1,12 @@
+# requirements.txt
+#
+# Core dependencies — pin exact versions once finalized in Week 1.
+
+sentence-transformers
+faiss-cpu
+numpy
+pyyaml
+matplotlib
+pandas
+scipy
+# ollama  # TODO: confirm exact package name for the Python client

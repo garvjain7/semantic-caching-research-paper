@@ -1,0 +1,14 @@
+# cache_scale.yaml
+#
+# Experiment C (cut first if the timeline slips — see PROJECT_STATE.md
+# scope-cut rule). Tests whether false-hit rate at a fixed threshold
+# changes as the number of background cached entries grows (collision
+# risk under scale).
+
+experiment_name: cache_scale
+embedding_model: all-MiniLM-L6-v2
+fixed_threshold: 0.85        # TODO: pick based on Experiment A results
+cache_sizes: [200, 2000, 10000]
+filler_pool_path: data/filler_pool/
+dataset_path: data/processed/
+llm_model: llama3.1:8b
