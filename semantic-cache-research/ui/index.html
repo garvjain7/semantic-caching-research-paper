@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semantic Cache Research — Experiment Dashboard</title>
+  <meta name="description" content="Single-page dashboard for starting and comparing semantic cache experiments. Polls the FastAPI backend at /status — no SSE required." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ─── Header ──────────────────────────────────────────────────────────── -->
+<header>
+  <a class="logo" href="#" id="home-link">
+    <span class="logo-icon">⚡</span>
+    Semantic Cache Research
+  </a>
+  <div class="api-status">
+    <span class="status-dot" id="api-dot"></span>
+    <span id="api-status-text">Connecting…</span>
+  </div>
+</header>
+
+<!-- ─── Main ────────────────────────────────────────────────────────────── -->
+<main>
+
+  <!-- Tab bar -->
+  <nav class="tabs" role="tablist">
+    <button class="tab-btn active" id="tab-run-btn"
+            role="tab" aria-selected="true"
+            onclick="switchTab('run')">▶  Run</button>
+    <button class="tab-btn" id="tab-compare-btn"
+            role="tab" aria-selected="false"
+            onclick="switchTab('compare')">⚖  Compare</button>
+  </nav>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       Tab: Run
+       ════════════════════════════════════════════════════════════════════ -->
+  <section class="tab-panel active" id="tab-run" role="tabpanel">
+    <h1 class="section-title">Start a new experiment run</h1>
+
+    <!-- Configuration card -->
+    <div class="card">
+      <div class="card-title">Configuration</div>
+
+      <div class="flex-row">
+        <div class="form-row">
+          <label for="select-config">Experiment config</label>
+          <select id="select-config">
+            <option value="threshold_sweep.yaml">threshold_sweep.yaml — Exp A: cosine threshold sweep</option>
+            <option value="embedding_comparison.yaml">embedding_comparison.yaml — Exp B: embedding model comparison</option>
+            <option value="cache_scale.yaml">cache_scale.yaml — Exp C: cache size scaling</option>
+          </select>
+          <p class="hint">Configs live in <code>configs/</code></p>
+        </div>
+
+        <div class="form-row">
+          <label for="select-strategy">Match strategy</label>
+          <select id="select-strategy">
+            <option value="cosine_threshold">cosine_threshold — baseline (GPTCache default)</option>
+            <option value="cross_encoder">cross_encoder — two-stage re-ranking</option>
+            <option value="lexical_match">lexical_match — BM25 ablation</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="input-run-id">
+          Run ID
+          <span style="font-weight:400;color:var(--text-muted)">(optional — auto-generated if blank)</span>
+        </label>
+        <input type="text" id="input-run-id" placeholder="e.g. sweep-001" maxlength="32" />
+      </div>
+
+      <button class="btn btn-primary" id="btn-start-run" onclick="startRun()">
+        ▶ &nbsp;Start run
+      </button>
+    </div>
+
+    <!-- Active run progress card (hidden until a run is started) -->
+    <div class="card" id="active-run-card" style="display:none">
+      <div class="card-title">Active run</div>
+      <div class="run-meta">
+        <span class="mono" id="active-run-id">—</span>
+        <span class="badge badge-queued" id="active-run-badge">queued</span>
+      </div>
+      <div class="progress-wrap">
+        <div class="progress-bar" id="active-progress-bar" style="width:0%"></div>
+      </div>
+      <p class="progress-label" id="active-progress-label">Waiting for backend…</p>
+      <br />
+      <div class="console" id="run-console">
+        <span class="log-line dim">— no output yet —</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       Tab: Compare
+       ════════════════════════════════════════════════════════════════════ -->
+  <section class="tab-panel" id="tab-compare" role="tabpanel">
+    <h2 class="section-title">Compare two runs</h2>
+
+    <!-- Run selector card -->
+    <div class="card">
+      <div class="card-title">Select runs</div>
+      <div class="flex-row">
+        <div class="form-row">
+          <label for="compare-run-a">Run A</label>
+          <input type="text" id="compare-run-a" placeholder="run ID, e.g. sweep-001" />
+        </div>
+        <div class="form-row">
+          <label for="compare-run-b">Run B</label>
+          <input type="text" id="compare-run-b" placeholder="run ID, e.g. sweep-002" />
+        </div>
+        <div>
+          <button class="btn btn-primary" id="btn-compare" onclick="compareRuns()">
+            ⚖ &nbsp;Compare
+          </button>
+        </div>
+      </div>
+      <p class="hint" id="compare-hint">
+        Loads <code>results/&lt;experiment&gt;/summary.json</code> for each run via <code>GET /compare</code>
+      </p>
+    </div>
+
+    <!-- Side-by-side results (hidden until a compare response arrives) -->
+    <div id="compare-results" style="display:none">
+      <div class="compare-grid">
+
+        <div class="card" id="compare-col-a">
+          <div class="card-title" id="compare-title-a">Run A</div>
+          <div id="compare-metrics-a"></div>
+        </div>
+
+        <div class="card" id="compare-col-b">
+          <div class="card-title" id="compare-title-b">Run B</div>
+          <div id="compare-metrics-b"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Script (deferred so DOM is ready before any inline onclick fires) -->
+<script src="app.js" defer></script>
+</body>
+</html>

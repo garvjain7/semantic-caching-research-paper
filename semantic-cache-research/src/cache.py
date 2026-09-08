@@ -1,19 +1,18 @@
 """
 cache.py
 
-Core semantic cache logic: given a query embedding, find the nearest
-cached entry, apply the similarity threshold, and decide hit vs miss.
+Core semantic cache orchestrator: given a query, delegates to one of the
+match strategies in match_strategies.py to decide hit vs. miss, then
+forwards misses to llm_fallback.py.
 
-Deliberately combines the vector index and the hit/miss decision logic
-in ONE module rather than splitting them into separate files — see
-PROJECT_STATE.md Decisions Log (2026-07-15, architecture revision) for
-why: for a solo research prototype at this scale, splitting them would
-be separation without justification.
+Deliberately combines the vector index and hit/miss decision logic in
+ONE module rather than splitting them — see PROJECT_STATE.md Decisions
+Log (2026-07-15, architecture revision).
 
 Contains:
     - CacheIndex: wraps a vector index (FAISS or plain cosine) over
       cached query embeddings.
-    - SemanticCache: exposes lookup() and insert().
+    - SemanticCache: exposes lookup(strategy_fn) and insert().
 """
 
 import numpy as np
@@ -36,6 +35,16 @@ class CacheIndex:
         # TODO: implement
         raise NotImplementedError
 
+    def get_all_queries(self) -> list[dict]:
+        """
+        Return all stored entries as a list of dicts with at least
+        'query' (str) and 'answer' (str) keys.
+
+        Required by match_strategies.lexical_match for BM25 scoring.
+        """
+        # TODO: implement
+        raise NotImplementedError
+
 
 class SemanticCache:
     def __init__(self, embedder, index: CacheIndex, threshold: float = 0.8):
@@ -43,16 +52,30 @@ class SemanticCache:
         self.index = index
         self.threshold = threshold
 
-    def lookup(self, query: str) -> dict:
+    def lookup(self, query: str, strategy_fn=None) -> dict:
         """
-        Embed the query, search the index, apply the threshold.
+        Embed the query, then delegate to strategy_fn (or fall back to
+        cosine_threshold) to decide hit vs. miss.
 
-        Should return enough detail for RequestLogger to log a full
-        record in one call, e.g.:
+        All strategies share the unified signature:
+            fn(query, query_embedding, index, threshold) -> dict
+        where:
+            query          : str          — raw text (used by cross_encoder, lexical_match)
+            query_embedding: np.ndarray   — L2-normalised vector (used by cosine_threshold
+                                            and cross_encoder coarse shortlist)
+            index          : CacheIndex
+            threshold      : float
+
+        Returns a dict compatible with RequestLogger.log():
             {"hit": bool, "cached_answer": str | None,
-             "similarity": float, "threshold": float}
+             "similarity": float, "threshold": float, "strategy": str}
         """
         # TODO: implement
+        # from .match_strategies import cosine_threshold
+        # embedding = self.embedder.embed(query)
+        # fn = strategy_fn or cosine_threshold
+        # result = fn(query, embedding, self.index, self.threshold)
+        # return result
         raise NotImplementedError
 
     def insert(self, query: str, answer: str) -> None:

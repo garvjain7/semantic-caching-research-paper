@@ -1,43 +1,45 @@
 semantic-cache-research/
-├── README.md
-├── PROJECT_STATE.md
-├── TECHNICAL_OVERVIEW.md
-├── requirements.txt
 │
-├── src/                          # all code — the system under test
-│   ├── embedding.py               # swappable embedding model wrapper
-│   ├── cache.py                   # vector index + hit/miss decision logic (merged)
-│   ├── llm_fallback.py            # Ollama client — cost/latency measurement only
-│   ├── logger.py                  # shared per-request logging schema
-│   ├── dataset_generation/        # code that builds the controlled corpus
+├── src/
+│   ├── embedding.py              # unchanged
+│   ├── cache.py                  # unchanged — orchestrator, delegates to match_strategies
+│   ├── match_strategies.py       # NEW — one file, 3 functions: cosine_threshold, cross_encoder, lexical_match
+│   ├── llm_fallback.py           # unchanged — one real Ollama call per query, cached as baseline cost
+│   ├── logger.py                 # unchanged
+│   ├── dataset_generation/       # unchanged
 │   │   ├── paraphrase_gen.py
 │   │   ├── hard_negative_gen.py
 │   │   └── unrelated_sampler.py
-│   └── experiment_runner.py       # single reusable entrypoint: config in → results out
+│   ├── experiment_runner.py      # unchanged in purpose — gains a match_strategy param
+│   │
+│   └── api/
+│       └── main.py               # NEW — all routes in one file: start run, status (polling), list runs, compare
 │
-├── configs/                       # experiment definitions, named by what they test
+├── configs/
 │   ├── threshold_sweep.yaml
 │   ├── embedding_comparison.yaml
 │   └── cache_scale.yaml
 │
-├── data/                          # pure data — no code lives here
-│   ├── raw/                       # base QA dataset, untouched, license noted
-│   ├── processed/                 # generated + verified corpus, ready for experiments
-│   │   └── verification_report.md # sample size checked, error rate found
-│   └── filler_pool/               # background entries for the cache-scale experiment
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   │   └── verification_report.md
+│   └── filler_pool/
 │
-├── results/                       # everything generated — deletable, regenerable, not hand-edited
-│   ├── threshold_sweep/
-│   ├── embedding_comparison/
-│   └── cache_scale/
+├── results/
+│   ├── threshold_sweep/<run_id>/
+│   ├── embedding_comparison/<run_id>/
+│   └── cache_scale/<run_id>/
 │
-├── analysis/                      # code only — turns results/ into figures/tables
+├── analysis/
 │   ├── compute_metrics.py
 │   ├── plots.py
-│   └── notebooks/
-│       └── exploratory_analysis.ipynb
+│   └── notebooks/exploratory_analysis.ipynb
 │
-└── paper/
-    ├── draft.md
-    ├── references.bib
-    └── figures/                   # final, chosen versions copied in from analysis output
+├── paper/
+│   ├── draft.md
+│   ├── references.bib
+│   └── figures/
+│
+└── ui/
+    └── index.html                # NEW — single page, tabs for Run / Compare, polls /status, no SSE
