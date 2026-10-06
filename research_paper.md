@@ -1,0 +1,144 @@
+# Semantic Caching for RAG/LLM Pipelines — Correctness vs. Cost Tradeoffs Under Controlled Paraphrase Variation
+
+*Poornima Institute of Engineering and Technology — Technical Seminar (guide-supervised)*
+
+---
+
+## Abstract
+
+Semantic caching reduces inference cost and latency in large language model (LLM) and retrieval-augmented generation (RAG) pipelines by serving cached responses to semantically similar queries. Existing systems optimize hit rate and latency through fixed similarity thresholds or reduce false-hit rates through improved context-awareness, while recent work reframes evaluation as a threshold-calibration problem to measure precision-versus-utilization tradeoffs across models. However, these approaches fail to isolate the false-hit rate as a function of semantic distance between a query and its paraphrase, independent of the underlying embedding model. This paper introduces a framework to analyze these trade-offs using a controlled synthetic paraphrase workload constructed across defined similarity bands: near-duplicate, loose paraphrase, and topic-adjacent queries. By sweeping cache similarity thresholds across representative embedding architectures, we measure false-hit rates that induce correctness violations alongside corresponding token cost savings. We map the resulting cost-correctness frontier as a function of paraphrase distance, providing model-agnostic threshold selection guidance to stabilize semantic cache deployments. This complements calibration-based model-selection approaches by isolating the query-similarity axis those models hold fixed.
+
+---
+
+## 1. Introduction
+
+Large language models now sit behind interactive systems — search assistants, customer support bots, coding copilots — where every inference call carries a real cost in compute, latency, and, for hosted APIs, money. A substantial fraction of the queries such systems receive are not novel: users rephrase the same request, ask the same question with different wording, or repeat a near-identical query across sessions. Semantic caching exploits this redundancy by matching an incoming query against previously served queries in embedding space rather than requiring an exact string match, returning a cached response on a similarity hit instead of invoking the LLM again. The approach is already in production use (GPTCache, MeanCache) and reports substantial cost and latency reductions where it applies.
+
+The difficulty is that embedding similarity is a proxy for semantic equivalence, not a guarantee of it. Two queries can sit close together in vector space while asking for genuinely different things — a city name swapped, a negation flipped, a date changed — and a cache that cannot tell the difference will confidently return the wrong answer. This failure mode, a false hit, is worse than a cache miss: a miss costs an extra LLM call, but a false hit silently serves an incorrect response with the full confidence of a cache that "worked." Existing systems manage this risk by fixing a single global similarity threshold, and existing evaluations report hit rate and cost savings at that threshold against real traffic logs. What is missing is a direct, controlled account of how the false-hit rate moves as the threshold moves, and — critically — how that movement depends on *why* two queries are similar. A cache might be robust to paraphrases that reorder words but fragile to paraphrases that swap a single entity; aggregate hit-rate numbers measured on uncontrolled traffic cannot distinguish these cases, because the traffic's composition of easy versus hard near-duplicates is itself unknown.
+
+Recent work has begun to treat the threshold itself as the object of study rather than a fixed hyperparameter. vCache replaces the static threshold with an online procedure that learns a per-cluster threshold to satisfy a user-specified error bound, and Krites frames the hit-rate/error-rate relationship explicitly as a threshold-induced tradeoff, recovering hit rate at a fixed error budget via asynchronous LLM-judge verification. Both confirm that the threshold-correctness relationship is real and worth engineering around — but both measure it against naturally occurring query traffic, where the mix of true paraphrases and deceptively similar non-paraphrases is whatever the traffic happened to contain, not something the researcher controls or can attribute to a specific cause.
+
+This paper takes the opposite approach: instead of measuring the threshold-correctness tradeoff on uncontrolled traffic, we construct a corpus in which the relationship between any two queries is known by design. Each query is generated as a labeled paraphrase, a labeled hard negative along one of four engineered perturbation axes (entity substitution, negation, numeric or temporal change, scope change), or a labeled unrelated item, and every label is verified against a human-audited subsample before use. Sweeping the similarity threshold against this corpus, across three distinct match strategies (bi-encoder cosine threshold, bi-encoder retrieval with cross-encoder reranking, and lexical/sequence-based matching) and multiple embedding backends, produces a false-hit-rate-versus-cost-savings curve that is attributable to specific, known perturbation types rather than to incidental traffic composition. This is the paper's central contribution: not a new caching mechanism, but a benchmark construction that makes the correctness-cost tradeoff of semantic caching reproducible, controllable, and diagnosable by failure type — answering, for a given embedding model and match strategy, specifically *which kinds* of query variation a chosen threshold can and cannot tolerate, rather than only *how often* it is wrong on average.
+
+---
+
+## 2. Background
+
+Serving an LLM response has a fixed, non-trivial cost in compute and latency regardless of whether the query is novel. Exact-match caching, the traditional remedy, fails for conversational and search-style LLM traffic because users rarely phrase the same underlying request identically — a rephrasing as small as changing one function word produces a different cache key and a guaranteed miss. Semantic caching replaces string equality with embedding similarity: a query is encoded into a vector, compared against previously cached query vectors under cosine similarity (or another metric), and treated as a hit when the nearest neighbor clears a threshold τ. This converts an exact-match problem into a nearest-neighbor retrieval problem, inheriting both its efficiency (approximate nearest-neighbor search scales sub-linearly) and its central risk: similarity in embedding space is a proxy for "asks the same thing," and the proxy is not exact. The gap between embedding similarity and actual semantic equivalence is the source of false hits, and the size of that gap is not a constant — it depends on the embedding model, the surface-level perturbation applied to the query, and where τ is set. That gap, measured directly rather than assumed, is what this paper's experiments are built to characterize.
+
+---
+
+## 3. Related Work
+
+**Semantic caching as a systems problem.** The earliest practical treatment of LLM semantic caching comes from GPTCache (Bang, 2023), which replaces exact-match caching with embedding similarity search backed by a vector store, leaving the choice of embedding model, similarity metric, and eviction policy to the integrator. This generality is also its weakness for evaluation purposes: GPTCache reports cost and latency improvements under a fixed, often undisclosed threshold, with no systematic account of how correctness degrades as that threshold is relaxed. MeanCache (Gill et al., 2024) narrows the scope to a user-centric, on-device setting, training a lightweight similarity model via federated learning and introducing context chains to distinguish standalone queries from turns inside a conversation. Its false-hit reduction is therefore a property of the learned similarity model and the context-chain mechanism jointly, not of threshold behavior in isolation, and it is evaluated on real conversational logs rather than a constructed adversarial set.
+
+**Context-aware and multi-turn caches.** ContextCache (Yan et al., 2025) and the more recent SmartCache (Yu et al., 2025) both argue that query-level similarity is insufficient once a cache operates inside a dialogue: two queries can be near-identical in embedding space while meaning different things because of what preceded them. ContextCache addresses this with a two-stage retrieval pipeline that re-scores candidate matches using self-attention over dialogue history, while SmartCache goes further by sharing and evicting KV-cache state across sessions using attention-derived context-change signals. Both report precision and recall gains over single-query matching, but neither isolates the pure query-paraphrase case: their gains are confounded with context modeling, so it is not possible to read off, from their numbers alone, how a plain bi-encoder threshold behaves on paraphrases versus hard negatives in isolation. Our setting is deliberately single-turn, which removes this confound at the cost of not addressing conversational caching at all — a boundary we return to in Section 9.
+
+**Correctness-bounded and adaptive thresholds.** The closest recent work to the present study is vCache (Schroeder et al., 2025), which treats the fixed global similarity threshold as the central flaw of existing semantic caches and replaces it with an online procedure that learns a per-cluster threshold to satisfy a user-specified error-rate bound. Krites, in the same line of work, frames the hit-rate/error-rate relationship explicitly as a tradeoff induced by a single global threshold and proposes an asynchronous LLM-judge verification step to recover hit rate at a fixed error budget. Both papers confirm, from a systems angle, that the threshold-correctness relationship is real and consequential; neither, however, constructs a corpus in which the paraphrase/hard-negative distinction is engineered and labeled by design. Their error rates are measured against naturally occurring query logs, so the threshold curve they report is a property of whatever paraphrase and near-miss queries happened to occur in that traffic, not a controlled sweep over a known difficulty gradient. This is the specific methodological gap the present corpus is built to close: not a new caching mechanism, but a benchmark construction that makes the threshold/correctness curve reproducible and attributable to specific linguistic perturbation types (entity substitution, negation, numeric or temporal change, scope change) rather than to incidental traffic composition. Krites's use of asynchronous LLM-judge verification inside the caching policy itself is also directly relevant prior art for this paper's judge-based correctness measurement (Section 4), though our use of a judge is for offline evaluation rather than an online caching decision.
+
+**Adjacent cache layers.** It is worth being precise about what RAGCache (Jin et al., 2024) is not comparable to. It caches the intermediate transformer states of retrieved knowledge chunks in a GPU/host-memory hierarchy to reduce time-to-first-token in RAG pipelines, which is a KV-state cache operating below the response layer, not a response-level semantic cache. We mention it only to delineate scope: this paper is concerned with whether a previously generated *answer* can be safely reused, not with reusing intermediate computation for a fresh generation.
+
+**Positioning.** Taken together, prior semantic-cache evaluations fall into two groups: systems papers that report aggregate hit rate and cost savings under one or a few threshold settings on real traffic (GPTCache, MeanCache), and correctness-first papers that treat the threshold as a parameter to be learned or bounded, also against real or semi-real traffic (vCache, Krites). None constructs the independent variable — paraphrase difficulty — directly, which means the hit-rate/false-hit-rate curve they report is entangled with whatever distribution of near-duplicate queries their traffic happened to contain. This paper isolates that variable by construction: every query pair in the evaluation corpus carries a known ground-truth relationship (paraphrase, hard negative, or unrelated), so the resulting tradeoff curve reflects the caching mechanism's behavior as a function of linguistic similarity type, not of traffic composition.
+
+---
+
+## 4. Problem Formulation and Metrics
+
+**Setting.** Consider a cache populated with a set of previously served (query, response) pairs. For an incoming query *q*, a match strategy retrieves its nearest neighbor *q′* from the cache under some similarity function and decides hit or miss against a threshold τ. On a hit, the cached response to *q′* is returned without invoking the LLM; on a miss, the LLM is called and the new pair is inserted. The question this paper asks is not merely whether *q* and *q′* are the same kind of query, but whether reusing *q′*'s response for *q* actually produces an acceptable answer — which is the practical consequence a cache's end user experiences, independent of why the match happened.
+
+**Primary correctness measure: judged response acceptability.** For every cache decision resulting in a hit, an LLM judge is given the incoming query *q*, the matched cached query *q′*, and the cached response *r*, and asked to rate whether *r* is an acceptable answer to *q*. This is evaluated directly against the reused response, not against the query-pair label, because a matched pair can share a label (paraphrase or hard negative) while still differing in whether the specific cached response happens to satisfy the new query. A hit is scored as **judge-correct** or **judge-incorrect**; the primary metric, **judged false-hit rate**, is judge-incorrect hits over all hits — the fraction of served cache responses a judge rates unacceptable.
+
+The judge model must be drawn from a different model family than whichever model generated the corpus's paraphrases and hard negatives, to avoid the judge inheriting the generator's own reasoning about what counts as equivalent. `[VALUE — judge model]`. Before being used for scoring, the judge is itself validated against the human-audited subsample constructed during dataset label verification (Section 5): the judge rates the same pairs, and agreement with human judgment is reported in `data/processed/verification_report.md` alongside the label-verification numbers. A judge whose agreement with human raters falls below `[VALUE — agreement threshold]` on that subsample should not be used for the primary metric, since the entire reported correctness curve would then be measuring judge drift rather than cache behavior.
+
+**Secondary correctness measure: query-level false-hit rate.** As a deterministic, reproducible cross-check, every hit is also scored against the constructed ground-truth label: a hit is a **true hit** if *q′* is a labeled paraphrase of *q*, and a **false hit** otherwise. Query-level false-hit rate is FH / (TH + FH). This metric costs nothing to compute, is invariant to judge-model choice, and serves as the secondary, sanity-check measure: if judged false-hit rate and query-level false-hit rate diverge sharply, that divergence is itself a reportable finding (it would mean the judge is rating label-mismatched pairs as acceptable, or vice versa), not noise to be averaged away.
+
+**Decision outcomes, by judge.** Mirroring the four-outcome structure from the query-level definition, but scored against judge acceptability rather than labels:
+
+- **Judge-correct hit** — the matched cache response is rated acceptable for *q*.
+- **Judge-incorrect hit (false hit)** — the matched cache response is rated unacceptable for *q*.
+- **True miss / false miss** — defined identically to the label-based formulation, since a miss has no response to judge; whether a miss was "false" (a usable cached paraphrase existed but wasn't matched) is still determined by the query-level label, as there is nothing for the judge to evaluate in the absence of a hit.
+
+**Cost savings.** 1 − (LLM calls made) / (LLM calls that would have been made without caching), measured against `llm_fallback.py`'s real Ollama latency and compute figures, not API dollar cost.
+
+**The tradeoff curve.** The central result of `threshold_sweep` is judged false-hit rate plotted against cost savings as τ varies, with query-level false-hit rate overlaid on the same axis as a secondary trace. A single point on this curve is only meaningful alongside its cost-savings value, since a threshold so strict it never hits also has a 0% false-hit rate by either measure. Reporting both traces together also directly exposes the gap between "wrong by label" and "wrong by judged response," which is a result this paper can report as a methodological finding in its own right: how often label-based and judgment-based correctness disagree, and under which perturbation type that disagreement concentrates.
+
+**What is deliberately out of scope.** This formulation assumes a single-turn, context-free query stream and a static cache under `threshold_sweep` and `embedding_comparison`. It does not assume correctness is purely query-relationship-defined — the judge-primary design is precisely the change that relaxes that assumption — but it does introduce dependence on judge-model reliability, addressed in Section 9.
+
+---
+
+## 5. Dataset Methodology
+
+Evaluating a semantic cache's correctness requires a corpus where the ground-truth relationship between any two queries is known in advance, not inferred after the fact from production logs. This is the structural reason the dataset is built rather than scraped: real query logs give you hit rate, but they don't give you a *reason* for each correct or incorrect match, because you don't know which near-duplicate queries were actually paraphrases and which only looked similar. The corpus construction below is designed to produce that reason.
+
+**Anchor-cluster design.** Each cluster originates from one anchor query drawn from `[VALUE — source domain/dataset for anchors]`. From each anchor, three generation processes produce three disjoint sibling sets: a paraphrase set (same information need, varied surface form — lexical substitution, syntactic reordering, formality shift), a hard-negative set (high surface or embedding similarity, different information need), and an unrelated set (topically disjoint, included as a floor check rather than a discriminative test). This cluster structure is what lets the evaluation separate "the cache matched something similar" from "the cache matched the *right* thing."
+
+**Hard-negative taxonomy.** The hard-negative category is the one doing the actual evaluative work, because a threshold that merely rejects dissimilar text is not being tested at all — it is the queries that are similar *and wrong* that expose a cache's real failure mode. `hard_negative_gen.py` generates negatives along four perturbation axes relative to the anchor:
+
+- entity substitution (same question shape, different named entity — different city, product, person)
+- negation or polarity flip (same shape, opposite truth condition)
+- numeric or temporal change (same shape, different quantity, date, or range)
+- scope change (same shape, narrower or broader subject — "in Jaipur" vs. "in Rajasthan")
+
+Each perturbation type should be tagged on the data point itself, not just on the cluster, so the eventual analysis can report false-hit rate *per perturbation type* rather than only in aggregate. An aggregate false-hit number hides whether the cache is failing uniformly or failing specifically on, say, negation — and that distinction is the kind of finding a reviewer will ask for.
+
+**Label verification.** A generated label is only as trustworthy as its verification step, and this is where "controlled" either holds or collapses under review. The procedure: after generation, draw a stratified random subsample across all three categories and all four hard-negative perturbation types, and have it independently labeled by a human rater blind to the generator's intended label. Report inter-rater agreement (or, with a single rater, a plain accuracy-against-generator-intent number) in `data/processed/verification_report.md`. If agreement on any one perturbation type is low, that category needs regeneration or a tighter prompt before it enters the experiment — not a caveat buried in Section 9. This same subsample is reused in Section 4 to validate the LLM judge used for the primary correctness metric.
+
+**Filler pool.** `data/filler_pool/` exists to populate the cache with non-adversarial background entries for `cache_scale`, so that threshold and embedding-comparison results aren't run against an artificially small, all-adversarial cache. Since `cache_scale` is the first thing cut under time pressure, the filler pool's size only needs to support whatever scale point is actually run — don't over-build it.
+
+**What makes this corpus different from a generic paraphrase dataset (e.g. PAWS, QQP).** General-purpose paraphrase/non-paraphrase datasets like PAWS or QQP weren't built with a caching failure mode in mind, so their negative pairs are not engineered to be adversarial to embedding similarity specifically — they test paraphrase detection in general, not "will a cosine-threshold cache be fooled by this." The hard-negative axes above are chosen because they are exactly the perturbations that preserve high embedding similarity while changing the correct answer, which is the specific failure mode a semantic cache needs to be evaluated against.
+
+---
+
+## 6. System and Experimental Setup
+
+[Not yet written — needs embedding backend list, exact model versions, and hardware/runtime details to be locked before drafting.]
+
+---
+
+## 7. Experiment Protocols
+
+[Not yet written — needs threshold sweep range, seed count, and judge-model/agreement-threshold values (see `[VALUE]` markers in Section 4) to be locked before drafting.]
+
+---
+
+## 8. Analysis and Discussion
+
+[Not yet written — requires experiment results.]
+
+---
+
+## 9. Threats to Validity
+
+**Synthetic corpus, single generator family.** Every query in the evaluation corpus — paraphrases, hard negatives, and unrelated items alike — originates from the same generation pipeline, likely the same underlying LLM family across `paraphrase_gen.py` and `hard_negative_gen.py`. This introduces a specific risk: the corpus may inherit systematic stylistic fingerprints of that generator (consistent sentence length, a narrow register, predictable lexical choices for a given perturbation type) that do not reflect the surface variation of real user queries. A cache tuned or evaluated against this corpus could appear more or less discriminative than it would be against organic traffic, simply because organic paraphrases vary in ways a single generator doesn't reproduce. This is distinct from the label-verification concern in Section 5 — verification checks that the *label* is correct, not that the *distribution* of phrasing is representative.
+
+**Single-turn, English-only scope.** The problem formulation in Section 4 explicitly excludes conversational context: every query is evaluated as if it arrived with no preceding dialogue. This is a deliberate scoping choice that isolates the paraphrase/hard-negative distinction from the context-disambiguation problem ContextCache and SmartCache address, but it means the results here say nothing about cache behavior inside a multi-turn session, where the same surface query can mean different things depending on what came before it. Similarly, the corpus is English-only; cross-lingual or code-switched query behavior is untested, and embedding models vary substantially in multilingual robustness, so the threshold behavior reported here should not be assumed to transfer.
+
+**No eviction under the primary experiments.** `threshold_sweep` and `embedding_comparison` run against a static, non-evicting cache. Real deployments evict under memory or TTL pressure, which changes which cached entries are available to match against over time and can itself be a source of false misses or false hits (matching against a stale entry). `cache_scale`, the experiment designed to probe this, is the first one cut under schedule pressure, so if it doesn't run, this paper's results characterize threshold and embedding-model behavior in isolation from any eviction policy — a real simplification that should be stated plainly in the conclusion, not left implicit.
+
+**Flat index, not production ANN.** FAISS flat index was chosen specifically for reproducibility — it performs exact nearest-neighbor search with no approximation, so results are deterministic and not an artifact of index-specific recall loss. Production systems almost never use flat indices at scale; they use approximate structures (HNSW, IVF) that trade recall for speed. Those structures can themselves introduce false misses independent of the similarity threshold, since the true nearest neighbor is not always the one returned. This paper's results should be read as an upper bound on matching behavior under a given embedding and threshold, not as a prediction of what an approximate production index would do.
+
+**Local-model cost measurement, not API cost.** `llm_fallback.py` measures real latency and compute cost against a local Ollama model. This is an honest and reproducible cost signal, but it does not translate directly into the dollar-cost-per-call framing used in most production semantic-caching writeups, which bill against hosted API pricing with its own latency and rate-limit characteristics. Cost savings reported here should be read as LLM invocations avoided and local compute/latency saved, not as a claim about API dollar savings — conflating the two would overstate the paper's applicability to hosted-LLM deployments.
+
+**Judge reliability as the primary metric's foundation.** Because judged response acceptability is the primary correctness measure, the paper's headline result is only as trustworthy as the judge's agreement with human judgment on the validation subsample (Section 4, Section 5). Three specific risks follow from this design choice. First, judge-model drift: a different judge model, or a different version of the same model, run against the identical cache outputs could report a materially different false-hit rate, making the headline number non-reproducible in a way the query-level label-based rate is not — this is an inherent cost of choosing a judge-primary design, not a flaw unique to this implementation. Second, generator-judge correlation: even with a different model family for the judge, shared training data or shared stylistic conventions between generator and judge models could cause correlated leniency on specific perturbation types (for instance, both models might under-penalize subtle negation flips), which the human-subsample validation step is designed to catch but cannot fully rule out from a single subsample. Third, judge cost and latency: scoring every hit across every threshold/strategy/embedding combination in the sweep multiplies the Ollama compute budget by the number of hits evaluated, which should be sized against the Week-2 timeline risk already identified for dataset construction before committing to the full sweep's judge-scoring load.
+
+**Three match strategies, not an exhaustive search.** The comparison is limited to bi-encoder cosine threshold, bi-encoder-plus-cross-encoder reranking, and lexical/sequence matching. This set was chosen to span clearly distinct matching philosophies, not to be exhaustive — learned or fine-tuned similarity models (as in MeanCache) and LLM-judge-verified matching inside the caching policy itself (as in Krites) are both absent, and the results here should not be read as ranking semantic caching approaches in general, only as characterizing these three specific strategies' correctness-cost tradeoff under controlled variation.
+
+---
+
+## 10. Conclusion
+
+[Not yet written — requires experiment results.]
+
+---
+
+## 11. Reproducibility Statement
+
+[Not yet written — needs final artifact links, repo state, and config file locations to be fixed.]
+
+---
+
+## Open `[VALUE]` placeholders to resolve
+
+- Section 4: judge model (must differ from corpus-generation model family)
+- Section 4: minimum judge-human agreement threshold to accept the judge for primary metric use
+- Section 5: anchor-query source domain/dataset
