@@ -6,6 +6,7 @@ sentence-transformers
 faiss-cpu
 numpy
 pyyaml
+datasets
 matplotlib
 pandas
 scipy

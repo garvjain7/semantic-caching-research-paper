@@ -85,7 +85,8 @@ Each perturbation type should be tagged on the data point itself, not just on th
 
 **Filler pool.** `data/filler_pool/` exists to populate the cache with non-adversarial background entries for `cache_scale`, so that threshold and embedding-comparison results aren't run against an artificially small, all-adversarial cache. Since `cache_scale` is the first thing cut under time pressure, the filler pool's size only needs to support whatever scale point is actually run — don't over-build it.
 
-**What makes this corpus different from a generic paraphrase dataset (e.g. PAWS, QQP).** General-purpose paraphrase/non-paraphrase datasets like PAWS or QQP weren't built with a caching failure mode in mind, so their negative pairs are not engineered to be adversarial to embedding similarity specifically — they test paraphrase detection in general, not "will a cosine-threshold cache be fooled by this." The hard-negative axes above are chosen because they are exactly the perturbations that preserve high embedding similarity while changing the correct answer, which is the specific failure mode a semantic cache needs to be evaluated against.
+**What makes this corpus different from a generic paraphrase dataset (e.g. PAWS, QQP).** General-purpose paraphrase/non-paraphrase datasets like PAWS or QQP weren't built with a caching failure mode in mind, so their negative pairs are not engineered to be adversarial to embedding similarity specifically — they test paraphrase detection in general, not "will a cosine-threshold cache be fooled by this." The hard-negative axes above are chosen because they are exactly the perturbations that preserve high embedding similarity while changing the correct answer, which is the specific failure mode a semantic cache needs to be evaluated against
+.
 
 ---
 

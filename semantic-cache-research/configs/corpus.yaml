@@ -1,0 +1,65 @@
+# Corpus construction targets from the repository-root corpus_spec.md.
+# Null source/model/seed values are intentionally unresolved. A runner must
+# reject them rather than silently selecting defaults.
+
+corpus:
+  source:
+    dataset: nq_open
+    repository: google-research-datasets/nq_open
+    revision: 5dd9790a83002ad084ddeb7c420dc716852c6f28
+    splits: [train, validation]
+    question_field: question
+    answers_field: answer
+    raw_path: data/raw/
+
+  seed: null
+
+  sampling:
+    anchors: 600
+    dev_anchors: 50
+    held_out_questions_minimum: 1000
+    unrelated_queries: 600
+
+  filtering:
+    minimum_question_tokens: 5
+    maximum_question_tokens: 20
+    tokenizer: unicode_word_tokens_lowercase_v1
+    deduplication_token_jaccard_threshold: 0.8
+    unrelated_maximum_token_jaccard_to_any_anchor: 0.2
+    dominant_token_max_fraction: 0.5
+
+  paraphrases:
+    per_anchor: 4
+    levels: [P1, P2, P3, P4]
+    style_examples_minimum: 5
+    style_examples_maximum: 8
+    minimum_length_ratio: 0.5
+    maximum_length_ratio: 2.0
+    preserve_anchor_numbers_and_years: true
+    maximum_retries: 3
+
+  hard_negatives:
+    types: [E, N, T, S]
+    quota_per_type: 300
+
+  cache_responses:
+    provider: ollama
+    temperature: 0
+
+  audit:
+    samples_per_stratum: 30
+    strata: [P1, P2, P3, P4, E, N, T, S, unrelated]
+    regeneration_accuracy_threshold: 0.9
+    confidence_interval: wilson_95
+
+  models:
+    generator:
+      id: null
+      version: null
+    fallback:
+      id: null
+      version: null
+    judge:
+      id: null
+      version: null
+      must_differ_from_generator_family: true

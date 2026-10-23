@@ -1,13 +1,19 @@
 # raw/
 
-Base QA dataset, unmodified, exactly as downloaded. Do not edit files
-here directly — anything derived goes in data/processed/.
+Source data is immutable. Do not edit files here; derived artifacts belong
+under `data/processed/`.
 
-TODO once the dataset is selected, record here:
-    - Dataset name:
-    - Source URL:
-    - License:
-    - Format / answer style (must be short, unambiguous gold answers):
+## Selected source
 
-(See PROJECT_STATE.md -> Questions Needing Research: base dataset not
-yet finalized as of the last update.)
+- Dataset: NQ-Open
+- Repository: <https://huggingface.co/datasets/google-research-datasets/nq_open>
+- Revision pinned in `configs/corpus.yaml`:
+  `5dd9790a83002ad084ddeb7c420dc716852c6f28`
+- Fields consumed: `question` (string), `answer` (list of strings)
+- Splits: `train`, `validation`
+- License reported by the dataset card: CC BY-SA 3.0
+
+NQ-Open is derived from Natural Questions; it is not the full Natural
+Questions annotation release. Preserve all answer strings as a list.
+Review attribution and share-alike obligations before redistributing
+derived data.
