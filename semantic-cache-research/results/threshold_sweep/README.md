@@ -1,12 +1,14 @@
 # threshold_sweep/
 
-Generated output only — nothing here is hand-written. Safe to delete
-and regenerate by running:
+Primary experiment output. The saved run is complete: all four configurations
+have retrieval records, judge verdicts, fallback records, and threshold metrics.
+Re-running the entry point reuses persisted records where available, but may call
+Ollama if any required records are missing:
 
-    python -m src.experiment_runner --config configs/threshold_sweep.yaml
+    python scripts/run_experiments.py
 
-Expected contents once populated:
-    - raw_logs/    per-request JSONL logs (see src/logger.py schema)
-    - metrics.csv  computed hit rate / false-hit rate / precision /
-                    cost-savings, with confidence intervals
-                    (see analysis/compute_metrics.py)
+The current artifacts include one retrieval per configuration/query, one judge
+verdict per configuration/query, one fallback response and latency per query,
+and `metrics_<configuration>.jsonl` with ten replayed thresholds and Wilson
+intervals. These are the primary 700-query results. See the root
+`PROJECT_STATE.md` for a concise summary.

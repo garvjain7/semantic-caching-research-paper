@@ -28,8 +28,8 @@ class StageReadinessError(CorpusConfigError):
 def load_corpus_config(path: str | Path) -> dict[str, Any]:
     """Load a YAML corpus config and validate its declared settings.
 
-    Explicitly unresolved values may remain null. Operational readiness checks
-    belong to the pipeline stage that needs those values.
+    Raises CorpusConfigError immediately if judge.family == generator.family;
+    that constraint is an unconditional invariant, not a stage-readiness check.
     """
     config_path = Path(path)
     try:
@@ -56,6 +56,8 @@ def load_corpus_config(path: str | Path) -> dict[str, Any]:
             "cache_responses",
             "audit",
             "models",
+            "embeddings",
+            "reranker",
         },
         "corpus",
     )
@@ -72,6 +74,17 @@ def load_corpus_config(path: str | Path) -> dict[str, Any]:
     )
     _validate_audit(_required_mapping(corpus, "audit", "corpus"))
     _validate_models(_required_mapping(corpus, "models", "corpus"))
+    if (
+        corpus["cache_responses"]["model"] != corpus["models"]["fallback"]["id"]
+        or corpus["cache_responses"]["provider"] != corpus["models"]["fallback"]["provider"]
+        or corpus["cache_responses"]["temperature"] != corpus["models"]["fallback"]["temperature"]
+    ):
+        raise CorpusConfigError(
+            "corpus.cache_responses must use the configured fallback model, "
+            "provider, and temperature"
+        )
+    _validate_embeddings(_required_mapping(corpus, "embeddings", "corpus"))
+    _validate_reranker(_required_mapping(corpus, "reranker", "corpus"))
     return raw_config
 
 
@@ -82,6 +95,9 @@ def missing_stage_requirements(
 
     This checks configuration only. It does not verify that source files,
     model installations, or external services are available.
+
+    Note: judge.family != generator.family is enforced unconditionally at load
+    time by load_corpus_config; it is not rechecked here.
     """
     if stage not in SUPPORTED_STAGES:
         supported = ", ".join(SUPPORTED_STAGES)
@@ -96,34 +112,18 @@ def missing_stage_requirements(
             ("corpus.source.revision", corpus["source"]["revision"]),
         ),
         "cache_responses": (
-            ("corpus.models.fallback.id", corpus["models"]["fallback"]["id"]),
-            (
-                "corpus.models.fallback.version",
-                corpus["models"]["fallback"]["version"],
-            ),
+            ("corpus.cache_responses.model", corpus["cache_responses"]["model"]),
         ),
         "paraphrase_generation": (
             ("corpus.seed", corpus["seed"]),
             ("corpus.models.generator.id", corpus["models"]["generator"]["id"]),
-            (
-                "corpus.models.generator.version",
-                corpus["models"]["generator"]["version"],
-            ),
         ),
         "hard_negative_generation": (
             ("corpus.seed", corpus["seed"]),
             ("corpus.models.generator.id", corpus["models"]["generator"]["id"]),
-            (
-                "corpus.models.generator.version",
-                corpus["models"]["generator"]["version"],
-            ),
         ),
         "judge_evaluation": (
             ("corpus.models.judge.id", corpus["models"]["judge"]["id"]),
-            (
-                "corpus.models.judge.version",
-                corpus["models"]["judge"]["version"],
-            ),
         ),
     }
     missing = [
@@ -131,13 +131,6 @@ def missing_stage_requirements(
         for path, value in requirements[stage]
         if value is None or (isinstance(value, str) and not value.strip())
     ]
-    if (
-        stage == "judge_evaluation"
-        and not corpus["models"]["judge"]["must_differ_from_generator_family"]
-    ):
-        missing.append(
-            "corpus.models.judge.must_differ_from_generator_family must be true"
-        )
     return missing
 
 
@@ -371,27 +364,37 @@ def _validate_paraphrases(paraphrases: Mapping[str, Any]) -> None:
 def _validate_hard_negatives(hard_negatives: Mapping[str, Any]) -> None:
     _require_keys(
         hard_negatives,
-        {"types", "quota_per_type"},
+        {"types", "quota_per_type", "not_applicable_allowed"},
         "corpus.hard_negatives",
     )
     if hard_negatives["types"] != ["E", "N", "T", "S"]:
         raise CorpusConfigError(
             "corpus.hard_negatives.types must be [E, N, T, S]"
         )
+    if not isinstance(hard_negatives["not_applicable_allowed"], bool):
+        raise CorpusConfigError(
+            "corpus.hard_negatives.not_applicable_allowed must be boolean"
+        )
     _positive_integer(
         hard_negatives["quota_per_type"],
         "corpus.hard_negatives.quota_per_type",
     )
+    if hard_negatives["quota_per_type"] > 50:
+        raise CorpusConfigError(
+            "corpus.hard_negatives.quota_per_type must not exceed 50"
+        )
 
 
 def _validate_cache_responses(cache_responses: Mapping[str, Any]) -> None:
     _require_keys(
         cache_responses,
-        {"provider", "temperature"},
+        {"provider", "model", "temperature"},
         "corpus.cache_responses",
     )
     if cache_responses["provider"] != "ollama":
         raise CorpusConfigError("corpus.cache_responses.provider must be 'ollama'")
+    if not isinstance(cache_responses["model"], str) or not cache_responses["model"].strip():
+        raise CorpusConfigError("corpus.cache_responses.model must be a non-empty string")
     if (
         isinstance(cache_responses["temperature"], bool)
         or not isinstance(cache_responses["temperature"], (int, float))
@@ -408,6 +411,8 @@ def _validate_audit(audit: Mapping[str, Any]) -> None:
         {
             "samples_per_stratum",
             "strata",
+            "match_configuration",
+            "minimum_cohen_kappa",
             "regeneration_accuracy_threshold",
             "confidence_interval",
         },
@@ -422,6 +427,14 @@ def _validate_audit(audit: Mapping[str, Any]) -> None:
             "corpus.audit.strata must be "
             "[P1, P2, P3, P4, E, N, T, S, unrelated]"
         )
+    if audit["match_configuration"] not in {
+        "minilm_cosine",
+        "bge_cosine",
+        "minilm_crossencoder_top5",
+        "lexical_difflib",
+    }:
+        raise CorpusConfigError("corpus.audit.match_configuration is not recognized")
+    _probability(audit["minimum_cohen_kappa"], "corpus.audit.minimum_cohen_kappa")
     _probability(
         audit["regeneration_accuracy_threshold"],
         "corpus.audit.regeneration_accuracy_threshold",
@@ -433,27 +446,82 @@ def _validate_audit(audit: Mapping[str, Any]) -> None:
 
 
 def _validate_models(models: Mapping[str, Any]) -> None:
+    """Validate model entries and enforce judge.family != generator.family at load.
+
+    The family-differ check is an unconditional load-time invariant: a judge
+    from the same model family as the generator introduces circular validation
+    bias.  Raising here (rather than deferring to a stage check) ensures that
+    no pipeline stage can run against a misconfigured file.
+    """
     expected_roles = {"generator", "fallback", "judge"}
     _require_keys(models, expected_roles, "corpus.models")
     for role in expected_roles:
         model = _required_mapping(models, role, "corpus.models")
-        expected_model_keys = {"id", "version"}
-        if role == "judge":
-            expected_model_keys.add("must_differ_from_generator_family")
+        expected_model_keys = {"provider", "id", "family", "temperature"}
         _require_keys(model, expected_model_keys, f"corpus.models.{role}")
-        _nullable_nonempty_string(model["id"], f"corpus.models.{role}.id")
-        _nullable_nonempty_string(
-            model["version"], f"corpus.models.{role}.version"
-        )
-        if (model["id"] is None) != (model["version"] is None):
+        if not isinstance(model["provider"], str) or not model["provider"].strip():
             raise CorpusConfigError(
-                f"corpus.models.{role}.id and version must both be set or both be null"
+                f"corpus.models.{role}.provider must be a non-empty string"
             )
-        if role == "judge":
-            if not isinstance(
-                model["must_differ_from_generator_family"], bool
-            ):
-                raise CorpusConfigError(
-                    "corpus.models.judge.must_differ_from_generator_family "
-                    "must be boolean"
-                )
+        _nullable_nonempty_string(model["id"], f"corpus.models.{role}.id")
+        _nullable_nonempty_string(model["family"], f"corpus.models.{role}.family")
+        if (
+            isinstance(model["temperature"], bool)
+            or not isinstance(model["temperature"], (int, float))
+            or model["temperature"] < 0
+        ):
+            raise CorpusConfigError(
+                f"corpus.models.{role}.temperature must be a non-negative number"
+            )
+
+    # Enforce family-differ invariant unconditionally at load time.
+    gen_family = models["generator"].get("family")
+    judge_family = models["judge"].get("family")
+    if (
+        gen_family is not None
+        and judge_family is not None
+        and gen_family.strip().lower() == judge_family.strip().lower()
+    ):
+        raise CorpusConfigError(
+            f"corpus.models.judge.family ({judge_family!r}) must differ from "
+            f"corpus.models.generator.family ({gen_family!r}); using the same "
+            "model family for both generator and judge introduces circular "
+            "validation bias."
+        )
+
+
+def _validate_embeddings(embeddings: Mapping[str, Any]) -> None:
+    """Validate the embeddings section (primary + secondary entries)."""
+    _require_keys(
+        embeddings,
+        {"primary", "secondary"},
+        "corpus.embeddings",
+    )
+    for slot in ("primary", "secondary"):
+        entry = _required_mapping(embeddings, slot, "corpus.embeddings")
+        _require_keys(entry, {"provider", "id"}, f"corpus.embeddings.{slot}")
+        if not isinstance(entry["provider"], str) or not entry["provider"].strip():
+            raise CorpusConfigError(
+                f"corpus.embeddings.{slot}.provider must be a non-empty string"
+            )
+        if not isinstance(entry["id"], str) or not entry["id"].strip():
+            raise CorpusConfigError(
+                f"corpus.embeddings.{slot}.id must be a non-empty string"
+            )
+
+
+def _validate_reranker(reranker: Mapping[str, Any]) -> None:
+    """Validate the reranker section."""
+    _require_keys(
+        reranker,
+        {"provider", "id"},
+        "corpus.reranker",
+    )
+    if not isinstance(reranker["provider"], str) or not reranker["provider"].strip():
+        raise CorpusConfigError(
+            "corpus.reranker.provider must be a non-empty string"
+        )
+    if not isinstance(reranker["id"], str) or not reranker["id"].strip():
+        raise CorpusConfigError(
+            "corpus.reranker.id must be a non-empty string"
+        )

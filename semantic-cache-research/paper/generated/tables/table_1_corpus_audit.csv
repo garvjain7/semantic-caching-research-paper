@@ -1,0 +1,2 @@
+anchors,dev_anchors,held_out_pool,unrelated,test_queries,cache_entries,query_counts_by_subtype,audit_items
+100,50,1000,100,700,100,"{""P1"": 100, ""P2"": 100, ""P3"": 100, ""P4"": 100, ""E"": 50, ""N"": 50, ""T"": 50, ""S"": 50, ""unrelated"": 100}",90

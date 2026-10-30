@@ -1,0 +1,10 @@
+﻿analysis_type,rater_a,rater_a_file,rater_b,rater_b_file,rating_field,n,excluded_response_content_mismatch_rows,raw_agreement,cohen_kappa
+ai_rater_pairwise_agreement,ChatGPT GPT-6 Luna,audit_sample_rated.csv,Sonnet 5.5,audit_sample_rated (1).csv,same_information_need,90,0,0.911111,0.821958
+ai_rater_pairwise_agreement,ChatGPT GPT-6 Luna,audit_sample_rated.csv,Sonnet 5.5,audit_sample_rated (1).csv,correct_answer_differs,90,0,0.933333,0.866071
+ai_rater_pairwise_agreement,ChatGPT GPT-6 Luna,audit_sample_rated.csv,Sonnet 5.5,audit_sample_rated (1).csv,cached_response_acceptable,90,0,0.9,0.705882
+ai_rater_pairwise_agreement,ChatGPT GPT-6 Luna,audit_sample_rated.csv,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,same_information_need,90,0,0.933333,0.866469
+ai_rater_pairwise_agreement,ChatGPT GPT-6 Luna,audit_sample_rated.csv,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,correct_answer_differs,90,0,0.933333,0.866469
+ai_rater_pairwise_agreement,ChatGPT GPT-6 Luna,audit_sample_rated.csv,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,cached_response_acceptable,86,4,0.906977,0.76406
+ai_rater_pairwise_agreement,Sonnet 5.5,audit_sample_rated (1).csv,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,same_information_need,90,0,0.977778,0.955534
+ai_rater_pairwise_agreement,Sonnet 5.5,audit_sample_rated (1).csv,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,correct_answer_differs,90,0,0.955556,0.910979
+ai_rater_pairwise_agreement,Sonnet 5.5,audit_sample_rated (1).csv,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,cached_response_acceptable,86,4,0.872093,0.663824

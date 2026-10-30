@@ -1,0 +1,13 @@
+{"query_id": "train:80729:P3", "anchor_id": "train:80729", "subtype": "P3", "error": "maximum validation retries exhausted for P3"}
+{"query_id": "train:58916:P3", "anchor_id": "train:58916", "subtype": "P3", "error": "maximum validation retries exhausted for P3"}
+{"query_id": "train:8243:P2", "anchor_id": "train:8243", "subtype": "P2", "error": "maximum validation retries exhausted for P2"}
+{"query_id": "train:8243:P3", "anchor_id": "train:8243", "subtype": "P3", "error": "maximum validation retries exhausted for P3"}
+{"query_id": "train:8243:P4", "anchor_id": "train:8243", "subtype": "P4", "error": "maximum validation retries exhausted for P4"}
+{"query_id": "train:37955:P2", "anchor_id": "train:37955", "subtype": "P2", "error": "maximum validation retries exhausted for P2"}
+{"query_id": "train:37955:P3", "anchor_id": "train:37955", "subtype": "P3", "error": "maximum validation retries exhausted for P3"}
+{"query_id": "validation:2914:P1", "anchor_id": "validation:2914", "subtype": "P1", "error": "maximum validation retries exhausted for P1"}
+{"query_id": "validation:2914:P2", "anchor_id": "validation:2914", "subtype": "P2", "error": "maximum validation retries exhausted for P2"}
+{"query_id": "validation:2914:P4", "anchor_id": "validation:2914", "subtype": "P4", "error": "maximum validation retries exhausted for P4"}
+{"query_id": "train:69263:P2", "anchor_id": "train:69263", "subtype": "P2", "error": "maximum validation retries exhausted for P2"}
+{"query_id": "train:69263:P3", "anchor_id": "train:69263", "subtype": "P3", "error": "maximum validation retries exhausted for P3"}
+{"query_id": "train:69263:P4", "anchor_id": "train:69263", "subtype": "P4", "error": "maximum validation retries exhausted for P4"}

@@ -1,0 +1,2 @@
+﻿anchors,dev_anchors,held_out_pool,unrelated,test_queries,cache_entries,query_counts_by_subtype,audit_items,audit_ratings_source,ratings_judge_raw_agreement,ratings_judge_cohen_kappa,meets_kappa_target
+100,50,1000,100,663,100,"{""P1"": 92, ""P2"": 92, ""P3"": 90, ""P4"": 89, ""E"": 50, ""N"": 50, ""T"": 50, ""S"": 50, ""unrelated"": 100}",90,ai_consensus,0.7111111111111111,0.4155844155844156,False

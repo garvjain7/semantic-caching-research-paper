@@ -1,195 +1,87 @@
-# PROJECT_STATE.md
-_Last updated: 2026-07-15_
+# Project State: Semantic Caching Research
 
----
+_Updated 2026-10-30. This file is the human-readable current-state record. For exact parameters, `semantic-cache-research/configs/corpus.yaml` is authoritative; manifests and saved result files are authoritative for achieved counts and measurements._
 
-# Project Vision
+## Project objective
 
-**What we are building:**
-A research system studying semantic caching for RAG/LLM pipelines — specifically, a caching layer that measures the tradeoff between cost savings (LLM calls avoided) and correctness (false-hit rate) as a function of similarity threshold, embedding model, and cache scale, using a controlled synthetic paraphrase/hard-negative workload.
+Measure how a static semantic cache trades judged response correctness against model-call savings as its similarity threshold changes. The controlled workload is built from NQ-Open questions and contains paraphrases at four generated difficulty levels, four typed hard-negative classes, and unrelated questions. The study compares four matching configurations using one fixed cache and a replayable threshold sweep.
 
-**Why we are building it:**
-Technical seminar (guide-supervised) at Poornima Institute of Engineering and Technology, Dept. of Computer Engineering. Deliverable: a research paper with an empirical, reproducible result — not a survey, not a pure engineering build.
+## Current status
 
-**Current phase:**
-Pre-implementation. Topic finalized, literature reviewed, system design and experimental plan finalized. Build not yet started.
+- Repository branch: `develop`.
+- Main corpus: 100 anchors, 50 disjoint development anchors, 1,000 held-out questions, and 700 evaluation queries. The manifest records 100 each for P1–P4, 50 each for E/N/T/S, and 100 unrelated queries.
+- Dataset: NQ-Open `google-research-datasets/nq_open`, revision `5dd9790a83002ad084ddeb7c420dc716852c6f28`, splits `train` and `validation`; seed 42.
+- Cache entries: 100 Llama 3.2:3b responses at temperature 0.
+- Main run: 2,800 retrieval records, 2,800 Phi-4-mini verdicts, 700 fallback records, and ten thresholds for each of four configurations.
+- Figures 1–3 and Tables 1–3 are generated under `semantic-cache-research/paper/generated/`.
+- Supplemental sensitivity outputs for the 90-row audit are saved under `semantic-cache-research/results/judge_robustness/`. They are secondary to the 700-query threshold results.
+- The cache-scale study is not run. Its configuration exists, but its runner/output are not part of the completed main pipeline.
 
----
+## Method in use
 
-# High-Level Architecture
+### Corpus construction
 
-**Current architecture (planned, not yet built):**
-- Embedding layer: sentence-transformer model, starting with `all-MiniLM-L6-v2` (matches GPTCache's default embedding function, giving a fair baseline comparison point).
-- Vector index: FAISS (or plain cosine similarity over numpy) for primary correctness experiments — deliberately NOT Redis in the critical path, to avoid network/infra variance as a confound.
-- Cache logic: embed incoming query → retrieve nearest cached entry + similarity score → threshold τ decision → hit (serve cached answer) or miss (query LLM fallback, cache new entry).
-- Cached answers = dataset gold answers directly (NOT LLM-generated), to eliminate LLM-generation-quality as a confound on correctness measurement.
-- LLM fallback: Ollama, fixed local model (e.g. Llama 3.1 8B or Qwen2.5 7B), temperature 0, used only to measure real cost/latency avoided on a hit — not used to determine correctness.
-- Instrumentation: full per-request logging (query, embedding, retrieved entry, similarity score, threshold, hit/miss label, ground-truth label, latency, tokens) — logged once at fine granularity, metrics recomputed from log rather than rerunning experiments.
-- Optional secondary phase: Redis-backed version for a realistic deployed-latency measurement, only if time remains after core experiments.
+1. Load the pinned NQ-Open revision, preserve its answer lists, filter malformed/ineligible questions, and greedily deduplicate by token-set Jaccard at 0.8, retaining the first occurrence.
+2. Sample anchors, disjoint dev questions, a held-out pool, and unrelated questions with seed 42. Each unrelated question has maximum token Jaccard at most 0.2 to any anchor.
+3. Generate P1–P4 paraphrases with `gemma3:4b`; validate and retry failures. The initial run missed 37 paraphrases; the retry recovered all 37, leaving 100 of each level.
+4. Generate up to 50 E/N/T/S hard negatives per type. NOT_APPLICABLE is permitted; the achieved corpus has 50 for each type and no NOT_APPLICABLE rows in the final quotas.
+5. Store token Jaccard and normalized character edit distance to the anchor (unrelated items use their designated maximum-overlap anchor).
 
-**Major design decisions:** see Decisions Log.
+### Cache experiment
 
-**Technologies:** Python, sentence-transformers, FAISS, Ollama (local LLM), (optional later: Redis/RedisVL).
+- The cache is static during evaluation: it contains the 100 anchor responses and does not insert on a miss.
+- Configurations: MiniLM cosine, BGE cosine, MiniLM top-5 with cross-encoder reranking, and lexical `difflib` ratio.
+- Dense search uses normalized embeddings and exact FAISS flat inner product.
+- The nearest neighbor is stored once per query/configuration, independently of threshold.
+- `llama3.2:3b` is called once per evaluation query for a stored fallback response and latency. `phi4-mini` supplies one stored verdict per query/configuration.
+- The sweep replays stored records over τ=0.50, 0.55, …, 0.95; it does not make model calls per threshold.
+- Metrics include judged false-hit rate, label-based query false-hit rate, false-miss rate, call savings, subtype breakdowns, Wilson 95% intervals, and judge/label disagreement.
 
----
+## Main measured findings
 
-# Current State
+No tested configuration reached judged false-hit rate (JFH) ≤5% at any threshold. The lowest observed JFH for each configuration was:
 
-- Research topic finalized: **Semantic Caching for RAG/LLM Pipelines — Correctness vs. Cost Tradeoffs**.
-- Literature reviewed and gap verified against actual paper methodologies (not assumed).
-- System architecture and experimental design finalized on paper; no code written yet.
-- Timeline: 4 weeks (build + experiment + analysis), then writing phase. Tighter than the original 5–6 week estimate — flagged as a real constraint.
-- Awaiting: Topic Finalization Form submission to guide (Research Area: Distributed Systems and AI Infrastructure); Priority ranking to be filled by guide.
+| Configuration | τ at minimum JFH | Minimum JFH (Wilson 95% CI) | Call savings | Label false-hit rate | False-miss rate |
+|---|---:|---:|---:|---:|---:|
+| MiniLM cosine | 0.75 | 40.3% (35.7–45.1%) | 58.9% | 17.4% | 27.5% |
+| BGE cosine | 0.95 | 38.1% (20.8–59.1%) | 3.0% | 1.4% | 97.3% |
+| MiniLM + cross-encoder | 0.90 | 35.8% (30.2–41.9%) | 36.3% | 5.6% | 46.3% |
+| Lexical `difflib` | 0.60 | 45.9% (40.1–51.9%) | 38.6% | 13.9% | 56.8% |
 
----
+At the shared τ=0.75, judged false-hit rates were 40.3% (MiniLM), 42.7% (BGE), 37.8% (MiniLM reranking), and 56.8% (lexical). Across the tested methods, no threshold provided both low judged false-hit rates and useful savings. The reranked MiniLM configuration had the lowest observed JFH, but that minimum was still 35.8%; it is not a safe operating point.
 
-# Completed
+## Audit scope
 
-- Topic selection process across 4 candidate topics (semantic caching, filtered ANN search, distributed rate limiting, OT/CRDT consistency).
-- Literature scan across all 4 candidates.
-- Final topic selection: Semantic Caching (Topic 1), with Filtered ANN Search as 2nd choice, Distributed Rate Limiting as 3rd, OT/CRDT deprioritized (literature saturated/dated).
-- Corrected/verified gap analysis after checking actual GPTCache and MeanCache evaluation methodologies (see Assumptions → Verified Facts).
-- Full system architecture and dataset construction methodology designed.
-- 4-week execution plan with priority-ordered experiment scope drafted.
-- Guide Q&A prep completed for all three shortlisted topics (semantic caching, filtered ANN, rate limiting).
+The 90-row diagnostic has ten items per stratum and predates recovery of 37 paraphrases; it represents the earlier 663-query version, not the final corpus, and is not a population estimate. Its per-stratum label comparisons are documented in `data/processed/verification_report.md`; main threshold metrics use all 700 queries and saved Phi-4-mini verdicts.
 
----
+## Key artifacts
 
-# In Progress
+- Corpus specification: `corpus_spec.md`
+- Machine-readable configuration: `semantic-cache-research/configs/corpus.yaml`
+- Sampling manifest: `semantic-cache-research/data/processed/sampling_manifest.json`
+- Generation manifest: `semantic-cache-research/data/processed/generation_manifest.json`
+- Final corpus manifest and hashes: `semantic-cache-research/data/processed/final_corpus_manifest.json`
+- Evaluation queries: `semantic-cache-research/data/processed/test_queries.jsonl`
+- Primary records and metrics: `semantic-cache-research/results/threshold_sweep/`
+- Audit analysis: `semantic-cache-research/results/judge_robustness/`
+- Generated figures/tables: `semantic-cache-research/paper/generated/`
+- Manuscript draft: `research_paper.md`
 
-- Nothing in active build yet. Next actionable step is Week 1 of the execution plan (infra build + full paper reading).
+## Reproduction
 
----
+Run from `semantic-cache-research/`:
 
-# Next Tasks (priority order)
+```powershell
+python scripts/run_experiments.py
+python -m analysis.judge_robustness
+python -m analysis.paper_outputs
+```
 
-1. Submit Topic Finalization Form to guide; get priority/approval.
-2. Week 1: Build embedding + FAISS cache-check pipeline + logging. Set up Ollama fallback. Read GPTCache and MeanCache papers in full for accurate related-work citations.
-3. Week 2: Select base QA dataset (verify licensing/format — likely TriviaQA-style, short factual answers). Build paraphrase generator (LLM-based) and hard-negative generator (template/entity-swap based, for guaranteed ground-truth answer change). Generate dataset, measure actual embedding similarity distribution empirically, manually verify a sample (50–100 pairs/group).
-4. Week 3: Run primary threshold sweep (τ 0.70–0.99). Run secondary B (embedding model comparison: MiniLM vs. a stronger model e.g. BGE-base). Run secondary C (cache scale effect: 200 vs 2,000 vs 10,000 filler entries) only if on schedule.
-5. Week 4: Compute confidence intervals (bootstrap/binomial) on hit/false-hit rates. Produce final plots (headline: false-hit-rate vs. cost-savings curve). Draft methodology + results first, then related work, then limitations (flag synthetic-corpus limitation explicitly).
+The experiment runner is idempotent for persisted query/configuration records but may call Ollama for any missing records. The two analysis commands replay stored files. Rebuilding the corpus or cache is a separate, model-backed operation; preserve the current manifests and outputs before doing so.
 
-**Scope-cut rule if Week 2 slips:** drop experiment C first. A (threshold sweep) + B (embedding model) is the non-negotiable minimum publishable core.
+## Remaining work and cautions
 
----
-
-# Blockers
-
-- None currently — pre-implementation stage.
-
----
-
-# Decisions Log
-
-**Decision:** Final research topic is Semantic Caching for RAG/LLM Pipelines.
-**Alternatives considered:** Filtered ANN Search Under Multi-Tenant Constraints; Distributed Rate Limiting Under Network Partitions; OT vs. CRDT consistency for real-time collaborative systems.
-**Why chosen:** User's explicit selection after reviewing guide-question prep for all three shortlisted topics.
-**Date:** 2026-07-15
-
-**Decision:** OT vs. CRDT topic deprioritized to last priority.
-**Alternatives considered:** Keeping as equal 4th option.
-**Why chosen:** Literature is largely a saturated, decade-old debate (2019-era "real differences" framing); genuinely new material (2025 hybrid CRDT-OT paper, 2025 survey) is thin compared to other three topics; high risk of appearing as a rehash.
-**Date:** 2026-07-15
-
-**Decision:** Research topics must NOT be derived by extending/evaluating the user's existing projects (ComplySense, CodeAlive, Viewora/ScanVista).
-**Alternatives considered:** Anchoring topics to existing project architecture/schema for feasibility (original approach, flagged as wrong by user).
-**Why chosen:** User clarified that listed technology areas represent skill background, not literal research scope. Projects may serve as evidence of capability to execute, never as the source/justification of the topic itself.
-**Date:** 2026-07-15 (correction made mid-conversation)
-
-**Decision:** Cached answers in the experimental system will be the dataset's gold answers directly, not LLM-generated answers.
-**Alternatives considered:** Using an LLM to generate the answer to be cached.
-**Why chosen:** Eliminates LLM-generation-quality as a second confound stacked on top of retrieval/caching correctness; keeps the false-hit measurement attributable purely to the caching mechanism.
-**Date:** 2026-07-15
-
-**Decision:** Vector index for primary experiments will be FAISS/in-process, not Redis.
-**Alternatives considered:** Redis (RedisVL) as the vector store from the start, matching production-realistic deployment.
-**Why chosen:** Redis adds network/infra latency variance as an unwanted confound in the correctness-focused experiments. Redis-backed version deferred to an optional secondary "realistic deployed latency" measurement if time allows.
-**Date:** 2026-07-15
-
-**Decision:** Hard-negative pairs (same topic, different gold answer) will be constructed via template/entity-swap methods, not free-form LLM generation.
-**Alternatives considered:** LLM-generated hard negatives (same method as paraphrase group).
-**Why chosen:** Entity-swap gives a guaranteed, verifiable ground-truth answer change; free-form LLM generation risks accidentally preserving the answer, undermining the ground-truth labeling the whole methodology depends on.
-**Date:** 2026-07-15
-
-**Decision:** Gap framing corrected mid-conversation — from "no existing paper sweeps threshold vs. false-hit rate" to the narrower, verified claim: MeanCache does sweep threshold and report precision/F1 (optimal τ=0.83 MPNet, F1 0.89; τ=0.78 Albert, F1 0.88), but on naturally-occurring query duplicates, not a controlled graded-distance corpus with engineered hard negatives, and without a joint cost-savings-vs-false-hit-rate curve as the primary output.
-**Alternatives considered:** Leaving the original, broader (and less accurate) gap claim uncorrected.
-**Why chosen:** Hard rule requires verified facts over assumed ones; correction made immediately upon verifying MeanCache's actual methodology via primary sources.
-**Date:** 2026-07-15
-
-**Decision:** Repository architecture revised from a week-numbered layout to a responsibility/artifact-type-based layout, before implementation began. Final structure: `src/` (all code, includes `dataset_generation/` and `experiment_runner.py`), `configs/` (experiment definitions named by what they test, not by priority letter), `data/` (raw/processed/filler_pool — no code), `results/` (all generated artifacts, regenerable, named by experiment), `analysis/` (metric/plotting code only, no data), `paper/`.
-**Alternatives considered:** Original layout with `data/generation+generated+verified/`, `experiments/configs+runs/`, `analysis/compute_metrics+plots/` (code and generated artifacts mixed in the same folders); experiment folders named `exp_A/exp_B/exp_C` (priority-encoded rather than descriptive); `cache/index.py` and `cache/cache_layer.py` as separate files.
-**Why chosen:** Code and generated artifacts have different lifecycles (hand-written/versioned vs. regenerable/deletable) and mixing them breaks the reproducibility property that "delete results, rerun from src+configs+data/raw, get the same thing back." Priority-letter naming conflates project-management info (belongs in this document) with semantic identity (belongs in the filesystem) and goes stale when priorities shift or experiments are added/rerun. `cache/index.py`+`cache_layer.py` split was unjustified separation for a solo prototype — merged into one `cache.py`. `src/embedding.py`, `llm_fallback.py`, `logger.py` were kept as separate files deliberately — each maps to an already-decided methodological boundary (embedding swap = experiment B, LLM fallback deliberately decoupled from correctness logic, logger is shared infra), not cosmetic separation.
-**Date:** 2026-07-15
-
----
-
-# Important Discussions
-
-- User rejected an early framing where all four candidate research topics were anchored to the user's own existing projects (ComplySense, CodeAlive) as evidence of feasibility. Corrected: topics must be real, independently-existing research problems in the stated technology domains; projects are supporting evidence only, never the topic's origin or justification.
-- Scope-clarification: research area on the finalization form should read "Distributed Systems and AI Infrastructure."
-- Guide-facing Q&A prepared for all three shortlisted topics — includes anticipated "this already exists, what's new" pushback and rehearsed, evidence-grounded answers for each.
-- User set a standing hard rule (stored in memory, applies to this project): no sugarcoating, no fabricated/assumed citations or methodology claims, verify before stating, flag uncertainty explicitly, no comparisons to other students/researchers, don't restate questions unnecessarily, respond in the register of a systems researcher — accuracy and critical analysis over encouragement.
-- User established the PROJECT_STATE.md convention as the project's single source of truth, functioning as an engineering notebook (not a TODO list), to preserve context across long conversations and context-window limits.
-
----
-
-# Assumptions
-
-**Verified facts (checked against primary sources this session):**
-- GPTCache's default `similarity_threshold` config is 0.8 (range 0–1), and its own paper (NLP-OSS 2023 / ACL Anthology) explicitly names threshold-vs-false-positive-rate characterization as unresolved future work, not something it systematically measured.
-- MeanCache (arXiv:2403.02694) sweeps threshold τ and reports precision/recall/F1/accuracy; optimal τ=0.83 with MPNet embeddings (F1 0.89, precision 0.92, accuracy 0.90); optimal τ=0.78 with Albert (F1 0.88, precision 0.86, accuracy 0.88).
-- MeanCache's evaluation corpus is real-world: 27,000 queries from 20 ChatGPT users (professors, developers, grad students), not a controlled synthetic paraphrase/hard-negative corpus.
-- The commonly cited "~31% of LLM queries are redundant" statistic traces to the MeanCache paper's motivation section.
-
-**Current assumptions (NOT yet verified — must be checked before implementation):**
-- Exact choice of base QA dataset (TriviaQA vs. alternative) — licensing and short-answer format need direct verification before committing.
-- Assumed feasibility of running Llama 3.1 8B / Qwen2.5 7B via Ollama locally within the user's available hardware — not yet confirmed.
-- Assumed sample sizes (500+ pairs/group) will be sufficient for statistically meaningful confidence intervals — not yet validated against actual variance once real data is collected.
-- Second embedding model for comparison (tentatively BGE-base) not yet finalized.
-
----
-
-# Future Ideas
-
-- Domain-dependence experiment (open-domain vs. tighter-answer-boundary questions, e.g. numerical/date-sensitive queries) — explicitly out of scope for the 4-week window; noted as future work in the eventual paper rather than attempted now.
-- Multi-turn/conversational context-aware caching extension (as in ContextCache) — not in current scope.
-- Redis-backed deployed-latency measurement as a secondary system-realism result, only if time remains after core experiments.
-
----
-
-# Questions Needing Research
-
-- Final base QA dataset selection and license verification.
-- Confirming local compute is sufficient for the chosen Ollama model at required experiment volume within the timeline.
-- Statistical method for confidence intervals on hit/false-hit rates given final sample sizes (bootstrap vs. binomial CI) — decide once real data volume is known.
-
----
-
-# Risks
-
-- **Dataset construction (Week 2) is the single largest timeline risk.** Generating and validating a controlled graded-distance corpus with reliable ground-truth labels is the hardest, least predictable part of the plan.
-- 4-week timeline is tighter than the original 5–6 week estimate for the full research cycle; writing phase is not yet included in the 4 weeks.
-- Risk that LLM-based paraphrase generation does not reliably produce the intended similarity bucket — mitigated by empirical post-hoc measurement and iteration, but this could consume more of Week 2 than planned.
-- Risk that sample sizes per bucket are too small to produce defensible confidence intervals — won't be known until real data is generated.
-
----
-
-# Session Summary
-
-**Session: 2026-07-15 — Topic finalization and research design**
-
-**What changed:**
-- Research topic finalized (Semantic Caching for RAG/LLM Pipelines).
-- Full system architecture, dataset methodology, experiment priority order, and 4-week execution plan designed.
-- Gap framing corrected after verifying MeanCache/GPTCache methodology directly against primary sources.
-- PROJECT_STATE.md convention established as the project's ongoing source of truth.
-
-**What was learned:**
-- MeanCache already performs a threshold-vs-F1 sweep on real-world data — the actual gap is narrower and more specific (controlled graded-distance corpus + engineered hard negatives + joint cost-savings/false-hit-rate curve) than initially framed.
-- GPTCache's own paper names the threshold/false-positive tradeoff as open future work, which is a citable, defensible motivation hook.
-
-**What remains:**
-- No code has been written yet. Dataset has not been built. Base QA dataset not yet finalized.
-
-**Next recommended task:**
-Begin Week 1: build the embedding + FAISS cache-check + logging pipeline, and complete full (not skimmed) reads of the GPTCache and MeanCache papers for the related-work section.
+1. Review the filled manuscript and verify bibliography entries marked `check` in `claim_sheet.md` before submission.
+2. The secondary cache-scale experiment is configured for 200/2,000/10,000 entries but is not implemented in the main runner and has no results.
+3. Do not claim a threshold meeting a 5% JFH target: none did. Do not generalize the stratified 90-row diagnostic to the final corpus.
+4. Generated text and local model outputs are preserved, but installed Ollama model builds are not pinned as immutable digests in the corpus manifest.

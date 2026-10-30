@@ -1,0 +1,21 @@
+{
+  "dataset": "google-research-datasets/nq_open",
+  "revision": "5dd9790a83002ad084ddeb7c420dc716852c6f28",
+  "seed": 42,
+  "counts": {
+    "anchors.jsonl": 100,
+    "dev_anchors.jsonl": 50,
+    "held_out_pool.jsonl": 1000,
+    "unrelated.jsonl": 100,
+    "test_queries.jsonl": 700,
+    "cache_entries.jsonl": 100
+  },
+  "sha256": {
+    "anchors.jsonl": "b1d298752fdf384bb4ad6b0b51043a08360f3a307113c6e1489d5674cfe5b465",
+    "dev_anchors.jsonl": "051e276e35553f9abc1b5472a7dfd151d5de85b018c51e9ff4236e1fef14deec",
+    "held_out_pool.jsonl": "60bd5dabed26bfaede5fd85f4d1f541febbd9dcbf2dadfad772458d7deb20178",
+    "unrelated.jsonl": "182475a3566427fad4544f537cd471cbdafff842f08013624fbc56f675921001",
+    "test_queries.jsonl": "473675cbd756fdefd457d1c3970133714d5bb5fe4d578dd763e5a2f30cd3d3fc",
+    "cache_entries.jsonl": "b736270d6e8c89419294d04a55b82e0fa8d4db5756a4753d49356aa08d868962"
+  }
+}

@@ -1,0 +1,123 @@
+﻿audit_id,query_text,matched_anchor_text,cached_response,same_information_need,correct_answer_differs,cached_response_acceptable
+A001,New York City lies along the banks of the Hudson.,new york is situated in which river bank,East bank.,,,
+A002,who did *not* play terry benedict in ocean's 11,who played terry benedict in ocean's 11,Eddie Cahill,,,
+A003,What is the name of the Minoan Bronze Age city located on Crete?,a ruined city on crete centre of the minoan bronze age civilisation,Knossos.,,,
+A004,What were the primary ideological justifications for the Imperial rule in Japan during World War II?,what type of government did japan have during ww2,"Authoritarian/Totalitarian, specifically a militarized dictatorship under the Emperor.",,,
+A005,Can you tell me which actor portrayed Terry Benedict in the film Ocean's 11?,who played terry benedict in ocean's 11,Eddie Cahill,,,
+A006,On what date was the film *A Wrinkle in Time* initially released for public viewing?,when does a wrinkle in time come to theaters,"A Wrinkle in Time was released in theaters on March 9, 2018.",,,
+A007,When was the last film in the *Lethal Weapon* series released?,when was the last lethal weapon movie made,The Last Lethal Weapon movie was released in 1998.,,,
+A008,For what urban area is the Oak Lawn district located?,in which city would you find the neighbourhood of oak lawn,"I couldn't find any information on a specific neighborhood called ""Oak Lawn"". However, there are several places with this name, including:
+
+* Oak Lawn, Illinois, USA
+* Oak Lawn, Ontario, Canada
+* Oak Lawn, Queensland, Australia
+
+If you could provide more context or specify which Oak Lawn you are referring to, I'll do my best to provide a more accurate answer.",,,
+A009,"Considering the play *Antigone*, what year was Sophocles born, approximately?",who wrote antigone and what are the dates of his birth and death,Sophocles (c. 496 BCE - 406 BCE).,,,
+A010,Which team currently holds the longest period without a World Series championship?,who has the longest world series drought now,"The Chicago Cubs have the longest World Series drought, with their last championship in 1908, a drought of 108 years.",,,
+A011,Which emblem is featured on the flag of Wales?,which australian cross is on the australian flag,The Commonwealth Star.,,,
+A012,"What character holds the ownership of Plank in the animated series, Ed, Edd n' Eddy?",who owns plank in ed edd and eddy,Plank is owned by Johnny 2x4.,,,
+A013,"So, who played Robin on Batman: The Animated Series?",who was robin in batman the animated series,Robin (Dick Grayson),,,
+A014,What is the kickoff date for the 2018 FIFA World Cup?,when does the 2018 football world cup start,"June 14, 2018",,,
+A015,What year did the Riders achieve victory in the Grey Cup?,when did the riders win the grey cup,"I'm not aware of a team called ""The Riders"" winning the Grey Cup. However, the Saskatchewan Roughriders, a Canadian football team, have won the Grey Cup 14 times, with their most recent win in 2022.",,,
+A016,Could you tell me the total number of people serving in the California State Senate?,how many california state senate members are there,40,,,
+A017,Which year did Ghana first secure a place in the African Cup of Nations?,when did ghana win african cup of nations,Ghana won the African Cup of Nations in 2008.,,,
+A018,Who performed the song 'Fool If You Think It Over'?,who sang fool if you think it over,"I couldn't find any information on a well-known song called ""Fool if You Think It Over"".",,,
+A019,Which year did Ghana actually lift the African Cup of Nations?,when did ghana win african cup of nations,Ghana won the African Cup of Nations in 2008.,,,
+A020,What years did the BBC produce 'Last of the Summer Wine'?,when was last of the summer wine filmed,"The last episode of Last of the Summer Wine was filmed in 2010, and it was broadcast on 25 December 2010.",,,
+A021,"So, like, when exactly did Tyneside officially become a county, yeah?",when did tyne and wear became a county,Tyne and Wear became a county in 1974.,,,
+A022,when were the eagles *not* inducted into the rock and roll hall of fame,when were the eagles inducted into the rock and roll hall of fame,The Eagles were inducted into the Rock and Roll Hall of Fame in 1998.,,,
+A023,Who's the voice behind Brian in the Life of Brian movie?,who sang the theme song for the life of brian,"Not sure who sang the theme song for the Life of Brian, but it was performed by Eric Idle.",,,
+A024,who did *not* play james bond in you only live twice,who played james bond in you only live twice,Sean Connery.,,,
+A025,Which retail locations globally carry Apple merchandise?,where are apple products sold around the world,"Apple products are sold in over 175 countries and territories worldwide, including:
+
+* Apple.com (online store)
+* Apple Stores
+* Authorized Apple Resellers
+* Carrier stores (e.g. Verizon, AT&T, T-Mobile)
+* Retail stores (e.g. Best Buy, Walmart)
+* Online marketplaces (e.g. Amazon, eBay)
+
+Additionally, Apple has a strong presence in many countries through its:
+
+* Apple Authorized Resellers
+* Apple Education Stores
+* Apple Retail Stores
+* Apple Online Store",,,
+A026,french opera with spectacular production elements is called,who sang vande mataram for the first time,Bankim Chandra Chattopadhyay,,,
+A027,Which team secured the championship title in the inaugural IPL season?,which team won the first ever ipl season,Chennai Super Kings.,,,
+A028,"Besides Rickey Henderson, who is another MLB player with over 1,000 career stolen bases?",who holds the stolen base record in mlb,Rickey Henderson holds the stolen base record in MLB with 140 stolen bases.,,,
+A029,Which team's World Series losing streak is the longest currently?,who has won the last 10 world series,"The New York Yankees (2009), San Francisco Giants (2010-2014), Boston Red Sox (2018), Los Angeles Dodgers (2020), Houston Astros (2022)",,,
+A030,On which river's edge is the location of New York City?,new york is situated in which river bank,East bank.,,,
+A031,In what year did Eddie Guerrero claim the WWE championship?,when did eddie guerrero win the wwe championship,"Eddie Guerrero won the WWE Championship on August 28, 2005, at SummerSlam.",,,
+A032,who did *not* play susan walker in miracle on 34th street,who played susan walker in miracle on 34th street,Edna Purviance,,,
+A033,What is the path of totality for the April 2024 eclipse?,when is the eclipse happening in the united states,"There are typically two types of eclipses that occur in the United States: solar eclipses and lunar eclipses. 
+
+Solar eclipses occur when the moon passes directly between the Earth and the sun, blocking the sun's light. These events are relatively rare and can only be seen from a narrow path on Earth.
+
+Lunar eclipses occur when the Earth passes between the sun and the moon, blocking the sun's light from reaching the moon.
+
+The frequency and timing of eclipses vary depending on the location and the type of eclipse.",,,
+A034,which driver converts jdbc calls directly into the vendor-specific database protocol,when will notre dame played michigan state again,"The exact date of the next Notre Dame vs. Michigan State game is not yet determined, but it is expected to be in 2024 or 2025.",,,
+A035,Who voiced Robin in Batman: The Animated Series?,who was robin in batman the animated series,Robin (Dick Grayson),,,
+A036,"So, when did the Jets last take home the Super Bowl trophy?",when was the last time the jets made the super bowl,The New York Jets last appeared in the Super Bowl in 2010 (Super Bowl XLIV) and 1969 (Super Bowl III).,,,
+A037,What year did the division of the Roman Empire formally take effect?,when was rome divided into east and west,476 AD.,,,
+A038,who scored 300 runs in test match for india,who was the last british governor of india,Lord Mountbatten (1947-1948),,,
+A039,the practice of marrying multiple people and getting married multiple times during a lifetime is called,the practice of marrying only one person and getting married only once during a lifetime is called,Monogamy.,,,
+A040,For whom was the book of Acts primarily composed?,who was the book of acts written for,"The Book of Acts was written for a general audience, primarily Gentile (non-Jewish) Christians, to provide an account of the early Christian church and the spread of Christianity in the 1st century.",,,
+A041,"What artist recorded the musical score for the television show, *The Life of Brian*?",who sang the theme song for the life of brian,"Not sure who sang the theme song for the Life of Brian, but it was performed by Eric Idle.",,,
+A042,Can you tell me who performed the music for the show 'The Life of Brian'?,who sang the theme song for the life of brian,"Not sure who sang the theme song for the Life of Brian, but it was performed by Eric Idle.",,,
+A043,What is the primary chemical compound that makes up the enamel of teeth?,of what mineral are the hard tissues of the teeth and alveolar bone composed,Calcium phosphate.,,,
+A044,when did star spangled banner become national anthem,who carried the us flag at opening ceremony,I couldn't find any information on who carried the US flag at the opening ceremony of a specific event.,,,
+A045,"Besides General, what other specific military rank exists within the Marine Corps that denotes a senior leadership position?",what is the highest rank in the marine corps,General,,,
+A046,What year did the U.S. Army Corps of Engineers formally establish its civilian workforce?,when did the us military begin hiring civilians,"The US military began hiring civilians in 1948, with the creation of the Civilian Personnel Act, which allowed for the employment of civilians in support of military operations.",,,
+A047,"So, what year did the Riders actually take home the Grey Cup?",when did the riders win the grey cup,"I'm not aware of a team called ""The Riders"" winning the Grey Cup. However, the Saskatchewan Roughriders, a Canadian football team, have won the Grey Cup 14 times, with their most recent win in 2022.",,,
+A048,what season of blue bloods are we in,this is us season 2 episode 6 air date,"October 24, 2017",,,
+A049,What actor portrayed Virgil in the film *The Heat of the Night*?,who played virgil in the heat of the night,Lionel Barrymore,,,
+A050,What was the smallest country to win a FIFA World Cup tournament?,what was the smallest country to win world cup,"Uruguay (1930) and Costa Rica (2014) are the smallest countries to win the World Cup, with a population of approximately 3.5 million and 5 million, respectively.",,,
+A051,When was the New Zealand Goods and Services Tax initially introduced?,when did nz gst change from 10 to 12.5,I couldn't find any information on a change from 10% to 12.5% GST in New Zealand.,,,
+A052,Which nation secured the victory in the 2010 FIFA Men's World Cup?,which country won the men's fifa football world cup in 2010,Spain.,,,
+A053,From what substance are teeth and their surrounding bone primarily made?,of what mineral are the hard tissues of the teeth and alveolar bone composed,Calcium phosphate.,,,
+A054,"Besides *Antigone*, what other significant tragedies did Sophocles author, and what were the approximate years of his life?",who wrote antigone and what are the dates of his birth and death,Sophocles (c. 496 BCE - 406 BCE).,,,
+A055,What's the name of the primary human character in Avatar?,what is the name of the main human character in avatar,Jake Sully.,,,
+A056,where is data stored in a relational database,who holds the stolen base record in mlb,Rickey Henderson holds the stolen base record in MLB with 140 stolen bases.,,,
+A057,who failed to defeat the last song emperor of china,who defeated the last song emperor of china,"I couldn't find any information on a ""Last Song Emperor of China"".",,,
+A058,That French man who walked across the twin towers.,french guy who walked between the twin towers,You're referring to Philippe Petit.,,,
+A059,What year marked the formal division of the Roman Empire?,when was rome divided into east and west,476 AD.,,,
+A060,"What is the broadcast date for This Is Us season 2, episode 6?",this is us season 2 episode 6 air date,"October 24, 2017",,,
+A061,"According to biblical accounts, what was the Queen of Sheba's kingdom primarily known for?",who is the queen of the south in the bible,"The Queen of Sheba is mentioned in the Bible, specifically in 1 Kings 10:1-13 and 2 Chronicles 9:1-12.",,,
+A062,For whom was 'Vande Mataram' initially performed?,who sang vande mataram for the first time,Bankim Chandra Chattopadhyay,,,
+A063,"Beyond the treaty of Kanagawa, what other significant diplomatic actions did Emperor Kōmei undertake to initiate trade with Western powers?",who opened japan to trade with the treaty of kanagawa,"The United States, specifically Commodore Matthew Perry, opened Japan to trade with the Treaty of Kanagawa in 1854.",,,
+A064,who votes to remove the president from office,what is the highest rank in the marine corps,General,,,
+A065,What is the name of the voice actor who provided the voice for Nick Wilde in Zootopia?,who is the current cast of the talk,I couldn't find any information on a specific talk show with a current cast. Could you please provide more context or clarify which talk show you are referring to?,,,
+A066,when was honolulu chosen as hawaii's capital,what type of government did japan have during ww2,"Authoritarian/Totalitarian, specifically a militarized dictatorship under the Emperor.",,,
+A067,for which team did dominique foxworth play in the nfl,who did domonique foxworth play for in the nfl,"New York Jets, Houston Texans, and New Orleans Saints.",,,
+A068,Which season of Last of the Summer Wine was filmed at Ashton Court?,when was last of the summer wine filmed,"The last episode of Last of the Summer Wine was filmed in 2010, and it was broadcast on 25 December 2010.",,,
+A069,In what year did Canada participate in the FIFA World Cup for the final occasion?,when was the last time canada was in fifa,Canada last hosted the FIFA World Cup in 1986.,,,
+A070,When was the final season episode 2 of The Walking Dead Game released?,the walking dead game final season ep 2 release date,"The Walking Dead: The Final Season - Episode 2 was released on March 26, 2018.",,,
+A071,"Considering the US Marine Corps' hierarchy, what position represents the uppermost tier?",what is the highest rank in the marine corps,General,,,
+A072,What year did the New England Patriots adopt their current logo?,when did the new england patriots change their logo,"The New England Patriots changed their logo in 2002, when they dropped the ""Patriots"" name and introduced the ""Patriots"" logo with a more modern and simplified design.",,,
+A073,the hudson river borders which city?,new york is situated in which river bank,East bank.,,,
+A074,which australian cross is *not* on the australian flag,which australian cross is on the australian flag,The Commonwealth Star.,,,
+A075,"Considering Canada's past participation, in what year did they last compete in the FIFA World Cup?",when was the last time canada was in fifa,Canada last hosted the FIFA World Cup in 1986.,,,
+A076,What is the name of the character who frequently causes trouble for Edd?,who owns plank in ed edd and eddy,Plank is owned by Johnny 2x4.,,,
+A077,what percentage of the us population lives below the poverty line,when did the human population reached 1 billion,1804,,,
+A078,"Considering the religious context, what broader seasonal significance did the period of Lent represent to early Anglo-Saxons?",what is the old english meaning of lent,"""Length"" or ""Stretch""",,,
+A079,"So, like, when did the Patriots swap out their logo for the new one?",when did the new england patriots change their logo,"The New England Patriots changed their logo in 2002, when they dropped the ""Patriots"" name and introduced the ""Patriots"" logo with a more modern and simplified design.",,,
+A080,Which team had the top selection in the 2017 NFL draft?,who got first pick in nfl draft 2017,Myles Garrett,,,
+A081,"What musician penned the song 'Turn Out the Lights, the Party's Over'?",who wrote turn out the lights the party's over,Avicii,,,
+A082,when does peter capaldi *not* start as dr who,when does peter capaldi start as dr who,2014.,,,
+A083,Which biblical figure is often associated with the title 'Queen of the South'?,who is the queen of the south in the bible,"The Queen of Sheba is mentioned in the Bible, specifically in 1 Kings 10:1-13 and 2 Chronicles 9:1-12.",,,
+A084,Who performs the theme music for Peep and the Big Wide World?,who sings peep and the big wide world theme song,The Peep and the Big Wide World theme song is performed by The Learning Station.,,,
+A085,"So, like, when exactly did they split Rome into those two halves?",when was rome divided into east and west,476 AD.,,,
+A086,Where can you locate the Oak Lawn district?,in which city would you find the neighbourhood of oak lawn,"I couldn't find any information on a specific neighborhood called ""Oak Lawn"". However, there are several places with this name, including:
+
+* Oak Lawn, Illinois, USA
+* Oak Lawn, Ontario, Canada
+* Oak Lawn, Queensland, Australia
+
+If you could provide more context or specify which Oak Lawn you are referring to, I'll do my best to provide a more accurate answer.",,,
+A087,How many members serve on the California State Senate?,how many california state senate members are there,40,,,
+A088,actress who links the west wing top of the lake and the handmaids tale,setting for one flew over the cuckoo's nest,"The setting for ""One Flew Over the Cuckoo's Nest"" is a psychiatric hospital in Oregon, USA, specifically the psychiatric ward of the Eastern Oregon State Hospital, during the 1950s.",,,
+A089,what's the top rank in the marines?,what is the highest rank in the marine corps,General,,,
+A090,Who was the first person to carry the US flag at the 2024 Olympic Games?,who carried the us flag at opening ceremony,I couldn't find any information on who carried the US flag at the opening ceremony of a specific event.,,,

@@ -1,10 +1,9 @@
 """
 llm_fallback.py
 
-Wraps a local LLM (via Ollama) used ONLY to measure real cost/latency
-avoided when a cache hit occurs.  This is NOT used to determine
-correctness — cached answers are the dataset's own gold answers, not
-LLM-generated ones (see PROJECT_STATE.md Decisions Log, 2026-07-15).
+Wraps the configured local fallback LLM (via Ollama). Its response and
+latency are cached once per exact prompt for replay; static cache responses
+are generated separately for anchors.
 
 Baseline cost model
 -------------------
@@ -26,12 +25,14 @@ Contains:
     - OllamaClient: generate(prompt) with built-in baseline deduplication.
 """
 
-import time
-# import ollama  # TODO: pip install ollama  (official Python client)
+try:
+    from .dataset_generation.ollama_generation import generate_text
+except ImportError:
+    from dataset_generation.ollama_generation import generate_text
 
 
 class OllamaClient:
-    def __init__(self, model_name: str = "llama3.1:8b"):
+    def __init__(self, model_name: str = "llama3.2:3b"):
         self.model_name = model_name
         # Keyed by query text.  Value: {"answer": str, "latency_seconds": float, "tokens": int}
         # Populated on first miss; reused on all subsequent calls for the same query.
@@ -66,14 +67,13 @@ class OllamaClient:
         Make one real Ollama call.  Returns the raw result dict (without
         the from_baseline_cache flag) so it can be stored in baseline_cache.
         """
-        # t0 = time.perf_counter()
-        # response = ollama.chat(
-        #     model=self.model_name,
-        #     messages=[{"role": "user", "content": prompt}],
-        #     options={"temperature": 0},
-        # )
-        # latency = time.perf_counter() - t0
-        # answer = response["message"]["content"]
-        # tokens = response.get("eval_count", 0)
-        # return {"answer": answer, "latency_seconds": latency, "tokens": tokens}
-        raise NotImplementedError
+        answer, latency, tokens, _ = generate_text(
+            model=self.model_name,
+            prompt=prompt,
+            temperature=0,
+        )
+        return {
+            "answer": answer,
+            "latency_seconds": latency,
+            "tokens": tokens,
+        }

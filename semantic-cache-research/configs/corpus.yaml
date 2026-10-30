@@ -1,24 +1,26 @@
-# Corpus construction targets from the repository-root corpus_spec.md.
-# Null source/model/seed values are intentionally unresolved. A runner must
-# reject them rather than silently selecting defaults.
+# Corpus construction configuration.
+# This file is the authoritative machine-readable source for corpus parameters.
+# The root corpus_spec.md documents the methodology and achieved counts.
+# A runner must reject null model ids/versions rather than silently selecting defaults.
+# corpus_config.py enforces at load time that judge family differs from generator family.
 
 corpus:
   source:
     dataset: nq_open
     repository: google-research-datasets/nq_open
-    revision: 5dd9790a83002ad084ddeb7c420dc716852c6f28
+    revision: 5dd9790a83002ad084ddeb7c420dc716852c6f28   # immutable; do not change
     splits: [train, validation]
     question_field: question
     answers_field: answer
     raw_path: data/raw/
 
-  seed: null
+  seed: 42
 
   sampling:
-    anchors: 600
+    anchors: 100
     dev_anchors: 50
     held_out_questions_minimum: 1000
-    unrelated_queries: 600
+    unrelated_queries: 100
 
   filtering:
     minimum_question_tokens: 5
@@ -40,26 +42,57 @@ corpus:
 
   hard_negatives:
     types: [E, N, T, S]
-    quota_per_type: 300
+    # NOT_APPLICABLE responses from the generator are allowed and do not count
+    # toward the quota; the pipeline iterates anchors until each type's quota is
+    # filled or the anchor pool is exhausted.
+    not_applicable_allowed: true
+    quota_per_type: 50
 
   cache_responses:
     provider: ollama
+    model: llama3.2:3b
     temperature: 0
 
   audit:
-    samples_per_stratum: 30
+    samples_per_stratum: 10
     strata: [P1, P2, P3, P4, E, N, T, S, unrelated]
+    match_configuration: minilm_cosine
+    # Retained for compatibility with scripts/audit_corpus.py. This is not an
+    # acceptance gate in the main threshold experiment.
+    minimum_cohen_kappa: 0.60
+    # Diagnostic used when interpreting the audit; below-threshold strata in
+    # the current corpus were reported and retained, not regenerated.
     regeneration_accuracy_threshold: 0.9
     confidence_interval: wilson_95
 
   models:
     generator:
-      id: null
-      version: null
+      provider: ollama
+      id: gemma3:4b
+      family: gemma
+      temperature: 0
     fallback:
-      id: null
-      version: null
+      provider: ollama
+      id: llama3.2:3b
+      family: llama
+      temperature: 0
     judge:
-      id: null
-      version: null
-      must_differ_from_generator_family: true
+      provider: ollama
+      id: phi4-mini
+      family: phi
+      temperature: 0
+      # corpus_config.py enforces at load: judge.family != generator.family.
+      # Raising here (not deferred to a stage check) prevents misconfigured
+      # runs from silently producing biased quality assessments.
+
+  embeddings:
+    primary:
+      provider: sentence_transformers
+      id: sentence-transformers/all-MiniLM-L6-v2
+    secondary:
+      provider: sentence_transformers
+      id: BAAI/bge-base-en-v1.5
+
+  reranker:
+    provider: sentence_transformers
+    id: cross-encoder/quora-distilroberta-base

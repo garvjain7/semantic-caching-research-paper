@@ -1,0 +1,35 @@
+{
+  "seed": 42,
+  "generator_model": "gemma3:4b",
+  "query_count": 663,
+  "paraphrase_failures_by_level": {
+    "P1": 8,
+    "P2": 8,
+    "P3": 10,
+    "P4": 11
+  },
+  "hard_negative_counts": {
+    "E": 50,
+    "N": 50,
+    "T": 50,
+    "S": 50
+  },
+  "hard_negative_not_applicable_counts": {
+    "E": 0,
+    "N": 0,
+    "T": 0,
+    "S": 0
+  },
+  "hard_negative_invalid_response_counts": {
+    "E": 0,
+    "N": 14,
+    "T": 0,
+    "S": 1
+  },
+  "hard_negative_quota_per_type": 50,
+  "source_files": [
+    "anchors.jsonl",
+    "dev_anchors.jsonl",
+    "unrelated.jsonl"
+  ]
+}

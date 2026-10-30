@@ -1,0 +1,50 @@
+{"source_id": "validation:1555", "split": "validation", "question": "who sings so come and dance with me jai ho", "gold_answers": ["Mahalaxmi Iyer", "Vijay Prakash", "Tanvi Shah", "Sukhvinder Singh"], "role": "dev_anchor"}
+{"source_id": "validation:3241", "split": "validation", "question": "where does the spinal cord become cauda equina", "gold_answers": ["L1 or L2", "the conus medullaris"], "role": "dev_anchor"}
+{"source_id": "train:87777", "split": "train", "question": "total number of branches of yes bank in india", "gold_answers": ["630"], "role": "dev_anchor"}
+{"source_id": "train:30851", "split": "train", "question": "who killed stefano on days of our lives", "gold_answers": ["Hope"], "role": "dev_anchor"}
+{"source_id": "train:54126", "split": "train", "question": "which european nation used australia as a penal colony", "gold_answers": ["Britain"], "role": "dev_anchor"}
+{"source_id": "train:11249", "split": "train", "question": "when is the 14th season of grey's anatomy coming out", "gold_answers": ["September 28, 2017"], "role": "dev_anchor"}
+{"source_id": "train:18548", "split": "train", "question": "who shot jr on dallas the first time", "gold_answers": ["Kristin Shepard"], "role": "dev_anchor"}
+{"source_id": "train:71317", "split": "train", "question": "who plays max on wizards of waverly place", "gold_answers": ["Jake Austin Szymanski"], "role": "dev_anchor"}
+{"source_id": "train:70546", "split": "train", "question": "first indian man to win olympic gold medal", "gold_answers": ["Abhinav Bindra"], "role": "dev_anchor"}
+{"source_id": "train:71449", "split": "train", "question": "who did red john turn out to be", "gold_answers": ["Thomas McAllister"], "role": "dev_anchor"}
+{"source_id": "train:44097", "split": "train", "question": "small insect with a pair of claws on its abdoman", "gold_answers": ["earwigs"], "role": "dev_anchor"}
+{"source_id": "train:13993", "split": "train", "question": "who is the lead singer of all american rejects married to", "gold_answers": ["actress Elena Satine"], "role": "dev_anchor"}
+{"source_id": "train:79977", "split": "train", "question": "when was the i have a dream speech spoken", "gold_answers": ["August 28, 1963"], "role": "dev_anchor"}
+{"source_id": "validation:1588", "split": "validation", "question": "when does the first nba basketball game start", "gold_answers": ["October 17, 2017"], "role": "dev_anchor"}
+{"source_id": "train:76985", "split": "train", "question": "when does my hero academia season 3 episode 13 air", "gold_answers": ["June 30, 2018"], "role": "dev_anchor"}
+{"source_id": "validation:2132", "split": "validation", "question": "who led an attack that allowed for american victory at yorktown", "gold_answers": ["George Washington", "Comte de Rochambeau"], "role": "dev_anchor"}
+{"source_id": "train:23615", "split": "train", "question": "who plays gillian in the spy next door", "gold_answers": ["Amber Valletta"], "role": "dev_anchor"}
+{"source_id": "train:25257", "split": "train", "question": "who does the voice for buzz lightyear in toy story", "gold_answers": ["Tim Allen"], "role": "dev_anchor"}
+{"source_id": "train:7383", "split": "train", "question": "who fights in the battle of the bastards", "gold_answers": ["Jon Snow", "Ramsay Bolton"], "role": "dev_anchor"}
+{"source_id": "train:35742", "split": "train", "question": "who is playing in the community shield 2017", "gold_answers": ["Chelsea", "Arsenal"], "role": "dev_anchor"}
+{"source_id": "train:58888", "split": "train", "question": "who won the men's wimbledon final this year", "gold_answers": ["Roger Federer"], "role": "dev_anchor"}
+{"source_id": "train:12684", "split": "train", "question": "who did rose mciver play on once upon a time", "gold_answers": ["Tinker Bell"], "role": "dev_anchor"}
+{"source_id": "train:84809", "split": "train", "question": "when did oil consumption peak as a share of global energy", "gold_answers": ["1973"], "role": "dev_anchor"}
+{"source_id": "validation:746", "split": "validation", "question": "what is it called when you believe in greek gods", "gold_answers": ["Hellenism", "Hellenic polytheist", "Hellenic Polytheism"], "role": "dev_anchor"}
+{"source_id": "train:64801", "split": "train", "question": "what is the max amount of michelin stars", "gold_answers": ["three"], "role": "dev_anchor"}
+{"source_id": "train:45891", "split": "train", "question": "who plays the best in beauty and the beast", "gold_answers": ["Dan Stevens"], "role": "dev_anchor"}
+{"source_id": "train:66047", "split": "train", "question": "nobel prize for economics was instituted by who", "gold_answers": ["Swedish National Bank"], "role": "dev_anchor"}
+{"source_id": "train:67544", "split": "train", "question": "what is the current size of the house of representatives", "gold_answers": ["435"], "role": "dev_anchor"}
+{"source_id": "train:38365", "split": "train", "question": "similarly if you listed the current counties of england in alphabetical order which would come first", "gold_answers": ["Avon"], "role": "dev_anchor"}
+{"source_id": "train:62965", "split": "train", "question": "where did the chinese settled in trinidad and tobago", "gold_answers": ["began in 1806"], "role": "dev_anchor"}
+{"source_id": "train:75616", "split": "train", "question": "what was the last episode of last man standing", "gold_answers": ["March 31, 2017"], "role": "dev_anchor"}
+{"source_id": "train:35970", "split": "train", "question": "who plays rodrick from diary of a wimpy kid", "gold_answers": ["Devon Bostick"], "role": "dev_anchor"}
+{"source_id": "train:14528", "split": "train", "question": "who does the british virgin islands belong to", "gold_answers": ["Elizabeth II"], "role": "dev_anchor"}
+{"source_id": "train:70842", "split": "train", "question": "when was the portrait of doge leonardo loredan painted", "gold_answers": ["1501"], "role": "dev_anchor"}
+{"source_id": "train:9265", "split": "train", "question": "when does cristina yang come back in season 9", "gold_answers": ["\"Beautiful Doom\""], "role": "dev_anchor"}
+{"source_id": "train:85345", "split": "train", "question": "who dies in season 4 of game of thrones", "gold_answers": ["Needle", "Locke", "Oberyn", "Ygritte", "Lysa", "One giant", "The Ironborn", "Styr", "Jojen", "several people"], "role": "dev_anchor"}
+{"source_id": "validation:3569", "split": "validation", "question": "what is the central idea of the poem the rime of ancient mariner", "gold_answers": ["a violation of nature"], "role": "dev_anchor"}
+{"source_id": "train:51062", "split": "train", "question": "when was the first fourth of july celebrated", "gold_answers": ["1777"], "role": "dev_anchor"}
+{"source_id": "train:4170", "split": "train", "question": "who wrote cant take my eyes off of you", "gold_answers": ["Bob Crewe", "Bob Gaudio"], "role": "dev_anchor"}
+{"source_id": "train:19924", "split": "train", "question": "who plays jax wife on sons of anarchy", "gold_answers": ["Maggie Siff"], "role": "dev_anchor"}
+{"source_id": "train:73343", "split": "train", "question": "when was the last time fulham played at wembley", "gold_answers": ["26 May 2018"], "role": "dev_anchor"}
+{"source_id": "train:47587", "split": "train", "question": "when did christianity become official religion of roman empire", "gold_answers": ["380 AD"], "role": "dev_anchor"}
+{"source_id": "train:54442", "split": "train", "question": "who played the roll of elizabeth swann in pirates of the caribbean", "gold_answers": ["Keira Knightley"], "role": "dev_anchor"}
+{"source_id": "train:78038", "split": "train", "question": "what language do they speak in the island of dominica", "gold_answers": ["English", "Dominican Creole French"], "role": "dev_anchor"}
+{"source_id": "train:53044", "split": "train", "question": "when was the last time mexico won the fifa", "gold_answers": ["1999"], "role": "dev_anchor"}
+{"source_id": "train:2074", "split": "train", "question": "who played elvis in the movie elvis and me", "gold_answers": ["Dale Midkiff"], "role": "dev_anchor"}
+{"source_id": "train:53702", "split": "train", "question": "two north indian states where green revolution took place", "gold_answers": ["Punjab", "Haryana"], "role": "dev_anchor"}
+{"source_id": "train:37023", "split": "train", "question": "what city is man with a plan set in", "gold_answers": ["suburban Pittsburgh"], "role": "dev_anchor"}
+{"source_id": "train:68662", "split": "train", "question": "who has made the most money on the challenge", "gold_answers": ["Johnny \"Bananas\" Devenanzio"], "role": "dev_anchor"}
+{"source_id": "train:86510", "split": "train", "question": "when was the real marigold hotel series 3 filmed", "gold_answers": ["India", "Udaipur"], "role": "dev_anchor"}

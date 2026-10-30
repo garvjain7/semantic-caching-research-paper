@@ -1,0 +1,44 @@
+{
+  "dataset": "google-research-datasets/nq_open",
+  "revision": "5dd9790a83002ad084ddeb7c420dc716852c6f28",
+  "splits": [
+    "train",
+    "validation"
+  ],
+  "seed": 42,
+  "filter_report": {
+    "input_count": 91535,
+    "retained_count": 91461,
+    "rejected_record_count": 74,
+    "rejection_counts_by_rule": {
+      "empty_question": 0,
+      "control_characters": 0,
+      "no_alphabetic_character": 0,
+      "url_present": 35,
+      "markup_present": 31,
+      "token_count_out_of_range": 8,
+      "dominant_token": 0,
+      "empty_answer_list": 0
+    }
+  },
+  "deduplication_report": {
+    "input_count": 91461,
+    "retained_count": 84100,
+    "duplicates_dropped": 7361,
+    "jaccard_comparisons": 2488207,
+    "threshold": 0.8
+  },
+  "achieved_counts": {
+    "anchors": 100,
+    "dev_anchors": 50,
+    "held_out_pool": 1000,
+    "unrelated": 100
+  },
+  "unrelated_maximum_token_jaccard": 0.2,
+  "sha256": {
+    "anchors.jsonl": "b1d298752fdf384bb4ad6b0b51043a08360f3a307113c6e1489d5674cfe5b465",
+    "dev_anchors.jsonl": "051e276e35553f9abc1b5472a7dfd151d5de85b018c51e9ff4236e1fef14deec",
+    "held_out_pool.jsonl": "60bd5dabed26bfaede5fd85f4d1f541febbd9dcbf2dadfad772458d7deb20178",
+    "unrelated.jsonl": "182475a3566427fad4544f537cd471cbdafff842f08013624fbc56f675921001"
+  }
+}
