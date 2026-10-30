@@ -1,45 +1,43 @@
-semantic-cache-research/
-│
-├── src/
-│   ├── embedding.py              # unchanged
-│   ├── cache.py                  # unchanged — orchestrator, delegates to match_strategies
-│   ├── match_strategies.py       # NEW — one file, 3 functions: cosine_threshold, cross_encoder, lexical_match
-│   ├── llm_fallback.py           # unchanged — one real Ollama call per query, cached as baseline cost
-│   ├── logger.py                 # unchanged
-│   ├── dataset_generation/       # unchanged
-│   │   ├── paraphrase_gen.py
-│   │   ├── hard_negative_gen.py
-│   │   └── unrelated_sampler.py
-│   ├── experiment_runner.py      # unchanged in purpose — gains a match_strategy param
-│   │
-│   └── api/
-│       └── main.py               # NEW — all routes in one file: start run, status (polling), list runs, compare
-│
-├── configs/
-│   ├── threshold_sweep.yaml
-│   ├── embedding_comparison.yaml
-│   └── cache_scale.yaml
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   │   └── verification_report.md
-│   └── filler_pool/
-│
-├── results/
-│   ├── threshold_sweep/<run_id>/
-│   ├── embedding_comparison/<run_id>/
-│   └── cache_scale/<run_id>/
-│
+semantic-caching-research/
 ├── analysis/
-│   ├── compute_metrics.py
-│   ├── plots.py
-│   └── notebooks/exploratory_analysis.ipynb
-│
+│   ├── compute_metrics.py       # Metrics and threshold replay
+│   ├── judge_robustness.py      # Supplementary stratified-audit diagnostics
+│   ├── paper_outputs.py         # Figures 1–3 and Tables 1–3
+│   ├── plots.py                 # Plot functions
+│   └── notebooks/               # Exploratory analysis
+├── configs/
+│   ├── corpus.yaml              # Pinned source, sampling, models, corpus rules
+│   ├── threshold_sweep.yaml     # Primary threshold run
+│   ├── embedding_comparison.yaml# Secondary config; models already in main sweep
+│   └── cache_scale.yaml         # Proposed; not implemented or run
+├── data/
+│   ├── raw/                     # Source data guidance
+│   ├── filler_pool/             # Reserved for unrun scale study
+│   └── processed/               # Frozen corpus, manifests, audit files
+├── results/
+│   ├── threshold_sweep/         # Completed primary 700-query results
+│   ├── judge_robustness/        # Supplementary audit sensitivity outputs
+│   ├── embedding_comparison/    # No separate run; main run covers both encoders
+│   └── cache_scale/             # No implementation or results
+├── scripts/
+│   ├── build_corpus.py
+│   ├── generate_queries.py
+│   ├── build_cache.py
+│   ├── audit_corpus.py
+│   └── run_experiments.py
+├── src/
+│   ├── cache.py, embedding.py, match_strategies.py, llm_fallback.py
+│   ├── experiment_runner.py, corpus_config.py, logger.py
+│   ├── dataset_generation/      # Source loading, filters, sampling, generation
+│   └── api/                     # FastAPI interface
 ├── paper/
-│   ├── draft.md
+│   ├── draft.md                 # Navigation stub; active draft is ../research_paper.md
 │   ├── references.bib
-│   └── figures/
-│
-└── ui/
-    └── index.html                # NEW — single page, tabs for Run / Compare, polls /status, no SSE
+│   ├── figures/README.md
+│   └── generated/               # Current figures and CSV tables
+├── requirements.txt
+└── structure.txt                # This file
+
+Project-wide documentation at the workspace root:
+README.md, PROJECT_STATE.md, corpus_spec.md, CORPUS_IMPLEMENTATION_PLAN.md,
+TECHNICAL_OVERVIEW.md, claim_sheet.md, develop-branch.md, research_paper.md.

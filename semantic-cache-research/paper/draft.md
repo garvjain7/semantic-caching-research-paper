@@ -1,15 +1,5 @@
-# Paper Draft
+# Paper Draft Location
 
-_(Placeholder — writing begins in Week 4 per PROJECT_STATE.md.)_
+The active manuscript is [`../research_paper.md`](../../research_paper.md) at the repository root. This file is retained as a navigation stub so contributors do not mistake this directory for the active draft.
 
-Planned structure:
-1. Introduction / motivation
-2. Related work (GPTCache, MeanCache, RAGCache, ContextCache — see
-   the verified reading list)
-3. Methodology (dataset construction, system architecture)
-4. Experimental setup (A: threshold sweep, B: embedding comparison,
-   C: cache scale)
-5. Results
-6. Discussion / limitations (state the synthetic-corpus limitation
-   explicitly — do not wait to be asked)
-7. Conclusion
+The generated figures and tables are under `paper/generated/`. Their source is `analysis/paper_outputs.py`; regenerate them from saved experiment files with `python -m analysis.paper_outputs` from `semantic-cache-research/`.

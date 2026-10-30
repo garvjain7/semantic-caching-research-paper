@@ -1,12 +1,5 @@
-# embedding_comparison/
+# Embedding Comparison Status
 
-Generated output only — nothing here is hand-written. Safe to delete
-and regenerate by running:
+This output directory is empty. The separate `embedding_comparison` experiment configuration is retained, but the main completed runner already evaluates both embedding models as part of the four-configuration threshold sweep. Those results are in `../threshold_sweep/metrics_minilm_cosine.jsonl` and `metrics_bge_cosine.jsonl`; there is no separate embedding-comparison run or output set here.
 
-    python -m src.experiment_runner --config configs/embedding_comparison.yaml
-
-Expected contents once populated:
-    - raw_logs/    per-request JSONL logs (see src/logger.py schema)
-    - metrics.csv  computed hit rate / false-hit rate / precision /
-                    cost-savings, with confidence intervals
-                    (see analysis/compute_metrics.py)
+The old `src.experiment_runner --config ...` command is not a valid reproduction command. Use `python scripts/run_experiments.py` from the repository root to run/reuse the main sweep; it evaluates all configured matchers.

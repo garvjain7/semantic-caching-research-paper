@@ -1,12 +1,5 @@
-# cache_scale/
+# Cache-Scale Experiment Status
 
-Generated output only — nothing here is hand-written. Safe to delete
-and regenerate by running:
+This experiment is configured in `configs/cache_scale.yaml` but has not been implemented in the main runner or executed. No cache-scale measurements are present in this directory. Do not cite or interpret it as a completed result.
 
-    python -m src.experiment_runner --config configs/cache_scale.yaml
-
-Expected contents once populated:
-    - raw_logs/    per-request JSONL logs (see src/logger.py schema)
-    - metrics.csv  computed hit rate / false-hit rate / precision /
-                    cost-savings, with confidence intervals
-                    (see analysis/compute_metrics.py)
+The current setting is a proposed fixed threshold of 0.85 and cache sizes 200, 2,000, and 10,000; the threshold should be selected only after an explicit scale-study protocol is implemented. The 700-query main sweep is in `../threshold_sweep/`.

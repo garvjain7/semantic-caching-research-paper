@@ -1,0 +1,38 @@
+﻿query_id,anchor_id,subtype,anchor_question,gold_answers_json,generator_model,seed
+train:84290:P2,train:84290,P2,the bear who fought in world war 2,"[""Wojtek""]",gemma3:4b,42
+train:84290:P3,train:84290,P3,the bear who fought in world war 2,"[""Wojtek""]",gemma3:4b,42
+train:84290:P4,train:84290,P4,the bear who fought in world war 2,"[""Wojtek""]",gemma3:4b,42
+train:80729:P3,train:80729,P3,when did the human population reached 1 billion,"[""1804""]",gemma3:4b,42
+train:80729:P4,train:80729,P4,when did the human population reached 1 billion,"[""1804""]",gemma3:4b,42
+train:58916:P1,train:58916,P1,who dies in book 7 of harry potter,"[""Dumbledore""]",gemma3:4b,42
+train:58916:P2,train:58916,P2,who dies in book 7 of harry potter,"[""Dumbledore""]",gemma3:4b,42
+train:58916:P3,train:58916,P3,who dies in book 7 of harry potter,"[""Dumbledore""]",gemma3:4b,42
+train:58916:P4,train:58916,P4,who dies in book 7 of harry potter,"[""Dumbledore""]",gemma3:4b,42
+train:70077:P1,train:70077,P1,a ruined city on crete centre of the minoan bronze age civilisation,"[""Knossos""]",gemma3:4b,42
+train:86384:P4,train:86384,P4,this is us season 2 episode 6 air date,"[""October 31, 2017""]",gemma3:4b,42
+train:32421:P1,train:32421,P1,which team won the first ever ipl season,"[""Rajasthan Royals""]",gemma3:4b,42
+train:32421:P2,train:32421,P2,which team won the first ever ipl season,"[""Rajasthan Royals""]",gemma3:4b,42
+train:32421:P3,train:32421,P3,which team won the first ever ipl season,"[""Rajasthan Royals""]",gemma3:4b,42
+train:8243:P1,train:8243,P1,who votes in pa special election march 13,"[""Pennsylvania's 18th congressional district""]",gemma3:4b,42
+train:8243:P2,train:8243,P2,who votes in pa special election march 13,"[""Pennsylvania's 18th congressional district""]",gemma3:4b,42
+train:8243:P3,train:8243,P3,who votes in pa special election march 13,"[""Pennsylvania's 18th congressional district""]",gemma3:4b,42
+train:8243:P4,train:8243,P4,who votes in pa special election march 13,"[""Pennsylvania's 18th congressional district""]",gemma3:4b,42
+train:4488:P1,train:4488,P1,what chapter in the bible has the 10 commandments,"[""Exodus 34:28"", ""Deuteronomy 10:4""]",gemma3:4b,42
+train:4488:P2,train:4488,P2,what chapter in the bible has the 10 commandments,"[""Exodus 34:28"", ""Deuteronomy 10:4""]",gemma3:4b,42
+train:4488:P3,train:4488,P3,what chapter in the bible has the 10 commandments,"[""Exodus 34:28"", ""Deuteronomy 10:4""]",gemma3:4b,42
+train:4488:P4,train:4488,P4,what chapter in the bible has the 10 commandments,"[""Exodus 34:28"", ""Deuteronomy 10:4""]",gemma3:4b,42
+train:37955:P1,train:37955,P1,who has won the last 10 world series,"[""St. Louis Cardinals"", ""Houston Astros"", ""San Francisco Giants"", ""Chicago Cubs"", ""Boston Red Sox"", ""New York Yankees"", ""Philadelphia Phillies"", ""Kansas City Royals""]",gemma3:4b,42
+train:37955:P2,train:37955,P2,who has won the last 10 world series,"[""St. Louis Cardinals"", ""Houston Astros"", ""San Francisco Giants"", ""Chicago Cubs"", ""Boston Red Sox"", ""New York Yankees"", ""Philadelphia Phillies"", ""Kansas City Royals""]",gemma3:4b,42
+train:37955:P3,train:37955,P3,who has won the last 10 world series,"[""St. Louis Cardinals"", ""Houston Astros"", ""San Francisco Giants"", ""Chicago Cubs"", ""Boston Red Sox"", ""New York Yankees"", ""Philadelphia Phillies"", ""Kansas City Royals""]",gemma3:4b,42
+train:37955:P4,train:37955,P4,who has won the last 10 world series,"[""St. Louis Cardinals"", ""Houston Astros"", ""San Francisco Giants"", ""Chicago Cubs"", ""Boston Red Sox"", ""New York Yankees"", ""Philadelphia Phillies"", ""Kansas City Royals""]",gemma3:4b,42
+validation:2914:P1,validation:2914,P1,who won la liga in the last 10 years,"[""Real Madrid"", ""Barcelona"", ""Atlético Madrid""]",gemma3:4b,42
+validation:2914:P2,validation:2914,P2,who won la liga in the last 10 years,"[""Real Madrid"", ""Barcelona"", ""Atlético Madrid""]",gemma3:4b,42
+validation:2914:P3,validation:2914,P3,who won la liga in the last 10 years,"[""Real Madrid"", ""Barcelona"", ""Atlético Madrid""]",gemma3:4b,42
+validation:2914:P4,validation:2914,P4,who won la liga in the last 10 years,"[""Real Madrid"", ""Barcelona"", ""Atlético Madrid""]",gemma3:4b,42
+validation:1526:P3,validation:1526,P3,who sang original i want a hippopotamus for christmas,"[""Gayla Peevey""]",gemma3:4b,42
+train:68542:P4,train:68542,P4,the walking dead game final season ep 2 release date,"[""September 25, 2018""]",gemma3:4b,42
+train:69263:P1,train:69263,P1,when did nz gst change from 10 to 12.5,"[""1 July 1989""]",gemma3:4b,42
+train:69263:P2,train:69263,P2,when did nz gst change from 10 to 12.5,"[""1 July 1989""]",gemma3:4b,42
+train:69263:P3,train:69263,P3,when did nz gst change from 10 to 12.5,"[""1 July 1989""]",gemma3:4b,42
+train:69263:P4,train:69263,P4,when did nz gst change from 10 to 12.5,"[""1 July 1989""]",gemma3:4b,42
+train:2769:P4,train:2769,P4,who has the longest world series drought now,"[""Cleveland Indians""]",gemma3:4b,42

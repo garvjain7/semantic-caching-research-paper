@@ -1,0 +1,77 @@
+{
+  "analysis": "AI judge robustness and audit label sensitivity",
+  "interpretation": "Supplemental AI-vs-AI analysis of rating-source consistency and threshold sensitivity.",
+  "audit_sample_rows": 90,
+  "audit_sampled_from_query_count": 663,
+  "final_corpus_query_count": 700,
+  "saved_ai_consensus_judge_kappa": 0.4155844155844156,
+  "rating_sources": {
+    "chatgpt_gpt6_luna": {
+      "display_name": "ChatGPT GPT-6 Luna",
+      "source_file": "audit_sample_rated.csv",
+      "ratings_per_field": 90,
+      "yes_counts": {
+        "same_information_need": 48,
+        "correct_answer_differs": 42,
+        "cached_response_acceptable": 21
+      }
+    },
+    "sonnet_5_5": {
+      "display_name": "Sonnet 5.5",
+      "source_file": "audit_sample_rated (1).csv",
+      "ratings_per_field": 90,
+      "yes_counts": {
+        "same_information_need": 46,
+        "correct_answer_differs": 42,
+        "cached_response_acceptable": 18
+      }
+    },
+    "claude_sonnet_4_6": {
+      "display_name": "Claude Sonnet 4.6 (Thinking; reviewer_model field)",
+      "source_file": "audit_sample_antigravity_v2.csv",
+      "ratings_per_field": 90,
+      "yes_counts": {
+        "same_information_need": 46,
+        "correct_answer_differs": 44,
+        "cached_response_acceptable": 29
+      }
+    }
+  },
+  "model_family_note": "Claude Sonnet 4.6 and Sonnet 5.5 are from the same model family, so these three outputs should not be treated as fully independent evidence.",
+  "response_content_mismatch_audit_ids_by_rater": {
+    "chatgpt_gpt6_luna": [],
+    "sonnet_5_5": [],
+    "claude_sonnet_4_6": [
+      "A008",
+      "A025",
+      "A033",
+      "A086"
+    ]
+  },
+  "rows_with_exact_response_match_across_all_sources": 86,
+  "cached_response_unanimous_on_exactly_aligned_rows": 72,
+  "all_three_fields_unanimous_on_exactly_aligned_rows": 67,
+  "pairwise_rater_comparisons": 9,
+  "field_unanimity_counts_out_of_90": {
+    "same_information_need": 82,
+    "correct_answer_differs": 82,
+    "cached_response_acceptable": 74
+  },
+  "field_disagreement_counts_out_of_90": {
+    "same_information_need": 8,
+    "correct_answer_differs": 8,
+    "cached_response_acceptable": 16
+  },
+  "rows_unanimous_on_all_three_fields": 69,
+  "majority_vs_saved_consensus_mismatched_rating_cells": 0,
+  "judge_records_matched": 360,
+  "retrieval_records_matched_for_audit_configuration": 90,
+  "judge_comparison_note": "Phi4 verdicts are compared only on the same audit query/configuration; all reported agreement values are inter-model comparisons.",
+  "threshold_sensitivity_note": "The 90 audit rows are stratified and were sampled from the 663-query pre-recovery corpus. Rates are descriptive diagnostics, not representative estimates for the final 700-query corpus.",
+  "threshold_sensitivity_configuration": "minilm_cosine",
+  "input_sha256": {
+    "audit_sample_rated.csv": "0a5bfb8e8e37d54be1730c280ccb00ca3b5421eaa91e148bb5f466657b70ab52",
+    "audit_sample_rated (1).csv": "8c99106ee3cc6993cc5356b3d958476de85b5136129431ab5eb315d453537a4a",
+    "audit_sample_antigravity_v2.csv": "5e176aac8d19ae4d776111245fc5c6f21abc6fabdc0282dcb0bfff840dd2679f"
+  }
+}

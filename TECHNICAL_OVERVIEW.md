@@ -1,53 +1,42 @@
-# Semantic Caching for RAG/LLM Pipelines — Technical Overview
+# Technical Overview
 
-## Problem
+## Research question
 
-LLM/RAG systems repeatedly re-answer semantically identical or near-identical queries at full generation cost. Semantic caching addresses this by embedding incoming queries and returning a stored answer when a sufficiently similar query has already been answered — instead of re-invoking the LLM.
+How does a static semantic cache's similarity threshold affect the correctness of reused answers and the number of model calls avoided, under a controlled mix of paraphrases, typed hard negatives, and unrelated queries?
 
-The unsolved part: tightening the similarity threshold to reduce **false hits** (returning a cached answer that is actually wrong for the new query) also reduces the **cost savings** the cache exists to provide. No existing system quantifies this tradeoff under controlled conditions. Prior work (GPTCache, MeanCache) either leaves the threshold-vs-false-positive relationship as unaddressed future work, or measures it against naturally-occurring query traffic — where you don't control how semantically close a "duplicate" pair actually is, and can't isolate exactly where the cache starts making mistakes.
+## System
 
-## What we're building
+Each cache entry is an anchor question paired with a response generated once by `llama3.2:3b` at temperature 0. For each evaluation query, a matcher retrieves one nearest anchor and stores the score. A hit serves the anchor's cached response; a miss uses the stored fallback response. The cache does not insert on a miss during the experiment.
 
-A semantic caching layer, instrumented as a research testbed rather than a production service, to measure that tradeoff directly.
+The same query/configuration retrieval and `phi4-mini` verdict are reused at every threshold. The runner also stores one `llama3.2:3b` fallback response and latency per query. This makes the threshold sweep a replay over persisted records rather than repeated model inference.
 
-**Pipeline:**
-```
-query → embed → nearest-neighbor lookup (vector index) → similarity ≥ τ ?
-                                                          ├─ yes → return cached answer (hit)
-                                                          └─ no  → call LLM, cache new (query, answer) pair (miss)
-```
+## Evaluation data
 
-**Components:**
-- **Embedding model:** sentence-transformer (`all-MiniLM-L6-v2` as baseline — matches GPTCache's default, giving a fair comparison point).
-- **Vector index:** FAISS / in-process cosine similarity (deliberately not Redis in the critical path, to avoid network-latency confounds in the correctness measurements).
-- **Cached answers:** the dataset's own gold answers, not LLM-generated ones — this removes generation-quality as a second confound on top of retrieval correctness.
-- **LLM fallback:** a fixed local model via Ollama (temperature 0), used only to measure real cost/latency avoided on a hit — not used to judge correctness.
-- **Instrumentation:** every request logged in full (query, embedding, retrieved match, similarity score, threshold, hit/miss decision, ground-truth label, latency, tokens).
+The final corpus has 100 anchors, 50 disjoint dev anchors, 1,000 held-out questions, and 700 unique evaluation queries: 100 each of P1–P4, 50 each of E/N/T/S, and 100 unrelated. NQ-Open is pinned to revision `5dd9790a83002ad084ddeb7c420dc716852c6f28`; sampling uses seed 42. See [`corpus_spec.md`](corpus_spec.md) and `semantic-cache-research/data/processed/final_corpus_manifest.json`.
 
-## The actual research contribution
+## Matchers and threshold grid
 
-Not the cache itself — the cache is a fairly standard architecture. The contribution is a **controlled experimental workload with engineered ground truth**, built to isolate the tradeoff:
+1. all-MiniLM-L6-v2 cosine similarity.
+2. BGE-base-en-v1.5 cosine similarity.
+3. MiniLM top-5 retrieval followed by `cross-encoder/quora-distilroberta-base` reranking.
+4. Python `difflib` sequence ratio.
 
-- **Paraphrase group** — reworded queries with the *same* correct answer.
-- **Hard-negative group** — queries that are lexically/topically close but have a *different* correct answer (built via entity-swap templates, not free-form generation, so the ground-truth answer change is guaranteed, not assumed).
-- **Unrelated group** — control baseline.
+Dense search uses a FAISS flat inner-product index over normalized embeddings. The tested threshold grid is 0.50 through 0.95 in steps of 0.05.
 
-Because ground truth is engineered into the dataset itself, "was this a false hit" is a lookup against a known label, not a post-hoc judgment call.
+## Metrics and current result
 
-## Experiments (isolated variables, one at a time)
+The primary correctness metric is the fraction of cache hits whose stored response receives a `false_hit` verdict from Phi-4-mini. Label-based query false-hit rate is a separate measure; false-miss rate, call savings, latency savings, subtype rates, judge/label disagreement, and Wilson 95% intervals are also reported.
 
-| # | Variable | Held fixed | Output |
-|---|---|---|---|
-| A | Similarity threshold τ, swept 0.70–0.99 | everything else | False-hit rate vs. cost-savings curve — the headline result |
-| B | Embedding model (compare 2) | threshold sweep, dataset | Does embedding quality shift the tradeoff curve? |
-| C | Cache scale (e.g. 200 / 2k / 10k background entries) | threshold, embedding model | Does false-hit rate rise as the corpus grows (collision risk)? |
+No matcher reaches a judged false-hit rate of 5% anywhere on the grid. The lowest observed judged false-hit rate is 35.8% for MiniLM plus reranking at τ=0.90, with 36.3% call savings. This is an evaluation result, not a deployment recommendation. Full tables are in `semantic-cache-research/results/threshold_sweep/`.
 
-Each metric is reported with a confidence interval, not a bare percentage.
+## Secondary work
 
-## Stack
+The 90-row audit is a limited, stratified sample from the 663-query pre-recovery corpus. Its additional sensitivity files are supplementary and do not replace the 700-query sweep. The cache-scale configuration exists, but the scale experiment has not been run.
 
-Python, sentence-transformers, FAISS, Ollama (local LLM inference) — no paid API dependency, fully reproducible without external cost.
+## Code map
 
-## Status
-
-4-week execution plan (build → dataset construction → experiments → analysis), scoped so A+B is the non-negotiable minimum result if the timeline compresses, C is dropped first if needed.
+- `semantic-cache-research/src/cache.py`, `match_strategies.py`, `embedding.py`: cache decision and matcher implementations.
+- `semantic-cache-research/src/experiment_runner.py`: retrieval, fallback, and threshold replay stages.
+- `semantic-cache-research/scripts/`: corpus, cache, audit, and main experiment entry points.
+- `semantic-cache-research/analysis/`: metrics, plots, generated tables, and supplemental audit analysis.
+- [`PROJECT_STATE.md`](PROJECT_STATE.md): current project state and reproduction instructions.

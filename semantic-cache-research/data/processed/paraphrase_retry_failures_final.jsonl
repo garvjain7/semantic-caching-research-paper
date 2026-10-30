@@ -1,0 +1,2 @@
+{"query_id": "train:80729:P3", "anchor_id": "train:80729", "subtype": "P3", "error": "candidate omits or changes a number/year in the anchor"}
+{"query_id": "train:69263:P4", "anchor_id": "train:69263", "subtype": "P4", "error": "candidate token-length ratio is 2.200; required range is [0.500, 2.000]"}

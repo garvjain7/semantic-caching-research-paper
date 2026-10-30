@@ -6,7 +6,8 @@ sentence-transformers
 faiss-cpu
 numpy
 pyyaml
+datasets
 matplotlib
 pandas
 scipy
-# ollama  # TODO: confirm exact package name for the Python client
+ollama

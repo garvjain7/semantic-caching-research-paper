@@ -1,0 +1,3 @@
+# Audit rating instructions
+
+For each row, answer each field yes or no based only on the displayed query, anchor, and cached response. Do not infer the intended subtype. `same_information_need` asks whether the query seeks the same information as its anchor. `correct_answer_differs` asks whether the query requires a different correct answer. `cached_response_acceptable` asks whether the shown cached response answers the query. The separate `audit_key.jsonl` contains constructed labels; it was not included with the rating sheet. The saved 90-row sample is a stratified diagnostic, not a representative estimate of the final corpus.

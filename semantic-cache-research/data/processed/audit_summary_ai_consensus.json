@@ -1,0 +1,111 @@
+{
+  "configuration": "minilm_cosine",
+  "audit_items": 90,
+  "ratings_source": "ai_consensus",
+  "ratings_file": "data/processed/audit_sample_consensus_3models.csv",
+  "ratings_judge_raw_agreement": 0.7111111111111111,
+  "ratings_judge_cohen_kappa": 0.4155844155844156,
+  "minimum_cohen_kappa": 0.6,
+  "meets_kappa_target": false,
+  "regeneration_threshold": 0.9,
+  "regeneration_required_strata": [
+    "P3",
+    "P4",
+    "E",
+    "T",
+    "S"
+  ],
+  "per_stratum_intended_label_accuracy": {
+    "P1": {
+      "correct": 9,
+      "total": 10,
+      "accuracy": 0.9,
+      "wilson_95": [
+        0.5958436145024278,
+        0.9821242504842788
+      ],
+      "regeneration_required": false
+    },
+    "P2": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0,
+      "wilson_95": [
+        0.7224598312333834,
+        1.0
+      ],
+      "regeneration_required": false
+    },
+    "P3": {
+      "correct": 7,
+      "total": 10,
+      "accuracy": 0.7,
+      "wilson_95": [
+        0.39677321997956516,
+        0.892210712513788
+      ],
+      "regeneration_required": true
+    },
+    "P4": {
+      "correct": 8,
+      "total": 10,
+      "accuracy": 0.8,
+      "wilson_95": [
+        0.49015684672072335,
+        0.9433190520193067
+      ],
+      "regeneration_required": true
+    },
+    "E": {
+      "correct": 5,
+      "total": 10,
+      "accuracy": 0.5,
+      "wilson_95": [
+        0.23658959361548731,
+        0.7634104063845126
+      ],
+      "regeneration_required": true
+    },
+    "N": {
+      "correct": 9,
+      "total": 10,
+      "accuracy": 0.9,
+      "wilson_95": [
+        0.5958436145024278,
+        0.9821242504842788
+      ],
+      "regeneration_required": false
+    },
+    "T": {
+      "correct": 5,
+      "total": 10,
+      "accuracy": 0.5,
+      "wilson_95": [
+        0.23658959361548731,
+        0.7634104063845126
+      ],
+      "regeneration_required": true
+    },
+    "S": {
+      "correct": 8,
+      "total": 10,
+      "accuracy": 0.8,
+      "wilson_95": [
+        0.49015684672072335,
+        0.9433190520193067
+      ],
+      "regeneration_required": true
+    },
+    "unrelated": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0,
+      "wilson_95": [
+        0.7224598312333834,
+        1.0
+      ],
+      "regeneration_required": false
+    }
+  },
+  "corpus_query_count_at_audit_sampling": 663
+}

@@ -1,84 +1,86 @@
-"""
-cache.py
+"""Static FAISS-backed semantic cache used by the experiment runner."""
 
-Core semantic cache orchestrator: given a query, delegates to one of the
-match strategies in match_strategies.py to decide hit vs. miss, then
-forwards misses to llm_fallback.py.
+from __future__ import annotations
 
-Deliberately combines the vector index and hit/miss decision logic in
-ONE module rather than splitting them — see PROJECT_STATE.md Decisions
-Log (2026-07-15, architecture revision).
-
-Contains:
-    - CacheIndex: wraps a vector index (FAISS or plain cosine) over
-      cached query embeddings.
-    - SemanticCache: exposes lookup(strategy_fn) and insert().
-"""
+from typing import Any
 
 import numpy as np
-# import faiss  # TODO: decide FAISS vs plain in-process cosine for v1
 
 
 class CacheIndex:
-    def __init__(self, dim: int):
+    """Exact inner-product index over normalized anchor embeddings."""
+
+    def __init__(self, dim: int, embedding_backend: str = ""):
+        if isinstance(dim, bool) or not isinstance(dim, int) or dim <= 0:
+            raise ValueError("dim must be a positive integer")
+        try:
+            import faiss
+        except ImportError as exc:
+            raise RuntimeError("The cache index requires the 'faiss-cpu' package") from exc
         self.dim = dim
-        # TODO: initialize FAISS index, or a plain numpy matrix of
-        # embeddings + parallel list of metadata dicts
+        self.embedding_backend = embedding_backend
+        self._faiss = faiss
+        self._index = faiss.IndexFlatIP(dim)
+        self._metadata: list[dict[str, Any]] = []
 
-    def add(self, embedding: np.ndarray, metadata: dict) -> None:
-        """Insert an embedding with its associated (query, answer) metadata."""
-        # TODO: implement
-        raise NotImplementedError
+    def add(self, embedding: np.ndarray, metadata: dict[str, Any]) -> None:
+        vector = self._normalize(embedding)
+        if not isinstance(metadata, dict):
+            raise TypeError("metadata must be a dict")
+        required = {"source_id", "question", "response"}
+        if required - metadata.keys():
+            raise ValueError(f"metadata must contain {sorted(required)}")
+        self._index.add(vector.reshape(1, -1))
+        self._metadata.append(dict(metadata))
 
-    def search(self, query_embedding: np.ndarray, top_k: int = 1):
-        """Return the nearest neighbor(s) and similarity score(s)."""
-        # TODO: implement
-        raise NotImplementedError
+    def search(self, query_embedding: np.ndarray, top_k: int = 1) -> list[dict[str, Any]]:
+        if isinstance(top_k, bool) or not isinstance(top_k, int) or top_k <= 0:
+            raise ValueError("top_k must be a positive integer")
+        if not self._metadata:
+            return []
+        vector = self._normalize(query_embedding)
+        scores, indices = self._index.search(
+            vector.reshape(1, -1), min(top_k, len(self._metadata))
+        )
+        hits = []
+        for score, index in zip(scores[0], indices[0]):
+            if index < 0:
+                continue
+            hits.append({**self._metadata[int(index)], "similarity": float(score)})
+        return hits
 
-    def get_all_queries(self) -> list[dict]:
-        """
-        Return all stored entries as a list of dicts with at least
-        'query' (str) and 'answer' (str) keys.
+    def get_all_queries(self) -> list[dict[str, Any]]:
+        return [dict(item) for item in self._metadata]
 
-        Required by match_strategies.lexical_match for BM25 scoring.
-        """
-        # TODO: implement
-        raise NotImplementedError
+    def _normalize(self, embedding: np.ndarray) -> np.ndarray:
+        vector = np.asarray(embedding, dtype=np.float32).reshape(-1)
+        if vector.size != self.dim:
+            raise ValueError(f"embedding dimension {vector.size} != index dimension {self.dim}")
+        norm = float(np.linalg.norm(vector))
+        if not np.isfinite(norm) or norm == 0:
+            raise ValueError("embedding must have a finite, non-zero norm")
+        return np.ascontiguousarray((vector / norm).astype(np.float32))
 
 
 class SemanticCache:
+    """Thin lookup wrapper; thresholding occurs only after nearest retrieval."""
+
     def __init__(self, embedder, index: CacheIndex, threshold: float = 0.8):
         self.embedder = embedder
         self.index = index
         self.threshold = threshold
 
-    def lookup(self, query: str, strategy_fn=None) -> dict:
-        """
-        Embed the query, then delegate to strategy_fn (or fall back to
-        cosine_threshold) to decide hit vs. miss.
+    def lookup(self, query: str, strategy_fn=None) -> dict[str, Any]:
+        from .match_strategies import cosine_threshold_nn
 
-        All strategies share the unified signature:
-            fn(query, query_embedding, index, threshold) -> dict
-        where:
-            query          : str          — raw text (used by cross_encoder, lexical_match)
-            query_embedding: np.ndarray   — L2-normalised vector (used by cosine_threshold
-                                            and cross_encoder coarse shortlist)
-            index          : CacheIndex
-            threshold      : float
-
-        Returns a dict compatible with RequestLogger.log():
-            {"hit": bool, "cached_answer": str | None,
-             "similarity": float, "threshold": float, "strategy": str}
-        """
-        # TODO: implement
-        # from .match_strategies import cosine_threshold
-        # embedding = self.embedder.embed(query)
-        # fn = strategy_fn or cosine_threshold
-        # result = fn(query, embedding, self.index, self.threshold)
-        # return result
-        raise NotImplementedError
-
-    def insert(self, query: str, answer: str) -> None:
-        """Embed the query and add it to the index with its answer."""
-        # TODO: implement
-        raise NotImplementedError
+        embedding = self.embedder.embed(query)
+        fn = strategy_fn or cosine_threshold_nn
+        result = fn(query, embedding, self.index)
+        return {
+            "hit": result.similarity >= self.threshold,
+            "cached_answer": result.anchor_answer if result.similarity >= self.threshold else None,
+            "similarity": result.similarity,
+            "threshold": self.threshold,
+            "strategy": result.strategy,
+            "neighbour_id": result.neighbour_id,
+        }

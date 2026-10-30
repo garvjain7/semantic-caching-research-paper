@@ -1,39 +1,43 @@
-# Semantic Caching for RAG/LLM Pipelines — Correctness vs. Cost Tradeoffs
+# Semantic Caching Research Project
 
-Undergraduate research seminar project, Department of Computer Engineering, Poornima Institute of Engineering and Technology.
+This is an undergraduate research project on the correctness–cost trade-off in a static semantic cache for question-answering queries. The experiment controls query variation, reuses one fixed cache, and replays stored retrieval and judge results over a threshold grid.
 
-## Overview
+## Current status
 
-LLM and RAG systems repeatedly answer semantically identical or near-identical queries, and semantic caching is the standard fix — but existing systems don't systematically characterize *when a cache hit is actually wrong*. This project builds a semantic caching layer and studies the tradeoff between cost savings (LLM calls avoided) and correctness (false-hit rate) across similarity threshold, embedding model choice, and cache scale, using a controlled synthetic paraphrase / hard-negative workload with engineered ground truth.
+- The active branch is `develop`.
+- The main corpus contains 700 unique evaluation queries: 100 each of P1–P4, 50 each of hard-negative types E/N/T/S, and 100 unrelated queries.
+- The corpus, cache responses, retrieval results, fallback responses, judge verdicts, threshold metrics, and paper figures/tables have been generated.
+- The primary threshold sweep covers four matchers and thresholds 0.50–0.95. No tested configuration reaches the paper draft's planned judged-false-hit target of 5%; treat the results as a trade-off study, not a validated deployment setting.
+- The 90-row stratified audit is a limited diagnostic sampled before the corpus grew from 663 to 700 queries. It is supplementary and does not replace the full-corpus metrics.
+- The cache-scale experiment is configured but has not been run.
 
-**Research area:** Distributed Systems and AI Infrastructure
+## Start here
 
-**Status:** Pre-implementation — topic, system design, dataset methodology, and 4-week execution plan finalized. Build not yet started.
+1. [`PROJECT_STATE.md`](PROJECT_STATE.md) — current, authoritative project context, completed work, results, limitations, and next steps.
+2. [`corpus_spec.md`](corpus_spec.md) — corpus construction rules and achieved audit/corpus facts.
+3. [`semantic-cache-research/configs/corpus.yaml`](semantic-cache-research/configs/corpus.yaml) — authoritative machine-readable corpus and model configuration.
+4. [`research_paper.md`](research_paper.md) — paper draft. Its abstract is the author-provided text; the Results section records the measured sweep and audit findings.
+5. [`semantic-cache-research/results/threshold_sweep/`](semantic-cache-research/results/threshold_sweep/) — primary experiment records and metrics.
 
-## Why this gap exists
+## Repository layout
 
-Prior work on semantic caching (GPTCache, MeanCache, RAGCache, ContextCache, and related systems) reports hit rate, cost savings, or threshold-tuned precision/F1 — but each evaluates on naturally-occurring query traffic, not a corpus with controlled, graded semantic distance and engineered same-answer/different-answer ground truth. GPTCache's own paper names the threshold-vs-false-positive tradeoff as open future work rather than something it systematically measured. This project targets that gap directly, with a joint cost-savings-vs-false-hit-rate curve as the primary result rather than a single-metric report.
+- `semantic-cache-research/src/` — cache, matchers, model wrappers, and corpus-generation modules.
+- `semantic-cache-research/scripts/` — corpus, cache, audit, and experiment entry points.
+- `semantic-cache-research/configs/` — corpus and experiment settings.
+- `semantic-cache-research/data/processed/` — frozen corpus, manifests, audit sample, and generation provenance.
+- `semantic-cache-research/results/threshold_sweep/` — primary run.
+- `semantic-cache-research/results/judge_robustness/` — supplemental audit sensitivity analysis.
+- `semantic-cache-research/results/cache_scale/` — reserved for an unrun secondary experiment.
+- `semantic-cache-research/analysis/` — metric, plotting, paper-output, and supplemental-analysis code.
 
-Full reasoning, verified citations, and the corrected gap analysis are in [`PROJECT_STATE.md`](./PROJECT_STATE.md).
+## Reproducing outputs
 
-## Repository Structure
+Run commands from `semantic-cache-research/`. The main experiment uses local Ollama models and cached sentence-transformer models; missing model outputs may trigger inference. Existing result files are reused by query/configuration ID.
 
+```powershell
+python scripts/run_experiments.py
+python -m analysis.judge_robustness
+python -m analysis.paper_outputs
 ```
-.
-├── README.md          # this file
-├── PROJECT_STATE.md    # single source of truth — living engineering notebook
-```
 
-As implementation begins, this structure will expand to include the caching pipeline, dataset generation scripts, experiment logs, analysis notebooks, and the paper draft. This section will be kept up to date as those are added.
-
-## PROJECT_STATE.md
-
-[`PROJECT_STATE.md`](./PROJECT_STATE.md) is the authoritative, continuously updated record of this project — architecture decisions (with alternatives considered and reasoning), current status, task priority, open risks, verified facts vs. unverified assumptions, and a running decisions log. Start there for full context, especially before making any implementation choice not already decided in that document.
-
-## Timeline
-
-4-week build/experiment/analysis window, followed by writing. See `PROJECT_STATE.md` → Next Tasks for the current week-by-week plan and scope-cut rules if the timeline slips.
-
-## Guide
-
-Topic finalized and submitted for guide review. Priority to be confirmed by guide.
+The last two commands read stored outputs. `run_experiments.py` is the model-backed step. Read [`semantic-cache-research/data/processed/README.md`](semantic-cache-research/data/processed/README.md) before rebuilding the corpus, since that step regenerates data and can make model calls.

@@ -1,0 +1,1000 @@
+{"source_id": "train:84160", "split": "train", "question": "when did the bedroom tax come into force", "gold_answers": ["1 April 2013"], "role": "held_out"}
+{"source_id": "train:12350", "split": "train", "question": "when did the round pound come into circulation", "gold_answers": ["1984"], "role": "held_out"}
+{"source_id": "train:77879", "split": "train", "question": "when do the movie jeepers creepers come out", "gold_answers": ["October 4, 2017"], "role": "held_out"}
+{"source_id": "train:43842", "split": "train", "question": "who was the 50s rocker who used strings on his recordings and overdubbed voices and guitars", "gold_answers": ["Edward Raymond Cochran"], "role": "held_out"}
+{"source_id": "train:24436", "split": "train", "question": "what is the dominant ethnic group of southern south america including argentina and uruguay", "gold_answers": ["Whites"], "role": "held_out"}
+{"source_id": "train:83142", "split": "train", "question": "when was the first manmade object sent into space", "gold_answers": ["3 October 1942"], "role": "held_out"}
+{"source_id": "train:23683", "split": "train", "question": "who voices tintin in the adventures of tintin", "gold_answers": ["Colin O'Meara"], "role": "held_out"}
+{"source_id": "train:86149", "split": "train", "question": "who played felix leiter in the james bond movies", "gold_answers": ["Ian Fleming"], "role": "held_out"}
+{"source_id": "train:25389", "split": "train", "question": "name for british soldiers during the revolutionary war", "gold_answers": ["redcoats"], "role": "held_out"}
+{"source_id": "train:40094", "split": "train", "question": "when was mercyme i can only imagine released", "gold_answers": ["2001"], "role": "held_out"}
+{"source_id": "train:24988", "split": "train", "question": "who wrote in the heart of the sea", "gold_answers": ["Nathaniel Philbrick"], "role": "held_out"}
+{"source_id": "train:62563", "split": "train", "question": "who plays robin hood on once upon a time", "gold_answers": ["Tom Ellis", "Sean Maguire"], "role": "held_out"}
+{"source_id": "train:54989", "split": "train", "question": "who took the first wicket in t20 cricket", "gold_answers": ["Australian Michael Kasprowicz"], "role": "held_out"}
+{"source_id": "train:47721", "split": "train", "question": "what is the height of blue mountain in jamaica", "gold_answers": ["2256 m"], "role": "held_out"}
+{"source_id": "train:44120", "split": "train", "question": "who was the voice of mufasa in disney’s the lion king", "gold_answers": ["James Earl Jones"], "role": "held_out"}
+{"source_id": "train:35169", "split": "train", "question": "the public works administration help make improvements to what part of the nation's economy", "gold_answers": ["internal"], "role": "held_out"}
+{"source_id": "train:76384", "split": "train", "question": "who plays melody in the little mermaid 2", "gold_answers": ["Tara Charendoff"], "role": "held_out"}
+{"source_id": "train:19849", "split": "train", "question": "who is the nobel peace prize named for", "gold_answers": ["Alfred Nobel"], "role": "held_out"}
+{"source_id": "train:17056", "split": "train", "question": "who won the most national championships in college basketball", "gold_answers": ["UCLA"], "role": "held_out"}
+{"source_id": "train:17166", "split": "train", "question": "what is the name of the dog in mary poppins", "gold_answers": ["Andrew"], "role": "held_out"}
+{"source_id": "train:23546", "split": "train", "question": "how many letters are in the hungarian alphabet", "gold_answers": ["44"], "role": "held_out"}
+{"source_id": "train:80044", "split": "train", "question": "who came second in the x factor in 2009", "gold_answers": ["Olly Murs"], "role": "held_out"}
+{"source_id": "train:35464", "split": "train", "question": "who plays the ballet teacher in little rascals", "gold_answers": ["Lea Thompson"], "role": "held_out"}
+{"source_id": "train:73224", "split": "train", "question": "who got the best male playback singer award in the recently announced 64th national film awards", "gold_answers": ["Sundarayyar"], "role": "held_out"}
+{"source_id": "train:34015", "split": "train", "question": "when did burma change its name to myanmar", "gold_answers": ["1989"], "role": "held_out"}
+{"source_id": "train:62316", "split": "train", "question": "who does the voice of roger in american dad", "gold_answers": ["Seth MacFarlane"], "role": "held_out"}
+{"source_id": "train:6749", "split": "train", "question": "how much voltage does an electric eel have", "gold_answers": ["up to 860 volts"], "role": "held_out"}
+{"source_id": "train:37724", "split": "train", "question": "who helped the afghanis fight against the soviet union in their war of the 1980s", "gold_answers": ["Pakistan", "Saudi Arabia", "the United States"], "role": "held_out"}
+{"source_id": "train:69227", "split": "train", "question": "song joong ki name in descendants of the sun", "gold_answers": ["Yoo Si-jin"], "role": "held_out"}
+{"source_id": "train:22818", "split": "train", "question": "which is the only test playing nation that indian has never beaten in t20", "gold_answers": ["New Zealand"], "role": "held_out"}
+{"source_id": "train:43526", "split": "train", "question": "who is the new surgeon general of the united states", "gold_answers": ["Jerome Adams"], "role": "held_out"}
+{"source_id": "train:64098", "split": "train", "question": "when did the chemical attack in syria happen 2017", "gold_answers": ["4 April"], "role": "held_out"}
+{"source_id": "train:41425", "split": "train", "question": "who died on grey's anatomy plane crash", "gold_answers": ["Dr. Lexie Grey"], "role": "held_out"}
+{"source_id": "validation:1564", "split": "validation", "question": "what was the most important new religious figure of the new kingdom of ancient egypt", "gold_answers": ["Aten"], "role": "held_out"}
+{"source_id": "train:45406", "split": "train", "question": "who owns the restaurant houston's in atlanta georgia", "gold_answers": ["Hillstone Restaurant Group"], "role": "held_out"}
+{"source_id": "validation:331", "split": "validation", "question": "who played the mom on what's eating gilbert grape", "gold_answers": ["Darlene Cates"], "role": "held_out"}
+{"source_id": "train:53363", "split": "train", "question": "who plays devon butler in cop and a half", "gold_answers": ["Norman D. Golden II"], "role": "held_out"}
+{"source_id": "train:13030", "split": "train", "question": "how many passing attempts does tom brady have", "gold_answers": ["at least 1,500"], "role": "held_out"}
+{"source_id": "validation:3262", "split": "validation", "question": "what is the filename extension used for all java source files", "gold_answers": [".java"], "role": "held_out"}
+{"source_id": "train:38623", "split": "train", "question": "who played the beast in the movie shot caller", "gold_answers": ["Holt McCallany"], "role": "held_out"}
+{"source_id": "train:33276", "split": "train", "question": "who plays in the girl with the dragon tattoo", "gold_answers": ["Yorick van Wageningen", "Steven Berkoff", "Daniel Craig", "Christopher Plummer", "Robin Wright", "Joely Richardson", "Stellan Skarsgård", "Rooney Mara"], "role": "held_out"}
+{"source_id": "train:25972", "split": "train", "question": "who played tom cruise's wife in the movie the firm", "gold_answers": ["Jeanne Tripplehorn"], "role": "held_out"}
+{"source_id": "train:74854", "split": "train", "question": "when was breath of the wild first announced", "gold_answers": ["2015"], "role": "held_out"}
+{"source_id": "train:42533", "split": "train", "question": "when did jessica jones season 2 come out", "gold_answers": ["March 8, 2018"], "role": "held_out"}
+{"source_id": "validation:2212", "split": "validation", "question": "who invented the cornell method of note taking", "gold_answers": ["Walter Pauk"], "role": "held_out"}
+{"source_id": "train:60279", "split": "train", "question": "who does chris griffin voice on family guy", "gold_answers": ["Seth Green"], "role": "held_out"}
+{"source_id": "train:42218", "split": "train", "question": "when did canada play in the world cup", "gold_answers": ["1986"], "role": "held_out"}
+{"source_id": "train:69935", "split": "train", "question": "who is the actor that plays lucifer in supernatural", "gold_answers": ["Mark Ross Pellegrino"], "role": "held_out"}
+{"source_id": "train:74085", "split": "train", "question": "when was the corpus christi harbor bridge built", "gold_answers": ["Opened\n1959"], "role": "held_out"}
+{"source_id": "train:37984", "split": "train", "question": "teams with 3 or more super bowl wins", "gold_answers": ["Los Angeles/Oakland Raiders", "San Francisco 49ers", "Green Bay Packers", "Denver Broncos", "Pittsburgh Steelers", "Washington Redskins", "New York Giants", "New England Patriots", "Dallas Cowboys"], "role": "held_out"}
+{"source_id": "train:52749", "split": "train", "question": "who won the 24 hours of lemans race", "gold_answers": ["Porsche LMP Team", "Earl Bamber", "Timo Bernhard", "Romain Dumas", "Brendon Hartley"], "role": "held_out"}
+{"source_id": "train:12528", "split": "train", "question": "who won the battle of operation market garden", "gold_answers": ["Germany"], "role": "held_out"}
+{"source_id": "train:69234", "split": "train", "question": "when was the second amendment put in place", "gold_answers": ["December 15, 1791"], "role": "held_out"}
+{"source_id": "train:66371", "split": "train", "question": "term for a member state of the swiss confederation", "gold_answers": ["cantons"], "role": "held_out"}
+{"source_id": "validation:2629", "split": "validation", "question": "lilo and stitch the series season 1 episode 1", "gold_answers": ["Richter"], "role": "held_out"}
+{"source_id": "train:13148", "split": "train", "question": "when did the first season of fuller house come out", "gold_answers": ["February 26, 2016"], "role": "held_out"}
+{"source_id": "train:39174", "split": "train", "question": "lover lover you don't treat me no good no more original artist", "gold_answers": ["American soul group Sonia Dada"], "role": "held_out"}
+{"source_id": "train:36840", "split": "train", "question": "when does the next dbz super episode air", "gold_answers": ["January 20, 2018"], "role": "held_out"}
+{"source_id": "train:3021", "split": "train", "question": "when was the printing press invented in europe", "gold_answers": ["around 1440"], "role": "held_out"}
+{"source_id": "train:40463", "split": "train", "question": "where did mike trout go in the draft", "gold_answers": ["Arizona"], "role": "held_out"}
+{"source_id": "train:33142", "split": "train", "question": "who played cameron in father of the bride", "gold_answers": ["Chauncey Leopardi"], "role": "held_out"}
+{"source_id": "train:13647", "split": "train", "question": "who is the current president of united airlines", "gold_answers": ["Oscar Munoz"], "role": "held_out"}
+{"source_id": "train:81003", "split": "train", "question": "who sang i have often walked down this street before", "gold_answers": ["John Michael King"], "role": "held_out"}
+{"source_id": "train:7274", "split": "train", "question": "which type of soil is formed by leaching process", "gold_answers": ["Laterite"], "role": "held_out"}
+{"source_id": "train:16035", "split": "train", "question": "who is all signed to so so def", "gold_answers": ["Mr.Python", "Jagged Edge", "Da Brat", "J-Kwon", "Miss Mulatto", "Street Bud", "Nova", "Mani", "Sire"], "role": "held_out"}
+{"source_id": "train:53977", "split": "train", "question": "from 1539 to 1542 this spaniard traveled widely throughout the southeastern region of north america", "gold_answers": ["Hernando de Soto"], "role": "held_out"}
+{"source_id": "train:85774", "split": "train", "question": "when did michael record dont matter to me", "gold_answers": ["1983"], "role": "held_out"}
+{"source_id": "train:27966", "split": "train", "question": "the us food stamp program which provides coupons", "gold_answers": ["Supplemental Nutrition Assistance Program"], "role": "held_out"}
+{"source_id": "train:5940", "split": "train", "question": "who crossed the twin towers on a tightrope", "gold_answers": ["Philippe Petit"], "role": "held_out"}
+{"source_id": "train:77903", "split": "train", "question": "who did wilt chamberlain play for in the nba", "gold_answers": ["Philadelphia/San Francisco Warriors", "Los Angeles", "Philadelphia 76ers"], "role": "held_out"}
+{"source_id": "train:76865", "split": "train", "question": "when did the us separate church and state", "gold_answers": ["January 1, 1802"], "role": "held_out"}
+{"source_id": "train:41212", "split": "train", "question": "who sings i love paris in the collection", "gold_answers": ["Etta Jones"], "role": "held_out"}
+{"source_id": "train:14003", "split": "train", "question": "when did social security payments start being taxed", "gold_answers": ["1984"], "role": "held_out"}
+{"source_id": "train:57550", "split": "train", "question": "who has won most medals in winter olympics", "gold_answers": ["Marit Bjørgen"], "role": "held_out"}
+{"source_id": "train:31422", "split": "train", "question": "who owns ringling brothers and barnum & bailey circus", "gold_answers": ["Feld Entertainment"], "role": "held_out"}
+{"source_id": "train:47112", "split": "train", "question": "who made the most three pointers in the nba", "gold_answers": ["Ray Allen"], "role": "held_out"}
+{"source_id": "train:79952", "split": "train", "question": "when did cassie died on young and the restless", "gold_answers": ["2005"], "role": "held_out"}
+{"source_id": "train:36889", "split": "train", "question": "who sang the theme song for as told by ginger", "gold_answers": ["Macy Gray"], "role": "held_out"}
+{"source_id": "train:32040", "split": "train", "question": "what do white blood cells release to attract other white blood cells", "gold_answers": ["Heparin"], "role": "held_out"}
+{"source_id": "train:37703", "split": "train", "question": "what is a fanny pack called in britain", "gold_answers": ["bum bag"], "role": "held_out"}
+{"source_id": "train:50506", "split": "train", "question": "who does selena gomez play in hotel transylvania 2", "gold_answers": ["Mavis D. Loughran"], "role": "held_out"}
+{"source_id": "train:81492", "split": "train", "question": "who plays granny on once upon a time", "gold_answers": ["Beverley Elliott"], "role": "held_out"}
+{"source_id": "train:44992", "split": "train", "question": "who was the man who saved the world", "gold_answers": ["Stanislav Petrov"], "role": "held_out"}
+{"source_id": "train:14648", "split": "train", "question": "atlanta is the capital of which usa state", "gold_answers": ["Georgia"], "role": "held_out"}
+{"source_id": "train:57433", "split": "train", "question": "when did prince edward island become a province", "gold_answers": ["1873"], "role": "held_out"}
+{"source_id": "train:32746", "split": "train", "question": "what genre is our town by thornton wilder", "gold_answers": ["Drama"], "role": "held_out"}
+{"source_id": "train:47583", "split": "train", "question": "who plays the old nun in call the midwife", "gold_answers": ["Judy Parfitt"], "role": "held_out"}
+{"source_id": "train:39160", "split": "train", "question": "who plays will gardner on the good wife", "gold_answers": ["Joshua Aaron Charles"], "role": "held_out"}
+{"source_id": "train:67346", "split": "train", "question": "who did auburn beat in the national championship", "gold_answers": ["Oregon Ducks"], "role": "held_out"}
+{"source_id": "train:72130", "split": "train", "question": "who played the scare crow in wizard of oz", "gold_answers": ["Raymond Wallace Bolger"], "role": "held_out"}
+{"source_id": "train:40492", "split": "train", "question": "according to the declaration of independence what are three unalienable rights", "gold_answers": ["Liberty", "Life", "the pursuit of Happiness"], "role": "held_out"}
+{"source_id": "train:68327", "split": "train", "question": "what rank is an e5 in the air force", "gold_answers": ["Staff Sergeant"], "role": "held_out"}
+{"source_id": "train:42562", "split": "train", "question": "where does it snow the most in australia", "gold_answers": ["the Snowy Mountains"], "role": "held_out"}
+{"source_id": "train:6921", "split": "train", "question": "who played darth vader in star wars 4", "gold_answers": ["David Prowse"], "role": "held_out"}
+{"source_id": "train:4873", "split": "train", "question": "where does the tv show reba take place", "gold_answers": ["Houston, Texas"], "role": "held_out"}
+{"source_id": "train:53551", "split": "train", "question": "which was the first book written in the bible", "gold_answers": ["Book of Genesis"], "role": "held_out"}
+{"source_id": "train:3609", "split": "train", "question": "where did the last name parker come from", "gold_answers": ["Old French"], "role": "held_out"}
+{"source_id": "train:41825", "split": "train", "question": "when does kindred spirits come back on 2017", "gold_answers": ["September 15, 2017"], "role": "held_out"}
+{"source_id": "train:71164", "split": "train", "question": "who gave the statue of liberty to america", "gold_answers": ["the people of France"], "role": "held_out"}
+{"source_id": "train:36911", "split": "train", "question": "what sample of matter is classified as a substance", "gold_answers": ["chemical elements", "chemical compounds", "ions", "alloys"], "role": "held_out"}
+{"source_id": "train:82540", "split": "train", "question": "is the eiffel tower made of steel or iron", "gold_answers": ["wrought iron"], "role": "held_out"}
+{"source_id": "train:19160", "split": "train", "question": "who is were never getting back together about", "gold_answers": ["Jake Gyllenhaal"], "role": "held_out"}
+{"source_id": "train:75729", "split": "train", "question": "what is the monkeys name in the movie aladdin", "gold_answers": ["Abu"], "role": "held_out"}
+{"source_id": "train:42584", "split": "train", "question": "the boiling points of the elements helium neon argon krypton", "gold_answers": ["121.5", "4.4", "27.3", "87.4"], "role": "held_out"}
+{"source_id": "train:64527", "split": "train", "question": "which tribe was allied with the british in the battle of queenston", "gold_answers": ["Mohawk"], "role": "held_out"}
+{"source_id": "train:65536", "split": "train", "question": "writer of song ae mere watan ke logo", "gold_answers": ["Kavi Pradeep"], "role": "held_out"}
+{"source_id": "train:23553", "split": "train", "question": "where did the denver broncos coach come from", "gold_answers": ["Miami Dolphins"], "role": "held_out"}
+{"source_id": "train:83252", "split": "train", "question": "when did the affordable care act became effective", "gold_answers": ["2014"], "role": "held_out"}
+{"source_id": "train:10682", "split": "train", "question": "where is the hearing center of the brain located", "gold_answers": ["The temporal lobe"], "role": "held_out"}
+{"source_id": "train:81096", "split": "train", "question": "when is comedians in cars getting coffee coming to netflix", "gold_answers": ["season ten (2018)"], "role": "held_out"}
+{"source_id": "train:62750", "split": "train", "question": "two structures of the eye which help to focus light on the retina", "gold_answers": ["the cornea and lens"], "role": "held_out"}
+{"source_id": "train:72554", "split": "train", "question": "the only country in the world to have played in every tournament of world cup football", "gold_answers": ["Brazil"], "role": "held_out"}
+{"source_id": "validation:1437", "split": "validation", "question": "what type of government is in north america", "gold_answers": ["Federal presidential constitutional republic", "federal republic"], "role": "held_out"}
+{"source_id": "train:39036", "split": "train", "question": "when was the epistle to the romans written", "gold_answers": ["early 58", "late 56/early 57", "Early 55"], "role": "held_out"}
+{"source_id": "train:49684", "split": "train", "question": "where does the last name mcmillan come from", "gold_answers": ["the Scottish Clan MacMillan"], "role": "held_out"}
+{"source_id": "train:31869", "split": "train", "question": "this question is based on the st. louis arch video. what is the nickname given to the st. louis arch", "gold_answers": ["The Gateway Arch"], "role": "held_out"}
+{"source_id": "train:62049", "split": "train", "question": "when were $1 coins introduced in australia", "gold_answers": ["14 May 1984"], "role": "held_out"}
+{"source_id": "train:82122", "split": "train", "question": "when does tge new star wars movie come out", "gold_answers": ["December 15, 2017"], "role": "held_out"}
+{"source_id": "train:49598", "split": "train", "question": "who wrote kiss me by sixpence none the richer", "gold_answers": ["Matt Slocum"], "role": "held_out"}
+{"source_id": "train:51869", "split": "train", "question": "how many games to get premier league medal", "gold_answers": ["a minimum of five"], "role": "held_out"}
+{"source_id": "train:61942", "split": "train", "question": "what is the boy in the striped pajamas name", "gold_answers": ["Shmuel (Scanlon)", "Bruno (Butterfield)"], "role": "held_out"}
+{"source_id": "train:5412", "split": "train", "question": "what is the name of redmi y1 in china", "gold_answers": ["Redmi Note 5A Prime"], "role": "held_out"}
+{"source_id": "train:25548", "split": "train", "question": "when did the first episode of the 100 air", "gold_answers": ["March 19, 2014"], "role": "held_out"}
+{"source_id": "train:45883", "split": "train", "question": "where does the mousse derive its light texture from", "gold_answers": ["air bubbles"], "role": "held_out"}
+{"source_id": "train:347", "split": "train", "question": "when is game of thrones next book coming out", "gold_answers": ["2018 or later"], "role": "held_out"}
+{"source_id": "train:27474", "split": "train", "question": "what happened to the tv show too close to home", "gold_answers": ["cancelled"], "role": "held_out"}
+{"source_id": "train:62736", "split": "train", "question": "who sang i want to go where love is", "gold_answers": ["Foreigner"], "role": "held_out"}
+{"source_id": "train:12368", "split": "train", "question": "what is the number for pie in math", "gold_answers": ["approximately equal to 3.14159"], "role": "held_out"}
+{"source_id": "train:57976", "split": "train", "question": "what did the sea dogs have that led to their defeat of the spanish armada", "gold_answers": ["Letters of Marque"], "role": "held_out"}
+{"source_id": "train:82085", "split": "train", "question": "shiney bai in great grand masti real name", "gold_answers": ["Sonali Raut"], "role": "held_out"}
+{"source_id": "train:23341", "split": "train", "question": "when was the first suitcase with wheels invented", "gold_answers": ["at least to the 1930s"], "role": "held_out"}
+{"source_id": "train:12047", "split": "train", "question": "when did equal pay for equal work begin", "gold_answers": ["1963"], "role": "held_out"}
+{"source_id": "train:28922", "split": "train", "question": "who died in the movie fast and furious 7", "gold_answers": ["Han"], "role": "held_out"}
+{"source_id": "train:52535", "split": "train", "question": "what is the dogs name from the simpsons", "gold_answers": ["Santa's Little Helper"], "role": "held_out"}
+{"source_id": "train:57344", "split": "train", "question": "who is regarded as the finest stringed instrument builder of all time", "gold_answers": ["Antonio Stradivari"], "role": "held_out"}
+{"source_id": "train:87808", "split": "train", "question": "who does the voiceover for ice road truckers", "gold_answers": ["Thom Beers"], "role": "held_out"}
+{"source_id": "train:64042", "split": "train", "question": "when did the united states congress pass the lend-lease act", "gold_answers": ["March 11, 1941"], "role": "held_out"}
+{"source_id": "train:29594", "split": "train", "question": "which glands secrete the oily substance that lubricates the skin", "gold_answers": ["Sebaceous glands"], "role": "held_out"}
+{"source_id": "train:51633", "split": "train", "question": "who won the best supporting actress award at the 2015 oscars", "gold_answers": ["Alicia Vikander"], "role": "held_out"}
+{"source_id": "train:39239", "split": "train", "question": "country with highest population density per square mile", "gold_answers": ["Monaco"], "role": "held_out"}
+{"source_id": "train:17391", "split": "train", "question": "where does stuck in the middle take place", "gold_answers": ["Massachusetts", "Marshport"], "role": "held_out"}
+{"source_id": "train:17126", "split": "train", "question": "who sang there's a ghost in my house", "gold_answers": ["R. Dean Taylor."], "role": "held_out"}
+{"source_id": "train:49072", "split": "train", "question": "who win the asias next top model season 5", "gold_answers": ["Maureen Wroblewitz"], "role": "held_out"}
+{"source_id": "train:10608", "split": "train", "question": "when do homologous chromosomes separate from each other during meiosis", "gold_answers": ["anaphase I of meiosis I"], "role": "held_out"}
+{"source_id": "train:51311", "split": "train", "question": "who is the patron saint for lost things", "gold_answers": ["Saint Anthony of Padua"], "role": "held_out"}
+{"source_id": "train:7882", "split": "train", "question": "how many super bowls rings do the cowboys have", "gold_answers": ["5"], "role": "held_out"}
+{"source_id": "train:40027", "split": "train", "question": "who sings the song shout from animal house", "gold_answers": ["Otis Day and the Knights"], "role": "held_out"}
+{"source_id": "train:87523", "split": "train", "question": "who played marius in les miserables movie 2012", "gold_answers": ["Eddie Redmayne"], "role": "held_out"}
+{"source_id": "train:47144", "split": "train", "question": "who did the united states support when vietnam first split into north and south vietnam", "gold_answers": ["South Vietnamese army"], "role": "held_out"}
+{"source_id": "train:45238", "split": "train", "question": "who has most isle of man tt wins", "gold_answers": ["Joey Dunlop"], "role": "held_out"}
+{"source_id": "train:16678", "split": "train", "question": "who is the youngest sitting judge on the us supreme court", "gold_answers": ["Joseph Story"], "role": "held_out"}
+{"source_id": "train:8903", "split": "train", "question": "when did they start putting vin numbers on cars", "gold_answers": ["1954"], "role": "held_out"}
+{"source_id": "train:54253", "split": "train", "question": "who led a mission to california in 1846", "gold_answers": ["Lieutenant Colonel John C. Frémont"], "role": "held_out"}
+{"source_id": "train:57042", "split": "train", "question": "when did nelly hot in here come out", "gold_answers": ["April 16, 2002"], "role": "held_out"}
+{"source_id": "train:33927", "split": "train", "question": "the legislation that authorized the state and federal rehabilitation programs is", "gold_answers": ["Rehabilitation Act of 1973"], "role": "held_out"}
+{"source_id": "train:57022", "split": "train", "question": "who plays ken in barbie life in the dreamhouse", "gold_answers": ["Sean Hankinson"], "role": "held_out"}
+{"source_id": "train:61304", "split": "train", "question": "what are the country stations on sirius radio", "gold_answers": ["Y2Kountry", "Willie's Roadhouse", "Outlaw Country", "The Highway", "Prime Country", "Bluegrass Junction"], "role": "held_out"}
+{"source_id": "train:8216", "split": "train", "question": "who won the battle of las navas de tolosa", "gold_answers": ["Christian"], "role": "held_out"}
+{"source_id": "train:42287", "split": "train", "question": "when did ireland gain independence and establish a unified government", "gold_answers": ["1922"], "role": "held_out"}
+{"source_id": "train:36738", "split": "train", "question": "who was the first catholic to be voted us president", "gold_answers": ["John F. Kennedy"], "role": "held_out"}
+{"source_id": "train:86257", "split": "train", "question": "who built the first satellite to orbit earth", "gold_answers": ["The Soviet Union"], "role": "held_out"}
+{"source_id": "train:18242", "split": "train", "question": "where is most of the chlorophyll in a plant located", "gold_answers": ["cyanobacteria", "chloroplasts"], "role": "held_out"}
+{"source_id": "train:15336", "split": "train", "question": "when does trailer park season 12 come out", "gold_answers": ["March 30, 2018"], "role": "held_out"}
+{"source_id": "train:70255", "split": "train", "question": "who were the gods and goddesses who were considered the chthonic gods", "gold_answers": ["Persephone", "Hades"], "role": "held_out"}
+{"source_id": "train:83208", "split": "train", "question": "fastest car in the world land speed record", "gold_answers": ["763.035"], "role": "held_out"}
+{"source_id": "train:35327", "split": "train", "question": "who was the first disciple to be martyred", "gold_answers": ["James, son of Zebedee"], "role": "held_out"}
+{"source_id": "train:30086", "split": "train", "question": "when was the last time england came 4th in world cup", "gold_answers": ["2018"], "role": "held_out"}
+{"source_id": "train:43364", "split": "train", "question": "when is the fifth five kingdoms book coming out", "gold_answers": ["13 March 2018"], "role": "held_out"}
+{"source_id": "train:68104", "split": "train", "question": "who sang i in demand i am the beat", "gold_answers": ["The Look"], "role": "held_out"}
+{"source_id": "train:24147", "split": "train", "question": "who did richard dormer play in game of thrones", "gold_answers": ["Beric Dondarrion"], "role": "held_out"}
+{"source_id": "train:53353", "split": "train", "question": "where are the rams building their new stadium", "gold_answers": ["immediately south of The Forum"], "role": "held_out"}
+{"source_id": "train:71038", "split": "train", "question": "what is the metaphor for self used in the katha upanishad", "gold_answers": ["honey"], "role": "held_out"}
+{"source_id": "train:39512", "split": "train", "question": "who is the actor that plays little finger", "gold_answers": ["Aidan Gillen"], "role": "held_out"}
+{"source_id": "train:65491", "split": "train", "question": "when was the hebrew bible translated into greek", "gold_answers": ["3rd–1st centuries BC"], "role": "held_out"}
+{"source_id": "train:6242", "split": "train", "question": "who was the first actor to play the role of james bond on screen", "gold_answers": ["American actor Barry Nelson"], "role": "held_out"}
+{"source_id": "train:87672", "split": "train", "question": "who played jed clampett on the beverly hillbillies movie", "gold_answers": ["Jim Varney"], "role": "held_out"}
+{"source_id": "train:66279", "split": "train", "question": "who invented the mechanical loom which was powered by a horse or a water wheel", "gold_answers": ["Edmund Cartwright"], "role": "held_out"}
+{"source_id": "train:50366", "split": "train", "question": "the elements or compounds that go into a chemical reaction are", "gold_answers": ["reactants or reagents"], "role": "held_out"}
+{"source_id": "train:32332", "split": "train", "question": "when did puerto rico become apart of the united states of america", "gold_answers": ["April 11, 1899"], "role": "held_out"}
+{"source_id": "train:15309", "split": "train", "question": "who wrote ariana grande's god is a woman", "gold_answers": ["Rickard Göransson", "Savan Kotecha", "Ariana Grande", "Ilya", "Max Martin"], "role": "held_out"}
+{"source_id": "train:58679", "split": "train", "question": "what phenotype is associated with the genotype 47 xxy", "gold_answers": ["Klinefelter syndrome"], "role": "held_out"}
+{"source_id": "train:50821", "split": "train", "question": "when did rolls royce start making plane engines", "gold_answers": ["1914"], "role": "held_out"}
+{"source_id": "train:60238", "split": "train", "question": "when did the glock gen 3 come out", "gold_answers": ["1998"], "role": "held_out"}
+{"source_id": "train:80534", "split": "train", "question": "when was the presidential line of succession created", "gold_answers": ["1792"], "role": "held_out"}
+{"source_id": "train:40039", "split": "train", "question": "who wrote the song my woman my woman my wife", "gold_answers": ["Marty Robbins"], "role": "held_out"}
+{"source_id": "train:54387", "split": "train", "question": "who led the development of the ibm personal computer", "gold_answers": ["Don Estridge"], "role": "held_out"}
+{"source_id": "train:63687", "split": "train", "question": "what is the most teams a mlb player has played for", "gold_answers": ["thirteen"], "role": "held_out"}
+{"source_id": "train:34681", "split": "train", "question": "who was the first scientist who classified living things", "gold_answers": ["Aristotle"], "role": "held_out"}
+{"source_id": "train:49387", "split": "train", "question": "who was the main subject in bruce barton's the man nobody knows", "gold_answers": ["Jesus"], "role": "held_out"}
+{"source_id": "train:34103", "split": "train", "question": "when does the us open tennis start in 2017", "gold_answers": ["August 28"], "role": "held_out"}
+{"source_id": "validation:2118", "split": "validation", "question": "when was the lupus foundation of america founded", "gold_answers": ["1977"], "role": "held_out"}
+{"source_id": "train:80482", "split": "train", "question": "how many us presidents have there been assassinated", "gold_answers": ["Four"], "role": "held_out"}
+{"source_id": "train:45976", "split": "train", "question": "who is the queen of the jungle animal", "gold_answers": ["monkey"], "role": "held_out"}
+{"source_id": "train:77638", "split": "train", "question": "where did the browns go when they left cleveland", "gold_answers": ["Baltimore"], "role": "held_out"}
+{"source_id": "train:39285", "split": "train", "question": "basketball how long can you stay in the paint", "gold_answers": ["three seconds"], "role": "held_out"}
+{"source_id": "train:40398", "split": "train", "question": "who is the issuing authority for nigerian passport", "gold_answers": ["Nigeria Immigration Services"], "role": "held_out"}
+{"source_id": "train:5603", "split": "train", "question": "where does girl with the dragon tattoo take place", "gold_answers": ["Hedeby Island"], "role": "held_out"}
+{"source_id": "validation:2530", "split": "validation", "question": "who has been ranked no. 1 in the latest football rankings announced by fifa", "gold_answers": ["Germany"], "role": "held_out"}
+{"source_id": "train:69243", "split": "train", "question": "who was the first black student admitted to the university of mississippi", "gold_answers": ["James Howard Meredith"], "role": "held_out"}
+{"source_id": "train:13341", "split": "train", "question": "what is the record for most strikeouts in a season by a hitter", "gold_answers": ["223"], "role": "held_out"}
+{"source_id": "train:22469", "split": "train", "question": "when did the first magic tree house book come out", "gold_answers": ["July 28, 1992"], "role": "held_out"}
+{"source_id": "train:39397", "split": "train", "question": "who said walk softly carry a big stick", "gold_answers": ["U.S. President Theodore Roosevelt"], "role": "held_out"}
+{"source_id": "train:19588", "split": "train", "question": "how many nba titles did michael jordan win", "gold_answers": ["6"], "role": "held_out"}
+{"source_id": "train:6474", "split": "train", "question": "when was pslv launched for the first time", "gold_answers": ["20 September 1993"], "role": "held_out"}
+{"source_id": "train:15666", "split": "train", "question": "who appointed the midnight judges leading to an important controversy over the courts", "gold_answers": ["John Adams"], "role": "held_out"}
+{"source_id": "train:9999", "split": "train", "question": "journey to the center of the eart cast", "gold_answers": ["Jane Wheeler", "Anita Briem", "Brendan Fraser", "Jean-Michel Paré", "Garth Gilker", "Seth Meyers", "Josh Hutcherson", "Giancarlo Caltabiano"], "role": "held_out"}
+{"source_id": "train:28842", "split": "train", "question": "when did the chesapeake bay bridge-tunnel officially open for traffic", "gold_answers": ["April 15, 1964"], "role": "held_out"}
+{"source_id": "validation:1918", "split": "validation", "question": "distinctive characteristics of animals classified as vertebrates include", "gold_answers": ["backbones", "have a vertebral column"], "role": "held_out"}
+{"source_id": "train:14749", "split": "train", "question": "when did jamaica start using dollars and cents", "gold_answers": ["September 8, 1969"], "role": "held_out"}
+{"source_id": "train:42373", "split": "train", "question": "when did companies start using high fructose corn syrup", "gold_answers": ["in the early 1970s"], "role": "held_out"}
+{"source_id": "train:75877", "split": "train", "question": "when did the british burn down the white house", "gold_answers": ["August 24, 1814"], "role": "held_out"}
+{"source_id": "train:29807", "split": "train", "question": "where does trip the light fantastic come from", "gold_answers": ["Milton's 1645 poem L'Allegro"], "role": "held_out"}
+{"source_id": "train:40793", "split": "train", "question": "who played the father in sound of music", "gold_answers": ["Arthur Christopher Orme Plummer  CC"], "role": "held_out"}
+{"source_id": "train:44742", "split": "train", "question": "when is picnic at hanging rock on foxtel", "gold_answers": ["6 May 2018"], "role": "held_out"}
+{"source_id": "train:23372", "split": "train", "question": "funds for federal housing administration (fha) loans are usually provided by", "gold_answers": ["FHA-approved lender"], "role": "held_out"}
+{"source_id": "train:8600", "split": "train", "question": "when did we drop the atomic bomb on hiroshima", "gold_answers": ["August 6, 1945"], "role": "held_out"}
+{"source_id": "train:21859", "split": "train", "question": "who sings the theme song for melissa and joey", "gold_answers": ["Joey Lawrence"], "role": "held_out"}
+{"source_id": "train:66840", "split": "train", "question": "who was the actor that played oliver twist", "gold_answers": ["Mark Lester"], "role": "held_out"}
+{"source_id": "train:16831", "split": "train", "question": "who was associated with the establishment of the banaras hindu university", "gold_answers": ["Pandit Madan Mohan Malaviya"], "role": "held_out"}
+{"source_id": "train:2545", "split": "train", "question": "what is the c for on football jerseys", "gold_answers": ["team captain"], "role": "held_out"}
+{"source_id": "train:49298", "split": "train", "question": "what's the bird's name on lion guard", "gold_answers": ["Ono"], "role": "held_out"}
+{"source_id": "train:52357", "split": "train", "question": "who sang your the reason god made oklahoma", "gold_answers": ["David Frizzell", "Shelly West"], "role": "held_out"}
+{"source_id": "train:79967", "split": "train", "question": "who sings the original i wear my sunglasses at night", "gold_answers": ["Corey Hart"], "role": "held_out"}
+{"source_id": "train:1691", "split": "train", "question": "when was the last time michigan beat ohio state in football", "gold_answers": ["2011"], "role": "held_out"}
+{"source_id": "train:72812", "split": "train", "question": "when did tonight show move to new york", "gold_answers": ["2014", "1954"], "role": "held_out"}
+{"source_id": "train:13291", "split": "train", "question": "when does greys anatomy come back on 2017", "gold_answers": ["September 28, 2017"], "role": "held_out"}
+{"source_id": "train:50297", "split": "train", "question": "sa re ga ma pa little champs anchor name", "gold_answers": ["Aditya Narayan"], "role": "held_out"}
+{"source_id": "train:52819", "split": "train", "question": "who starred in oh what a lovely war", "gold_answers": ["Malcolm McFee", "Michael Redgrave", "Ralph Richardson", "Phyllis Calvert", "Paul Shelley", "Jack Hawkins", "Corin Redgrave", "Ian Holm", "Nanette Newman", "Laurence Olivier", "John Gielgud", "Maggie Smith", "Kenneth More", "Vanessa Redgrave", "Maurice Roëves", "John Mills", "Dirk Bogarde", "John Clements", "Edward Fox", "Susannah York", "Jean-Pierre Cassel"], "role": "held_out"}
+{"source_id": "train:83160", "split": "train", "question": "who is the patron saint of american soldiers", "gold_answers": ["Saint George"], "role": "held_out"}
+{"source_id": "train:40331", "split": "train", "question": "where does the last name smith derive from", "gold_answers": ["in England"], "role": "held_out"}
+{"source_id": "train:43614", "split": "train", "question": "what type of duck is a yellow duckling", "gold_answers": ["mallards"], "role": "held_out"}
+{"source_id": "train:73833", "split": "train", "question": "when did olympia become the capital of washington", "gold_answers": ["1853"], "role": "held_out"}
+{"source_id": "train:37010", "split": "train", "question": "in scotland what name designates any mountain peak 3000 and over", "gold_answers": ["The Munros"], "role": "held_out"}
+{"source_id": "train:10765", "split": "train", "question": "who sings he's a tramp in lady and the tramp", "gold_answers": ["Peggy Lee"], "role": "held_out"}
+{"source_id": "train:1756", "split": "train", "question": "what kind of dog is from the little rascals", "gold_answers": ["an APBT"], "role": "held_out"}
+{"source_id": "train:36192", "split": "train", "question": "what does it mean to be a valley girl", "gold_answers": ["ditziness", "airheadedness"], "role": "held_out"}
+{"source_id": "validation:962", "split": "validation", "question": "where does us highway 1 start and end", "gold_answers": ["Fort Kent, Maine", "to Key West, Florida", "Key West, Florida"], "role": "held_out"}
+{"source_id": "train:61521", "split": "train", "question": "who wrote the pirates of the caribbean music", "gold_answers": ["Klaus Badelt"], "role": "held_out"}
+{"source_id": "train:80536", "split": "train", "question": "who sets up the independent agencies of the executive branch", "gold_answers": ["Congress"], "role": "held_out"}
+{"source_id": "train:50680", "split": "train", "question": "when did the world's population increased the fastest", "gold_answers": ["1989"], "role": "held_out"}
+{"source_id": "train:11290", "split": "train", "question": "what year did lebron win his first title", "gold_answers": ["February", "2007–08 season"], "role": "held_out"}
+{"source_id": "train:1288", "split": "train", "question": "where was the el niño phenomena first recognized", "gold_answers": ["Peru"], "role": "held_out"}
+{"source_id": "train:66126", "split": "train", "question": "cost to make let there be light movie", "gold_answers": ["$3 million"], "role": "held_out"}
+{"source_id": "train:73290", "split": "train", "question": "when did the buffalo sabres join the nhl", "gold_answers": ["the 1970–71 season"], "role": "held_out"}
+{"source_id": "train:79528", "split": "train", "question": "who stars in the tv show blue bloods", "gold_answers": ["Will Estes", "Marisa Ramirez", "Vanessa Ray", "Donnie Wahlberg", "Jennifer Esposito", "Bridget Moynahan", "Amy Carlson", "Tom Selleck", "Sami Gayle", "Len Cariou"], "role": "held_out"}
+{"source_id": "train:75916", "split": "train", "question": "who said can't we just get along", "gold_answers": ["Rodney King"], "role": "held_out"}
+{"source_id": "train:31066", "split": "train", "question": "where does geothermal energy come from sunlight the oceans the land inside earth wind", "gold_answers": ["the Earth's interior"], "role": "held_out"}
+{"source_id": "train:26786", "split": "train", "question": "when was the driving test introduced in the uk", "gold_answers": ["1 June 1935"], "role": "held_out"}
+{"source_id": "train:11588", "split": "train", "question": "where does the tour de france end in paris", "gold_answers": ["Champs-Élysées"], "role": "held_out"}
+{"source_id": "train:51944", "split": "train", "question": "when were most of the effigy mounds built", "gold_answers": ["350-1300 CE"], "role": "held_out"}
+{"source_id": "train:76211", "split": "train", "question": "which group of the periodic table is known as the alkali metals", "gold_answers": ["the s-block"], "role": "held_out"}
+{"source_id": "train:60901", "split": "train", "question": "how many states does amazon collect sales tax", "gold_answers": ["45"], "role": "held_out"}
+{"source_id": "train:48400", "split": "train", "question": "the land purchased from mexico that today is part of southern arizona and new mexico was called the", "gold_answers": ["Gadsden Purchase"], "role": "held_out"}
+{"source_id": "train:55583", "split": "train", "question": "how many seats are there in haryana vidhan sabha", "gold_answers": ["90"], "role": "held_out"}
+{"source_id": "train:25260", "split": "train", "question": "woman who jumped off the empire state building", "gold_answers": ["Evelyn Francis McHale"], "role": "held_out"}
+{"source_id": "train:72313", "split": "train", "question": "who sang i dreamed a dream in the original london cast", "gold_answers": ["Patti LuPone"], "role": "held_out"}
+{"source_id": "train:50084", "split": "train", "question": "what did the first vending machines in the early 1880's dispense", "gold_answers": ["postcards"], "role": "held_out"}
+{"source_id": "train:29915", "split": "train", "question": "who played the first concert at shea stadium", "gold_answers": ["the Beatles"], "role": "held_out"}
+{"source_id": "validation:656", "split": "validation", "question": "who won three stanley cups in a row", "gold_answers": ["Toronto Maple Leafs", "New York Islanders", "Montreal Canadiens"], "role": "held_out"}
+{"source_id": "train:82289", "split": "train", "question": "when does game of thrones end this season", "gold_answers": ["August 27, 2017"], "role": "held_out"}
+{"source_id": "train:3154", "split": "train", "question": "when does lexi die in grey's anatomy", "gold_answers": ["the eighth-season finale"], "role": "held_out"}
+{"source_id": "train:1072", "split": "train", "question": "where is the source address located in an ipv4 header", "gold_answers": ["Header"], "role": "held_out"}
+{"source_id": "train:35349", "split": "train", "question": "how many binding sites for atp are there in pfk", "gold_answers": ["two"], "role": "held_out"}
+{"source_id": "train:75435", "split": "train", "question": "who was stuck in the moment written for", "gold_answers": ["Michael Hutchence"], "role": "held_out"}
+{"source_id": "train:32506", "split": "train", "question": "highest total runs in odi by a player", "gold_answers": ["18,426"], "role": "held_out"}
+{"source_id": "train:8198", "split": "train", "question": "what type of dog is tramp in lady and the tramp", "gold_answers": ["mongrel"], "role": "held_out"}
+{"source_id": "train:42551", "split": "train", "question": "tick borne disease that makes you allergic to meat", "gold_answers": ["alpha-gal allergy"], "role": "held_out"}
+{"source_id": "train:81690", "split": "train", "question": "australia's next top model season 8 host", "gold_answers": ["Jennifer Hawkins"], "role": "held_out"}
+{"source_id": "train:9816", "split": "train", "question": "who was the first known king of england", "gold_answers": ["Egbert"], "role": "held_out"}
+{"source_id": "train:48111", "split": "train", "question": "when can you get a tattoo in georgia", "gold_answers": ["18"], "role": "held_out"}
+{"source_id": "train:62722", "split": "train", "question": "who did new hampshire vote for in 2016", "gold_answers": ["Hillary Clinton"], "role": "held_out"}
+{"source_id": "train:70223", "split": "train", "question": "who played the mother in sweet home alabama", "gold_answers": ["Mary Kay Place"], "role": "held_out"}
+{"source_id": "train:49781", "split": "train", "question": "when did the shooting in florida school happen", "gold_answers": ["February 14, 2018"], "role": "held_out"}
+{"source_id": "train:61096", "split": "train", "question": "what is the oldest major league baseball stadium", "gold_answers": ["Fenway Park"], "role": "held_out"}
+{"source_id": "train:57272", "split": "train", "question": "who is the owner of joseph a banks", "gold_answers": ["Men's Wearhouse"], "role": "held_out"}
+{"source_id": "train:69804", "split": "train", "question": "how many artificial elements are in the periodic table", "gold_answers": ["24"], "role": "held_out"}
+{"source_id": "train:43110", "split": "train", "question": "who wrote screenplay of in search of lost time", "gold_answers": ["Harold Pinter"], "role": "held_out"}
+{"source_id": "train:50683", "split": "train", "question": "who played the little boy in indiana jones", "gold_answers": ["Jonathan Luke Ke Huy Quan"], "role": "held_out"}
+{"source_id": "train:67919", "split": "train", "question": "whos the voice of mother in alien covenant", "gold_answers": ["Lorelei King"], "role": "held_out"}
+{"source_id": "train:85677", "split": "train", "question": "where was the movie devil's pass filmed", "gold_answers": ["northern Russia"], "role": "held_out"}
+{"source_id": "train:57922", "split": "train", "question": "who did the music for the last of us", "gold_answers": ["Gustavo Santaolalla"], "role": "held_out"}
+{"source_id": "train:19045", "split": "train", "question": "who played ferris bueller on ferris bueller's day off", "gold_answers": ["Matthew Broderick"], "role": "held_out"}
+{"source_id": "train:33156", "split": "train", "question": "political economic socio-cultural and technological are four areas that make up a", "gold_answers": ["a framework of macro-environmental factors"], "role": "held_out"}
+{"source_id": "train:65529", "split": "train", "question": "when did the suns last make the playoffs", "gold_answers": ["2009–10"], "role": "held_out"}
+{"source_id": "train:6074", "split": "train", "question": "what's the name of the blonde powerpuff girl", "gold_answers": ["Bubbles"], "role": "held_out"}
+{"source_id": "train:71742", "split": "train", "question": "who plays the wicked witch in once upon a time", "gold_answers": ["Rebecca Leigh Mader"], "role": "held_out"}
+{"source_id": "train:32317", "split": "train", "question": "what is the meaning of the name charles", "gold_answers": ["free man"], "role": "held_out"}
+{"source_id": "train:42526", "split": "train", "question": "who plays the music for game of thrones", "gold_answers": ["Ramin Djawadi"], "role": "held_out"}
+{"source_id": "train:53380", "split": "train", "question": "how many characters are there in marvel vs capcom infinite", "gold_answers": ["30 playable characters"], "role": "held_out"}
+{"source_id": "train:71806", "split": "train", "question": "who is the next prime minister of malaysia", "gold_answers": ["Mahathir Mohamad"], "role": "held_out"}
+{"source_id": "train:73205", "split": "train", "question": "the things we do for love song artist", "gold_answers": ["10cc"], "role": "held_out"}
+{"source_id": "train:21239", "split": "train", "question": "how many books does the roman catholic bible have", "gold_answers": ["73"], "role": "held_out"}
+{"source_id": "train:23111", "split": "train", "question": "who sings don't stop thinking about tomorrow", "gold_answers": ["Fleetwood Mac"], "role": "held_out"}
+{"source_id": "train:70542", "split": "train", "question": "secretary of state for communities and local government uk", "gold_answers": ["James Brokenshire"], "role": "held_out"}
+{"source_id": "train:70309", "split": "train", "question": "who plays barry on the big bang theory", "gold_answers": ["John Ross Bowie"], "role": "held_out"}
+{"source_id": "train:34963", "split": "train", "question": "when did bc switch from hst to gst", "gold_answers": ["1 April 2013"], "role": "held_out"}
+{"source_id": "train:23987", "split": "train", "question": "who wrote the song what if god was one of us", "gold_answers": ["Eric Bazilian"], "role": "held_out"}
+{"source_id": "train:47740", "split": "train", "question": "who were the 3 presidents that died on july 4th", "gold_answers": ["Thomas Jefferson", "James Monroe", "John Adams"], "role": "held_out"}
+{"source_id": "train:51353", "split": "train", "question": "when are the new 20 dollar bills coming out", "gold_answers": ["by 2020"], "role": "held_out"}
+{"source_id": "train:43939", "split": "train", "question": "where did the emperor live in ancient rome", "gold_answers": ["The Palatine Hill"], "role": "held_out"}
+{"source_id": "train:70601", "split": "train", "question": "who assumes office if the president is impeached", "gold_answers": ["Vice President"], "role": "held_out"}
+{"source_id": "train:37720", "split": "train", "question": "type of antigen that triggers an allergic reaction", "gold_answers": ["allergen"], "role": "held_out"}
+{"source_id": "train:1305", "split": "train", "question": "where did the siege of petersburg take place", "gold_answers": ["Petersburg, Virginia"], "role": "held_out"}
+{"source_id": "train:35927", "split": "train", "question": "who played the sister on mike & molly", "gold_answers": ["Mixon"], "role": "held_out"}
+{"source_id": "train:63601", "split": "train", "question": "who do you play as in the last of us", "gold_answers": ["Joel"], "role": "held_out"}
+{"source_id": "train:39188", "split": "train", "question": "who is the man in the go compare advert", "gold_answers": ["Wynne Evans"], "role": "held_out"}
+{"source_id": "train:79409", "split": "train", "question": "when did they start using 925 on silver", "gold_answers": ["1868"], "role": "held_out"}
+{"source_id": "train:4528", "split": "train", "question": "who is the girl on the trivago ad", "gold_answers": ["Gabrielle Miller"], "role": "held_out"}
+{"source_id": "train:41044", "split": "train", "question": "who wrote the theme song for twin peaks", "gold_answers": ["Angelo Badalamenti"], "role": "held_out"}
+{"source_id": "train:42919", "split": "train", "question": "when did season three of bloodline come out", "gold_answers": ["May 26, 2017"], "role": "held_out"}
+{"source_id": "train:19867", "split": "train", "question": "who is the deputy chief minister of assam", "gold_answers": ["Sarbananda Sonowal"], "role": "held_out"}
+{"source_id": "train:44753", "split": "train", "question": "what did the emergency banking act of 1933 do", "gold_answers": ["created 100 percent deposit insurance"], "role": "held_out"}
+{"source_id": "train:57589", "split": "train", "question": "who said those who forget history are bound to repeat it", "gold_answers": ["Santayana"], "role": "held_out"}
+{"source_id": "train:64128", "split": "train", "question": "who controls the redistricting process in most states", "gold_answers": ["the state legislature"], "role": "held_out"}
+{"source_id": "train:35414", "split": "train", "question": "the dates of the 2015 british open golf championship", "gold_answers": ["16–20 July"], "role": "held_out"}
+{"source_id": "train:13621", "split": "train", "question": "who is the countess in american horror story", "gold_answers": ["Lady Gaga"], "role": "held_out"}
+{"source_id": "train:80061", "split": "train", "question": "who created the dark curse in once upon a time", "gold_answers": ["Regina"], "role": "held_out"}
+{"source_id": "validation:26", "split": "validation", "question": "who plays matthew on anne with an e", "gold_answers": ["R. H. Thomson"], "role": "held_out"}
+{"source_id": "train:18743", "split": "train", "question": "who played blair in the facts of life", "gold_answers": ["Lisa Diane Whelchel"], "role": "held_out"}
+{"source_id": "train:49332", "split": "train", "question": "texans won their independence as a result of what battle", "gold_answers": ["Battle of San Jacinto"], "role": "held_out"}
+{"source_id": "train:7112", "split": "train", "question": "who wrote first time ever i saw your face", "gold_answers": ["Ewan MacColl"], "role": "held_out"}
+{"source_id": "train:3711", "split": "train", "question": "the view that everything that exists is physical is known as", "gold_answers": ["realism"], "role": "held_out"}
+{"source_id": "train:48856", "split": "train", "question": "when was how to save a life released", "gold_answers": ["March 26, 2006"], "role": "held_out"}
+{"source_id": "train:26866", "split": "train", "question": "who sang the song uncle tom's cabin", "gold_answers": ["Warrant"], "role": "held_out"}
+{"source_id": "train:5697", "split": "train", "question": "when did frankie laine record ghost riders in the sky", "gold_answers": ["1963"], "role": "held_out"}
+{"source_id": "train:47290", "split": "train", "question": "who is the voice of woody the woodpecker", "gold_answers": ["Ben Hardaway", "Kent Rogers", "Grace Stafford", "Danny Webb", "Mel Blanc"], "role": "held_out"}
+{"source_id": "train:38690", "split": "train", "question": "when is the new spiderman movie coming out in 2017", "gold_answers": ["July 7, 2017"], "role": "held_out"}
+{"source_id": "train:35780", "split": "train", "question": "how many episodes in got season 7 pretty little liars", "gold_answers": ["20"], "role": "held_out"}
+{"source_id": "train:39244", "split": "train", "question": "the great british sewing bee season 2 winner", "gold_answers": ["Heather"], "role": "held_out"}
+{"source_id": "train:37349", "split": "train", "question": "when was the american flag with 50 stars made", "gold_answers": ["July 4, 1960"], "role": "held_out"}
+{"source_id": "train:19462", "split": "train", "question": "what is the person who does an autopsy", "gold_answers": ["pathologist"], "role": "held_out"}
+{"source_id": "train:49702", "split": "train", "question": "when was the sabbath day changed from saturday to sunday", "gold_answers": ["2nd century AD"], "role": "held_out"}
+{"source_id": "validation:448", "split": "validation", "question": "all the motor neurons that control the skeletal muscles are", "gold_answers": ["efferent nerves", "Somatic motor neurons", "Somatic"], "role": "held_out"}
+{"source_id": "train:68674", "split": "train", "question": "who played susie in miracle on 34th street", "gold_answers": ["Natalie Wood"], "role": "held_out"}
+{"source_id": "train:27836", "split": "train", "question": "volume and pressure inside the left ventricle at the end of diastole is referred to as", "gold_answers": ["preload"], "role": "held_out"}
+{"source_id": "train:53255", "split": "train", "question": "who sings a white sportcoat and a pink carnation", "gold_answers": ["Marty Robbins"], "role": "held_out"}
+{"source_id": "validation:881", "split": "validation", "question": "when does flash come back on season 4 episode 17", "gold_answers": ["May 1, 2018", "April 10, 2018"], "role": "held_out"}
+{"source_id": "train:24327", "split": "train", "question": "who plays philip on days of our lives", "gold_answers": ["Jay Kenneth Johnson", "Kyle Brandt", "John-Paul Lavoisier"], "role": "held_out"}
+{"source_id": "train:29957", "split": "train", "question": "which country has the most gold in africa", "gold_answers": ["South Africa"], "role": "held_out"}
+{"source_id": "train:25440", "split": "train", "question": "when does the season finale of the originals air", "gold_answers": ["August 1, 2018"], "role": "held_out"}
+{"source_id": "train:42185", "split": "train", "question": "in which state of matter does convection not happen", "gold_answers": ["most solids"], "role": "held_out"}
+{"source_id": "train:29999", "split": "train", "question": "who has more world series wins dodgers or angels", "gold_answers": ["Los Angeles Dodgers"], "role": "held_out"}
+{"source_id": "train:55405", "split": "train", "question": "where was the first battle of civil war fought", "gold_answers": ["Battle of Fort Sumter"], "role": "held_out"}
+{"source_id": "train:66642", "split": "train", "question": "who is the present textile minister of india", "gold_answers": ["Smriti Zubin Irani"], "role": "held_out"}
+{"source_id": "train:37233", "split": "train", "question": "season 8 australia's next top model winner", "gold_answers": ["Melissa Juratowitch"], "role": "held_out"}
+{"source_id": "train:50285", "split": "train", "question": "how many geopolitical zone do we have in nigeria", "gold_answers": ["six"], "role": "held_out"}
+{"source_id": "train:26098", "split": "train", "question": "where did hot tub time machine take place", "gold_answers": ["Kodiak Valley Ski Resort"], "role": "held_out"}
+{"source_id": "train:84009", "split": "train", "question": "who is the protagonist in how the grinch stole christmas", "gold_answers": ["the Grinch"], "role": "held_out"}
+{"source_id": "train:50525", "split": "train", "question": "who was the song you're so vain based on", "gold_answers": ["Warren Beatty"], "role": "held_out"}
+{"source_id": "train:53937", "split": "train", "question": ".org .net .gov .com and .mil are examples of what", "gold_answers": ["generic top-level domains"], "role": "held_out"}
+{"source_id": "train:77763", "split": "train", "question": "who won african footballer of the year 2015", "gold_answers": ["Pierre-Emerick Aubameyang"], "role": "held_out"}
+{"source_id": "validation:1759", "split": "validation", "question": "where is the setting for beauty and the beast", "gold_answers": ["Rococo-era France", "France"], "role": "held_out"}
+{"source_id": "train:67285", "split": "train", "question": "who has the power to create all courts lower than the supreme court", "gold_answers": ["Congress"], "role": "held_out"}
+{"source_id": "validation:3214", "split": "validation", "question": "when will the flash season 4 be released", "gold_answers": ["October 10, 2017"], "role": "held_out"}
+{"source_id": "train:62486", "split": "train", "question": "who voiced baloo in last years remake of jungle book", "gold_answers": ["Bill Murray"], "role": "held_out"}
+{"source_id": "train:43022", "split": "train", "question": "where is clostridium tetani found in the body", "gold_answers": ["gastrointestinal tract"], "role": "held_out"}
+{"source_id": "train:31746", "split": "train", "question": "when did kobe start playing in the nba", "gold_answers": ["1996"], "role": "held_out"}
+{"source_id": "train:83335", "split": "train", "question": "what is the sultan's name in aladdin", "gold_answers": ["Hamed Bobolonius II"], "role": "held_out"}
+{"source_id": "train:18865", "split": "train", "question": "where is atp synthase located in the mitochondria", "gold_answers": ["thylakoid membrane", "inner mitochondrial membrane"], "role": "held_out"}
+{"source_id": "train:69156", "split": "train", "question": "what is the capital name of west indies", "gold_answers": ["Port of Spain"], "role": "held_out"}
+{"source_id": "train:53738", "split": "train", "question": "hamas is a militant organization fighting against which country", "gold_answers": ["Israel"], "role": "held_out"}
+{"source_id": "train:78617", "split": "train", "question": "who is the voice of how it's made", "gold_answers": ["Lynne Adams"], "role": "held_out"}
+{"source_id": "train:75894", "split": "train", "question": "where is white matter located in the brain", "gold_answers": ["the Corpus callosum"], "role": "held_out"}
+{"source_id": "train:1243", "split": "train", "question": "who is credited with deriving the electronegativity values of the periodic table", "gold_answers": ["Jöns Jacob Berzelius"], "role": "held_out"}
+{"source_id": "train:8907", "split": "train", "question": "what was the name of clarks african american helper", "gold_answers": ["York"], "role": "held_out"}
+{"source_id": "train:11762", "split": "train", "question": "how many games are in the wnba regular season", "gold_answers": ["34 games"], "role": "held_out"}
+{"source_id": "train:8706", "split": "train", "question": "when did the smoking ban come into effect", "gold_answers": ["1995"], "role": "held_out"}
+{"source_id": "train:56268", "split": "train", "question": "players who played for both indian and pakistan", "gold_answers": ["Amir Elahi", "Gul Mohammad", "Abdul Hafeez Kardar"], "role": "held_out"}
+{"source_id": "train:3398", "split": "train", "question": "who did samuel l jackson play in star wars", "gold_answers": ["Mace Windu"], "role": "held_out"}
+{"source_id": "train:49255", "split": "train", "question": "when does the challenge season 30 come out", "gold_answers": ["July 18, 2017"], "role": "held_out"}
+{"source_id": "train:17739", "split": "train", "question": "which act govern the working of banking companies in india", "gold_answers": ["Banking Regulation Act, 1949"], "role": "held_out"}
+{"source_id": "train:86288", "split": "train", "question": "when did germany first use poison gas in ww1", "gold_answers": ["31 January 1915"], "role": "held_out"}
+{"source_id": "train:34934", "split": "train", "question": "where does the name de souza come from", "gold_answers": ["Northern Portugal"], "role": "held_out"}
+{"source_id": "train:12755", "split": "train", "question": "when did verses get added to the bible", "gold_answers": ["mid-16th century"], "role": "held_out"}
+{"source_id": "train:14850", "split": "train", "question": "members elected to our two houses of congress are selected by", "gold_answers": ["constituency"], "role": "held_out"}
+{"source_id": "train:51720", "split": "train", "question": "who played wonder woman in the recent movie", "gold_answers": ["Gal Gadot"], "role": "held_out"}
+{"source_id": "train:13752", "split": "train", "question": "when did the french first settle in canada", "gold_answers": ["in the 16th century"], "role": "held_out"}
+{"source_id": "train:30965", "split": "train", "question": "when did the electoral college come into existence", "gold_answers": ["September 6, 1787"], "role": "held_out"}
+{"source_id": "train:84720", "split": "train", "question": "puerto rico is a territory of what country", "gold_answers": ["United States"], "role": "held_out"}
+{"source_id": "train:42075", "split": "train", "question": "who was the voice of panthro in thundercats", "gold_answers": ["Earle Hyman"], "role": "held_out"}
+{"source_id": "train:62354", "split": "train", "question": "the gakkel ridge is a boundary between which two tectonic plates", "gold_answers": ["African and South American Plates"], "role": "held_out"}
+{"source_id": "train:13768", "split": "train", "question": "who was the carthaginian general who brought the second punic war to the gates of rome", "gold_answers": ["Hannibal"], "role": "held_out"}
+{"source_id": "train:69277", "split": "train", "question": "how many seats imran khan won in election 2013", "gold_answers": ["35"], "role": "held_out"}
+{"source_id": "train:76875", "split": "train", "question": "how much did barcelona pay for thierry henry", "gold_answers": ["€24 million"], "role": "held_out"}
+{"source_id": "train:24389", "split": "train", "question": "who wrote the song crying in the club", "gold_answers": ["Cabello", "Sia", "Benny Blanco"], "role": "held_out"}
+{"source_id": "train:55732", "split": "train", "question": "when do you play taps at a funeral", "gold_answers": ["concludes many military funerals"], "role": "held_out"}
+{"source_id": "train:24995", "split": "train", "question": "what methods are used to measure the activity of an enzyme", "gold_answers": ["Enzyme assays"], "role": "held_out"}
+{"source_id": "train:48851", "split": "train", "question": "who has the most hr in mlb history", "gold_answers": ["Barry Bonds"], "role": "held_out"}
+{"source_id": "train:53221", "split": "train", "question": "who does norman bates kill in season 1", "gold_answers": ["Miss Watson"], "role": "held_out"}
+{"source_id": "train:24957", "split": "train", "question": "when did albert einstein publish his first paper", "gold_answers": ["1905"], "role": "held_out"}
+{"source_id": "train:58492", "split": "train", "question": "the first american to land on the moon flew in this spacecraft", "gold_answers": ["Apollo 11"], "role": "held_out"}
+{"source_id": "train:45593", "split": "train", "question": "who has become the new solicitor general of india", "gold_answers": ["Ranjit Kumar"], "role": "held_out"}
+{"source_id": "train:79849", "split": "train", "question": "when did the cavs win the nba championship", "gold_answers": ["2016"], "role": "held_out"}
+{"source_id": "train:35200", "split": "train", "question": "flip or flop episode where car gets stolen", "gold_answers": ["Junk Yard Flip"], "role": "held_out"}
+{"source_id": "train:51769", "split": "train", "question": "what capital city is 400 miles east of algiers algeria", "gold_answers": ["El Oued"], "role": "held_out"}
+{"source_id": "train:84369", "split": "train", "question": "who sings the country song don't close your eyes", "gold_answers": ["Keith Whitley"], "role": "held_out"}
+{"source_id": "train:68746", "split": "train", "question": "where is the blue mountains located in australia", "gold_answers": ["New South Wales"], "role": "held_out"}
+{"source_id": "train:35409", "split": "train", "question": "where does china girl top of the lake take place", "gold_answers": ["Sydney, Australia"], "role": "held_out"}
+{"source_id": "train:82500", "split": "train", "question": "who sings whats that coming over the hill", "gold_answers": ["Alex Pennie"], "role": "held_out"}
+{"source_id": "train:81058", "split": "train", "question": "what kind of animal is brain from arthur", "gold_answers": ["a bear of Senegalese descent"], "role": "held_out"}
+{"source_id": "train:28235", "split": "train", "question": "consumption was the former name of which disease", "gold_answers": ["tuberculosis"], "role": "held_out"}
+{"source_id": "train:50610", "split": "train", "question": "where did world's first 'birth control clinic' open", "gold_answers": ["the Netherlands"], "role": "held_out"}
+{"source_id": "train:51566", "split": "train", "question": "when was the da vinci surgical system created", "gold_answers": ["2000"], "role": "held_out"}
+{"source_id": "train:62166", "split": "train", "question": "who plays maria on young and the restless", "gold_answers": ["Grimes"], "role": "held_out"}
+{"source_id": "train:68256", "split": "train", "question": "who is running for attorney general in florida 2018", "gold_answers": ["Sean Shaw", "Ashley Moody"], "role": "held_out"}
+{"source_id": "train:74741", "split": "train", "question": "british heavyweight boxer a european champion in the 1960's", "gold_answers": ["Henry Cooper"], "role": "held_out"}
+{"source_id": "train:33713", "split": "train", "question": "where was bane from in dark knight rises", "gold_answers": ["League of Shadows"], "role": "held_out"}
+{"source_id": "train:63262", "split": "train", "question": "where did the dutch royal family go during ww2", "gold_answers": ["the United Kingdom"], "role": "held_out"}
+{"source_id": "train:77433", "split": "train", "question": "who plays the young once ler in the lorax", "gold_answers": ["Ed Helms"], "role": "held_out"}
+{"source_id": "train:43801", "split": "train", "question": "what type of plane is the wright flyer", "gold_answers": ["bicanard biplane"], "role": "held_out"}
+{"source_id": "train:2632", "split": "train", "question": "who sings the country song you look good", "gold_answers": ["Lady Antebellum"], "role": "held_out"}
+{"source_id": "train:29226", "split": "train", "question": "who is known as iron man of india", "gold_answers": ["Patel"], "role": "held_out"}
+{"source_id": "train:26090", "split": "train", "question": "who is the winner of big boss hindi", "gold_answers": ["Manveer Gurjar"], "role": "held_out"}
+{"source_id": "train:22028", "split": "train", "question": "when was the first pair of glasses invented", "gold_answers": ["about 1290"], "role": "held_out"}
+{"source_id": "train:44416", "split": "train", "question": "when was the last time the usa was debt free", "gold_answers": ["1835–1836"], "role": "held_out"}
+{"source_id": "train:26479", "split": "train", "question": "who plays greg pikitis on parks and recreation", "gold_answers": ["Cody Klop"], "role": "held_out"}
+{"source_id": "train:56401", "split": "train", "question": "who wrote the song rise up by andra day", "gold_answers": ["Andra Day"], "role": "held_out"}
+{"source_id": "train:71788", "split": "train", "question": "when did star wars episode 2 come out", "gold_answers": ["2002"], "role": "held_out"}
+{"source_id": "train:53804", "split": "train", "question": "who does the voice of kiara in lion king 2", "gold_answers": ["Neve Campbell"], "role": "held_out"}
+{"source_id": "train:84919", "split": "train", "question": "when did women get the vote in america", "gold_answers": ["August 18, 1920"], "role": "held_out"}
+{"source_id": "train:5950", "split": "train", "question": "when does kc undercover come back on 2017", "gold_answers": ["July 7, 2017"], "role": "held_out"}
+{"source_id": "train:39274", "split": "train", "question": "how many pins are on a pata ide motherboard connector", "gold_answers": ["40"], "role": "held_out"}
+{"source_id": "train:83123", "split": "train", "question": "what does csv stand for in computer terms", "gold_answers": ["Cluster Shared Volumes", "Computerized system validation", "Certified Server Validation", "Comma-separated values"], "role": "held_out"}
+{"source_id": "train:13153", "split": "train", "question": "where does the last name estevez come from", "gold_answers": ["Galician (Spanish)"], "role": "held_out"}
+{"source_id": "train:62439", "split": "train", "question": "the ptolemaic period ended with the death of", "gold_answers": ["Cleopatra VII"], "role": "held_out"}
+{"source_id": "train:59348", "split": "train", "question": "who sings san francisco flowers in your hair", "gold_answers": ["Scott McKenzie"], "role": "held_out"}
+{"source_id": "train:13259", "split": "train", "question": "who plays eddard stark on game of thrones", "gold_answers": ["Shaun Mark Bean"], "role": "held_out"}
+{"source_id": "train:50055", "split": "train", "question": "what three offices made up virginia's representative government", "gold_answers": ["lieutenant governor and attorney general"], "role": "held_out"}
+{"source_id": "train:40909", "split": "train", "question": "who won australia's next top model cycle 8", "gold_answers": ["Melissa Juratowitch"], "role": "held_out"}
+{"source_id": "train:23419", "split": "train", "question": "where are presidential powers listed in the constitution", "gold_answers": ["Article II"], "role": "held_out"}
+{"source_id": "train:30269", "split": "train", "question": "longest english word with letters in alphabetical order", "gold_answers": ["Aegilops"], "role": "held_out"}
+{"source_id": "train:86798", "split": "train", "question": "who plays mad hatter in through the looking glass", "gold_answers": ["Johnny Depp"], "role": "held_out"}
+{"source_id": "train:41287", "split": "train", "question": "the sense provides information about balance and movement", "gold_answers": ["vestibular system"], "role": "held_out"}
+{"source_id": "train:23761", "split": "train", "question": "movie that has nothing's gonna stop us now", "gold_answers": ["Mannequin"], "role": "held_out"}
+{"source_id": "train:81849", "split": "train", "question": "amazon the inaugural icc world twenty20 was played in south africa in 2007. who won the final", "gold_answers": ["India"], "role": "held_out"}
+{"source_id": "train:39666", "split": "train", "question": "what is the name of nigeria chief of air staff", "gold_answers": ["Sadique Abubakar"], "role": "held_out"}
+{"source_id": "train:48429", "split": "train", "question": "who does randy end up with on monk", "gold_answers": ["Sharona"], "role": "held_out"}
+{"source_id": "train:87431", "split": "train", "question": "who wrote the game of thrones theme song", "gold_answers": ["Ramin Djawadi"], "role": "held_out"}
+{"source_id": "train:76401", "split": "train", "question": "who was the japanese leader who called his reign the enlightened rule", "gold_answers": ["Emperor Meiji"], "role": "held_out"}
+{"source_id": "train:52331", "split": "train", "question": "where were the flying tigers based in china", "gold_answers": ["Kunming", "Mingaladon Airport near Rangoon"], "role": "held_out"}
+{"source_id": "train:34158", "split": "train", "question": "who sang back in the high life again", "gold_answers": ["Steve Winwood"], "role": "held_out"}
+{"source_id": "train:8382", "split": "train", "question": "who did muhammad ali fight in croke park", "gold_answers": ["Alvin Lewis"], "role": "held_out"}
+{"source_id": "train:68833", "split": "train", "question": "where is jt barrett playing in the nfl", "gold_answers": ["New Orleans Saints"], "role": "held_out"}
+{"source_id": "train:36687", "split": "train", "question": "how many super bowl rings do jaguars have", "gold_answers": ["0"], "role": "held_out"}
+{"source_id": "train:23928", "split": "train", "question": "who wrote do they know it's christmas with bob geldof", "gold_answers": ["Midge Ure"], "role": "held_out"}
+{"source_id": "train:49856", "split": "train", "question": "when is sturgis bike rally in south dakota", "gold_answers": ["First week in August"], "role": "held_out"}
+{"source_id": "train:61076", "split": "train", "question": "who directed harry potter and the order of the phoenix", "gold_answers": ["David Yates"], "role": "held_out"}
+{"source_id": "validation:1905", "split": "validation", "question": "where was the witch of blackbird pond published", "gold_answers": ["United States", "1958", "Houghton Mifflin"], "role": "held_out"}
+{"source_id": "train:26718", "split": "train", "question": "where does the london broil cut come from", "gold_answers": ["North American"], "role": "held_out"}
+{"source_id": "train:42494", "split": "train", "question": "when was star trek first shown in the uk", "gold_answers": ["July 12, 1969"], "role": "held_out"}
+{"source_id": "train:39478", "split": "train", "question": "who did vince carter play for last year", "gold_answers": ["Memphis"], "role": "held_out"}
+{"source_id": "train:76982", "split": "train", "question": "distribution of power between centre and state in indian constitution is based on which scheme", "gold_answers": ["a federal structure"], "role": "held_out"}
+{"source_id": "train:5262", "split": "train", "question": "who was the last british female to win wimbledon", "gold_answers": ["Virginia Wade"], "role": "held_out"}
+{"source_id": "train:13025", "split": "train", "question": "how old did the oldest human live to", "gold_answers": ["122 years, 164 days"], "role": "held_out"}
+{"source_id": "train:1133", "split": "train", "question": "who led the first voyage to circumnavigate the globe", "gold_answers": ["Juan Sebastián Elcano"], "role": "held_out"}
+{"source_id": "train:1379", "split": "train", "question": "who played pepper in american horror story asylum", "gold_answers": ["Naomi Grossman"], "role": "held_out"}
+{"source_id": "train:82943", "split": "train", "question": "where and when is beauty and the beast set", "gold_answers": ["Rococo-era France"], "role": "held_out"}
+{"source_id": "train:72384", "split": "train", "question": "who discovered the occurrence of oil in in assam", "gold_answers": ["Italian Engineers"], "role": "held_out"}
+{"source_id": "train:11766", "split": "train", "question": "who has won the premier league with 2 different clubs", "gold_answers": ["Henning Berg", "Gaël Clichy", "Robert Huth", "N'Golo Kanté", "Nicolas Anelka", "Ashley Cole", "Kolo Touré", "Carlos Tevez"], "role": "held_out"}
+{"source_id": "train:8014", "split": "train", "question": "who played rick forrester on bold and beautiful", "gold_answers": ["Justin Torkildsen", "Jacob Young", "Kyle Lowder"], "role": "held_out"}
+{"source_id": "train:42974", "split": "train", "question": "who holds the record for most hotdogs eaten", "gold_answers": ["Takeru Kobayashi"], "role": "held_out"}
+{"source_id": "train:59874", "split": "train", "question": "who sings with kenny loggins on whenever i call you friend", "gold_answers": ["Stevie Nicks"], "role": "held_out"}
+{"source_id": "train:4955", "split": "train", "question": "who stars in the movie the quiet place", "gold_answers": ["Noah Jupe", "John Krasinski", "Emily Blunt", "Millicent Simmonds"], "role": "held_out"}
+{"source_id": "train:35881", "split": "train", "question": "who wrote the following statement on the wall if you don't change you become extinct", "gold_answers": ["Haw"], "role": "held_out"}
+{"source_id": "train:19122", "split": "train", "question": "whats the record for most wins in a row mlb", "gold_answers": ["26 games"], "role": "held_out"}
+{"source_id": "train:82661", "split": "train", "question": "in which of these areas did the civil rights act of 1968 ban discrimination", "gold_answers": ["housing"], "role": "held_out"}
+{"source_id": "train:78324", "split": "train", "question": "where is great mills high school in maryland located", "gold_answers": ["in Great Mills"], "role": "held_out"}
+{"source_id": "train:65109", "split": "train", "question": "who was the hired hand on green acres", "gold_answers": ["Parley Baer"], "role": "held_out"}
+{"source_id": "train:53288", "split": "train", "question": "how many episodes does riverdale season 2 have", "gold_answers": ["22"], "role": "held_out"}
+{"source_id": "train:75048", "split": "train", "question": "who were the two teams that played in the first super bowl", "gold_answers": ["Kansas City Chiefs", "Green Bay Packers"], "role": "held_out"}
+{"source_id": "train:6115", "split": "train", "question": "how many letters does the french alphabet have", "gold_answers": ["26"], "role": "held_out"}
+{"source_id": "train:6547", "split": "train", "question": "who played the emperor return of the jedi", "gold_answers": ["Ian McDiarmid"], "role": "held_out"}
+{"source_id": "train:65343", "split": "train", "question": "who plays jack on king of the hill", "gold_answers": ["Brian Doyle-Murray"], "role": "held_out"}
+{"source_id": "train:64482", "split": "train", "question": "who sang the original song somewhere over the rainbow", "gold_answers": ["Judy Garland"], "role": "held_out"}
+{"source_id": "train:52709", "split": "train", "question": "who played scrooge in the muppet christmas carol", "gold_answers": ["Michael Caine"], "role": "held_out"}
+{"source_id": "train:67456", "split": "train", "question": "when do baby start to open their eyes", "gold_answers": ["after seven to ten days"], "role": "held_out"}
+{"source_id": "train:12364", "split": "train", "question": "who played the original hawaii five-o theme song", "gold_answers": ["the Ventures"], "role": "held_out"}
+{"source_id": "train:12828", "split": "train", "question": "who played role of joker in dark knight", "gold_answers": ["Heathcliff Andrew Ledger"], "role": "held_out"}
+{"source_id": "train:6040", "split": "train", "question": "who wins the great british baking show season 3", "gold_answers": ["John"], "role": "held_out"}
+{"source_id": "train:53624", "split": "train", "question": "who played roberts partner on everybody loves raymond", "gold_answers": ["Sherri Shepherd"], "role": "held_out"}
+{"source_id": "train:50552", "split": "train", "question": "when was the death penalty abolished in russia", "gold_answers": ["1999"], "role": "held_out"}
+{"source_id": "train:37880", "split": "train", "question": "when was the pink flamingo lawn ornament invented", "gold_answers": ["1957"], "role": "held_out"}
+{"source_id": "train:19848", "split": "train", "question": "who sings she dont love you she's just lonely", "gold_answers": ["Eric Paslay"], "role": "held_out"}
+{"source_id": "train:24171", "split": "train", "question": "what is the objective of a trade mission", "gold_answers": ["exploring international business opportunities"], "role": "held_out"}
+{"source_id": "train:33131", "split": "train", "question": "who played frankie in wizards of waverly place", "gold_answers": ["Paulie Litt"], "role": "held_out"}
+{"source_id": "train:21868", "split": "train", "question": "who sang who wants to be a millionaire in high society", "gold_answers": ["Frank Sinatra", "Celeste Holm"], "role": "held_out"}
+{"source_id": "train:47593", "split": "train", "question": "what type of music is old crow medicine show", "gold_answers": ["Folk", "Bluegrass", "Americana", "Old-time", "Alternative Country"], "role": "held_out"}
+{"source_id": "train:68172", "split": "train", "question": "when was taming of the shrew first performed", "gold_answers": ["1844"], "role": "held_out"}
+{"source_id": "train:2300", "split": "train", "question": "who is the current lead singer for journey", "gold_answers": ["Arnel Pineda"], "role": "held_out"}
+{"source_id": "train:75024", "split": "train", "question": "when do you age out of selective service", "gold_answers": ["45"], "role": "held_out"}
+{"source_id": "train:86117", "split": "train", "question": "what type of joint is the proximal tibiofibular", "gold_answers": ["arthrodial joint"], "role": "held_out"}
+{"source_id": "train:72576", "split": "train", "question": "what is the area code for omaha nebraska", "gold_answers": ["402,"], "role": "held_out"}
+{"source_id": "train:65074", "split": "train", "question": "what is the ranking of india in asian games 2018", "gold_answers": ["8th"], "role": "held_out"}
+{"source_id": "train:71320", "split": "train", "question": "when did the song tarzan boy come out", "gold_answers": ["1985"], "role": "held_out"}
+{"source_id": "train:59369", "split": "train", "question": "how many members are there in house of lords", "gold_answers": ["797"], "role": "held_out"}
+{"source_id": "train:12259", "split": "train", "question": "who played the murderer in silence of the lambs", "gold_answers": ["Ted Levine"], "role": "held_out"}
+{"source_id": "train:37330", "split": "train", "question": "biggest town in uk without a train station", "gold_answers": ["Gosport"], "role": "held_out"}
+{"source_id": "train:21410", "split": "train", "question": "who won the battle of the granicus river", "gold_answers": ["Macedonian victory"], "role": "held_out"}
+{"source_id": "train:3045", "split": "train", "question": "what are the 3 largest countries in europe", "gold_answers": ["France", "Ukraine", "Russia"], "role": "held_out"}
+{"source_id": "train:4351", "split": "train", "question": "do i need a permit to purchase a handgun in nc", "gold_answers": ["Yes"], "role": "held_out"}
+{"source_id": "train:30300", "split": "train", "question": "where does the formation of ribosomal subunits occur", "gold_answers": ["nucleolus"], "role": "held_out"}
+{"source_id": "train:64140", "split": "train", "question": "how many mcdonald's stores are there in australia", "gold_answers": ["920"], "role": "held_out"}
+{"source_id": "train:54586", "split": "train", "question": "when different parties control the white house and congress", "gold_answers": ["divided government"], "role": "held_out"}
+{"source_id": "train:30868", "split": "train", "question": "how many seasons of sgt frog are there", "gold_answers": ["7"], "role": "held_out"}
+{"source_id": "train:339", "split": "train", "question": "girl who plays in guardians of the galaxy", "gold_answers": ["Pom Klementieff"], "role": "held_out"}
+{"source_id": "train:24388", "split": "train", "question": "when does disney's food and wine festival end", "gold_answers": ["mid-November"], "role": "held_out"}
+{"source_id": "train:43506", "split": "train", "question": "where is lady and the tramp take place", "gold_answers": ["Midwestern town"], "role": "held_out"}
+{"source_id": "train:24304", "split": "train", "question": "who conspired in italy to bring about a revolution", "gold_answers": ["Giuseppe Mazzini"], "role": "held_out"}
+{"source_id": "train:31302", "split": "train", "question": "what is the common name for valeriana officinalis", "gold_answers": ["Valerian"], "role": "held_out"}
+{"source_id": "train:38572", "split": "train", "question": "who does peter's voice on family guy", "gold_answers": ["Seth MacFarlane"], "role": "held_out"}
+{"source_id": "train:4123", "split": "train", "question": "where does the water from slide rock come from", "gold_answers": ["Oak Creek"], "role": "held_out"}
+{"source_id": "train:36430", "split": "train", "question": "who plays batou in ghost in the shell", "gold_answers": ["Pilou Asbæk"], "role": "held_out"}
+{"source_id": "train:3837", "split": "train", "question": "who plays duke in she's the man", "gold_answers": ["Channing Tatum"], "role": "held_out"}
+{"source_id": "train:50050", "split": "train", "question": "which country was the last to join caricom", "gold_answers": ["Haiti"], "role": "held_out"}
+{"source_id": "train:21902", "split": "train", "question": "where does the song ring around the rosie originate from", "gold_answers": ["Europe"], "role": "held_out"}
+{"source_id": "train:10314", "split": "train", "question": "who plays pony head on star vs the forces of evil", "gold_answers": ["Jenny Slate"], "role": "held_out"}
+{"source_id": "train:16406", "split": "train", "question": "who was the german composer who went to england to write italian opera", "gold_answers": ["born Georg Friedrich Händel"], "role": "held_out"}
+{"source_id": "train:37471", "split": "train", "question": "who wrote the song dancing in the dark", "gold_answers": ["Howard Dietz,", "Arthur Schwartz"], "role": "held_out"}
+{"source_id": "train:17609", "split": "train", "question": "studies have shown that the ice located in the south pole of mars is mostly", "gold_answers": ["frozen carbon dioxide"], "role": "held_out"}
+{"source_id": "train:35205", "split": "train", "question": "who wrote i really love to see you tonight", "gold_answers": ["Parker McGee"], "role": "held_out"}
+{"source_id": "train:77945", "split": "train", "question": "nilgiri himalayan and arabian are kind of what", "gold_answers": ["sheep"], "role": "held_out"}
+{"source_id": "train:29256", "split": "train", "question": "where do the ilium the ischium and the pubis meet", "gold_answers": ["acetabulum"], "role": "held_out"}
+{"source_id": "train:30888", "split": "train", "question": "when did we find out samus was a girl", "gold_answers": ["the end of the game"], "role": "held_out"}
+{"source_id": "train:66317", "split": "train", "question": "where does the last name fletcher come from", "gold_answers": ["English", "Irish", "Scottish"], "role": "held_out"}
+{"source_id": "train:69599", "split": "train", "question": "where did lewis and clark winter in oregon", "gold_answers": ["Fort Clatsop"], "role": "held_out"}
+{"source_id": "train:24976", "split": "train", "question": "name a place in india famous for its coal mines", "gold_answers": ["Jharkhand"], "role": "held_out"}
+{"source_id": "train:12098", "split": "train", "question": "who was last president to serve one term", "gold_answers": ["George H. W. Bush"], "role": "held_out"}
+{"source_id": "train:11426", "split": "train", "question": "ncaa record for rushing tds in a game", "gold_answers": ["7"], "role": "held_out"}
+{"source_id": "train:76619", "split": "train", "question": "what is the current edition of the united states code", "gold_answers": ["LRC electronic version"], "role": "held_out"}
+{"source_id": "train:38947", "split": "train", "question": "what are the rows of seats in a church called", "gold_answers": ["pew"], "role": "held_out"}
+{"source_id": "train:77856", "split": "train", "question": "who had the best record in mlb 2016", "gold_answers": ["The Cubs"], "role": "held_out"}
+{"source_id": "train:32554", "split": "train", "question": "who designed a pinhole gamma ray called the collimeter", "gold_answers": ["English physicist Henry Kater"], "role": "held_out"}
+{"source_id": "train:80911", "split": "train", "question": "what is the use of tannin in plant", "gold_answers": ["as pesticides", "regulating plant growth", "protection from predation"], "role": "held_out"}
+{"source_id": "train:21549", "split": "train", "question": "number of movies released per year in india", "gold_answers": ["1,600"], "role": "held_out"}
+{"source_id": "train:37470", "split": "train", "question": "who won australia's i'm a celebrity get me out of here", "gold_answers": ["Fiona O'Loughlin"], "role": "held_out"}
+{"source_id": "train:23855", "split": "train", "question": "where are the body's smallest bones located", "gold_answers": ["the middle ear"], "role": "held_out"}
+{"source_id": "train:6893", "split": "train", "question": "when was the us national park system established", "gold_answers": ["June 10, 1933"], "role": "held_out"}
+{"source_id": "train:54849", "split": "train", "question": "who have the highest followers on instagram 2017", "gold_answers": ["Selena Gomez"], "role": "held_out"}
+{"source_id": "train:69993", "split": "train", "question": "who singing national anthem at super bowl 2015", "gold_answers": ["Idina Menzel"], "role": "held_out"}
+{"source_id": "train:22911", "split": "train", "question": "when does monk find out who killed trudy", "gold_answers": ["Mr. Monk and the End"], "role": "held_out"}
+{"source_id": "validation:3022", "split": "validation", "question": "what was the last episode of the flash", "gold_answers": ["The Elongated Knight Rises", "\"Finish Line\""], "role": "held_out"}
+{"source_id": "train:13346", "split": "train", "question": "when was the marine mammal protection act passed", "gold_answers": ["October 21, 1972"], "role": "held_out"}
+{"source_id": "train:78104", "split": "train", "question": "when was the sony walkman sold in stores", "gold_answers": ["June 1980"], "role": "held_out"}
+{"source_id": "train:35265", "split": "train", "question": "where did the last name daniel come from", "gold_answers": ["the Book of Daniel", "Hebrew origin"], "role": "held_out"}
+{"source_id": "train:85779", "split": "train", "question": "first woman to own a car in nigeria", "gold_answers": ["Funmilayo Ransome-Kuti"], "role": "held_out"}
+{"source_id": "train:38770", "split": "train", "question": "who wrote the song diamonds are a girl's best friend", "gold_answers": ["Leo Robin", "Jule Styne"], "role": "held_out"}
+{"source_id": "train:10747", "split": "train", "question": "what is the style of st paul's cathedral in london", "gold_answers": ["English Baroque"], "role": "held_out"}
+{"source_id": "train:12533", "split": "train", "question": "what type of fault is the san andrea fault", "gold_answers": ["continental transform fault"], "role": "held_out"}
+{"source_id": "train:67369", "split": "train", "question": "who did rupert grint play in postman pat the movie", "gold_answers": ["Josh"], "role": "held_out"}
+{"source_id": "train:79645", "split": "train", "question": "who has the most points in the nba ever", "gold_answers": ["Kareem Abdul-Jabbar"], "role": "held_out"}
+{"source_id": "train:5864", "split": "train", "question": "who played larry in the spy next door", "gold_answers": ["Lucas Till"], "role": "held_out"}
+{"source_id": "train:72290", "split": "train", "question": "when did thanks giving become a national holiday", "gold_answers": ["1789"], "role": "held_out"}
+{"source_id": "train:5118", "split": "train", "question": "what word in english is the most common spoken word", "gold_answers": ["the"], "role": "held_out"}
+{"source_id": "train:3716", "split": "train", "question": "who has the biggest contract in professional sports", "gold_answers": ["Giancarlo Stanton"], "role": "held_out"}
+{"source_id": "train:86102", "split": "train", "question": "congress has formally declared war times in u.s. history", "gold_answers": ["five"], "role": "held_out"}
+{"source_id": "train:50051", "split": "train", "question": "who plays matt mitchum in top of the lake", "gold_answers": ["Peter Mullan"], "role": "held_out"}
+{"source_id": "train:73611", "split": "train", "question": "who is the voice of patchy in walking with dinosaurs", "gold_answers": ["Justin Long"], "role": "held_out"}
+{"source_id": "train:12774", "split": "train", "question": "when was the first international yoga day celebrated", "gold_answers": ["2015"], "role": "held_out"}
+{"source_id": "train:74885", "split": "train", "question": "where does the sun rise in the northern hemisphere", "gold_answers": ["the east"], "role": "held_out"}
+{"source_id": "train:59406", "split": "train", "question": "india's next top model season 3 judges", "gold_answers": ["Malaika Arora", "Milind Soman", "Dabboo Ratnani"], "role": "held_out"}
+{"source_id": "train:4283", "split": "train", "question": "who played han solo son in star wars", "gold_answers": ["Adam Driver"], "role": "held_out"}
+{"source_id": "train:4001", "split": "train", "question": "who is appointed as the chairman of film and television institute of india", "gold_answers": ["Anupam Kher"], "role": "held_out"}
+{"source_id": "train:22055", "split": "train", "question": "gotham season 4 episode 12 when will it air", "gold_answers": ["March 1, 2018"], "role": "held_out"}
+{"source_id": "train:5097", "split": "train", "question": "when did condoms become legal in the us", "gold_answers": ["1936"], "role": "held_out"}
+{"source_id": "train:72862", "split": "train", "question": "who wrote the song i only have eyes for you", "gold_answers": ["lyricist Al Dubin", "composer Harry Warren"], "role": "held_out"}
+{"source_id": "train:75747", "split": "train", "question": "who remarked poets are the unacknowledged legislators of the world", "gold_answers": ["Percy Bysshe Shelley"], "role": "held_out"}
+{"source_id": "train:40556", "split": "train", "question": "what is the name of the first extinction", "gold_answers": ["Great Oxygenation Event"], "role": "held_out"}
+{"source_id": "train:37497", "split": "train", "question": "who wins hell's kitchen all stars spoiler", "gold_answers": ["Michelle Tribble"], "role": "held_out"}
+{"source_id": "train:76160", "split": "train", "question": "what are the names of all of the infinity stones", "gold_answers": ["Soul", "Mind", "Reality", "Space", "Power", "Time"], "role": "held_out"}
+{"source_id": "train:22492", "split": "train", "question": "highest producer of crude oil in the world", "gold_answers": ["Russia"], "role": "held_out"}
+{"source_id": "train:5882", "split": "train", "question": "what's the purpose of the space needle", "gold_answers": ["the 1962 World's Fair"], "role": "held_out"}
+{"source_id": "train:65707", "split": "train", "question": "who does dave franco play in the disaster artist", "gold_answers": ["Dave Franco"], "role": "held_out"}
+{"source_id": "train:31451", "split": "train", "question": "who has scored the most runs in odi", "gold_answers": ["Sachin Tendulkar"], "role": "held_out"}
+{"source_id": "train:29833", "split": "train", "question": "who played lieutenant barclay on star trek the next generation", "gold_answers": ["Dwight Schultz"], "role": "held_out"}
+{"source_id": "train:82967", "split": "train", "question": "when did the addams family first air on tv", "gold_answers": ["September 18, 1964"], "role": "held_out"}
+{"source_id": "train:73604", "split": "train", "question": "who sing don't you forget about me", "gold_answers": ["Simple Minds"], "role": "held_out"}
+{"source_id": "train:36222", "split": "train", "question": "where was the movie johnny be good filmed", "gold_answers": ["Georgetown, Texas"], "role": "held_out"}
+{"source_id": "train:62947", "split": "train", "question": "a bundle of sticks that starts with an f", "gold_answers": ["faggot"], "role": "held_out"}
+{"source_id": "train:30693", "split": "train", "question": "who played smiley in tinker tailor soldier spy", "gold_answers": ["Gary Oldman"], "role": "held_out"}
+{"source_id": "train:31394", "split": "train", "question": "where are the bbc proms held in london", "gold_answers": ["Royal Albert Hall"], "role": "held_out"}
+{"source_id": "train:37555", "split": "train", "question": "how many nfc championships have the packers won", "gold_answers": ["three"], "role": "held_out"}
+{"source_id": "train:33056", "split": "train", "question": "in which year mysore state was renamed as karnataka", "gold_answers": ["1973"], "role": "held_out"}
+{"source_id": "train:4685", "split": "train", "question": "who does the song somebody's watching me", "gold_answers": ["Rockwell"], "role": "held_out"}
+{"source_id": "train:16022", "split": "train", "question": "what is the most popular car in russia", "gold_answers": ["the classic Lada Riva"], "role": "held_out"}
+{"source_id": "train:69186", "split": "train", "question": "name of the 23rd tirthankar of jainisms in india", "gold_answers": ["Parshvanatha"], "role": "held_out"}
+{"source_id": "train:17509", "split": "train", "question": "who is the little girl who played in waterworld", "gold_answers": ["Tina Marie Majorino"], "role": "held_out"}
+{"source_id": "train:77219", "split": "train", "question": "who's the lead singer of panic at the disco", "gold_answers": ["Brendon Boyd Urie"], "role": "held_out"}
+{"source_id": "train:13034", "split": "train", "question": "who is the education minister of pakistan 2018", "gold_answers": ["Shafqat Mahmood"], "role": "held_out"}
+{"source_id": "train:2840", "split": "train", "question": "who the girl in somebody that i used to know", "gold_answers": ["Kimbra"], "role": "held_out"}
+{"source_id": "train:46262", "split": "train", "question": "where is the national institute of health located", "gold_answers": ["Bethesda, Maryland"], "role": "held_out"}
+{"source_id": "train:16774", "split": "train", "question": "the extraembryonic membrane that helps in the formation of the placenta is the", "gold_answers": ["chorion"], "role": "held_out"}
+{"source_id": "train:54333", "split": "train", "question": "what was the prison called in the green mile", "gold_answers": ["Cold Mountain Penitentiary"], "role": "held_out"}
+{"source_id": "train:67057", "split": "train", "question": "when was a tree grows in brooklyn published", "gold_answers": ["1943"], "role": "held_out"}
+{"source_id": "train:38497", "split": "train", "question": "when did the first afghan cameleers arrive in australia", "gold_answers": ["June 1860"], "role": "held_out"}
+{"source_id": "train:68924", "split": "train", "question": "judicial review allows the u.s. supreme court to undo which type of government decision", "gold_answers": ["administrative regulation", "statute", "treaty"], "role": "held_out"}
+{"source_id": "train:31172", "split": "train", "question": "who is the oldest of zeus poseidon and hades", "gold_answers": ["Hades"], "role": "held_out"}
+{"source_id": "train:50678", "split": "train", "question": "where does texas economy rank in the world", "gold_answers": ["10th largest"], "role": "held_out"}
+{"source_id": "train:57386", "split": "train", "question": "who is responsible for the first permanent photograph called a heliograph", "gold_answers": ["Nicéphore Niépce"], "role": "held_out"}
+{"source_id": "train:19123", "split": "train", "question": "where is the starry night over the rhone located", "gold_answers": ["the Musée d'Orsay in Paris"], "role": "held_out"}
+{"source_id": "train:73075", "split": "train", "question": "who narrated the war of the worlds radio broadcast", "gold_answers": ["Orson Welles"], "role": "held_out"}
+{"source_id": "train:82173", "split": "train", "question": "how many teams are in the ncaa womens soccer tournament", "gold_answers": ["64"], "role": "held_out"}
+{"source_id": "train:25247", "split": "train", "question": "who is the second most decorated olympian of all time", "gold_answers": ["Larisa Latynina"], "role": "held_out"}
+{"source_id": "train:27464", "split": "train", "question": "when was the last time yellowstone supervolcano erupted", "gold_answers": ["174,000 years ago"], "role": "held_out"}
+{"source_id": "train:43255", "split": "train", "question": "is south africa a continent or a country", "gold_answers": ["country"], "role": "held_out"}
+{"source_id": "train:47619", "split": "train", "question": "who was skeletor in masters of the universe", "gold_answers": ["Frank Langella"], "role": "held_out"}
+{"source_id": "train:4942", "split": "train", "question": "who plays kelly from saved by the bell", "gold_answers": ["Tiffani Amber Thiessen"], "role": "held_out"}
+{"source_id": "train:75163", "split": "train", "question": "how many fifa world cups does france have", "gold_answers": ["2"], "role": "held_out"}
+{"source_id": "train:77972", "split": "train", "question": "who sings i hope that we can be together soon", "gold_answers": ["Dusty Springfield"], "role": "held_out"}
+{"source_id": "train:87615", "split": "train", "question": "who sang it feels like the first time", "gold_answers": ["Foreigner"], "role": "held_out"}
+{"source_id": "train:31447", "split": "train", "question": "who won the triple crown 4 years ago", "gold_answers": ["American Pharoah"], "role": "held_out"}
+{"source_id": "train:25641", "split": "train", "question": "who is the actor who plays damon in vampire diaries", "gold_answers": ["Ian Joseph Somerhalder"], "role": "held_out"}
+{"source_id": "train:62499", "split": "train", "question": "what was built in an effort of cooperation between north and south korea", "gold_answers": ["Korean Demilitarized Zone"], "role": "held_out"}
+{"source_id": "train:82035", "split": "train", "question": "who plays jane the virgin as a child", "gold_answers": ["Jenna Ortega"], "role": "held_out"}
+{"source_id": "train:4663", "split": "train", "question": "what's the longest win streak in mlb", "gold_answers": ["26"], "role": "held_out"}
+{"source_id": "train:10193", "split": "train", "question": "who owns the united nations building in new york", "gold_answers": ["United Nations"], "role": "held_out"}
+{"source_id": "train:82306", "split": "train", "question": "lucknow congress session 1916 was presided over by—", "gold_answers": ["Muhammad Ali Jinnah"], "role": "held_out"}
+{"source_id": "train:53451", "split": "train", "question": "when does the new wentworth season come out", "gold_answers": ["19 June 2018"], "role": "held_out"}
+{"source_id": "train:75041", "split": "train", "question": "how much did movie skyscraper cost to make", "gold_answers": ["$125 million"], "role": "held_out"}
+{"source_id": "train:994", "split": "train", "question": "the differences between the different spectral types of stars are primarily due to", "gold_answers": ["ionization state"], "role": "held_out"}
+{"source_id": "train:61263", "split": "train", "question": "what is the first teenage mutant ninja turtles movie", "gold_answers": ["Teenage Mutant Ninja Turtles"], "role": "held_out"}
+{"source_id": "train:82788", "split": "train", "question": "when did the arab spring start in libya", "gold_answers": ["17 February 2011"], "role": "held_out"}
+{"source_id": "train:5668", "split": "train", "question": "what is the final episode of game of thrones season 7", "gold_answers": ["The Dragon and the Wolf"], "role": "held_out"}
+{"source_id": "train:83698", "split": "train", "question": "who created the magnetic stripe on credit cards", "gold_answers": ["Forrest Corry Parry"], "role": "held_out"}
+{"source_id": "train:6006", "split": "train", "question": "who became the fifth beatle on let it be playing keyboards on the lp", "gold_answers": ["Billy Preston"], "role": "held_out"}
+{"source_id": "train:26623", "split": "train", "question": "where is the frozen ride at disney world", "gold_answers": ["in Epcot"], "role": "held_out"}
+{"source_id": "train:46989", "split": "train", "question": "when did sims 4 come out for xbox one", "gold_answers": ["November 17, 2017"], "role": "held_out"}
+{"source_id": "train:46447", "split": "train", "question": "how many members on the house of representatives", "gold_answers": ["435"], "role": "held_out"}
+{"source_id": "train:28555", "split": "train", "question": "when does anne with a n e season 2 come out", "gold_answers": ["2018"], "role": "held_out"}
+{"source_id": "train:45036", "split": "train", "question": "who won the first ever formula 1 race", "gold_answers": ["Achille Varzi"], "role": "held_out"}
+{"source_id": "train:65417", "split": "train", "question": "what is the population of grand forks bc", "gold_answers": ["4,049"], "role": "held_out"}
+{"source_id": "train:28278", "split": "train", "question": "when was the first amendment written and by whom", "gold_answers": ["James Madison"], "role": "held_out"}
+{"source_id": "train:78928", "split": "train", "question": "when did the ar-15 first go on sale", "gold_answers": ["1959"], "role": "held_out"}
+{"source_id": "train:46425", "split": "train", "question": "when did england last reach world cup quarter final", "gold_answers": ["2006"], "role": "held_out"}
+{"source_id": "train:71988", "split": "train", "question": "what is the name of the latest version of apple's os x operating system", "gold_answers": ["macOS"], "role": "held_out"}
+{"source_id": "train:5006", "split": "train", "question": "who scored most runs in t20 for india", "gold_answers": ["Virat Kohli"], "role": "held_out"}
+{"source_id": "train:42711", "split": "train", "question": "where is the area code 951 coming from", "gold_answers": ["California"], "role": "held_out"}
+{"source_id": "train:59908", "split": "train", "question": "who wins americas next top model season 4", "gold_answers": ["Naima Mora"], "role": "held_out"}
+{"source_id": "train:75739", "split": "train", "question": "when did the moto g5 plus come out", "gold_answers": ["March 2017"], "role": "held_out"}
+{"source_id": "train:62036", "split": "train", "question": "who won i m a celebrity australia 2017", "gold_answers": ["Casey Donovan"], "role": "held_out"}
+{"source_id": "train:47632", "split": "train", "question": "who played dr richard kimble in the fugitive", "gold_answers": ["David Janssen"], "role": "held_out"}
+{"source_id": "train:33421", "split": "train", "question": "how many major ports are there at present in india", "gold_answers": ["12"], "role": "held_out"}
+{"source_id": "train:43302", "split": "train", "question": "who has the longest super bowl win streak", "gold_answers": ["Miami Dolphins", "San Francisco 49ers", "Green Bay Packers", "Denver Broncos", "Pittsburgh Steelers", "New England Patriots", "Dallas Cowboys"], "role": "held_out"}
+{"source_id": "train:69936", "split": "train", "question": "what is the record for steals in an nba game", "gold_answers": ["Larry Kenon", "Kendall Gill"], "role": "held_out"}
+{"source_id": "train:28092", "split": "train", "question": "what country dominated eastern europe after world war ii", "gold_answers": ["the Soviet Union"], "role": "held_out"}
+{"source_id": "validation:1117", "split": "validation", "question": "who are considered to be the founding fathers", "gold_answers": ["George Washington", "Benjamin Franklin", "John Adams", "Alexander Hamilton", "John Jay", "James Madison", "Thomas Jefferson"], "role": "held_out"}
+{"source_id": "train:80559", "split": "train", "question": "boarder security force bsf is responsible for guarding on borders of which countries", "gold_answers": ["the borders of India"], "role": "held_out"}
+{"source_id": "validation:764", "split": "validation", "question": "where are the cones in the eye located", "gold_answers": ["the retina", "in the fovea centralis", "in the retina"], "role": "held_out"}
+{"source_id": "train:38827", "split": "train", "question": "most total offensive yards in a game nfl", "gold_answers": ["1,151"], "role": "held_out"}
+{"source_id": "train:13613", "split": "train", "question": "who sang the original song sea of love", "gold_answers": ["Phil Phillips"], "role": "held_out"}
+{"source_id": "train:4141", "split": "train", "question": "total number of judges in international court of justice", "gold_answers": ["15"], "role": "held_out"}
+{"source_id": "train:85038", "split": "train", "question": "who sings the song and the beat goes on", "gold_answers": ["Sonny & Cher"], "role": "held_out"}
+{"source_id": "train:83134", "split": "train", "question": "who is the recently elected president of india", "gold_answers": ["Ram Nath Kovind"], "role": "held_out"}
+{"source_id": "train:83090", "split": "train", "question": "who played the boyfriend in where the heart is", "gold_answers": ["Dylan Bruno"], "role": "held_out"}
+{"source_id": "train:28178", "split": "train", "question": "where is the scrotum located on a male", "gold_answers": ["under the penis"], "role": "held_out"}
+{"source_id": "train:86135", "split": "train", "question": "what was miley's name in hannah montana", "gold_answers": ["Miley Stewart"], "role": "held_out"}
+{"source_id": "train:73700", "split": "train", "question": "when did the chernobyl power plant go offline", "gold_answers": ["June 17, 2017"], "role": "held_out"}
+{"source_id": "train:45565", "split": "train", "question": "when do homologous chromosomes separate from one another", "gold_answers": ["diplotene stage of prophase I"], "role": "held_out"}
+{"source_id": "train:41777", "split": "train", "question": "voice of peggy on king of the hill", "gold_answers": ["Kathy Ann Najimy"], "role": "held_out"}
+{"source_id": "train:30890", "split": "train", "question": "who did orlando brown play in proud family", "gold_answers": ["Sticky Webb"], "role": "held_out"}
+{"source_id": "train:15600", "split": "train", "question": "what happened to chemical bonds during chemical reactions", "gold_answers": ["forming and breaking"], "role": "held_out"}
+{"source_id": "train:68464", "split": "train", "question": "which hill ranges lie to the west of deccan plateau", "gold_answers": ["the Western Ghats"], "role": "held_out"}
+{"source_id": "train:35413", "split": "train", "question": "five largest states in the us by area", "gold_answers": ["California", "New Mexico", "Texas", "Montana", "Alaska"], "role": "held_out"}
+{"source_id": "train:51682", "split": "train", "question": "where is the nuclear waste from nuclear power plants in the united states currently being stored", "gold_answers": ["Nye County, Nevada"], "role": "held_out"}
+{"source_id": "train:16638", "split": "train", "question": "where did dr nick go to medical school", "gold_answers": ["Mayo Clinic Correspondence School"], "role": "held_out"}
+{"source_id": "train:21669", "split": "train", "question": "where does the majority of new york city's drinking water come from", "gold_answers": ["The Delaware Aqueduct", "The Catskill Aqueduct"], "role": "held_out"}
+{"source_id": "train:251", "split": "train", "question": "who won the first academy award for best picture", "gold_answers": ["Wings"], "role": "held_out"}
+{"source_id": "train:49265", "split": "train", "question": "india's first high speed rail training centre will be established in which state", "gold_answers": ["Maligaon"], "role": "held_out"}
+{"source_id": "train:76110", "split": "train", "question": "what are the big orcs in lord of the rings", "gold_answers": ["The Uruk-hai"], "role": "held_out"}
+{"source_id": "train:82530", "split": "train", "question": "who introduced the system of civil services in india", "gold_answers": ["Charles Cornwallis"], "role": "held_out"}
+{"source_id": "train:14593", "split": "train", "question": "who sings opening song on sunday night football", "gold_answers": ["Carrie Underwood"], "role": "held_out"}
+{"source_id": "train:80876", "split": "train", "question": "when was the last time the arizona cardinals were in the playoffs", "gold_answers": ["2015"], "role": "held_out"}
+{"source_id": "train:71326", "split": "train", "question": "who played leif forest on man with a plan", "gold_answers": ["Geoff Stults"], "role": "held_out"}
+{"source_id": "train:46836", "split": "train", "question": "when is the next episode of star trek discovery coming out", "gold_answers": ["January 2018"], "role": "held_out"}
+{"source_id": "train:57992", "split": "train", "question": "how old do you need to be to get a license in california", "gold_answers": ["16 years"], "role": "held_out"}
+{"source_id": "train:47286", "split": "train", "question": "who plays leslie in the movie bridge to terabithia", "gold_answers": ["AnnaSophia Robb"], "role": "held_out"}
+{"source_id": "train:29899", "split": "train", "question": "how many states in usa have death penalty", "gold_answers": ["31"], "role": "held_out"}
+{"source_id": "train:84239", "split": "train", "question": "where is the lost city of petra located", "gold_answers": ["southern Jordan"], "role": "held_out"}
+{"source_id": "train:34874", "split": "train", "question": "who does the voice of maleficent in sleeping beauty", "gold_answers": ["Eleanor Audley"], "role": "held_out"}
+{"source_id": "train:80578", "split": "train", "question": "when do newborn baby kittens open their eyes", "gold_answers": ["after seven to ten days"], "role": "held_out"}
+{"source_id": "validation:2811", "split": "validation", "question": "who played ethel on the doris day show", "gold_answers": ["Carol Worthington"], "role": "held_out"}
+{"source_id": "train:25102", "split": "train", "question": "where will uefa champions league final be held", "gold_answers": ["26 May 2018"], "role": "held_out"}
+{"source_id": "train:69593", "split": "train", "question": "who lost their strength when their hair was cut", "gold_answers": ["Samson"], "role": "held_out"}
+{"source_id": "train:11815", "split": "train", "question": "in which article do we find the first indication of the 'separation of church and state '", "gold_answers": ["Article Six"], "role": "held_out"}
+{"source_id": "train:42060", "split": "train", "question": "who sings make me do anything you want", "gold_answers": ["A Foot in Coldwater"], "role": "held_out"}
+{"source_id": "train:81804", "split": "train", "question": "when does tom clancy's the division come out", "gold_answers": ["8 March 2016"], "role": "held_out"}
+{"source_id": "train:25622", "split": "train", "question": "who built the first v twin motorcycle engine", "gold_answers": ["Gottlieb Daimler"], "role": "held_out"}
+{"source_id": "train:75513", "split": "train", "question": "when did the first iphone 7 come out", "gold_answers": ["September 16, 2016"], "role": "held_out"}
+{"source_id": "train:31199", "split": "train", "question": "when did the romantic era start and end", "gold_answers": ["1800 to 1850"], "role": "held_out"}
+{"source_id": "train:78422", "split": "train", "question": "when was paterson's curse introduced to australia", "gold_answers": ["In the 1880s"], "role": "held_out"}
+{"source_id": "train:79050", "split": "train", "question": "who sings the song give it to me baby", "gold_answers": ["Rick James"], "role": "held_out"}
+{"source_id": "train:85308", "split": "train", "question": "who voices the beast in the new beauty and the beast", "gold_answers": ["Dan Stevens"], "role": "held_out"}
+{"source_id": "train:87875", "split": "train", "question": "who played james bond in the man with the golden gun", "gold_answers": ["Roger Moore"], "role": "held_out"}
+{"source_id": "train:56697", "split": "train", "question": "who came first barry allen or wally west", "gold_answers": ["Barry Allen"], "role": "held_out"}
+{"source_id": "train:10394", "split": "train", "question": "what type of climates are found in southeast asia", "gold_answers": ["tropical", "subtropical", "desert like"], "role": "held_out"}
+{"source_id": "train:77355", "split": "train", "question": "in the song of roland roland's fate is brought on by his", "gold_answers": ["stepfather Ganelon"], "role": "held_out"}
+{"source_id": "train:10274", "split": "train", "question": "who has more league titles real madrid or barcelona", "gold_answers": ["Real Madrid"], "role": "held_out"}
+{"source_id": "train:72635", "split": "train", "question": "who were the main groups making up the european social order in the 18th century", "gold_answers": ["bourgeoisie", "peasants", "nobles", "clergy"], "role": "held_out"}
+{"source_id": "train:47795", "split": "train", "question": "how many episodes are in true blood season 1", "gold_answers": ["12"], "role": "held_out"}
+{"source_id": "train:79454", "split": "train", "question": "in which year did telenor launch its operations in pakistan", "gold_answers": ["on 15 March 2005"], "role": "held_out"}
+{"source_id": "train:63308", "split": "train", "question": "who sings the song baby come to me", "gold_answers": ["Patti Austin", "James Ingram"], "role": "held_out"}
+{"source_id": "train:9841", "split": "train", "question": "the culture that had the greatest impact on vietnam was", "gold_answers": ["Chinese"], "role": "held_out"}
+{"source_id": "train:39327", "split": "train", "question": "who does ken jeong play in despicable me", "gold_answers": ["Talk Show Host"], "role": "held_out"}
+{"source_id": "train:7721", "split": "train", "question": "where was the cabinet of dr caligari filmed", "gold_answers": ["Lixie-Atelier film studio"], "role": "held_out"}
+{"source_id": "train:71010", "split": "train", "question": "when does warriors the raging storm come out", "gold_answers": ["November 6, 2018"], "role": "held_out"}
+{"source_id": "train:45897", "split": "train", "question": "who are the presiding officers in the senate", "gold_answers": ["the Vice President", "an elected United States Senator"], "role": "held_out"}
+{"source_id": "train:45625", "split": "train", "question": "who plays mindy st. claire on the good place", "gold_answers": ["Maribeth Monroe"], "role": "held_out"}
+{"source_id": "train:70031", "split": "train", "question": "who wrote blue eyes cryin in the rain", "gold_answers": ["Fred Rose"], "role": "held_out"}
+{"source_id": "train:52154", "split": "train", "question": "when did the first disney movie come out", "gold_answers": ["1937"], "role": "held_out"}
+{"source_id": "train:50460", "split": "train", "question": "when was the original alice in wonderland made", "gold_answers": ["1951"], "role": "held_out"}
+{"source_id": "train:41326", "split": "train", "question": "who plays the priest in scary movie 2", "gold_answers": ["Andy Richter", "James Woods"], "role": "held_out"}
+{"source_id": "train:35406", "split": "train", "question": "what side of a powered aircraft has green navigation lights", "gold_answers": ["the right wingtip leading edge"], "role": "held_out"}
+{"source_id": "train:12406", "split": "train", "question": "when did the new £1 coins come into circulation", "gold_answers": ["28 March 2017"], "role": "held_out"}
+{"source_id": "train:44360", "split": "train", "question": "who did the music for power rangers 2017", "gold_answers": ["Brian Tyler"], "role": "held_out"}
+{"source_id": "train:71125", "split": "train", "question": "what is the term for supreme court judges", "gold_answers": ["lifetime tenure"], "role": "held_out"}
+{"source_id": "train:49945", "split": "train", "question": "what causes earthquakes in the san andreas fault", "gold_answers": ["plate movement"], "role": "held_out"}
+{"source_id": "train:39589", "split": "train", "question": "when will the next world series game be played", "gold_answers": ["October 24 and November 1"], "role": "held_out"}
+{"source_id": "train:14022", "split": "train", "question": "process of restarting a computer that is already powered on", "gold_answers": ["rebooting"], "role": "held_out"}
+{"source_id": "train:42450", "split": "train", "question": "when was the first winchester repeating rifle made", "gold_answers": ["1866"], "role": "held_out"}
+{"source_id": "train:52484", "split": "train", "question": "what is an example of a natural climate record/proxy", "gold_answers": ["ice cores"], "role": "held_out"}
+{"source_id": "train:87482", "split": "train", "question": "who is rose related to in fuller house", "gold_answers": ["C.J."], "role": "held_out"}
+{"source_id": "train:56332", "split": "train", "question": "who plays abigail in days of our lives", "gold_answers": ["Marci Miller"], "role": "held_out"}
+{"source_id": "validation:2866", "split": "validation", "question": "what us state forms the western boundary of montana", "gold_answers": ["Idaho"], "role": "held_out"}
+{"source_id": "train:32734", "split": "train", "question": "how many hungry jack's stores in australia", "gold_answers": ["over 390"], "role": "held_out"}
+{"source_id": "train:82728", "split": "train", "question": "who is the new universal champion in wwe", "gold_answers": ["Finn Bálor"], "role": "held_out"}
+{"source_id": "train:9707", "split": "train", "question": "who wrote you are so beautiful by joe cocker", "gold_answers": ["Billy Preston", "Bruce Fisher"], "role": "held_out"}
+{"source_id": "train:56580", "split": "train", "question": "when was the last time nevada was in the sweet 16", "gold_answers": ["2018"], "role": "held_out"}
+{"source_id": "train:37404", "split": "train", "question": "how many chromosomes are in a human karyotype", "gold_answers": ["46"], "role": "held_out"}
+{"source_id": "train:44936", "split": "train", "question": "who owns the property the un sits on", "gold_answers": ["United Nations"], "role": "held_out"}
+{"source_id": "train:43096", "split": "train", "question": "where does the electric eel get its electricity", "gold_answers": ["main organ", "Sach's organ", "Hunter's organ"], "role": "held_out"}
+{"source_id": "train:71133", "split": "train", "question": "who played shug avery in the color purple", "gold_answers": ["Margaret Avery"], "role": "held_out"}
+{"source_id": "train:86286", "split": "train", "question": "how many american citizens live in the united states", "gold_answers": ["308 million"], "role": "held_out"}
+{"source_id": "train:28320", "split": "train", "question": "when did day light savings time start in the united states", "gold_answers": ["1967"], "role": "held_out"}
+{"source_id": "train:15419", "split": "train", "question": "which book is first in the witcher series", "gold_answers": ["The Last Wish"], "role": "held_out"}
+{"source_id": "train:70088", "split": "train", "question": "who was president during the second world war", "gold_answers": ["President Franklin Delano Roosevelt", "Harry S. Truman"], "role": "held_out"}
+{"source_id": "train:59027", "split": "train", "question": "when did girl on the train come to theaters", "gold_answers": ["October 7, 2016"], "role": "held_out"}
+{"source_id": "train:29711", "split": "train", "question": "who wrote the song oh come to the altar", "gold_answers": ["Mack Brock,", "Chris Brown", "Steven Furtick", "Wade Joye"], "role": "held_out"}
+{"source_id": "train:52996", "split": "train", "question": "who is the leading scorer in the champions league", "gold_answers": ["Cristiano Ronaldo"], "role": "held_out"}
+{"source_id": "train:2095", "split": "train", "question": "the first life forms to appear on earth were", "gold_answers": ["putative fossilized microorganisms"], "role": "held_out"}
+{"source_id": "train:50318", "split": "train", "question": "what is the name of beethoven's only opera", "gold_answers": ["Fidelio"], "role": "held_out"}
+{"source_id": "train:82375", "split": "train", "question": "which group supported political machines like tammany hall", "gold_answers": ["Democratic Party"], "role": "held_out"}
+{"source_id": "train:721", "split": "train", "question": "who is the actor who plays captain america", "gold_answers": ["Christopher Robert Evans"], "role": "held_out"}
+{"source_id": "train:8169", "split": "train", "question": "who wrote the song death cab for cutie", "gold_answers": ["Vivian Stanshall", "Neil Innes"], "role": "held_out"}
+{"source_id": "train:25457", "split": "train", "question": "when did the 1 dollar coin come out", "gold_answers": ["1794"], "role": "held_out"}
+{"source_id": "train:78058", "split": "train", "question": "who had the highest batting average in the al in 2011", "gold_answers": ["Miguel Cabrera"], "role": "held_out"}
+{"source_id": "train:19071", "split": "train", "question": "who sings my mind playing tricks on me", "gold_answers": ["the Geto Boys"], "role": "held_out"}
+{"source_id": "train:86509", "split": "train", "question": "number of pages in i'll give you the sun", "gold_answers": ["371 pages"], "role": "held_out"}
+{"source_id": "train:5907", "split": "train", "question": "who won the college baseball world series 2017", "gold_answers": ["Florida Gators"], "role": "held_out"}
+{"source_id": "train:73277", "split": "train", "question": "what are the various planned maintenance schedules that are generally used", "gold_answers": ["date-based", "based on equipment running hours", "distance travelled by the vehicle"], "role": "held_out"}
+{"source_id": "train:32667", "split": "train", "question": "when did honolulu become the capital of hawaii", "gold_answers": ["1845"], "role": "held_out"}
+{"source_id": "train:20837", "split": "train", "question": "what is the name of the neighbor in good luck charlie", "gold_answers": ["Mrs. Estelle[16] Dabney"], "role": "held_out"}
+{"source_id": "train:68972", "split": "train", "question": "google who won the world series of poker", "gold_answers": ["John Cynn"], "role": "held_out"}
+{"source_id": "train:25201", "split": "train", "question": "when was the first airline meal served during a flight", "gold_answers": ["1919"], "role": "held_out"}
+{"source_id": "train:33604", "split": "train", "question": "who is the quarter back for the broncos", "gold_answers": ["Trevor John Siemian"], "role": "held_out"}
+{"source_id": "train:72878", "split": "train", "question": "who was the original christine in phantom of the opera", "gold_answers": ["Sarah Brightman"], "role": "held_out"}
+{"source_id": "train:60048", "split": "train", "question": "who wrote the song i love rock and roll", "gold_answers": ["Alan Merrill of the Arrows"], "role": "held_out"}
+{"source_id": "train:44296", "split": "train", "question": "who is considered the father of la lucha libre in mexico", "gold_answers": ["Salvador Lutteroth"], "role": "held_out"}
+{"source_id": "train:20832", "split": "train", "question": "who created the periodic table of the elements", "gold_answers": ["Dmitri Mendeleev"], "role": "held_out"}
+{"source_id": "train:34658", "split": "train", "question": "who was the prime minister of great britain in 1956", "gold_answers": ["Robert Anthony Eden"], "role": "held_out"}
+{"source_id": "train:45352", "split": "train", "question": "the author of the three little pigs story", "gold_answers": ["James Halliwell-Phillipps"], "role": "held_out"}
+{"source_id": "train:32419", "split": "train", "question": "when was the derby last run on a wednesday", "gold_answers": ["1995"], "role": "held_out"}
+{"source_id": "train:52105", "split": "train", "question": "when did the world population reach 2 billion", "gold_answers": ["1927"], "role": "held_out"}
+{"source_id": "train:81545", "split": "train", "question": "who won the world series of darts las vegas", "gold_answers": ["Gary Anderson"], "role": "held_out"}
+{"source_id": "train:20199", "split": "train", "question": "who is the singer of tadap tadap ke", "gold_answers": ["KK"], "role": "held_out"}
+{"source_id": "train:82544", "split": "train", "question": "what is wilson in the tom hanks movie castaway", "gold_answers": ["a Wilson volleyball"], "role": "held_out"}
+{"source_id": "train:60677", "split": "train", "question": "where was the tower of babel located in the bible", "gold_answers": ["Shinar"], "role": "held_out"}
+{"source_id": "train:4746", "split": "train", "question": "where does chuck bass live in gossip girl", "gold_answers": ["Upper East Side"], "role": "held_out"}
+{"source_id": "train:31128", "split": "train", "question": "how many different species of birds are there in australia", "gold_answers": ["898"], "role": "held_out"}
+{"source_id": "train:71022", "split": "train", "question": "who went to the north pole in 1909", "gold_answers": ["Ooqueah", "Matthew Henson", "Egingwah", "Robert Peary", "Ootah", "Seeglo"], "role": "held_out"}
+{"source_id": "train:26221", "split": "train", "question": "when was by the light of the silvery moon written", "gold_answers": ["1909"], "role": "held_out"}
+{"source_id": "train:68441", "split": "train", "question": "how long were the survivors of the uss indianapolis in the water", "gold_answers": ["three and a half days"], "role": "held_out"}
+{"source_id": "train:60201", "split": "train", "question": "who is the longest serving prime minister in australia", "gold_answers": ["Sir Robert Menzies"], "role": "held_out"}
+{"source_id": "train:34611", "split": "train", "question": "when did the massive privatization of russian economy occur", "gold_answers": ["in the early and mid-1990s"], "role": "held_out"}
+{"source_id": "train:59179", "split": "train", "question": "who plays callie's father on the fosters", "gold_answers": ["Kerr Smith"], "role": "held_out"}
+{"source_id": "train:26739", "split": "train", "question": "the juvenile court system in the u.s. has been in existence since", "gold_answers": ["1899"], "role": "held_out"}
+{"source_id": "train:25343", "split": "train", "question": "who won the fight between pacquiao and delahoya", "gold_answers": ["Manny Pacquiao"], "role": "held_out"}
+{"source_id": "train:47109", "split": "train", "question": "what is the name of the uva mascot", "gold_answers": ["a mounted swordsman"], "role": "held_out"}
+{"source_id": "train:78491", "split": "train", "question": "where did the new york settlers come from", "gold_answers": ["French in 1524"], "role": "held_out"}
+{"source_id": "validation:1529", "split": "validation", "question": "when is chinese new year and what year is it", "gold_answers": ["the year of the Dog", "Friday, 16 February", "year of the Dog"], "role": "held_out"}
+{"source_id": "train:21079", "split": "train", "question": "who made the super mario bros theme song", "gold_answers": ["Koji Kondo"], "role": "held_out"}
+{"source_id": "train:60935", "split": "train", "question": "when does the doctor first get his sonic screwdriver", "gold_answers": ["16 March 1968"], "role": "held_out"}
+{"source_id": "train:19466", "split": "train", "question": "where did stoney go at the end of set it off", "gold_answers": ["Mexico"], "role": "held_out"}
+{"source_id": "train:46427", "split": "train", "question": "when does bob's burgers season 8 episode 2 air", "gold_answers": ["October 15, 2017"], "role": "held_out"}
+{"source_id": "train:60649", "split": "train", "question": "who produced let the beat build lil wayne", "gold_answers": ["Deezle", "West"], "role": "held_out"}
+{"source_id": "train:69399", "split": "train", "question": "who won the grey cup this year 2017", "gold_answers": ["the Toronto Argonauts"], "role": "held_out"}
+{"source_id": "train:41771", "split": "train", "question": "who sang never met a girl like you", "gold_answers": ["Edwyn Collins"], "role": "held_out"}
+{"source_id": "train:6325", "split": "train", "question": "where is lactase found in the digestive system", "gold_answers": ["small intestine"], "role": "held_out"}
+{"source_id": "train:51625", "split": "train", "question": "who plays johnny's singing voice in sing", "gold_answers": ["Taron Egerton"], "role": "held_out"}
+{"source_id": "train:43085", "split": "train", "question": "what's the meaning of the name ashley", "gold_answers": ["Ash tree meadow"], "role": "held_out"}
+{"source_id": "train:80944", "split": "train", "question": "who scored the first world cup hat trick", "gold_answers": ["Bert Patenaude"], "role": "held_out"}
+{"source_id": "train:30861", "split": "train", "question": "what is the latest os for apple watch", "gold_answers": ["4.3.2"], "role": "held_out"}
+{"source_id": "train:79560", "split": "train", "question": "what process results in an exchange of genes between homologous", "gold_answers": ["Chromosomal crossover"], "role": "held_out"}
+{"source_id": "train:45655", "split": "train", "question": "most sixes hit by a batsman in ipl", "gold_answers": ["Chris Gayle"], "role": "held_out"}
+{"source_id": "train:63700", "split": "train", "question": "when does dragon ball super episode 129 comes out", "gold_answers": ["March 4, 2018"], "role": "held_out"}
+{"source_id": "train:18756", "split": "train", "question": "when was doctor who first aired in america", "gold_answers": ["1972"], "role": "held_out"}
+{"source_id": "train:29691", "split": "train", "question": "who won the women's wwe elimination chamber 2018", "gold_answers": ["Alexa Bliss"], "role": "held_out"}
+{"source_id": "train:39353", "split": "train", "question": "cast of the movie by the light of the silvery moon", "gold_answers": ["Rosemary DeCamp", "Gordon MacRae", "Leon Ames", "Maria Palmer", "Doris Day", "Walter 'PeeWee' Flannery", "Mary Wickes", "Billy Gray", "Howard Wendell", "Russell Arms"], "role": "held_out"}
+{"source_id": "train:64061", "split": "train", "question": "when does the new season of twin peaks end", "gold_answers": ["September 3, 2017"], "role": "held_out"}
+{"source_id": "train:81908", "split": "train", "question": "who's the winner of masterchef season 8", "gold_answers": ["Dino Angelo Luciano"], "role": "held_out"}
+{"source_id": "train:35433", "split": "train", "question": "when did the volcanic eruption in pompeii occur", "gold_answers": ["AD 79"], "role": "held_out"}
+{"source_id": "train:31261", "split": "train", "question": "when is the first mission to mars planned", "gold_answers": ["the 2030s"], "role": "held_out"}
+{"source_id": "train:78601", "split": "train", "question": "was harvey a hurricane or a tropical storm", "gold_answers": ["hurricane"], "role": "held_out"}
+{"source_id": "train:28851", "split": "train", "question": "number of members of bjp in rajya sabha", "gold_answers": ["69"], "role": "held_out"}
+{"source_id": "train:34521", "split": "train", "question": "who are the archangels mentioned in the bible", "gold_answers": ["Michael"], "role": "held_out"}
+{"source_id": "train:81166", "split": "train", "question": "the galaxy cluster that includes the milky way is called", "gold_answers": ["The Local Group"], "role": "held_out"}
+{"source_id": "train:9438", "split": "train", "question": "ps i love you who wrote the letters", "gold_answers": ["Gerry"], "role": "held_out"}
+{"source_id": "train:16844", "split": "train", "question": "who made highest centuries in first class cricket", "gold_answers": ["Jack Hobbs"], "role": "held_out"}
+{"source_id": "train:24474", "split": "train", "question": "when did rabat become the capital of morocco", "gold_answers": ["1912"], "role": "held_out"}
+{"source_id": "train:41997", "split": "train", "question": "who is in the 2018 mens final four", "gold_answers": ["Loyola-Chicago", "Michigan", "Villanova", "Kansas"], "role": "held_out"}
+{"source_id": "validation:314", "split": "validation", "question": "when will fairy tail final season be released", "gold_answers": ["2018"], "role": "held_out"}
+{"source_id": "train:1058", "split": "train", "question": "who invented the first modern dishwasher in 1924 in england", "gold_answers": ["William Howard Livens"], "role": "held_out"}
+{"source_id": "train:22900", "split": "train", "question": "who did the vocals for the mcdonald's jingle i'm lovin' it", "gold_answers": ["Timberlake"], "role": "held_out"}
+{"source_id": "train:9471", "split": "train", "question": "who pays the most income tax in europe", "gold_answers": ["Portugal"], "role": "held_out"}
+{"source_id": "train:29552", "split": "train", "question": "when did the most polish immigrants come to america", "gold_answers": ["from 1870 to 1914"], "role": "held_out"}
+{"source_id": "train:7883", "split": "train", "question": "when did immigration laws start in the united states", "gold_answers": ["1790"], "role": "held_out"}
+{"source_id": "train:12508", "split": "train", "question": "when did the first settlers come to massachusetts", "gold_answers": ["1620"], "role": "held_out"}
+{"source_id": "train:59428", "split": "train", "question": "what does modern love by david bowie mean", "gold_answers": ["struggle between God and man", "inspired by Little Richard"], "role": "held_out"}
+{"source_id": "train:7648", "split": "train", "question": "where does most of america's energy come from", "gold_answers": ["fossil fuels"], "role": "held_out"}
+{"source_id": "train:49353", "split": "train", "question": "who was regarded as war god of rigveda", "gold_answers": ["Indra"], "role": "held_out"}
+{"source_id": "train:13988", "split": "train", "question": "who wrote baby now that i found you", "gold_answers": ["Tony Macaulay", "John MacLeod"], "role": "held_out"}
+{"source_id": "train:13529", "split": "train", "question": "when did mr. rogers go off the air", "gold_answers": ["August 31, 2001"], "role": "held_out"}
+{"source_id": "train:19794", "split": "train", "question": "who was responsible in bringing to england the norman romanesque architecture", "gold_answers": ["Edward the Confessor"], "role": "held_out"}
+{"source_id": "train:76133", "split": "train", "question": "who wore the first goalie mask in hockey", "gold_answers": ["Jacques Plante"], "role": "held_out"}
+{"source_id": "train:17741", "split": "train", "question": "what video game console has the highest number of video game console sales of all time", "gold_answers": ["PlayStation 2"], "role": "held_out"}
+{"source_id": "train:2121", "split": "train", "question": "where is gold mined in the united states", "gold_answers": ["Nevada"], "role": "held_out"}
+{"source_id": "train:30444", "split": "train", "question": "when was the first episode of the challenge", "gold_answers": ["on June 1, 1998"], "role": "held_out"}
+{"source_id": "train:8860", "split": "train", "question": "who won season 7 of the ultimate fighter", "gold_answers": ["Amir Sadollah"], "role": "held_out"}
+{"source_id": "train:18082", "split": "train", "question": "what kind of squash is round and white", "gold_answers": ["Pattypan squash"], "role": "held_out"}
+{"source_id": "train:32854", "split": "train", "question": "after beta oxidation where does acetyl coa go next", "gold_answers": ["enters the citric acid cycle"], "role": "held_out"}
+{"source_id": "train:16603", "split": "train", "question": "where did they film some like it hot", "gold_answers": ["in California"], "role": "held_out"}
+{"source_id": "validation:513", "split": "validation", "question": "who won game 4 of the 2000 nba finals", "gold_answers": ["Los Angeles Lakers"], "role": "held_out"}
+{"source_id": "train:64724", "split": "train", "question": "when did it become a law to go to school", "gold_answers": ["1918"], "role": "held_out"}
+{"source_id": "train:18470", "split": "train", "question": "when did interracial marriage become legal in all 50 states", "gold_answers": ["1967"], "role": "held_out"}
+{"source_id": "train:9712", "split": "train", "question": "when did sputnik 2 come back to earth", "gold_answers": ["14 April 1958"], "role": "held_out"}
+{"source_id": "train:33076", "split": "train", "question": "who has to wear seatbelts in a car", "gold_answers": ["motor vehicle occupants"], "role": "held_out"}
+{"source_id": "train:5004", "split": "train", "question": "who is the governing body for australian basketball", "gold_answers": ["Basketball Australia"], "role": "held_out"}
+{"source_id": "train:5477", "split": "train", "question": "the left lower quadrant of the abdomen contains part of the", "gold_answers": ["Left ovary", "Descending colon", "Sigmoid colon", "Fallopian tube", "Left ureter"], "role": "held_out"}
+{"source_id": "train:86591", "split": "train", "question": "who won the us womens open in 2013", "gold_answers": ["Serena Williams"], "role": "held_out"}
+{"source_id": "train:25178", "split": "train", "question": "how many stars does the flag of honduras have", "gold_answers": ["five"], "role": "held_out"}
+{"source_id": "train:24390", "split": "train", "question": "who won rupaul's drag race all stars 3", "gold_answers": ["Trixie Mattel"], "role": "held_out"}
+{"source_id": "train:74310", "split": "train", "question": "who was the only roman catholic ever elected president", "gold_answers": ["John F. Kennedy"], "role": "held_out"}
+{"source_id": "train:41979", "split": "train", "question": "the first passenger train in india run between bombay and then when was this", "gold_answers": ["16 April 1853"], "role": "held_out"}
+{"source_id": "train:16127", "split": "train", "question": "when was the last time ole miss beat alabama in football", "gold_answers": ["September 19, 2015"], "role": "held_out"}
+{"source_id": "train:19718", "split": "train", "question": "who is the mom in how i met your mom", "gold_answers": ["Tracy McConnell"], "role": "held_out"}
+{"source_id": "train:27817", "split": "train", "question": "our brand is crisis where was it filmed", "gold_answers": ["Puerto Rico", "New Orleans, Louisiana", "Bolivia"], "role": "held_out"}
+{"source_id": "train:81520", "split": "train", "question": "when was the first international space station launched into orbit", "gold_answers": ["1998"], "role": "held_out"}
+{"source_id": "train:67963", "split": "train", "question": "when does harmony of the seas start sailing", "gold_answers": ["29 May 2016"], "role": "held_out"}
+{"source_id": "train:13792", "split": "train", "question": "what day of the week does college basketball rankings come out", "gold_answers": ["Monday"], "role": "held_out"}
+{"source_id": "train:86998", "split": "train", "question": "what is the name of the largest city in ecuador", "gold_answers": ["Guayaquil"], "role": "held_out"}
+{"source_id": "train:38812", "split": "train", "question": "who was the highest ranking officer killed in vietnam", "gold_answers": ["Rear Admiral Rembrandt Cecil Robinson"], "role": "held_out"}
+{"source_id": "train:34504", "split": "train", "question": "when did ej die on days of our lives", "gold_answers": ["2014"], "role": "held_out"}
+{"source_id": "validation:785", "split": "validation", "question": "who was elected senator of illinois in 1858", "gold_answers": ["Stephen A. Douglas"], "role": "held_out"}
+{"source_id": "train:67422", "split": "train", "question": "when did the titanic set sail on its maiden voyage", "gold_answers": ["10 April 1912"], "role": "held_out"}
+{"source_id": "train:87765", "split": "train", "question": "where is the liberty bowl played in memphis", "gold_answers": ["Liberty Bowl Memorial Stadium"], "role": "held_out"}
+{"source_id": "train:25969", "split": "train", "question": "who was feeding the rats to the walkers", "gold_answers": ["Lizzie"], "role": "held_out"}
+{"source_id": "train:14040", "split": "train", "question": "what type of animal is a bush baby", "gold_answers": ["primates"], "role": "held_out"}
+{"source_id": "train:11122", "split": "train", "question": "who played darth vader in return of jedi", "gold_answers": ["Shaw"], "role": "held_out"}
+{"source_id": "train:49801", "split": "train", "question": "how many episodes are there of switched at birth", "gold_answers": ["103"], "role": "held_out"}
+{"source_id": "validation:877", "split": "validation", "question": "who sang i want to be bobbys girl", "gold_answers": ["Marcie Blane"], "role": "held_out"}
+{"source_id": "train:61057", "split": "train", "question": "when does the rugby super league season end", "gold_answers": ["September"], "role": "held_out"}
+{"source_id": "validation:2421", "split": "validation", "question": "what is the time setting of game of thrones", "gold_answers": ["medieval"], "role": "held_out"}
+{"source_id": "train:40301", "split": "train", "question": "when does ellie find out chuck is still a spy", "gold_answers": ["season 3"], "role": "held_out"}
+{"source_id": "train:26294", "split": "train", "question": "who has played the most games for the geelong cats", "gold_answers": ["Corey Enright"], "role": "held_out"}
+{"source_id": "validation:251", "split": "validation", "question": "what caused the breakup of the democratic republican party", "gold_answers": ["the disputed 1824 presidential election"], "role": "held_out"}
+{"source_id": "train:20443", "split": "train", "question": "when does the black panther movie come out", "gold_answers": ["February 16, 2018"], "role": "held_out"}
+{"source_id": "train:55249", "split": "train", "question": "when did the union pacific railroad began construction", "gold_answers": ["July 1865"], "role": "held_out"}
+{"source_id": "train:60100", "split": "train", "question": "who sang old man river in movie showboat", "gold_answers": ["Paul Robeson", "William Warfield"], "role": "held_out"}
+{"source_id": "train:40012", "split": "train", "question": "who plays agent callen on ncis los angeles", "gold_answers": ["Chris O'Donnell"], "role": "held_out"}
+{"source_id": "train:16176", "split": "train", "question": "when did america enter the first world war", "gold_answers": ["April 1917"], "role": "held_out"}
+{"source_id": "train:72161", "split": "train", "question": "what is the parsons nose on a turkey", "gold_answers": ["pygostyle"], "role": "held_out"}
+{"source_id": "train:51695", "split": "train", "question": "board game that takes 1500 hours to complete", "gold_answers": ["The Campaign for North Africa"], "role": "held_out"}
+{"source_id": "train:61767", "split": "train", "question": "when did the show law and order start", "gold_answers": ["September 13, 1990"], "role": "held_out"}
+{"source_id": "train:33539", "split": "train", "question": "who has the most number one music hits", "gold_answers": ["The Beatles"], "role": "held_out"}
+{"source_id": "train:72300", "split": "train", "question": "what are the different sizes of macbook pro", "gold_answers": ["17-inch", "13-inch", "15-inch"], "role": "held_out"}
+{"source_id": "train:31953", "split": "train", "question": "when does season 3 of my crazy ex girlfriend start", "gold_answers": ["October 13, 2017"], "role": "held_out"}
+{"source_id": "train:7357", "split": "train", "question": "when did wonder woman start using a shield", "gold_answers": ["DC Comics' 2011 relaunch"], "role": "held_out"}
+{"source_id": "train:5329", "split": "train", "question": "who was involved in the ww1 christmas truce", "gold_answers": ["French", "British", "German"], "role": "held_out"}
+{"source_id": "train:12802", "split": "train", "question": "who has been promoted to the premier league 2018-19", "gold_answers": ["Fulham", "Cardiff City", "Wolverhampton Wanderers"], "role": "held_out"}
+{"source_id": "train:45246", "split": "train", "question": "who made the song i need a hero", "gold_answers": ["Bonnie Tyler"], "role": "held_out"}
+{"source_id": "train:63062", "split": "train", "question": "who did the guitar solo in hotel california", "gold_answers": ["Joe Walsh", "Don Felder"], "role": "held_out"}
+{"source_id": "train:10005", "split": "train", "question": "how many medals did united states win in the 2014 winter olympics", "gold_answers": ["28"], "role": "held_out"}
+{"source_id": "train:25481", "split": "train", "question": "when does season 3 episode 10 of my hero academia come out", "gold_answers": ["June 9, 2018"], "role": "held_out"}
+{"source_id": "train:15126", "split": "train", "question": "march of the penguins is an example of", "gold_answers": ["feature-length nature documentary"], "role": "held_out"}
+{"source_id": "train:20767", "split": "train", "question": "who wrote the song we don't talk anymore", "gold_answers": ["Jacob Kasher Hindlin", "Selena Gomez", "Charlie Puth"], "role": "held_out"}
+{"source_id": "train:41932", "split": "train", "question": "who got shot on if loving you is wrong", "gold_answers": ["Eddie"], "role": "held_out"}
+{"source_id": "train:16706", "split": "train", "question": "who won the 2017 national championship in basketball", "gold_answers": ["North Carolina"], "role": "held_out"}
+{"source_id": "train:55378", "split": "train", "question": "this person appoints the chief justice of the supreme court", "gold_answers": ["president"], "role": "held_out"}
+{"source_id": "train:40814", "split": "train", "question": "what is the average weight of a beagle", "gold_answers": ["between 18 and 35 lb"], "role": "held_out"}
+{"source_id": "train:4261", "split": "train", "question": "when does season 11 of the big bang theory come out", "gold_answers": ["September 25, 2017"], "role": "held_out"}
+{"source_id": "train:29892", "split": "train", "question": "based on the residues in the active site what family of proteases does pepsin belong to", "gold_answers": ["Acid proteases"], "role": "held_out"}
+{"source_id": "train:33984", "split": "train", "question": "who wrote there's nothing holding me back by shawn mendes", "gold_answers": ["Shawn Mendes", "Scott Harris", "Geoff Warburton", "Teddy Geiger"], "role": "held_out"}
+{"source_id": "train:65171", "split": "train", "question": "who plays the old man in home alone", "gold_answers": ["Roberts Scott Blossom"], "role": "held_out"}
+{"source_id": "train:24394", "split": "train", "question": "what season is marnie on ex on the beach", "gold_answers": ["eighth series"], "role": "held_out"}
+{"source_id": "train:14481", "split": "train", "question": "when was the last episode of lost aired", "gold_answers": ["May 23, 2010"], "role": "held_out"}
+{"source_id": "train:14091", "split": "train", "question": "icc champions trophy 2017 man of the series", "gold_answers": ["Hasan Ali of Pakistan"], "role": "held_out"}
+{"source_id": "train:36732", "split": "train", "question": "who sings under the sea in the little mermaid", "gold_answers": ["Samuel E. Wright"], "role": "held_out"}
+{"source_id": "train:40480", "split": "train", "question": "who added for thine is the kingdom to the lord's prayer", "gold_answers": ["Reformers"], "role": "held_out"}
+{"source_id": "validation:221", "split": "validation", "question": "the outer layer of the skin that contains no blood or nerve supply is the", "gold_answers": ["epidermis"], "role": "held_out"}
+{"source_id": "train:76388", "split": "train", "question": "when did the trail of tears take place", "gold_answers": ["1831-1850"], "role": "held_out"}
+{"source_id": "train:40195", "split": "train", "question": "who is the next person to be executed in the united states", "gold_answers": ["Robert Moreno Ramos"], "role": "held_out"}
+{"source_id": "train:19933", "split": "train", "question": "who recorded don't think twice it's alright", "gold_answers": ["Bob Dylan"], "role": "held_out"}
+{"source_id": "train:17771", "split": "train", "question": "if a team wins the fa cup do they qualify for the champions league", "gold_answers": ["Europa League"], "role": "held_out"}
+{"source_id": "train:13038", "split": "train", "question": "where is the headquarters for the organization that maintains si standards", "gold_answers": ["Sèvres, France"], "role": "held_out"}
+{"source_id": "train:1520", "split": "train", "question": "when is the new episode of suits airing", "gold_answers": ["July 18, 2018"], "role": "held_out"}
+{"source_id": "train:26805", "split": "train", "question": "how many subscribers does the eh bee family have", "gold_answers": ["over 15 million combined subscribers"], "role": "held_out"}
+{"source_id": "train:87193", "split": "train", "question": "when did the chinese exclusion act of 1882 end", "gold_answers": ["December 17, 1943"], "role": "held_out"}
+{"source_id": "train:14360", "split": "train", "question": "who plays bonnie in home adventures with tip and oh", "gold_answers": ["Dove Cameron"], "role": "held_out"}
+{"source_id": "train:19147", "split": "train", "question": "who wrote the song ain't it funny how time slips away", "gold_answers": ["Willie Nelson"], "role": "held_out"}
+{"source_id": "train:84510", "split": "train", "question": "what is the release date for flash season 4", "gold_answers": ["January 8, 2017"], "role": "held_out"}
+{"source_id": "train:70400", "split": "train", "question": "who plays the girl in beauty and the beast", "gold_answers": ["Emma Watson"], "role": "held_out"}
+{"source_id": "train:86248", "split": "train", "question": "what was the average life expectancy in the roman empire", "gold_answers": ["late-50s", "25"], "role": "held_out"}
+{"source_id": "train:20690", "split": "train", "question": "what city is the vw plant in sa", "gold_answers": ["Uitenhage"], "role": "held_out"}
+{"source_id": "train:50080", "split": "train", "question": "who played carol anne in the movie poltergeist", "gold_answers": ["Heather O'Rourke"], "role": "held_out"}
+{"source_id": "train:26732", "split": "train", "question": "who has won the most snooker ranking events", "gold_answers": ["Stephen Hendry"], "role": "held_out"}
+{"source_id": "train:17797", "split": "train", "question": "who started his career as the editor of the criterion in 1922", "gold_answers": ["T. S. Eliot"], "role": "held_out"}
+{"source_id": "train:62215", "split": "train", "question": "when does the summer monsoon occur in india", "gold_answers": ["June to September"], "role": "held_out"}
+{"source_id": "train:18303", "split": "train", "question": "who wrote the script for pirates of the caribbean", "gold_answers": ["Ted Elliott", "Terry Rossio", "Jay Wolpert", "Jeff Nathanson", "Stuart Beattie"], "role": "held_out"}
+{"source_id": "train:33371", "split": "train", "question": "who was the politician of pakistan who served as both governor general and prime minister", "gold_answers": ["Sir Khawaja Nazimuddin"], "role": "held_out"}
+{"source_id": "train:19490", "split": "train", "question": "most common cause of death in acute myocardial infarction", "gold_answers": ["Cardiogenic shock"], "role": "held_out"}
+{"source_id": "train:500", "split": "train", "question": "which chef has got the most michelin stars", "gold_answers": ["Joël Robuchon"], "role": "held_out"}
+{"source_id": "train:50932", "split": "train", "question": "who is accredited with developing the architecture of the modern computer", "gold_answers": ["John von Neumann"], "role": "held_out"}
+{"source_id": "train:82904", "split": "train", "question": "who sings the song teach me how to dougie", "gold_answers": ["Cali Swag District"], "role": "held_out"}
+{"source_id": "train:66490", "split": "train", "question": "when is season seven of game of thrones coming out", "gold_answers": ["July 16, 2017"], "role": "held_out"}
+{"source_id": "train:58480", "split": "train", "question": "who wrote love's gonna make it alright", "gold_answers": ["Chris Stapleton", "Al Anderson"], "role": "held_out"}
+{"source_id": "validation:3092", "split": "validation", "question": "who wrote put your hand in the hand of the man who stilled the water", "gold_answers": ["Gene MacLellan"], "role": "held_out"}
+{"source_id": "validation:1941", "split": "validation", "question": "who is the book of galatians written to", "gold_answers": ["the churches of Galatia"], "role": "held_out"}
+{"source_id": "train:79487", "split": "train", "question": "who is going to be the 12th doctor", "gold_answers": ["Scottish actor Peter Capaldi"], "role": "held_out"}
+{"source_id": "train:72056", "split": "train", "question": "who plays sally in the nightmare before christmas", "gold_answers": ["Catherine O'Hara"], "role": "held_out"}
+{"source_id": "train:44663", "split": "train", "question": "energy provided directly from earth's interior is called", "gold_answers": ["geothermal heat flux"], "role": "held_out"}
+{"source_id": "validation:2277", "split": "validation", "question": "who proposed that electrons behave like waves and particles", "gold_answers": ["Einstein"], "role": "held_out"}
+{"source_id": "train:44067", "split": "train", "question": "who was the first test captain of india", "gold_answers": ["CK Nayudu"], "role": "held_out"}
+{"source_id": "train:19668", "split": "train", "question": "when does the next season of face off start", "gold_answers": ["2018"], "role": "held_out"}
+{"source_id": "train:79193", "split": "train", "question": "what is the true shape of earths orbit", "gold_answers": ["ellipse"], "role": "held_out"}
+{"source_id": "train:29269", "split": "train", "question": "when did leningrad changed back to st petersburg", "gold_answers": ["26 January 1924"], "role": "held_out"}
+{"source_id": "train:40543", "split": "train", "question": "what members of the community has the most power in the massachusetts bay colony", "gold_answers": ["the council of assistants"], "role": "held_out"}
+{"source_id": "validation:335", "split": "validation", "question": "when was the first nuclear power plant opened", "gold_answers": ["December 20, 1951", "June 27, 1954", "On June 27, 1954", "the USSR", "December 2, 1942"], "role": "held_out"}
+{"source_id": "train:64456", "split": "train", "question": "when was national women's day first celebrated", "gold_answers": ["1909"], "role": "held_out"}
+{"source_id": "train:47500", "split": "train", "question": "what class of food does egg belong to", "gold_answers": ["Meats"], "role": "held_out"}
+{"source_id": "train:79296", "split": "train", "question": "who plays cricket on it's always sunny", "gold_answers": ["David Hornsby"], "role": "held_out"}
+{"source_id": "train:74803", "split": "train", "question": "what is the name of the island in the seine river", "gold_answers": ["Île Saint-Louis", "Île de la Cité"], "role": "held_out"}
+{"source_id": "train:5653", "split": "train", "question": "how many species of recluse spiders are there", "gold_answers": ["about 100"], "role": "held_out"}
+{"source_id": "train:53100", "split": "train", "question": "who is the announcer for the late show with stephen colbert", "gold_answers": ["Jen Spyra"], "role": "held_out"}
+{"source_id": "train:27097", "split": "train", "question": "who coached the most games for st kilda", "gold_answers": ["Allan Jeans"], "role": "held_out"}
+{"source_id": "train:78808", "split": "train", "question": "who is the chief justice of high court of india at present", "gold_answers": ["Dipak Misra"], "role": "held_out"}
+{"source_id": "train:6220", "split": "train", "question": "where is the origin of the frontalis muscle", "gold_answers": ["Galea aponeurotica"], "role": "held_out"}
+{"source_id": "train:61908", "split": "train", "question": "when did california community colleges start charging tuition", "gold_answers": ["1978"], "role": "held_out"}
+{"source_id": "train:22608", "split": "train", "question": "who was involved in the battle of ortona", "gold_answers": ["Canada", "Italian Social Republic", "Germany"], "role": "held_out"}
+{"source_id": "train:17683", "split": "train", "question": "what is the name of the capital city of canada", "gold_answers": ["Ottawa"], "role": "held_out"}
+{"source_id": "train:29549", "split": "train", "question": "when did the government apologize for the stolen generation", "gold_answers": ["26 May 1998"], "role": "held_out"}
+{"source_id": "train:57450", "split": "train", "question": "when was the last time the angels were no hit", "gold_answers": ["May 2, 2012"], "role": "held_out"}
+{"source_id": "train:41506", "split": "train", "question": "who owns the rights to one punch man", "gold_answers": ["Adult Swim", "Animax Asia"], "role": "held_out"}
+{"source_id": "train:2615", "split": "train", "question": "when did the first grass appear on earth", "gold_answers": ["around 40 million years ago"], "role": "held_out"}
+{"source_id": "train:15289", "split": "train", "question": "where does granite for curling stones come from", "gold_answers": ["Trefor Granite Quarry in Wales"], "role": "held_out"}
+{"source_id": "train:21897", "split": "train", "question": "when was homeland season 6 released on dvd", "gold_answers": ["February 6, 2018"], "role": "held_out"}
+{"source_id": "train:67800", "split": "train", "question": "where was the movie outlaw josey wales filmed at", "gold_answers": ["Lake Powell", "Kanab, Utah"], "role": "held_out"}
+{"source_id": "train:1634", "split": "train", "question": "who will be the referee for super bowl 52", "gold_answers": ["Gene Steratore"], "role": "held_out"}
+{"source_id": "train:12268", "split": "train", "question": "when does little big shots australia come on", "gold_answers": ["27 August 2017"], "role": "held_out"}
+{"source_id": "train:78154", "split": "train", "question": "when was the last time croatia made it to the semifinals", "gold_answers": ["2018"], "role": "held_out"}
+{"source_id": "train:39927", "split": "train", "question": "who is the singer in alan walker's faded", "gold_answers": ["Iselin Solheim"], "role": "held_out"}
+{"source_id": "train:87649", "split": "train", "question": "what band is the girl from the grinch in", "gold_answers": ["The Pretty Reckless"], "role": "held_out"}
+{"source_id": "train:5961", "split": "train", "question": "who played drums on everybody wants to rule the world", "gold_answers": ["Manny Elias"], "role": "held_out"}
+{"source_id": "train:7273", "split": "train", "question": "when was the land rover first unveiled to the public", "gold_answers": ["1947"], "role": "held_out"}
+{"source_id": "train:33132", "split": "train", "question": "what layer of the atmosphere is the hubble telescope in", "gold_answers": ["upper atmosphere"], "role": "held_out"}
+{"source_id": "train:79280", "split": "train", "question": "where does the water from the riverwalk come from", "gold_answers": ["San Antonio River"], "role": "held_out"}
+{"source_id": "train:59921", "split": "train", "question": "who plays kevin hart girlfriend in ride along", "gold_answers": ["Tika Sumpter"], "role": "held_out"}
+{"source_id": "train:78702", "split": "train", "question": "when did the cultural revolution start and end in china", "gold_answers": ["1966", "1976"], "role": "held_out"}
+{"source_id": "train:14225", "split": "train", "question": "what are the 7 sacraments of the roman catholic church", "gold_answers": ["Reconciliation", "Baptism", "Confirmation", "Eucharist", "Anointing of the Sick", "Matrimony", "Holy Orders"], "role": "held_out"}
+{"source_id": "train:51498", "split": "train", "question": "who played wednesday addams in the addams family values", "gold_answers": ["Christina Ricci"], "role": "held_out"}
+{"source_id": "train:11424", "split": "train", "question": "how old was arthur pendragon when he became king", "gold_answers": ["fifteen"], "role": "held_out"}
+{"source_id": "train:24413", "split": "train", "question": "name of angel in its a wonderful life", "gold_answers": ["Clarence Odbody"], "role": "held_out"}
+{"source_id": "train:52309", "split": "train", "question": "when did the 13 original colonies became states", "gold_answers": ["1776"], "role": "held_out"}
+{"source_id": "train:75989", "split": "train", "question": "who did ed sheeran tour with in 2010", "gold_answers": ["Example"], "role": "held_out"}
+{"source_id": "train:67515", "split": "train", "question": "when does the earliest surviving version of baa baa black sheep date from", "gold_answers": ["1731"], "role": "held_out"}
+{"source_id": "train:28875", "split": "train", "question": "what is the first episode of american horror story apocalypse", "gold_answers": ["The End"], "role": "held_out"}
+{"source_id": "train:71731", "split": "train", "question": "the owner of jaguar cars is based in", "gold_answers": ["United Kingdom"], "role": "held_out"}
+{"source_id": "train:80053", "split": "train", "question": "when did the fire safety order come in to effect", "gold_answers": ["on 1 October 2006"], "role": "held_out"}
+{"source_id": "train:54094", "split": "train", "question": "who is the duke speaking to in the poem my last duchess", "gold_answers": ["Nikolaus Madruz"], "role": "held_out"}
+{"source_id": "train:52193", "split": "train", "question": "what us state is closest to niagara falls", "gold_answers": ["New York"], "role": "held_out"}
+{"source_id": "train:11693", "split": "train", "question": "when did us troops start fighting in vietnam", "gold_answers": ["8 March 1965"], "role": "held_out"}
+{"source_id": "train:1961", "split": "train", "question": "when was the last time the dolphins were in the super bowl", "gold_answers": ["Super Bowl XIX"], "role": "held_out"}
+{"source_id": "train:10380", "split": "train", "question": "who played guitar on almost cut my hair", "gold_answers": ["Stephen Stills", "Neil Young", "David Crosby"], "role": "held_out"}
+{"source_id": "train:59546", "split": "train", "question": "when does the mindy project season 6 start on netflix", "gold_answers": ["September 12, 2017"], "role": "held_out"}
+{"source_id": "train:3341", "split": "train", "question": "what materials were used in ancient greek architecture", "gold_answers": ["high quality potter's clay", "Limestone", "high quality white marble"], "role": "held_out"}
+{"source_id": "train:87068", "split": "train", "question": "who won the title of miss world 2000", "gold_answers": ["Priyanka Chopra"], "role": "held_out"}
+{"source_id": "train:3235", "split": "train", "question": "who is king under the mountain after thorin dies", "gold_answers": ["Dáin"], "role": "held_out"}
+{"source_id": "train:84151", "split": "train", "question": "when did the red sox sweep the world series", "gold_answers": ["The 2004 World Series"], "role": "held_out"}
+{"source_id": "train:44403", "split": "train", "question": "who has won most number of world cup", "gold_answers": ["Brazil"], "role": "held_out"}
+{"source_id": "train:64379", "split": "train", "question": "what animal is on the australian ten cent piece", "gold_answers": ["Male superb lyrebird"], "role": "held_out"}
+{"source_id": "train:62997", "split": "train", "question": "who does meredith grey date after derek died", "gold_answers": ["Nathan Riggs"], "role": "held_out"}
+{"source_id": "train:72448", "split": "train", "question": "who played trapper john in the tv series mash", "gold_answers": ["William Wayne McMillan Rogers III"], "role": "held_out"}
+{"source_id": "train:19670", "split": "train", "question": "who wrote the song you look perfect tonight", "gold_answers": ["Ed Sheeran"], "role": "held_out"}
+{"source_id": "train:67719", "split": "train", "question": "the ability to see the world in 3 dimensions is called", "gold_answers": ["Stereoblindness"], "role": "held_out"}
+{"source_id": "train:57932", "split": "train", "question": "when was the calico act passed in england what did it say", "gold_answers": ["(1700, 1721)"], "role": "held_out"}
+{"source_id": "validation:3160", "split": "validation", "question": "who was allowed to vote in the roman republic", "gold_answers": ["unknown", "citizens"], "role": "held_out"}
+{"source_id": "train:80572", "split": "train", "question": "who has been appointed as the new director general of national testing agency", "gold_answers": ["Vineet Joshi"], "role": "held_out"}
+{"source_id": "train:48984", "split": "train", "question": "how many season of the shannara chronicles are there", "gold_answers": ["two seasons"], "role": "held_out"}
+{"source_id": "train:66211", "split": "train", "question": "when was agent orange first used in korea", "gold_answers": ["the late 1960s"], "role": "held_out"}
+{"source_id": "train:45154", "split": "train", "question": "who wrote the declaration of rights of man and citizen", "gold_answers": ["Thomas Jefferson", "Honoré Mirabeau", "General Lafayette"], "role": "held_out"}
+{"source_id": "train:30898", "split": "train", "question": "what is the dog's name on curious george", "gold_answers": ["Hundley"], "role": "held_out"}
+{"source_id": "train:28411", "split": "train", "question": "who developed the nuclear model of the atom", "gold_answers": ["Ernest Rutherford"], "role": "held_out"}
+{"source_id": "train:75793", "split": "train", "question": "grid lines that are drawn in a north-south direction", "gold_answers": ["Northings"], "role": "held_out"}

@@ -1,0 +1,31 @@
+﻿analysis_type,ai_rater,ai_rater_file,configuration,threshold,audit_rows,cache_hits,unacceptable_cached_responses_among_hits,false_hit_rate_among_hits,false_hit_wilson_95_low,false_hit_wilson_95_high,acceptable_responses_missed,acceptable_response_miss_rate
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.5,90,77,56,0.727273,0.618789,0.814156,0,0.0
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.55,90,73,52,0.712329,0.599943,0.803484,0,0.0
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.6,90,72,51,0.708333,0.59494,0.800621,0,0.0
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.65,90,68,47,0.691176,0.57363,0.788278,0,0.0
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.7,90,60,39,0.65,0.523624,0.758324,0,0.0
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.75,90,52,35,0.673077,0.537559,0.784781,4,0.190476
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.8,90,39,26,0.666667,0.509771,0.793672,8,0.380952
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.85,90,26,19,0.730769,0.539166,0.862957,14,0.666667
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.9,90,11,9,0.818182,0.523014,0.948633,19,0.904762
+stratified_90_row_audit_diagnostic_only,ChatGPT GPT-6 Luna,audit_sample_rated.csv,minilm_cosine,0.95,90,5,5,1.0,0.565509,1.0,21,1.0
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.5,90,77,59,0.766234,0.66046,0.846705,0,0.0
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.55,90,73,56,0.767123,0.658325,0.849212,1,0.055556
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.6,90,72,55,0.763889,0.65401,0.847034,1,0.055556
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.65,90,68,52,0.764706,0.651446,0.849656,2,0.111111
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.7,90,60,44,0.733333,0.60991,0.828675,2,0.111111
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.75,90,52,39,0.75,0.617933,0.84767,5,0.277778
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.8,90,39,29,0.74359,0.58918,0.854314,8,0.444444
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.85,90,26,20,0.769231,0.579481,0.889663,12,0.666667
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.9,90,11,10,0.909091,0.622635,0.983768,17,0.944444
+stratified_90_row_audit_diagnostic_only,Sonnet 5.5,audit_sample_rated (1).csv,minilm_cosine,0.95,90,5,5,1.0,0.565509,1.0,18,1.0
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.5,86,73,47,0.643836,0.529333,0.743957,0,0.0
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.55,86,69,43,0.623188,0.505217,0.728166,0,0.0
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.6,86,68,42,0.617647,0.498805,0.723907,0,0.0
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.65,86,64,39,0.609375,0.486917,0.719446,1,0.038462
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.7,86,57,32,0.561404,0.432778,0.682275,1,0.038462
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.75,86,50,29,0.58,0.442332,0.706252,5,0.192308
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.8,86,38,21,0.552632,0.39706,0.698538,9,0.346154
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.85,86,26,16,0.615385,0.425345,0.775716,16,0.615385
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.9,86,11,9,0.818182,0.523014,0.948633,24,0.923077
+stratified_90_row_audit_diagnostic_only,Claude Sonnet 4.6 (Thinking; reviewer_model field),audit_sample_antigravity_v2.csv,minilm_cosine,0.95,86,5,5,1.0,0.565509,1.0,26,1.0

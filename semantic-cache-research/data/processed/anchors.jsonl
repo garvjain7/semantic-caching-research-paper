@@ -1,0 +1,100 @@
+{"source_id": "train:84285", "split": "train", "question": "when was rome divided into east and west", "gold_answers": ["AD 285"], "role": "anchor"}
+{"source_id": "train:37970", "split": "train", "question": "who has the most goals between messi and ronaldo", "gold_answers": ["Cristiano Ronaldo"], "role": "anchor"}
+{"source_id": "train:84290", "split": "train", "question": "the bear who fought in world war 2", "gold_answers": ["Wojtek"], "role": "anchor"}
+{"source_id": "train:24412", "split": "train", "question": "when does the 2018 football world cup start", "gold_answers": ["14 June"], "role": "anchor"}
+{"source_id": "train:4256", "split": "train", "question": "when did eddie guerrero win the wwe championship", "gold_answers": ["2004"], "role": "anchor"}
+{"source_id": "train:53966", "split": "train", "question": "who played terry benedict in ocean's 11", "gold_answers": ["Andy García"], "role": "anchor"}
+{"source_id": "train:56279", "split": "train", "question": "who is the queen of the south in the bible", "gold_answers": ["the Queen of Sheba"], "role": "anchor"}
+{"source_id": "train:9697", "split": "train", "question": "who sings with neil young on four strong winds", "gold_answers": ["Nicolette Larson"], "role": "anchor"}
+{"source_id": "train:22964", "split": "train", "question": "who played susan walker in miracle on 34th street", "gold_answers": ["Natalie Wood"], "role": "anchor"}
+{"source_id": "train:68306", "split": "train", "question": "who kills the governor in the walking dead tv show", "gold_answers": ["Lilly"], "role": "anchor"}
+{"source_id": "train:80729", "split": "train", "question": "when did the human population reached 1 billion", "gold_answers": ["1804"], "role": "anchor"}
+{"source_id": "train:83104", "split": "train", "question": "which australian cross is on the australian flag", "gold_answers": ["St George's Cross"], "role": "anchor"}
+{"source_id": "train:58916", "split": "train", "question": "who dies in book 7 of harry potter", "gold_answers": ["Dumbledore"], "role": "anchor"}
+{"source_id": "train:39640", "split": "train", "question": "of what mineral are the hard tissues of the teeth and alveolar bone composed", "gold_answers": ["calcium hydroxyapatite"], "role": "anchor"}
+{"source_id": "train:45929", "split": "train", "question": "in which city would you find the neighbourhood of oak lawn", "gold_answers": ["Chicago"], "role": "anchor"}
+{"source_id": "train:36199", "split": "train", "question": "new york is situated in which river bank", "gold_answers": ["The Hudson River"], "role": "anchor"}
+{"source_id": "train:80225", "split": "train", "question": "when does a wrinkle in time come to theaters", "gold_answers": ["March 9, 2018"], "role": "anchor"}
+{"source_id": "train:12837", "split": "train", "question": "where does the phrase by the skin of my teeth come from", "gold_answers": ["Job 19:20"], "role": "anchor"}
+{"source_id": "train:45941", "split": "train", "question": "who sang fool if you think it over", "gold_answers": ["Chris Rea"], "role": "anchor"}
+{"source_id": "validation:639", "split": "validation", "question": "for complaints of sudden chest pain patients should take a", "gold_answers": ["Aspirin"], "role": "anchor"}
+{"source_id": "train:41393", "split": "train", "question": "who holds the stolen base record in mlb", "gold_answers": ["Rickey Henderson"], "role": "anchor"}
+{"source_id": "train:35014", "split": "train", "question": "which type of city government is most favored by the large cities in the united states", "gold_answers": ["mayor–council government system"], "role": "anchor"}
+{"source_id": "train:58132", "split": "train", "question": "who wrote turn out the lights the party's over", "gold_answers": ["Willie Nelson"], "role": "anchor"}
+{"source_id": "train:78972", "split": "train", "question": "who owns plank in ed edd and eddy", "gold_answers": ["Jonny"], "role": "anchor"}
+{"source_id": "train:47821", "split": "train", "question": "who is the current cast of the talk", "gold_answers": ["Sara Gilbert", "Sharon Osbourne", "Eve", "Julie Chen", "Sheryl Underwood"], "role": "anchor"}
+{"source_id": "train:31872", "split": "train", "question": "which device is used to convert ac to dc", "gold_answers": ["Rectifier", "Switched-mode power supply"], "role": "anchor"}
+{"source_id": "train:17369", "split": "train", "question": "who defeated the last song emperor of china", "gold_answers": ["Kublai Khan"], "role": "anchor"}
+{"source_id": "train:17230", "split": "train", "question": "when was last of the summer wine filmed", "gold_answers": ["from 1973 to 2010"], "role": "anchor"}
+{"source_id": "train:57639", "split": "train", "question": "when did tyne and wear became a county", "gold_answers": ["1974"], "role": "anchor"}
+{"source_id": "train:70077", "split": "train", "question": "a ruined city on crete centre of the minoan bronze age civilisation", "gold_answers": ["Knossos"], "role": "anchor"}
+{"source_id": "train:86384", "split": "train", "question": "this is us season 2 episode 6 air date", "gold_answers": ["October 31, 2017"], "role": "anchor"}
+{"source_id": "train:10892", "split": "train", "question": "who sang the theme song for the life of brian", "gold_answers": ["Sonia Jones"], "role": "anchor"}
+{"source_id": "train:18427", "split": "train", "question": "who played tim's sister in law on home improvement", "gold_answers": ["Tudi Roche"], "role": "anchor"}
+{"source_id": "train:30083", "split": "train", "question": "who sings peep and the big wide world theme song", "gold_answers": ["Taj Mahal"], "role": "anchor"}
+{"source_id": "train:32421", "split": "train", "question": "which team won the first ever ipl season", "gold_answers": ["Rajasthan Royals"], "role": "anchor"}
+{"source_id": "train:45063", "split": "train", "question": "setting for one flew over the cuckoo's nest", "gold_answers": ["Oregon psychiatric hospital"], "role": "anchor"}
+{"source_id": "train:69444", "split": "train", "question": "who played m in the original james bond movies", "gold_answers": ["Bernard Lee"], "role": "anchor"}
+{"source_id": "train:65583", "split": "train", "question": "who narrated the original peter and the wolf", "gold_answers": ["Natalya Sats"], "role": "anchor"}
+{"source_id": "train:80223", "split": "train", "question": "french guy who walked between the twin towers", "gold_answers": ["Philippe Petit"], "role": "anchor"}
+{"source_id": "train:40780", "split": "train", "question": "what is the highest rank in the marine corps", "gold_answers": ["General"], "role": "anchor"}
+{"source_id": "train:8243", "split": "train", "question": "who votes in pa special election march 13", "gold_answers": ["Pennsylvania's 18th congressional district"], "role": "anchor"}
+{"source_id": "train:86278", "split": "train", "question": "names of trees that lose their leaves in autumn", "gold_answers": ["deciduous"], "role": "anchor"}
+{"source_id": "train:17658", "split": "train", "question": "who played james bond in you only live twice", "gold_answers": ["Sean Connery"], "role": "anchor"}
+{"source_id": "train:86463", "split": "train", "question": "who played nigel in never say never again", "gold_answers": ["Rowan Atkinson"], "role": "anchor"}
+{"source_id": "train:66702", "split": "train", "question": "what was the smallest country to win world cup", "gold_answers": ["Uruguay"], "role": "anchor"}
+{"source_id": "train:4488", "split": "train", "question": "what chapter in the bible has the 10 commandments", "gold_answers": ["Exodus 34:28", "Deuteronomy 10:4"], "role": "anchor"}
+{"source_id": "train:45193", "split": "train", "question": "how deep is the deepest lake in canada", "gold_answers": ["614", "2,015"], "role": "anchor"}
+{"source_id": "train:15367", "split": "train", "question": "who was the last british governor of india", "gold_answers": ["The Viscount Mountbatten of Burma"], "role": "anchor"}
+{"source_id": "train:7802", "split": "train", "question": "a larger sexually dimorphic nucleus of the medial preoptic area is the result of", "gold_answers": ["sexual behavior"], "role": "anchor"}
+{"source_id": "train:56031", "split": "train", "question": "who sang vande mataram for the first time", "gold_answers": ["Rabindranath Tagore"], "role": "anchor"}
+{"source_id": "train:39518", "split": "train", "question": "what are the two most abundant greenhouse gases in the earth’s atmosphere", "gold_answers": ["water vapor, carbon dioxide"], "role": "anchor"}
+{"source_id": "train:37955", "split": "train", "question": "who has won the last 10 world series", "gold_answers": ["St. Louis Cardinals", "Houston Astros", "San Francisco Giants", "Chicago Cubs", "Boston Red Sox", "New York Yankees", "Philadelphia Phillies", "Kansas City Royals"], "role": "anchor"}
+{"source_id": "train:40184", "split": "train", "question": "when does peter capaldi start as dr who", "gold_answers": ["25 December 2013"], "role": "anchor"}
+{"source_id": "train:63920", "split": "train", "question": "who did domonique foxworth play for in the nfl", "gold_answers": ["Atlanta Falcons", "Denver Broncos", "Baltimore Ravens"], "role": "anchor"}
+{"source_id": "validation:534", "split": "validation", "question": "who wrote antigone and what are the dates of his birth and death", "gold_answers": ["winter 406/5 BC", "c. 497/6", "Sophocles"], "role": "anchor"}
+{"source_id": "train:8709", "split": "train", "question": "who played virgil in the heat of the night", "gold_answers": ["Howard Ellsworth Rollins Jr."], "role": "anchor"}
+{"source_id": "validation:3248", "split": "validation", "question": "when will notre dame played michigan state again", "gold_answers": ["2026"], "role": "anchor"}
+{"source_id": "train:86527", "split": "train", "question": "what is the country with the largest muslim population", "gold_answers": ["Afghanistan"], "role": "anchor"}
+{"source_id": "train:42324", "split": "train", "question": "who plays elizabeth swann in pirates of the caribbean", "gold_answers": ["Keira Knightley"], "role": "anchor"}
+{"source_id": "train:64620", "split": "train", "question": "who opened japan to trade with the treaty of kanagawa", "gold_answers": ["Emperor Kōmei"], "role": "anchor"}
+{"source_id": "train:62871", "split": "train", "question": "when did the riders win the grey cup", "gold_answers": ["1966", "2007", "2013", "1989"], "role": "anchor"}
+{"source_id": "train:45956", "split": "train", "question": "when was the last time canada was in fifa", "gold_answers": ["1986"], "role": "anchor"}
+{"source_id": "validation:2914", "split": "validation", "question": "who won la liga in the last 10 years", "gold_answers": ["Real Madrid", "Barcelona", "Atlético Madrid"], "role": "anchor"}
+{"source_id": "train:66802", "split": "train", "question": "who carried the us flag at opening ceremony", "gold_answers": ["Erin Hamlin"], "role": "anchor"}
+{"source_id": "train:1697", "split": "train", "question": "who plays juliet in the original romeo and juliet", "gold_answers": ["Olivia Hussey"], "role": "anchor"}
+{"source_id": "train:56254", "split": "train", "question": "who was robin in batman the animated series", "gold_answers": ["Loren Lester"], "role": "anchor"}
+{"source_id": "train:3703", "split": "train", "question": "what is the old english meaning of lent", "gold_answers": ["\"spring season\""], "role": "anchor"}
+{"source_id": "train:35812", "split": "train", "question": "the practice of marrying only one person and getting married only once during a lifetime is called", "gold_answers": ["Monogamy"], "role": "anchor"}
+{"source_id": "validation:1526", "split": "validation", "question": "who sang original i want a hippopotamus for christmas", "gold_answers": ["Gayla Peevey"], "role": "anchor"}
+{"source_id": "train:67846", "split": "train", "question": "which country won the men's fifa football world cup in 2010", "gold_answers": ["Spain"], "role": "anchor"}
+{"source_id": "train:83821", "split": "train", "question": "what is the girl sloths name in zootopia", "gold_answers": ["Kristen Bell"], "role": "anchor"}
+{"source_id": "train:68542", "split": "train", "question": "the walking dead game final season ep 2 release date", "gold_answers": ["September 25, 2018"], "role": "anchor"}
+{"source_id": "train:52661", "split": "train", "question": "which club has won most uefa champions league titles", "gold_answers": ["Real Madrid"], "role": "anchor"}
+{"source_id": "train:76321", "split": "train", "question": "where does the show here and now take place", "gold_answers": ["the Portland area"], "role": "anchor"}
+{"source_id": "train:76383", "split": "train", "question": "who does justin end up with on wizards of waverly place", "gold_answers": ["Juliet"], "role": "anchor"}
+{"source_id": "train:76237", "split": "train", "question": "where does let's make a deal tape", "gold_answers": ["Raleigh Studios"], "role": "anchor"}
+{"source_id": "train:34260", "split": "train", "question": "what is the name of the main human character in avatar", "gold_answers": ["Avatar Aang"], "role": "anchor"}
+{"source_id": "train:26957", "split": "train", "question": "who sings the theme song on the wire", "gold_answers": ["Steve Earle", "DoMaJe", "Tom Waits", "The Blind Boys of Alabama", "The Neville Brothers"], "role": "anchor"}
+{"source_id": "train:69263", "split": "train", "question": "when did nz gst change from 10 to 12.5", "gold_answers": ["1 July 1989"], "role": "anchor"}
+{"source_id": "train:2769", "split": "train", "question": "who has the longest world series drought now", "gold_answers": ["Cleveland Indians"], "role": "anchor"}
+{"source_id": "train:21067", "split": "train", "question": "when did the us military begin hiring civilians", "gold_answers": ["1871"], "role": "anchor"}
+{"source_id": "train:18032", "split": "train", "question": "when did night of the living dead come out", "gold_answers": ["1968"], "role": "anchor"}
+{"source_id": "train:7621", "split": "train", "question": "where are apple products sold around the world", "gold_answers": ["Apple Store"], "role": "anchor"}
+{"source_id": "train:60436", "split": "train", "question": "how many california state senate members are there", "gold_answers": ["40"], "role": "anchor"}
+{"source_id": "train:1410", "split": "train", "question": "which is first silence of the lambs and hannibal", "gold_answers": ["The Silence of the Lambs"], "role": "anchor"}
+{"source_id": "train:40852", "split": "train", "question": "when did the new england patriots change their logo", "gold_answers": ["2013"], "role": "anchor"}
+{"source_id": "validation:1903", "split": "validation", "question": "how many lines of symmetry are there in a equilateral triangle", "gold_answers": ["3"], "role": "anchor"}
+{"source_id": "train:54247", "split": "train", "question": "what type of government did japan have during ww2", "gold_answers": ["Imperial rule"], "role": "anchor"}
+{"source_id": "train:84110", "split": "train", "question": "who wrote here comes the sun by the beatles", "gold_answers": ["George Harrison"], "role": "anchor"}
+{"source_id": "train:82469", "split": "train", "question": "who was the book of acts written for", "gold_answers": ["Jewish audiences"], "role": "anchor"}
+{"source_id": "train:13451", "split": "train", "question": "when were the eagles inducted into the rock and roll hall of fame", "gold_answers": ["1998"], "role": "anchor"}
+{"source_id": "train:39019", "split": "train", "question": "when was the last lethal weapon movie made", "gold_answers": ["1998"], "role": "anchor"}
+{"source_id": "train:28503", "split": "train", "question": "when was the last time the ny yankees were no hit", "gold_answers": ["July 18, 1999"], "role": "anchor"}
+{"source_id": "train:48692", "split": "train", "question": "when was the last time the jets made the super bowl", "gold_answers": ["1968"], "role": "anchor"}
+{"source_id": "train:52796", "split": "train", "question": "who got first pick in nfl draft 2017", "gold_answers": ["Cleveland Browns"], "role": "anchor"}
+{"source_id": "train:27701", "split": "train", "question": "when is the eclipse happening in the united states", "gold_answers": ["April 2024"], "role": "anchor"}
+{"source_id": "train:47464", "split": "train", "question": "when did your lie in april come out", "gold_answers": ["April 2011"], "role": "anchor"}
+{"source_id": "train:9912", "split": "train", "question": "what is the candlesticks name on beauty and the beast", "gold_answers": ["Lumière"], "role": "anchor"}
+{"source_id": "train:74825", "split": "train", "question": "what movie is the song magic carpet ride in", "gold_answers": ["Reservoir Dogs", "Coneheads"], "role": "anchor"}
+{"source_id": "train:39223", "split": "train", "question": "when did ghana win african cup of nations", "gold_answers": ["1978", "1965", "1963", "1982"], "role": "anchor"}

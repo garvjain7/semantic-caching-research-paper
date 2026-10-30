@@ -1,19 +1,16 @@
 # embedding_comparison.yaml
 #
-# Experiment B (high priority — directly answers the open question
-# GPTCache's own paper names as future work: does embedding model
-# choice affect the false-hit tradeoff?).
-#
-# Rerun the threshold sweep with a second embedding model, everything
-# else held fixed.
+# Retained secondary-experiment config. The active run_experiments.py already
+# includes MiniLM and BGE in its four-configuration threshold sweep, so this
+# file does not define a separate completed run or result directory.
 
 experiment_name: embedding_comparison
 embedding_models:
-  - all-MiniLM-L6-v2
-  - BAAI/bge-base-en-v1.5   # TODO: confirm final second model choice
+  - sentence-transformers/all-MiniLM-L6-v2
+  - BAAI/bge-base-en-v1.5
 threshold_range:
-  start: 0.70
-  end: 0.99
-  step: 0.02
+  start: 0.50
+  end: 0.95
+  step: 0.05
 dataset_path: data/processed/
-llm_model: llama3.1:8b
+llm_model: llama3.2:3b
