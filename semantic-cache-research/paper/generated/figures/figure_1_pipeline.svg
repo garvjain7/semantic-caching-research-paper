@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1648" viewBox="0 0 1200 1648" role="img" aria-labelledby="title desc">
+  <title id="title">End-to-end semantic cache evaluation pipeline</title>
+  <desc id="desc">A four-stage portrait pipeline for data selection, query and cache construction, one-time retrieval and model calls, and threshold replay.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7.5" refY="4.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L9,4.5 L0,9 z" fill="#40536b"/></marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #172334; }
+      .panel { fill: #f8fafc; stroke: #a5b4c5; stroke-width: 2; }
+      .heading { font-size: 29px; font-weight: 700; fill: #17365d; }
+      .node { fill: #ffffff; stroke: #6e8299; stroke-width: 2; }
+      .blue { fill: #eaf2fb; stroke: #4777a8; }
+      .green { fill: #eaf5ee; stroke: #4b8761; }
+      .amber { fill: #fff4df; stroke: #b38128; }
+      .purple { fill: #f2edfa; stroke: #8064a6; }
+      .label { font-size: 23px; font-weight: 700; text-anchor: middle; }
+      .small { font-size: 19px; text-anchor: middle; }
+      .note { font-size: 18px; fill: #425267; }
+      .arrow { fill: none; stroke: #40536b; stroke-width: 2.8; marker-end: url(#arrow); }
+      .branch { fill: none; stroke: #40536b; stroke-width: 2.8; }
+    </style>
+  </defs>
+
+  <!-- 1. Source, filtering, deduplication and sample split -->
+  <rect class="panel" x="28" y="24" width="1144" height="410" rx="20"/>
+  <text class="heading" x="58" y="66">1 · Select and split the data</text>
+  <rect class="node blue" x="210" y="82" width="780" height="48" rx="11"/>
+  <text class="label" x="600" y="113">NQ-Open · pinned revision</text>
+  <path class="arrow" d="M600 130 V143"/>
+  <rect class="node" x="210" y="143" width="780" height="48" rx="11"/>
+  <text class="label" x="600" y="174">Mechanical filtering</text>
+  <path class="arrow" d="M600 191 V204"/>
+  <rect class="node" x="210" y="204" width="780" height="48" rx="11"/>
+  <text class="label" x="600" y="235">Near-duplicate removal · keep first occurrence</text>
+  <path class="arrow" d="M600 252 V265"/>
+  <rect class="node amber" x="210" y="265" width="780" height="48" rx="11"/>
+  <text class="label" x="600" y="296">Seeded sampling · seed 42</text>
+  <path class="branch" d="M600 313 V329 M220 329 H980"/>
+  <path class="arrow" d="M220 329 V343"/><path class="arrow" d="M600 329 V343"/><path class="arrow" d="M980 329 V343"/>
+  <rect class="node blue" x="55" y="343" width="330" height="57" rx="11"/>
+  <text class="label" x="220" y="368">100 anchors</text><text class="small" x="220" y="391">cache source</text>
+  <rect class="node" x="435" y="343" width="330" height="57" rx="11"/>
+  <text class="label" x="600" y="368">50 dev examples</text><text class="small" x="600" y="391">isolated from evaluation</text>
+  <rect class="node" x="815" y="343" width="330" height="57" rx="11"/>
+  <text class="label" x="980" y="368">Held-out pool · 1,000</text><text class="small" x="980" y="391">source for 100 unrelated queries</text>
+  <text class="note" x="59" y="421">Unrelated-query constraint: maximum token Jaccard to every anchor ≤ 0.2.</text>
+
+  <!-- 2. Query and static-cache construction -->
+  <rect class="panel" x="28" y="437" width="1144" height="375" rx="20"/>
+  <text class="heading" x="58" y="479">2 · Build the evaluation queries and fixed cache</text>
+  <rect class="node blue" x="420" y="496" width="360" height="54" rx="11"/>
+  <text class="label" x="600" y="530">100 source anchors</text>
+  <path class="branch" d="M600 550 V570 M230 570 H970"/>
+  <path class="arrow" d="M230 570 V585"/><path class="arrow" d="M600 570 V585"/><path class="arrow" d="M970 570 V585"/>
+  <rect class="node purple" x="55" y="585" width="350" height="72" rx="11"/>
+  <text class="label" x="230" y="614">Paraphrase generation</text><text class="small" x="230" y="642">Gemma 3:4b · P1–P4 per anchor</text>
+  <rect class="node purple" x="425" y="585" width="350" height="72" rx="11"/>
+  <text class="label" x="600" y="614">Hard negatives · E/N/T/S</text><text class="small" x="600" y="642">Gemma 3:4b · ≤50 per type</text>
+  <rect class="node green" x="795" y="585" width="350" height="72" rx="11"/>
+  <text class="label" x="970" y="614">Cached-response generation</text><text class="small" x="970" y="642">Llama 3.2:3b · temperature 0</text>
+  <path class="arrow" d="M230 657 V685"/><path class="arrow" d="M600 657 V685"/><path class="arrow" d="M970 657 V685"/>
+  <rect class="node amber" x="55" y="685" width="690" height="82" rx="11"/>
+  <text class="label" x="400" y="716">Evaluation set · 700 queries</text>
+  <text class="small" x="400" y="743">400 paraphrases · 200 hard negatives · 100 unrelated from held-out pool</text>
+  <rect class="node green" x="775" y="685" width="370" height="82" rx="11"/>
+  <text class="label" x="960" y="716">Static cache · 100 entries</text>
+  <text class="small" x="960" y="743">anchor questions + stored responses</text>
+  <text class="note" x="59" y="795">NOT_APPLICABLE is permitted. Audit: 9 strata × 10 = 90 queries; diagnostic only.</text>
+
+  <!-- 3. Independent, one-time computation lanes -->
+  <rect class="panel" x="28" y="830" width="1144" height="420" rx="20"/>
+  <text class="heading" x="58" y="872">3 · Compute once and persist the records</text>
+  <rect class="node" x="230" y="892" width="740" height="58" rx="11"/>
+  <text class="label" x="600" y="928">Same evaluation queries and fixed cache for all configurations</text>
+  <path class="branch" d="M600 950 V976 M220 976 H980"/>
+  <path class="arrow" d="M220 976 V995"/><path class="arrow" d="M600 976 V995"/><path class="arrow" d="M980 976 V995"/>
+  <rect class="node blue" x="50" y="995" width="340" height="230" rx="13"/>
+  <text class="label" x="220" y="1030">Retrieval · once</text>
+  <text class="small" x="220" y="1071">MiniLM cosine</text>
+  <text class="small" x="220" y="1099">BGE cosine</text>
+  <text class="small" x="220" y="1127">MiniLM top-5 + cross-encoder</text>
+  <text class="small" x="220" y="1155">Lexical (difflib)</text>
+  <text class="small" x="220" y="1193">Store nearest anchor and score</text>
+  <text class="small" x="220" y="1217">per query/configuration</text>
+  <rect class="node green" x="430" y="995" width="340" height="230" rx="13"/>
+  <text class="label" x="600" y="1030">Fallback · once/query</text>
+  <text class="small" x="600" y="1080">Call the fallback LLM once</text>
+  <text class="small" x="600" y="1110">for each evaluation query.</text>
+  <text class="small" x="600" y="1155">Persist response and latency</text>
+  <text class="small" x="600" y="1185">for replay on misses.</text>
+  <rect class="node purple" x="810" y="995" width="340" height="230" rx="13"/>
+  <text class="label" x="980" y="1030">Judge · once/pair</text>
+  <text class="small" x="980" y="1072">Phi-4-mini assesses the</text>
+  <text class="small" x="980" y="1100">retrieved cached response.</text>
+  <text class="small" x="980" y="1140">One verdict per query/config;</text>
+  <text class="small" x="980" y="1168">persisted independently</text>
+  <text class="small" x="980" y="1196">of the threshold.</text>
+
+  <!-- 4. Pure threshold replay -->
+  <rect class="panel" x="28" y="1268" width="1144" height="356" rx="20"/>
+  <text class="heading" x="58" y="1310">4 · Replay thresholds and report results</text>
+  <rect class="node blue" x="60" y="1340" width="330" height="76" rx="11"/>
+  <text class="label" x="225" y="1371">Persisted records</text><text class="small" x="225" y="1398">scores · verdicts · fallbacks</text>
+  <rect class="node amber" x="435" y="1340" width="330" height="76" rx="11"/>
+  <text class="label" x="600" y="1371">Threshold grid</text><text class="small" x="600" y="1398">τ = 0.50–0.95 · step 0.05</text>
+  <rect class="node green" x="810" y="1340" width="330" height="76" rx="11"/>
+  <text class="label" x="975" y="1371">Replay only</text><text class="small" x="975" y="1398">no additional model calls</text>
+  <path class="arrow" d="M390 1378 H435"/><path class="arrow" d="M765 1378 H810"/>
+  <path class="arrow" d="M975 1416 V1450 H600 V1470"/>
+  <rect class="node" x="60" y="1470" width="1080" height="126" rx="13"/>
+  <text class="label" x="600" y="1510">Primary: judged false-hit rate</text>
+  <text class="small" x="600" y="1542">Label FHR · query false-hit incidence · false-miss · call savings · subtype breakdowns</text>
+  <text class="small" x="600" y="1573">Wilson 95% intervals · judge/label disagreement · figures and tables</text>
+</svg>

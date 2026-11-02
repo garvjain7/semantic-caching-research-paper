@@ -1,0 +1,5 @@
+﻿configuration,threshold,disagreements,hits,disagreement_rate,wilson_95_ci_low,wilson_95_ci_high
+minilm_cosine,0.75,158,412,0.383495,0.337824,0.431319
+bge_cosine,0.75,202,503,0.40159,0.359651,0.445022
+minilm_crossencoder_top5,0.75,124,286,0.433566,0.377387,0.491507
+lexical_difflib,0.75,37,111,0.333333,0.25251,0.425307

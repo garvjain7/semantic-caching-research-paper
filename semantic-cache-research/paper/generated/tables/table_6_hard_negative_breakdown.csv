@@ -1,0 +1,17 @@
+﻿configuration,threshold,type,false_hits,queries,false_hit_rate,ci_low,ci_high
+minilm_cosine,0.75,E,26,50,0.52,0.385115,0.652031
+minilm_cosine,0.75,N,49,50,0.98,0.895043,0.996461
+minilm_cosine,0.75,T,23,50,0.46,0.329694,0.596014
+minilm_cosine,0.75,S,24,50,0.48,0.347969,0.614885
+bge_cosine,0.75,E,29,50,0.58,0.442332,0.706252
+bge_cosine,0.75,N,49,50,0.98,0.895043,0.996461
+bge_cosine,0.75,T,33,50,0.66,0.521536,0.775632
+bge_cosine,0.75,S,28,50,0.56,0.423058,0.68838
+minilm_crossencoder_top5,0.75,E,13,50,0.26,0.158714,0.395534
+minilm_crossencoder_top5,0.75,N,12,50,0.24,0.142973,0.374129
+minilm_crossencoder_top5,0.75,T,14,50,0.28,0.17474,0.416654
+minilm_crossencoder_top5,0.75,S,9,50,0.18,0.097701,0.307963
+lexical_difflib,0.75,E,3,50,0.06,0.020615,0.162173
+lexical_difflib,0.75,N,46,50,0.92,0.811615,0.968451
+lexical_difflib,0.75,T,5,50,0.1,0.043475,0.213605
+lexical_difflib,0.75,S,2,50,0.04,0.011039,0.134603

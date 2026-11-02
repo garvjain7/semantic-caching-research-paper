@@ -16,7 +16,7 @@ This is an undergraduate research project on the correctness–cost trade-off in
 1. [`PROJECT_STATE.md`](PROJECT_STATE.md) — current, authoritative project context, completed work, results, limitations, and next steps.
 2. [`corpus_spec.md`](corpus_spec.md) — corpus construction rules and achieved audit/corpus facts.
 3. [`semantic-cache-research/configs/corpus.yaml`](semantic-cache-research/configs/corpus.yaml) — authoritative machine-readable corpus and model configuration.
-4. [`research_paper.md`](research_paper.md) — paper draft. Its abstract is the author-provided text; the Results section records the measured sweep and audit findings.
+4. [`research_paper.md`](research_paper.md) — paper draft. Its abstract is the author-provided text; the Results section reports the measured threshold sweep and treats the audit as a limited diagnostic.
 5. [`semantic-cache-research/results/threshold_sweep/`](semantic-cache-research/results/threshold_sweep/) — primary experiment records and metrics.
 
 ## Repository layout

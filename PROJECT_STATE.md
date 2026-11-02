@@ -13,7 +13,7 @@ Measure how a static semantic cache trades judged response correctness against m
 - Dataset: NQ-Open `google-research-datasets/nq_open`, revision `5dd9790a83002ad084ddeb7c420dc716852c6f28`, splits `train` and `validation`; seed 42.
 - Cache entries: 100 Llama 3.2:3b responses at temperature 0.
 - Main run: 2,800 retrieval records, 2,800 Phi-4-mini verdicts, 700 fallback records, and ten thresholds for each of four configurations.
-- Figures 1–3 and Tables 1–3 are generated under `semantic-cache-research/paper/generated/`.
+- Method diagrams are Figures 1–4 in the manuscript; publication result Figures 5–10 and generated CSV tables 1–9 are under `semantic-cache-research/paper/generated/`.
 - Supplemental sensitivity outputs for the 90-row audit are saved under `semantic-cache-research/results/judge_robustness/`. They are secondary to the 700-query threshold results.
 - The cache-scale study is not run. Its configuration exists, but its runner/output are not part of the completed main pipeline.
 
@@ -35,18 +35,20 @@ Measure how a static semantic cache trades judged response correctness against m
 - The nearest neighbor is stored once per query/configuration, independently of threshold.
 - `llama3.2:3b` is called once per evaluation query for a stored fallback response and latency. `phi4-mini` supplies one stored verdict per query/configuration.
 - The sweep replays stored records over τ=0.50, 0.55, …, 0.95; it does not make model calls per threshold.
-- Metrics include judged false-hit rate, label-based query false-hit rate, false-miss rate, call savings, subtype breakdowns, Wilson 95% intervals, and judge/label disagreement.
+- Metrics include judged false-hit rate, conditional label FHR, query-level false-hit incidence, false-miss rate, call savings, subtype breakdowns, Wilson 95% intervals, and judge/label disagreement.
 
 ## Main measured findings
 
 No tested configuration reached judged false-hit rate (JFH) ≤5% at any threshold. The lowest observed JFH for each configuration was:
 
-| Configuration | τ at minimum JFH | Minimum JFH (Wilson 95% CI) | Call savings | Label false-hit rate | False-miss rate |
-|---|---:|---:|---:|---:|---:|
-| MiniLM cosine | 0.75 | 40.3% (35.7–45.1%) | 58.9% | 17.4% | 27.5% |
-| BGE cosine | 0.95 | 38.1% (20.8–59.1%) | 3.0% | 1.4% | 97.3% |
-| MiniLM + cross-encoder | 0.90 | 35.8% (30.2–41.9%) | 36.3% | 5.6% | 46.3% |
-| Lexical `difflib` | 0.60 | 45.9% (40.1–51.9%) | 38.6% | 13.9% | 56.8% |
+| Configuration | τ at minimum JFH | Minimum JFH (Wilson 95% CI) | Call savings | Label FHR among hits | Query false-hit incidence | False-miss rate |
+|---|---:|---:|---:|---:|---:|---:|
+| MiniLM cosine | 0.75 | 40.3% (35.7–45.1%) | 58.9% | 29.6% | 17.4% | 27.5% |
+| BGE cosine | 0.95 | 38.1% (20.8–59.1%) | 3.0% | 47.6% | 1.4% | 97.3% |
+| MiniLM + cross-encoder | 0.90 | 35.8% (30.2–41.9%) | 36.3% | 15.4% | 5.6% | 46.3% |
+| Lexical `difflib` | 0.60 | 45.9% (40.1–51.9%) | 38.6% | 36.7% | 14.1% | 56.8% |
+
+Label FHR is false hits divided by cache hits; query false-hit incidence is false hits divided by all 700 evaluation queries. The saved metrics were replayed with each paraphrase's expected anchor ID so that retrieving a different anchor is counted as a label false hit.
 
 At the shared τ=0.75, judged false-hit rates were 40.3% (MiniLM), 42.7% (BGE), 37.8% (MiniLM reranking), and 56.8% (lexical). Across the tested methods, no threshold provided both low judged false-hit rates and useful savings. The reranked MiniLM configuration had the lowest observed JFH, but that minimum was still 35.8%; it is not a safe operating point.
 

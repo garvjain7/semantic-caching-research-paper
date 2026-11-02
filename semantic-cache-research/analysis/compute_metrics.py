@@ -20,7 +20,8 @@ fallback_records.jsonl    — one row per query_id;
 
 query_metadata.jsonl      — one row per query_id produced by build_corpus.py;
                             required fields: query_id, role ("anchor" | "paraphrase" |
-                            "hard_negative" | "unrelated"), subtype
+                            "hard_negative" | "unrelated"), anchor_id,
+                            subtype
                             (P1/P2/P3/P4 | E/N/T/S | "none"), should_hit (bool).
 
 Metrics produced
@@ -36,10 +37,8 @@ Primary
                             label, which is the point of running the judge.
 
 Secondary (label-based)
-  query_false_hit_rate      FP / (TP + FP) = 1 − precision.
-                            Denominator is all hits, not all queries.
-                            Complements judged_false_hit_rate: when the two
-                            diverge, the judge disagrees with the corpus label.
+  query_false_hit_rate      FP / all queries (query-level false-hit incidence).
+  label_false_hit_rate      FP / (TP + FP), conditional label FHR among hits.
 
   false_miss_rate           FN / (TP + FN), restricted to queries whose role
                             is "paraphrase" (i.e. only queries that *should*
@@ -52,9 +51,8 @@ Secondary (label-based)
                             one LLM call each.  Replays stored fallback latency
                             for misses — no Ollama calls.
 
-  mean_saved_latency_ms     Mean fallback latency (ms) per query, weighted by
-                            the fraction of queries that are hits at each τ.
-                            Gives the expected per-query latency saving.
+  mean_saved_latency_ms     Mean stored fallback latency avoided per query,
+                            without subtracting cache lookup time.
 
 Per-subtype
   judge_disagreement_by_subtype
@@ -183,6 +181,7 @@ class QueryMeta:
     role: str       # "paraphrase" | "hard_negative" | "unrelated" | "anchor"
     subtype: str    # "P1"–"P4" | "E"|"N"|"T"|"S" | "none"
     should_hit: bool
+    anchor_id: str | None = None
 
     @staticmethod
     def from_dict(d: dict) -> "QueryMeta":
@@ -191,6 +190,7 @@ class QueryMeta:
             role=d["role"],
             subtype=d.get("subtype", "none"),
             should_hit=bool(d["should_hit"]),
+            anchor_id=d.get("anchor_id"),
         )
 
 
@@ -393,9 +393,11 @@ class MetricSet:
     Secondary label-based metrics
     ------------------------------
     query_false_hit_rate
-        False-hit queries / all queries. This is the query-level risk under
-        the intended corpus labels; judged_false_hit_rate is conditional on a
-        retrieval hit and uses the judge's semantic assessment.
+        False-hit queries / all queries (query-level false-hit incidence).
+
+    label_false_hit_rate
+        Label false hits / all cache hits. A paraphrase is a label true hit
+        only if it retrieves its own source anchor.
 
     false_miss_rate
         FN / (TP + FN), denominator restricted to paraphrase-role queries only.
@@ -408,8 +410,8 @@ class MetricSet:
         Hits avoid it.
 
     mean_saved_latency_ms
-        Mean per-query latency saved (ms).  For each query, the saving is
-        latency_seconds × 1000 if it is a hit, else 0.  Mean over all queries.
+        Mean per-query stored fallback latency avoided (ms); cache lookup time
+        is not subtracted, so this is not net serving-latency savings.
 
     Per-subtype disaggregation
     --------------------------
@@ -440,6 +442,7 @@ class MetricSet:
 
     # Secondary label-based metrics
     query_false_hit_rate: RateCI    # false-hit queries / all queries
+    label_false_hit_rate: RateCI    # label false hits / cache hits
     false_miss_rate: RateCI         # FN / (TP + FN) — paraphrase queries only
     cost_savings_rate: RateCI       # (TP + FP) / total_queries
 
@@ -466,6 +469,7 @@ class MetricSet:
             "judged_false_hit_rate": self.judged_false_hit_rate.as_dict(),
             "judge_label_disagreement_rate": self.judge_label_disagreement_rate.as_dict(),
             "query_false_hit_rate": self.query_false_hit_rate.as_dict(),
+            "label_false_hit_rate": self.label_false_hit_rate.as_dict(),
             "false_miss_rate": self.false_miss_rate.as_dict(),
             "cost_savings_rate": self.cost_savings_rate.as_dict(),
             "mean_saved_latency_ms": round(self.mean_saved_latency_ms, 4),
@@ -557,9 +561,11 @@ def compute_metrics(
         hit = rec.similarity >= threshold
 
         # Confusion matrix
-        if hit and should_hit:
+        correct_anchor = meta.anchor_id is None or rec.neighbour_id == meta.anchor_id
+        label_true_hit = should_hit and correct_anchor
+        if hit and label_true_hit:
             tp += 1
-        elif hit and not should_hit:
+        elif hit:
             fp += 1
         elif not hit and should_hit:
             fn += 1
@@ -568,7 +574,7 @@ def compute_metrics(
 
         if subtype in subtype_false_hits:
             subtype_false_hits[subtype][1] += 1
-            if hit and not should_hit:
+            if hit and not label_true_hit:
                 subtype_false_hits[subtype][0] += 1
         if subtype in paraphrase_false_misses:
             paraphrase_false_misses[subtype][1] += 1
@@ -576,7 +582,7 @@ def compute_metrics(
                 paraphrase_false_misses[subtype][0] += 1
         if subtype in hn_false_hits:
             hn_false_hits[subtype][1] += 1
-            if hit and not should_hit:
+            if hit and not label_true_hit:
                 hn_false_hits[subtype][0] += 1
 
         # Paraphrase-restricted false-miss counts
@@ -599,13 +605,13 @@ def compute_metrics(
             judge_says_false = verdict_rec.verdict == "false_hit"
             if judge_says_false:
                 judge_incorrect_hits += 1
-            if judge_says_false != (not should_hit):
+            if judge_says_false != (not label_true_hit):
                 judge_label_disagreements += 1
 
             # Per-subtype judge disagreement
             if subtype in subtype_judge_disagree:
                 subtype_judge_disagree[subtype][1] += 1         # total hits for subtype
-                if judge_says_false != (not should_hit):
+                if judge_says_false != (not label_true_hit):
                     # Disagreement: judge says false_hit but label says should_hit,
                     # OR judge says correct_hit but label says should not hit.
                     subtype_judge_disagree[subtype][0] += 1
@@ -622,6 +628,7 @@ def compute_metrics(
     # Build RateCI objects
     judged_fhr  = RateCI.compute(judge_incorrect_hits, total_hits)
     query_fhr   = RateCI.compute(fp, total)
+    label_fhr   = RateCI.compute(fp, tp + fp)
     fmr         = RateCI.compute(paraphrase_fn, paraphrase_tp + paraphrase_fn)
     csr         = RateCI.compute(tp + fp, total)    # hits / total = cost savings
 
@@ -658,6 +665,7 @@ def compute_metrics(
             judge_label_disagreements, total_hits
         ),
         query_false_hit_rate=query_fhr,
+        label_false_hit_rate=label_fhr,
         false_miss_rate=fmr,
         cost_savings_rate=csr,
         mean_saved_latency_ms=round(mean_saved_latency_ms, 4),

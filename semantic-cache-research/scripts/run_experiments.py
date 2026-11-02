@@ -100,6 +100,7 @@ def run(project_root: Path, corpus_config_path: Path, sweep_config_path: Path) -
     query_metadata = [
         {
             "query_id": row["query_id"],
+            "anchor_id": row.get("anchor_id"),
             "role": row["role"],
             "subtype": row["subtype"],
             "should_hit": row["should_hit"],

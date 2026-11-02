@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="960" viewBox="0 0 1400 960">
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11 Z" fill="#40566f"/></marker></defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif;fill:#172b43}.panel{fill:#fff;stroke:#9aacbf;stroke-width:2.5}.head{font-size:30px;font-weight:700;fill:#173c62}.body{font-size:23px}.small{font-size:20px;fill:#42566d}.strong{font-weight:700}.box{stroke-width:2;rx:13;ry:13}.blue{fill:#edf4fa;stroke:#6488aa}.green{fill:#eef6ef;stroke:#719b7a}.gold{fill:#fff7e8;stroke:#c29a50}.purple{fill:#f5f0f8;stroke:#9981ad}.arrow{fill:none;stroke:#40566f;stroke-width:3.2;marker-end:url(#arrow)}
+</style>
+<rect width="1400" height="960" fill="#fff"/>
+<!-- stage 1 -->
+<rect class="panel" x="24" y="24" width="650" height="414" rx="20"/><text class="head" x="52" y="68">1  Corpus and sampling</text>
+<rect class="box blue" x="52" y="92" width="594" height="62"/><text class="small strong" text-anchor="middle" x="349" y="118">NQ-Open, pinned revision → filter</text><text class="small strong" text-anchor="middle" x="349" y="142">→ first-occurrence deduplication</text>
+<rect class="box gold" x="52" y="174" width="594" height="57"/><text class="body strong" text-anchor="middle" x="349" y="211">Seeded sampling · seed 42</text>
+<rect class="box blue" x="52" y="251" width="282" height="105"/><text class="body strong" text-anchor="middle" x="193" y="291">100 anchors</text><text class="small" text-anchor="middle" x="193" y="323">cache source</text>
+<rect class="box" x="364" y="251" width="282" height="105" fill="#fafbfd" stroke="#8296ac"/><text class="body strong" text-anchor="middle" x="505" y="291">50 dev examples</text><text class="small" text-anchor="middle" x="505" y="323">held out from evaluation</text>
+<text class="small" x="52" y="384">Held-out pool: 1,000 → sample 100 unrelated queries.</text><text class="small" x="52" y="412">Constraint: token Jaccard ≤ 0.2 to every anchor.</text>
+<!-- stage 2 -->
+<rect class="panel" x="726" y="24" width="650" height="414" rx="20"/><text class="head" x="754" y="68">2  Workload and static cache</text>
+<rect class="box purple" x="754" y="92" width="594" height="104"/><text class="body strong" text-anchor="middle" x="1051" y="130">Gemma 3:4b · query generation</text><text class="small" text-anchor="middle" x="1051" y="162">P1–P4: 400 paraphrases · E/N/T/S: ≤50 per type</text>
+<rect class="box green" x="754" y="214" width="594" height="88"/><text class="body strong" text-anchor="middle" x="1051" y="251">Llama 3.2:3b · temperature 0</text><text class="small" text-anchor="middle" x="1051" y="279">100 anchor responses form the fixed cache</text>
+<rect class="box gold" x="754" y="320" width="594" height="82"/><text class="body strong" text-anchor="middle" x="1051" y="354">700 evaluation queries</text><text class="small" text-anchor="middle" x="1051" y="382">400 paraphrases + 200 hard negatives + 100 unrelated</text>
+<text class="small" x="754" y="426">NOT_APPLICABLE allowed · diagnostic audit: 9 strata × 10</text>
+<!-- stage 3 -->
+<rect class="panel" x="24" y="522" width="650" height="414" rx="20"/><text class="head" x="52" y="566">3  Compute once; persist records</text>
+<rect class="box blue" x="52" y="590" width="594" height="98"/><text class="body strong" text-anchor="middle" x="349" y="627">Four match configurations</text><text class="small" text-anchor="middle" x="349" y="658">MiniLM cosine · BGE cosine · MiniLM top-5 + rerank · lexical</text><text class="small" text-anchor="middle" x="349" y="681">FAISS flat IP · store nearest neighbour and score per query</text>
+<rect class="box green" x="52" y="706" width="282" height="118"/><text class="body strong" text-anchor="middle" x="193" y="744">Fallback LLM</text><text class="small" text-anchor="middle" x="193" y="775">once per query</text><text class="small" text-anchor="middle" x="193" y="801">store response + latency</text>
+<rect class="box purple" x="364" y="706" width="282" height="118"/><text class="body strong" text-anchor="middle" x="505" y="744">Phi-4-mini judge</text><text class="small" text-anchor="middle" x="505" y="775">once per config × query</text><text class="small" text-anchor="middle" x="505" y="801">store each verdict</text>
+<text class="small" x="52" y="862">All expensive outputs are computed independently of threshold τ.</text>
+<text class="small" x="52" y="894">Token Jaccard and normalized edit distance are stored as covariates.</text>
+<!-- stage 4 -->
+<rect class="panel" x="726" y="522" width="650" height="414" rx="20"/><text class="head" x="754" y="566">4  Replay thresholds; report results</text>
+<rect class="box blue" x="754" y="590" width="594" height="72"/><text class="body strong" text-anchor="middle" x="1051" y="620">Persisted scores · verdicts · fallback records</text><text class="small" text-anchor="middle" x="1051" y="647">replayed at τ = 0.50–0.95 in steps of 0.05</text>
+<rect class="box gold" x="754" y="680" width="594" height="68"/><text class="body strong" text-anchor="middle" x="1051" y="722">Threshold sweep uses stored results only</text>
+<text class="body strong" x="754" y="790">Primary: judged false-hit rate</text><text class="small" x="754" y="824">Also: label/query false hits · false misses · call savings</text><text class="small" x="754" y="854">subtypes · Wilson 95% CI · judge/label disagreement</text><text class="small" x="754" y="884">Figures and tables summarize the resulting trade-offs.</text>
+<!-- process connectors: 1 → 2 → 4 → 3 -->
+<path class="arrow" d="M674 225 H718"/><path class="arrow" d="M1051 438 V480 H349 V514"/><path class="arrow" d="M674 728 H718"/>
+</svg>
+
+
