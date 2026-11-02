@@ -1,700 +1,700 @@
-{"query_id": "train:84285:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:84285:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:84285:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:84285:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:37970:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:37970:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:37970:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:37970:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:84290:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:84290:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:84290:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:84290:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:24412:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:24412:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:24412:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:24412:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:4256:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:4256:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:4256:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:4256:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:53966:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:53966:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:53966:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:53966:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:56279:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:56279:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:56279:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:56279:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:9697:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:9697:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:9697:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:9697:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:22964:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:22964:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:22964:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:22964:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:68306:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:68306:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:68306:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:68306:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:80729:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:80729:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:80729:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:80729:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:83104:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:83104:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:83104:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:83104:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:58916:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:58916:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:58916:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:58916:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:39640:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:39640:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:39640:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:39640:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:45929:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:45929:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:45929:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:45929:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:36199:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:36199:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:36199:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:36199:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:80225:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:80225:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:80225:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:80225:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:12837:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:12837:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:12837:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:12837:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:45941:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:45941:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:45941:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:45941:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "validation:639:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "validation:639:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "validation:639:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "validation:639:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:41393:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:41393:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:41393:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:41393:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:35014:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:35014:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:35014:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:35014:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:58132:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:58132:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:58132:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:58132:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:78972:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:78972:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:78972:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:78972:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:47821:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:47821:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:47821:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:47821:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:31872:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:31872:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:31872:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:31872:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:17369:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:17369:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:17369:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:17369:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:17230:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:17230:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:17230:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:17230:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:57639:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:57639:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:57639:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:57639:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:70077:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:70077:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:70077:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:70077:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:86384:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:86384:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:86384:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:86384:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:10892:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:10892:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:10892:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:10892:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:18427:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:18427:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:18427:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:18427:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:30083:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:30083:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:30083:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:30083:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:32421:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:32421:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:32421:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:32421:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:45063:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:45063:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:45063:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:45063:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:69444:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:69444:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:69444:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:69444:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:65583:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:65583:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:65583:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:65583:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:80223:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:80223:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:80223:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:80223:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:40780:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:40780:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:40780:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:40780:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:8243:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:8243:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:8243:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:8243:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:86278:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:86278:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:86278:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:86278:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:17658:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:17658:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:17658:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:17658:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:86463:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:86463:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:86463:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:86463:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:66702:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:66702:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:66702:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:66702:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:4488:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:4488:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:4488:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:4488:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:45193:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:45193:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:45193:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:45193:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:15367:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:15367:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:15367:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:15367:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:7802:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:7802:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:7802:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:7802:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:56031:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:56031:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:56031:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:56031:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:39518:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:39518:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:39518:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:39518:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:37955:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:37955:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:37955:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:37955:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:40184:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:40184:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:40184:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:40184:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:63920:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:63920:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:63920:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:63920:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "validation:534:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "validation:534:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "validation:534:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "validation:534:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:8709:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:8709:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:8709:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:8709:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "validation:3248:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "validation:3248:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "validation:3248:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "validation:3248:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:86527:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:86527:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:86527:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:86527:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:42324:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:42324:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:42324:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:42324:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:64620:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:64620:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:64620:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:64620:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:62871:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:62871:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:62871:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:62871:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:45956:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:45956:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:45956:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:45956:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "validation:2914:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "validation:2914:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "validation:2914:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "validation:2914:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:66802:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:66802:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:66802:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:66802:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:1697:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:1697:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:1697:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:1697:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:56254:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:56254:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:56254:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:56254:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:3703:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:3703:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:3703:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:3703:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:35812:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:35812:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:35812:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:35812:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "validation:1526:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "validation:1526:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "validation:1526:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "validation:1526:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:67846:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:67846:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:67846:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:67846:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:83821:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:83821:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:83821:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:83821:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:68542:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:68542:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:68542:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:68542:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:52661:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:52661:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:52661:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:52661:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:76321:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:76321:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:76321:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:76321:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:76383:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:76383:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:76383:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:76383:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:76237:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:76237:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:76237:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:76237:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:34260:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:34260:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:34260:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:34260:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:26957:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:26957:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:26957:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:26957:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:69263:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:69263:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:69263:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:69263:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:2769:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:2769:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:2769:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:2769:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:21067:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:21067:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:21067:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:21067:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:18032:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:18032:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:18032:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:18032:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:7621:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:7621:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:7621:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:7621:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:60436:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:60436:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:60436:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:60436:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:1410:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:1410:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:1410:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:1410:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:40852:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:40852:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:40852:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:40852:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "validation:1903:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "validation:1903:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "validation:1903:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "validation:1903:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:54247:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:54247:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:54247:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:54247:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:84110:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:84110:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:84110:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:84110:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:82469:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:82469:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:82469:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:82469:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:13451:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:13451:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:13451:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:13451:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:39019:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:39019:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:39019:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:39019:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:28503:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:28503:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:28503:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:28503:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:48692:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:48692:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:48692:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:48692:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:52796:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:52796:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:52796:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:52796:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:27701:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:27701:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:27701:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:27701:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:47464:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:47464:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:47464:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:47464:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:9912:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:9912:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:9912:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:9912:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:74825:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:74825:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:74825:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:74825:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:39223:P1", "role": "paraphrase", "subtype": "P1", "should_hit": true}
-{"query_id": "train:39223:P2", "role": "paraphrase", "subtype": "P2", "should_hit": true}
-{"query_id": "train:39223:P3", "role": "paraphrase", "subtype": "P3", "should_hit": true}
-{"query_id": "train:39223:P4", "role": "paraphrase", "subtype": "P4", "should_hit": true}
-{"query_id": "train:45929:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:17369:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:56254:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:45063:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:48692:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:27701:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:82469:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:39223:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:4256:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:17658:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:86278:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:58916:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:78972:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:76383:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:80729:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:45941:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:69263:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:28503:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:4488:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:64620:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:9697:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:84290:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:56279:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:18427:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:84285:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:26957:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:86527:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:30083:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:3703:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:7621:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:1410:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:8243:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:80225:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:13451:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:83821:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:40852:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:83104:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:52796:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:54247:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:9912:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:35014:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:47821:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:68542:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:69444:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "validation:3248:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:62871:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:57639:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:45956:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:18032:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:60436:E", "role": "hard_negative", "subtype": "E", "should_hit": false}
-{"query_id": "train:47464:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:69263:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:36199:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:52661:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:13451:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:17230:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:1410:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:39019:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:40780:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:8709:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:39223:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:28503:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:35812:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:24412:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:17658:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:58132:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "validation:1526:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:27701:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:40184:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:86463:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:64620:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:10892:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:4256:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:63920:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:45929:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:9697:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:35014:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:15367:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:7621:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:80225:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:80729:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:30083:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:37955:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:32421:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:58916:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:83104:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:17369:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:74825:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:45941:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:53966:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:22964:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:45193:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:78972:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:62871:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:52796:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:86278:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "validation:2914:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:86527:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:8243:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:12837:N", "role": "hard_negative", "subtype": "N", "should_hit": false}
-{"query_id": "train:8243:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:54247:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:10892:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:66702:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:58132:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:32421:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:21067:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:66802:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:36199:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:28503:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:26957:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:31872:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:17658:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:4488:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:45956:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:3703:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "validation:1903:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:17230:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "validation:534:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:76321:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:8709:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:37970:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:42324:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:84285:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:83104:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:45929:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:39223:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:18032:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:84290:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:39640:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:37955:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:48692:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:63920:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:64620:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:27701:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:39518:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:76237:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:68542:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:9697:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:76383:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:56279:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:45063:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:69263:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:84110:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:86278:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:24412:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:60436:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:22964:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:80223:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:39019:T", "role": "hard_negative", "subtype": "T", "should_hit": false}
-{"query_id": "train:4256:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:17658:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:21067:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:76237:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:78972:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:40852:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:57639:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "validation:2914:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:74825:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:45929:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:17230:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:13451:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:39019:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:67846:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:58132:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:48692:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:9697:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:66702:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:7621:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:32421:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:7802:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:86278:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:3703:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:66802:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:28503:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:24412:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:26957:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:8243:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:83104:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:84285:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:17369:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:35812:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:76383:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:10892:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:18032:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:63920:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:40184:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:65583:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:64620:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:80729:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:56254:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:40780:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:41393:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "validation:534:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:42324:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:45956:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:39223:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:70077:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:82469:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:86384:S", "role": "hard_negative", "subtype": "S", "should_hit": false}
-{"query_id": "train:68526", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:25071", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:63406", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:74598", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:53940", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:39442", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:65514", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:8573", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:79751", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:56690", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:61125", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:2731", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:41196", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:30357", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:14406", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:46544", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:54736", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:56737", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:36779", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:43306", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:78476", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:15084", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:12586", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:22012", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:78650", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:545", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:70350", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:42184", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:58338", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:80468", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:60101", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:27490", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:1037", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:21264", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:51568", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:35870", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:63154", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:52326", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:16976", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:9835", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:23233", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:2383", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:58606", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:29017", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:64551", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:22466", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:33259", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:60553", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:29079", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:68182", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:24901", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:56950", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:17368", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:7438", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:13681", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:31134", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:68716", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:21041", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:36091", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:62152", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:67075", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:2357", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:36329", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:22018", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:74525", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:31589", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:80181", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:17389", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "validation:664", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:43395", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:20370", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:80297", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:11582", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:26428", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:54584", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:76718", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:14439", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:68421", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:48097", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:16876", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:35641", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:69559", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:37872", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:11479", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:84516", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:30687", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:61493", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:407", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:71932", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:23892", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:34021", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:12309", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:35357", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:14100", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:39828", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:29771", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:76751", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:78480", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:83617", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
-{"query_id": "train:56605", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:84285:P1", "anchor_id": "train:84285", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:84285:P2", "anchor_id": "train:84285", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:84285:P3", "anchor_id": "train:84285", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:84285:P4", "anchor_id": "train:84285", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:37970:P1", "anchor_id": "train:37970", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:37970:P2", "anchor_id": "train:37970", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:37970:P3", "anchor_id": "train:37970", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:37970:P4", "anchor_id": "train:37970", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:84290:P1", "anchor_id": "train:84290", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:84290:P2", "anchor_id": "train:84290", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:84290:P3", "anchor_id": "train:84290", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:84290:P4", "anchor_id": "train:84290", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:24412:P1", "anchor_id": "train:24412", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:24412:P2", "anchor_id": "train:24412", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:24412:P3", "anchor_id": "train:24412", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:24412:P4", "anchor_id": "train:24412", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:4256:P1", "anchor_id": "train:4256", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:4256:P2", "anchor_id": "train:4256", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:4256:P3", "anchor_id": "train:4256", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:4256:P4", "anchor_id": "train:4256", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:53966:P1", "anchor_id": "train:53966", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:53966:P2", "anchor_id": "train:53966", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:53966:P3", "anchor_id": "train:53966", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:53966:P4", "anchor_id": "train:53966", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:56279:P1", "anchor_id": "train:56279", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:56279:P2", "anchor_id": "train:56279", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:56279:P3", "anchor_id": "train:56279", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:56279:P4", "anchor_id": "train:56279", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:9697:P1", "anchor_id": "train:9697", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:9697:P2", "anchor_id": "train:9697", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:9697:P3", "anchor_id": "train:9697", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:9697:P4", "anchor_id": "train:9697", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:22964:P1", "anchor_id": "train:22964", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:22964:P2", "anchor_id": "train:22964", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:22964:P3", "anchor_id": "train:22964", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:22964:P4", "anchor_id": "train:22964", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:68306:P1", "anchor_id": "train:68306", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:68306:P2", "anchor_id": "train:68306", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:68306:P3", "anchor_id": "train:68306", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:68306:P4", "anchor_id": "train:68306", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:80729:P1", "anchor_id": "train:80729", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:80729:P2", "anchor_id": "train:80729", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:80729:P3", "anchor_id": "train:80729", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:80729:P4", "anchor_id": "train:80729", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:83104:P1", "anchor_id": "train:83104", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:83104:P2", "anchor_id": "train:83104", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:83104:P3", "anchor_id": "train:83104", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:83104:P4", "anchor_id": "train:83104", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:58916:P1", "anchor_id": "train:58916", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:58916:P2", "anchor_id": "train:58916", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:58916:P3", "anchor_id": "train:58916", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:58916:P4", "anchor_id": "train:58916", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:39640:P1", "anchor_id": "train:39640", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:39640:P2", "anchor_id": "train:39640", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:39640:P3", "anchor_id": "train:39640", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:39640:P4", "anchor_id": "train:39640", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:45929:P1", "anchor_id": "train:45929", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:45929:P2", "anchor_id": "train:45929", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:45929:P3", "anchor_id": "train:45929", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:45929:P4", "anchor_id": "train:45929", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:36199:P1", "anchor_id": "train:36199", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:36199:P2", "anchor_id": "train:36199", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:36199:P3", "anchor_id": "train:36199", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:36199:P4", "anchor_id": "train:36199", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:80225:P1", "anchor_id": "train:80225", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:80225:P2", "anchor_id": "train:80225", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:80225:P3", "anchor_id": "train:80225", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:80225:P4", "anchor_id": "train:80225", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:12837:P1", "anchor_id": "train:12837", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:12837:P2", "anchor_id": "train:12837", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:12837:P3", "anchor_id": "train:12837", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:12837:P4", "anchor_id": "train:12837", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:45941:P1", "anchor_id": "train:45941", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:45941:P2", "anchor_id": "train:45941", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:45941:P3", "anchor_id": "train:45941", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:45941:P4", "anchor_id": "train:45941", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "validation:639:P1", "anchor_id": "validation:639", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "validation:639:P2", "anchor_id": "validation:639", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "validation:639:P3", "anchor_id": "validation:639", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "validation:639:P4", "anchor_id": "validation:639", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:41393:P1", "anchor_id": "train:41393", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:41393:P2", "anchor_id": "train:41393", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:41393:P3", "anchor_id": "train:41393", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:41393:P4", "anchor_id": "train:41393", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:35014:P1", "anchor_id": "train:35014", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:35014:P2", "anchor_id": "train:35014", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:35014:P3", "anchor_id": "train:35014", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:35014:P4", "anchor_id": "train:35014", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:58132:P1", "anchor_id": "train:58132", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:58132:P2", "anchor_id": "train:58132", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:58132:P3", "anchor_id": "train:58132", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:58132:P4", "anchor_id": "train:58132", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:78972:P1", "anchor_id": "train:78972", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:78972:P2", "anchor_id": "train:78972", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:78972:P3", "anchor_id": "train:78972", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:78972:P4", "anchor_id": "train:78972", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:47821:P1", "anchor_id": "train:47821", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:47821:P2", "anchor_id": "train:47821", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:47821:P3", "anchor_id": "train:47821", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:47821:P4", "anchor_id": "train:47821", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:31872:P1", "anchor_id": "train:31872", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:31872:P2", "anchor_id": "train:31872", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:31872:P3", "anchor_id": "train:31872", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:31872:P4", "anchor_id": "train:31872", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:17369:P1", "anchor_id": "train:17369", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:17369:P2", "anchor_id": "train:17369", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:17369:P3", "anchor_id": "train:17369", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:17369:P4", "anchor_id": "train:17369", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:17230:P1", "anchor_id": "train:17230", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:17230:P2", "anchor_id": "train:17230", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:17230:P3", "anchor_id": "train:17230", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:17230:P4", "anchor_id": "train:17230", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:57639:P1", "anchor_id": "train:57639", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:57639:P2", "anchor_id": "train:57639", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:57639:P3", "anchor_id": "train:57639", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:57639:P4", "anchor_id": "train:57639", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:70077:P1", "anchor_id": "train:70077", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:70077:P2", "anchor_id": "train:70077", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:70077:P3", "anchor_id": "train:70077", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:70077:P4", "anchor_id": "train:70077", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:86384:P1", "anchor_id": "train:86384", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:86384:P2", "anchor_id": "train:86384", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:86384:P3", "anchor_id": "train:86384", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:86384:P4", "anchor_id": "train:86384", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:10892:P1", "anchor_id": "train:10892", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:10892:P2", "anchor_id": "train:10892", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:10892:P3", "anchor_id": "train:10892", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:10892:P4", "anchor_id": "train:10892", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:18427:P1", "anchor_id": "train:18427", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:18427:P2", "anchor_id": "train:18427", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:18427:P3", "anchor_id": "train:18427", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:18427:P4", "anchor_id": "train:18427", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:30083:P1", "anchor_id": "train:30083", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:30083:P2", "anchor_id": "train:30083", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:30083:P3", "anchor_id": "train:30083", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:30083:P4", "anchor_id": "train:30083", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:32421:P1", "anchor_id": "train:32421", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:32421:P2", "anchor_id": "train:32421", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:32421:P3", "anchor_id": "train:32421", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:32421:P4", "anchor_id": "train:32421", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:45063:P1", "anchor_id": "train:45063", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:45063:P2", "anchor_id": "train:45063", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:45063:P3", "anchor_id": "train:45063", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:45063:P4", "anchor_id": "train:45063", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:69444:P1", "anchor_id": "train:69444", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:69444:P2", "anchor_id": "train:69444", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:69444:P3", "anchor_id": "train:69444", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:69444:P4", "anchor_id": "train:69444", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:65583:P1", "anchor_id": "train:65583", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:65583:P2", "anchor_id": "train:65583", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:65583:P3", "anchor_id": "train:65583", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:65583:P4", "anchor_id": "train:65583", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:80223:P1", "anchor_id": "train:80223", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:80223:P2", "anchor_id": "train:80223", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:80223:P3", "anchor_id": "train:80223", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:80223:P4", "anchor_id": "train:80223", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:40780:P1", "anchor_id": "train:40780", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:40780:P2", "anchor_id": "train:40780", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:40780:P3", "anchor_id": "train:40780", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:40780:P4", "anchor_id": "train:40780", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:8243:P1", "anchor_id": "train:8243", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:8243:P2", "anchor_id": "train:8243", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:8243:P3", "anchor_id": "train:8243", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:8243:P4", "anchor_id": "train:8243", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:86278:P1", "anchor_id": "train:86278", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:86278:P2", "anchor_id": "train:86278", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:86278:P3", "anchor_id": "train:86278", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:86278:P4", "anchor_id": "train:86278", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:17658:P1", "anchor_id": "train:17658", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:17658:P2", "anchor_id": "train:17658", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:17658:P3", "anchor_id": "train:17658", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:17658:P4", "anchor_id": "train:17658", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:86463:P1", "anchor_id": "train:86463", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:86463:P2", "anchor_id": "train:86463", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:86463:P3", "anchor_id": "train:86463", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:86463:P4", "anchor_id": "train:86463", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:66702:P1", "anchor_id": "train:66702", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:66702:P2", "anchor_id": "train:66702", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:66702:P3", "anchor_id": "train:66702", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:66702:P4", "anchor_id": "train:66702", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:4488:P1", "anchor_id": "train:4488", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:4488:P2", "anchor_id": "train:4488", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:4488:P3", "anchor_id": "train:4488", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:4488:P4", "anchor_id": "train:4488", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:45193:P1", "anchor_id": "train:45193", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:45193:P2", "anchor_id": "train:45193", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:45193:P3", "anchor_id": "train:45193", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:45193:P4", "anchor_id": "train:45193", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:15367:P1", "anchor_id": "train:15367", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:15367:P2", "anchor_id": "train:15367", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:15367:P3", "anchor_id": "train:15367", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:15367:P4", "anchor_id": "train:15367", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:7802:P1", "anchor_id": "train:7802", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:7802:P2", "anchor_id": "train:7802", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:7802:P3", "anchor_id": "train:7802", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:7802:P4", "anchor_id": "train:7802", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:56031:P1", "anchor_id": "train:56031", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:56031:P2", "anchor_id": "train:56031", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:56031:P3", "anchor_id": "train:56031", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:56031:P4", "anchor_id": "train:56031", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:39518:P1", "anchor_id": "train:39518", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:39518:P2", "anchor_id": "train:39518", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:39518:P3", "anchor_id": "train:39518", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:39518:P4", "anchor_id": "train:39518", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:37955:P1", "anchor_id": "train:37955", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:37955:P2", "anchor_id": "train:37955", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:37955:P3", "anchor_id": "train:37955", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:37955:P4", "anchor_id": "train:37955", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:40184:P1", "anchor_id": "train:40184", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:40184:P2", "anchor_id": "train:40184", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:40184:P3", "anchor_id": "train:40184", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:40184:P4", "anchor_id": "train:40184", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:63920:P1", "anchor_id": "train:63920", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:63920:P2", "anchor_id": "train:63920", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:63920:P3", "anchor_id": "train:63920", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:63920:P4", "anchor_id": "train:63920", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "validation:534:P1", "anchor_id": "validation:534", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "validation:534:P2", "anchor_id": "validation:534", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "validation:534:P3", "anchor_id": "validation:534", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "validation:534:P4", "anchor_id": "validation:534", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:8709:P1", "anchor_id": "train:8709", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:8709:P2", "anchor_id": "train:8709", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:8709:P3", "anchor_id": "train:8709", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:8709:P4", "anchor_id": "train:8709", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "validation:3248:P1", "anchor_id": "validation:3248", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "validation:3248:P2", "anchor_id": "validation:3248", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "validation:3248:P3", "anchor_id": "validation:3248", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "validation:3248:P4", "anchor_id": "validation:3248", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:86527:P1", "anchor_id": "train:86527", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:86527:P2", "anchor_id": "train:86527", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:86527:P3", "anchor_id": "train:86527", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:86527:P4", "anchor_id": "train:86527", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:42324:P1", "anchor_id": "train:42324", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:42324:P2", "anchor_id": "train:42324", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:42324:P3", "anchor_id": "train:42324", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:42324:P4", "anchor_id": "train:42324", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:64620:P1", "anchor_id": "train:64620", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:64620:P2", "anchor_id": "train:64620", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:64620:P3", "anchor_id": "train:64620", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:64620:P4", "anchor_id": "train:64620", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:62871:P1", "anchor_id": "train:62871", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:62871:P2", "anchor_id": "train:62871", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:62871:P3", "anchor_id": "train:62871", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:62871:P4", "anchor_id": "train:62871", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:45956:P1", "anchor_id": "train:45956", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:45956:P2", "anchor_id": "train:45956", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:45956:P3", "anchor_id": "train:45956", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:45956:P4", "anchor_id": "train:45956", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "validation:2914:P1", "anchor_id": "validation:2914", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "validation:2914:P2", "anchor_id": "validation:2914", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "validation:2914:P3", "anchor_id": "validation:2914", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "validation:2914:P4", "anchor_id": "validation:2914", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:66802:P1", "anchor_id": "train:66802", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:66802:P2", "anchor_id": "train:66802", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:66802:P3", "anchor_id": "train:66802", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:66802:P4", "anchor_id": "train:66802", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:1697:P1", "anchor_id": "train:1697", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:1697:P2", "anchor_id": "train:1697", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:1697:P3", "anchor_id": "train:1697", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:1697:P4", "anchor_id": "train:1697", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:56254:P1", "anchor_id": "train:56254", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:56254:P2", "anchor_id": "train:56254", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:56254:P3", "anchor_id": "train:56254", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:56254:P4", "anchor_id": "train:56254", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:3703:P1", "anchor_id": "train:3703", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:3703:P2", "anchor_id": "train:3703", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:3703:P3", "anchor_id": "train:3703", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:3703:P4", "anchor_id": "train:3703", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:35812:P1", "anchor_id": "train:35812", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:35812:P2", "anchor_id": "train:35812", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:35812:P3", "anchor_id": "train:35812", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:35812:P4", "anchor_id": "train:35812", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "validation:1526:P1", "anchor_id": "validation:1526", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "validation:1526:P2", "anchor_id": "validation:1526", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "validation:1526:P3", "anchor_id": "validation:1526", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "validation:1526:P4", "anchor_id": "validation:1526", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:67846:P1", "anchor_id": "train:67846", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:67846:P2", "anchor_id": "train:67846", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:67846:P3", "anchor_id": "train:67846", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:67846:P4", "anchor_id": "train:67846", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:83821:P1", "anchor_id": "train:83821", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:83821:P2", "anchor_id": "train:83821", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:83821:P3", "anchor_id": "train:83821", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:83821:P4", "anchor_id": "train:83821", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:68542:P1", "anchor_id": "train:68542", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:68542:P2", "anchor_id": "train:68542", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:68542:P3", "anchor_id": "train:68542", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:68542:P4", "anchor_id": "train:68542", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:52661:P1", "anchor_id": "train:52661", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:52661:P2", "anchor_id": "train:52661", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:52661:P3", "anchor_id": "train:52661", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:52661:P4", "anchor_id": "train:52661", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:76321:P1", "anchor_id": "train:76321", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:76321:P2", "anchor_id": "train:76321", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:76321:P3", "anchor_id": "train:76321", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:76321:P4", "anchor_id": "train:76321", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:76383:P1", "anchor_id": "train:76383", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:76383:P2", "anchor_id": "train:76383", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:76383:P3", "anchor_id": "train:76383", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:76383:P4", "anchor_id": "train:76383", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:76237:P1", "anchor_id": "train:76237", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:76237:P2", "anchor_id": "train:76237", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:76237:P3", "anchor_id": "train:76237", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:76237:P4", "anchor_id": "train:76237", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:34260:P1", "anchor_id": "train:34260", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:34260:P2", "anchor_id": "train:34260", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:34260:P3", "anchor_id": "train:34260", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:34260:P4", "anchor_id": "train:34260", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:26957:P1", "anchor_id": "train:26957", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:26957:P2", "anchor_id": "train:26957", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:26957:P3", "anchor_id": "train:26957", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:26957:P4", "anchor_id": "train:26957", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:69263:P1", "anchor_id": "train:69263", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:69263:P2", "anchor_id": "train:69263", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:69263:P3", "anchor_id": "train:69263", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:69263:P4", "anchor_id": "train:69263", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:2769:P1", "anchor_id": "train:2769", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:2769:P2", "anchor_id": "train:2769", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:2769:P3", "anchor_id": "train:2769", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:2769:P4", "anchor_id": "train:2769", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:21067:P1", "anchor_id": "train:21067", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:21067:P2", "anchor_id": "train:21067", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:21067:P3", "anchor_id": "train:21067", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:21067:P4", "anchor_id": "train:21067", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:18032:P1", "anchor_id": "train:18032", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:18032:P2", "anchor_id": "train:18032", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:18032:P3", "anchor_id": "train:18032", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:18032:P4", "anchor_id": "train:18032", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:7621:P1", "anchor_id": "train:7621", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:7621:P2", "anchor_id": "train:7621", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:7621:P3", "anchor_id": "train:7621", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:7621:P4", "anchor_id": "train:7621", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:60436:P1", "anchor_id": "train:60436", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:60436:P2", "anchor_id": "train:60436", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:60436:P3", "anchor_id": "train:60436", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:60436:P4", "anchor_id": "train:60436", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:1410:P1", "anchor_id": "train:1410", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:1410:P2", "anchor_id": "train:1410", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:1410:P3", "anchor_id": "train:1410", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:1410:P4", "anchor_id": "train:1410", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:40852:P1", "anchor_id": "train:40852", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:40852:P2", "anchor_id": "train:40852", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:40852:P3", "anchor_id": "train:40852", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:40852:P4", "anchor_id": "train:40852", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "validation:1903:P1", "anchor_id": "validation:1903", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "validation:1903:P2", "anchor_id": "validation:1903", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "validation:1903:P3", "anchor_id": "validation:1903", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "validation:1903:P4", "anchor_id": "validation:1903", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:54247:P1", "anchor_id": "train:54247", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:54247:P2", "anchor_id": "train:54247", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:54247:P3", "anchor_id": "train:54247", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:54247:P4", "anchor_id": "train:54247", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:84110:P1", "anchor_id": "train:84110", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:84110:P2", "anchor_id": "train:84110", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:84110:P3", "anchor_id": "train:84110", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:84110:P4", "anchor_id": "train:84110", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:82469:P1", "anchor_id": "train:82469", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:82469:P2", "anchor_id": "train:82469", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:82469:P3", "anchor_id": "train:82469", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:82469:P4", "anchor_id": "train:82469", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:13451:P1", "anchor_id": "train:13451", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:13451:P2", "anchor_id": "train:13451", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:13451:P3", "anchor_id": "train:13451", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:13451:P4", "anchor_id": "train:13451", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:39019:P1", "anchor_id": "train:39019", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:39019:P2", "anchor_id": "train:39019", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:39019:P3", "anchor_id": "train:39019", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:39019:P4", "anchor_id": "train:39019", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:28503:P1", "anchor_id": "train:28503", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:28503:P2", "anchor_id": "train:28503", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:28503:P3", "anchor_id": "train:28503", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:28503:P4", "anchor_id": "train:28503", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:48692:P1", "anchor_id": "train:48692", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:48692:P2", "anchor_id": "train:48692", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:48692:P3", "anchor_id": "train:48692", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:48692:P4", "anchor_id": "train:48692", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:52796:P1", "anchor_id": "train:52796", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:52796:P2", "anchor_id": "train:52796", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:52796:P3", "anchor_id": "train:52796", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:52796:P4", "anchor_id": "train:52796", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:27701:P1", "anchor_id": "train:27701", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:27701:P2", "anchor_id": "train:27701", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:27701:P3", "anchor_id": "train:27701", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:27701:P4", "anchor_id": "train:27701", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:47464:P1", "anchor_id": "train:47464", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:47464:P2", "anchor_id": "train:47464", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:47464:P3", "anchor_id": "train:47464", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:47464:P4", "anchor_id": "train:47464", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:9912:P1", "anchor_id": "train:9912", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:9912:P2", "anchor_id": "train:9912", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:9912:P3", "anchor_id": "train:9912", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:9912:P4", "anchor_id": "train:9912", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:74825:P1", "anchor_id": "train:74825", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:74825:P2", "anchor_id": "train:74825", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:74825:P3", "anchor_id": "train:74825", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:74825:P4", "anchor_id": "train:74825", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:39223:P1", "anchor_id": "train:39223", "role": "paraphrase", "subtype": "P1", "should_hit": true}
+{"query_id": "train:39223:P2", "anchor_id": "train:39223", "role": "paraphrase", "subtype": "P2", "should_hit": true}
+{"query_id": "train:39223:P3", "anchor_id": "train:39223", "role": "paraphrase", "subtype": "P3", "should_hit": true}
+{"query_id": "train:39223:P4", "anchor_id": "train:39223", "role": "paraphrase", "subtype": "P4", "should_hit": true}
+{"query_id": "train:45929:E", "anchor_id": "train:45929", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:17369:E", "anchor_id": "train:17369", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:56254:E", "anchor_id": "train:56254", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:45063:E", "anchor_id": "train:45063", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:48692:E", "anchor_id": "train:48692", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:27701:E", "anchor_id": "train:27701", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:82469:E", "anchor_id": "train:82469", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:39223:E", "anchor_id": "train:39223", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:4256:E", "anchor_id": "train:4256", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:17658:E", "anchor_id": "train:17658", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:86278:E", "anchor_id": "train:86278", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:58916:E", "anchor_id": "train:58916", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:78972:E", "anchor_id": "train:78972", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:76383:E", "anchor_id": "train:76383", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:80729:E", "anchor_id": "train:80729", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:45941:E", "anchor_id": "train:45941", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:69263:E", "anchor_id": "train:69263", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:28503:E", "anchor_id": "train:28503", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:4488:E", "anchor_id": "train:4488", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:64620:E", "anchor_id": "train:64620", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:9697:E", "anchor_id": "train:9697", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:84290:E", "anchor_id": "train:84290", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:56279:E", "anchor_id": "train:56279", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:18427:E", "anchor_id": "train:18427", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:84285:E", "anchor_id": "train:84285", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:26957:E", "anchor_id": "train:26957", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:86527:E", "anchor_id": "train:86527", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:30083:E", "anchor_id": "train:30083", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:3703:E", "anchor_id": "train:3703", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:7621:E", "anchor_id": "train:7621", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:1410:E", "anchor_id": "train:1410", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:8243:E", "anchor_id": "train:8243", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:80225:E", "anchor_id": "train:80225", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:13451:E", "anchor_id": "train:13451", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:83821:E", "anchor_id": "train:83821", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:40852:E", "anchor_id": "train:40852", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:83104:E", "anchor_id": "train:83104", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:52796:E", "anchor_id": "train:52796", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:54247:E", "anchor_id": "train:54247", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:9912:E", "anchor_id": "train:9912", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:35014:E", "anchor_id": "train:35014", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:47821:E", "anchor_id": "train:47821", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:68542:E", "anchor_id": "train:68542", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:69444:E", "anchor_id": "train:69444", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "validation:3248:E", "anchor_id": "validation:3248", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:62871:E", "anchor_id": "train:62871", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:57639:E", "anchor_id": "train:57639", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:45956:E", "anchor_id": "train:45956", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:18032:E", "anchor_id": "train:18032", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:60436:E", "anchor_id": "train:60436", "role": "hard_negative", "subtype": "E", "should_hit": false}
+{"query_id": "train:47464:N", "anchor_id": "train:47464", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:69263:N", "anchor_id": "train:69263", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:36199:N", "anchor_id": "train:36199", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:52661:N", "anchor_id": "train:52661", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:13451:N", "anchor_id": "train:13451", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:17230:N", "anchor_id": "train:17230", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:1410:N", "anchor_id": "train:1410", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:39019:N", "anchor_id": "train:39019", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:40780:N", "anchor_id": "train:40780", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:8709:N", "anchor_id": "train:8709", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:39223:N", "anchor_id": "train:39223", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:28503:N", "anchor_id": "train:28503", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:35812:N", "anchor_id": "train:35812", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:24412:N", "anchor_id": "train:24412", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:17658:N", "anchor_id": "train:17658", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:58132:N", "anchor_id": "train:58132", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "validation:1526:N", "anchor_id": "validation:1526", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:27701:N", "anchor_id": "train:27701", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:40184:N", "anchor_id": "train:40184", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:86463:N", "anchor_id": "train:86463", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:64620:N", "anchor_id": "train:64620", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:10892:N", "anchor_id": "train:10892", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:4256:N", "anchor_id": "train:4256", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:63920:N", "anchor_id": "train:63920", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:45929:N", "anchor_id": "train:45929", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:9697:N", "anchor_id": "train:9697", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:35014:N", "anchor_id": "train:35014", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:15367:N", "anchor_id": "train:15367", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:7621:N", "anchor_id": "train:7621", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:80225:N", "anchor_id": "train:80225", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:80729:N", "anchor_id": "train:80729", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:30083:N", "anchor_id": "train:30083", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:37955:N", "anchor_id": "train:37955", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:32421:N", "anchor_id": "train:32421", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:58916:N", "anchor_id": "train:58916", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:83104:N", "anchor_id": "train:83104", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:17369:N", "anchor_id": "train:17369", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:74825:N", "anchor_id": "train:74825", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:45941:N", "anchor_id": "train:45941", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:53966:N", "anchor_id": "train:53966", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:22964:N", "anchor_id": "train:22964", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:45193:N", "anchor_id": "train:45193", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:78972:N", "anchor_id": "train:78972", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:62871:N", "anchor_id": "train:62871", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:52796:N", "anchor_id": "train:52796", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:86278:N", "anchor_id": "train:86278", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "validation:2914:N", "anchor_id": "validation:2914", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:86527:N", "anchor_id": "train:86527", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:8243:N", "anchor_id": "train:8243", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:12837:N", "anchor_id": "train:12837", "role": "hard_negative", "subtype": "N", "should_hit": false}
+{"query_id": "train:8243:T", "anchor_id": "train:8243", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:54247:T", "anchor_id": "train:54247", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:10892:T", "anchor_id": "train:10892", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:66702:T", "anchor_id": "train:66702", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:58132:T", "anchor_id": "train:58132", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:32421:T", "anchor_id": "train:32421", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:21067:T", "anchor_id": "train:21067", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:66802:T", "anchor_id": "train:66802", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:36199:T", "anchor_id": "train:36199", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:28503:T", "anchor_id": "train:28503", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:26957:T", "anchor_id": "train:26957", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:31872:T", "anchor_id": "train:31872", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:17658:T", "anchor_id": "train:17658", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:4488:T", "anchor_id": "train:4488", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:45956:T", "anchor_id": "train:45956", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:3703:T", "anchor_id": "train:3703", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "validation:1903:T", "anchor_id": "validation:1903", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:17230:T", "anchor_id": "train:17230", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "validation:534:T", "anchor_id": "validation:534", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:76321:T", "anchor_id": "train:76321", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:8709:T", "anchor_id": "train:8709", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:37970:T", "anchor_id": "train:37970", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:42324:T", "anchor_id": "train:42324", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:84285:T", "anchor_id": "train:84285", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:83104:T", "anchor_id": "train:83104", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:45929:T", "anchor_id": "train:45929", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:39223:T", "anchor_id": "train:39223", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:18032:T", "anchor_id": "train:18032", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:84290:T", "anchor_id": "train:84290", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:39640:T", "anchor_id": "train:39640", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:37955:T", "anchor_id": "train:37955", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:48692:T", "anchor_id": "train:48692", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:63920:T", "anchor_id": "train:63920", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:64620:T", "anchor_id": "train:64620", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:27701:T", "anchor_id": "train:27701", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:39518:T", "anchor_id": "train:39518", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:76237:T", "anchor_id": "train:76237", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:68542:T", "anchor_id": "train:68542", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:9697:T", "anchor_id": "train:9697", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:76383:T", "anchor_id": "train:76383", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:56279:T", "anchor_id": "train:56279", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:45063:T", "anchor_id": "train:45063", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:69263:T", "anchor_id": "train:69263", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:84110:T", "anchor_id": "train:84110", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:86278:T", "anchor_id": "train:86278", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:24412:T", "anchor_id": "train:24412", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:60436:T", "anchor_id": "train:60436", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:22964:T", "anchor_id": "train:22964", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:80223:T", "anchor_id": "train:80223", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:39019:T", "anchor_id": "train:39019", "role": "hard_negative", "subtype": "T", "should_hit": false}
+{"query_id": "train:4256:S", "anchor_id": "train:4256", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:17658:S", "anchor_id": "train:17658", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:21067:S", "anchor_id": "train:21067", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:76237:S", "anchor_id": "train:76237", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:78972:S", "anchor_id": "train:78972", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:40852:S", "anchor_id": "train:40852", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:57639:S", "anchor_id": "train:57639", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "validation:2914:S", "anchor_id": "validation:2914", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:74825:S", "anchor_id": "train:74825", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:45929:S", "anchor_id": "train:45929", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:17230:S", "anchor_id": "train:17230", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:13451:S", "anchor_id": "train:13451", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:39019:S", "anchor_id": "train:39019", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:67846:S", "anchor_id": "train:67846", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:58132:S", "anchor_id": "train:58132", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:48692:S", "anchor_id": "train:48692", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:9697:S", "anchor_id": "train:9697", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:66702:S", "anchor_id": "train:66702", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:7621:S", "anchor_id": "train:7621", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:32421:S", "anchor_id": "train:32421", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:7802:S", "anchor_id": "train:7802", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:86278:S", "anchor_id": "train:86278", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:3703:S", "anchor_id": "train:3703", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:66802:S", "anchor_id": "train:66802", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:28503:S", "anchor_id": "train:28503", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:24412:S", "anchor_id": "train:24412", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:26957:S", "anchor_id": "train:26957", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:8243:S", "anchor_id": "train:8243", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:83104:S", "anchor_id": "train:83104", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:84285:S", "anchor_id": "train:84285", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:17369:S", "anchor_id": "train:17369", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:35812:S", "anchor_id": "train:35812", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:76383:S", "anchor_id": "train:76383", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:10892:S", "anchor_id": "train:10892", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:18032:S", "anchor_id": "train:18032", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:63920:S", "anchor_id": "train:63920", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:40184:S", "anchor_id": "train:40184", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:65583:S", "anchor_id": "train:65583", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:64620:S", "anchor_id": "train:64620", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:80729:S", "anchor_id": "train:80729", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:56254:S", "anchor_id": "train:56254", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:40780:S", "anchor_id": "train:40780", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:41393:S", "anchor_id": "train:41393", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "validation:534:S", "anchor_id": "validation:534", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:42324:S", "anchor_id": "train:42324", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:45956:S", "anchor_id": "train:45956", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:39223:S", "anchor_id": "train:39223", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:70077:S", "anchor_id": "train:70077", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:82469:S", "anchor_id": "train:82469", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:86384:S", "anchor_id": "train:86384", "role": "hard_negative", "subtype": "S", "should_hit": false}
+{"query_id": "train:68526", "anchor_id": "train:86278", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:25071", "anchor_id": "train:70077", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:63406", "anchor_id": "train:8243", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:74598", "anchor_id": "train:58132", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:53940", "anchor_id": "train:3703", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:39442", "anchor_id": "train:45193", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:65514", "anchor_id": "train:31872", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:8573", "anchor_id": "train:83104", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:79751", "anchor_id": "train:47821", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:56690", "anchor_id": "train:56279", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:61125", "anchor_id": "train:56031", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:2731", "anchor_id": "train:53966", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:41196", "anchor_id": "validation:3248", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:30357", "anchor_id": "train:45956", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:14406", "anchor_id": "train:32421", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:46544", "anchor_id": "train:39640", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:54736", "anchor_id": "train:17230", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:56737", "anchor_id": "train:63920", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:36779", "anchor_id": "train:1410", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:43306", "anchor_id": "train:45941", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:78476", "anchor_id": "train:56279", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:15084", "anchor_id": "train:84285", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:12586", "anchor_id": "train:27701", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:22012", "anchor_id": "train:47821", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:78650", "anchor_id": "train:34260", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:545", "anchor_id": "train:28503", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:70350", "anchor_id": "train:13451", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:42184", "anchor_id": "train:26957", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:58338", "anchor_id": "train:63920", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:80468", "anchor_id": "train:4488", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:60101", "anchor_id": "train:80225", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:27490", "anchor_id": "train:62871", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:1037", "anchor_id": "train:69263", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:21264", "anchor_id": "train:83104", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:51568", "anchor_id": "train:64620", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:35870", "anchor_id": "train:56279", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:63154", "anchor_id": "train:83104", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:52326", "anchor_id": "train:1697", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:16976", "anchor_id": "train:47821", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:9835", "anchor_id": "train:37955", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:23233", "anchor_id": "train:12837", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:2383", "anchor_id": "train:39518", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:58606", "anchor_id": "train:57639", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:29017", "anchor_id": "train:3703", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:64551", "anchor_id": "train:7621", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:22466", "anchor_id": "train:84290", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:33259", "anchor_id": "validation:1903", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:60553", "anchor_id": "train:84110", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:29079", "anchor_id": "validation:534", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:68182", "anchor_id": "train:62871", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:24901", "anchor_id": "train:84290", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:56950", "anchor_id": "train:7802", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:17368", "anchor_id": "train:26957", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:7438", "anchor_id": "train:24412", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:13681", "anchor_id": "train:24412", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:31134", "anchor_id": "train:84290", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:68716", "anchor_id": "train:84285", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:21041", "anchor_id": "train:27701", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:36091", "anchor_id": "train:40780", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:62152", "anchor_id": "train:86527", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:67075", "anchor_id": "train:56279", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:2357", "anchor_id": "train:65583", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:36329", "anchor_id": "train:42324", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:22018", "anchor_id": "train:40780", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:74525", "anchor_id": "train:84290", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:31589", "anchor_id": "train:24412", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:80181", "anchor_id": "train:62871", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:17389", "anchor_id": "train:80225", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "validation:664", "anchor_id": "train:86527", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:43395", "anchor_id": "train:66802", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:20370", "anchor_id": "train:47464", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:80297", "anchor_id": "train:56279", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:11582", "anchor_id": "train:83104", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:26428", "anchor_id": "train:56279", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:54584", "anchor_id": "train:64620", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:76718", "anchor_id": "train:45193", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:14439", "anchor_id": "train:64620", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:68421", "anchor_id": "train:86463", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:48097", "anchor_id": "train:32421", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:16876", "anchor_id": "train:84285", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:35641", "anchor_id": "train:76321", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:69559", "anchor_id": "train:63920", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:37872", "anchor_id": "train:45193", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:11479", "anchor_id": "train:9912", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:84516", "anchor_id": "train:62871", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:30687", "anchor_id": "train:86463", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:61493", "anchor_id": "train:53966", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:407", "anchor_id": "train:40780", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:71932", "anchor_id": "train:83104", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:23892", "anchor_id": "train:65583", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:34021", "anchor_id": "train:86463", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:12309", "anchor_id": "train:36199", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:35357", "anchor_id": "train:37970", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:14100", "anchor_id": "train:34260", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:39828", "anchor_id": "train:45956", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:29771", "anchor_id": "train:45941", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:76751", "anchor_id": "train:34260", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:78480", "anchor_id": "train:83821", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:83617", "anchor_id": "train:62871", "role": "unrelated", "subtype": "unrelated", "should_hit": false}
+{"query_id": "train:56605", "anchor_id": "train:78972", "role": "unrelated", "subtype": "unrelated", "should_hit": false}

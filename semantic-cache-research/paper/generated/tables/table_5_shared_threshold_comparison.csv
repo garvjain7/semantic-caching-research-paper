@@ -1,0 +1,5 @@
+﻿configuration,threshold,judged_false_hit_rate,jfh_ci_low,jfh_ci_high,label_false_hit_rate_among_hits,label_fhr_ci_low,label_fhr_ci_high,query_false_hit_incidence,query_false_hit_ci_low,query_false_hit_ci_high,false_miss_rate,false_miss_ci_low,false_miss_ci_high,call_savings,savings_ci_low,savings_ci_high,mean_saved_latency_ms
+minilm_cosine,0.75,0.402913,0.356658,0.450961,0.296117,0.254079,0.341921,0.174286,0.147981,0.204146,0.275,0.233538,0.320743,0.588571,0.55173,0.624446,7968.919
+bge_cosine,0.75,0.427435,0.384913,0.471058,0.276342,0.239068,0.317006,0.198571,0.170699,0.229735,0.09,0.065717,0.122083,0.718571,0.684134,0.750623,8443.4583
+minilm_crossencoder_top5,0.75,0.377622,0.323408,0.43508,0.167832,0.128985,0.215484,0.068571,0.052107,0.089745,0.405,0.358017,0.45379,0.408571,0.372751,0.44539,5211.3152
+lexical_difflib,0.75,0.567568,0.47467,0.655945,0.504505,0.412909,0.595799,0.08,0.062119,0.102466,0.8625,0.825287,0.892816,0.158571,0.133385,0.187485,2492.1827
